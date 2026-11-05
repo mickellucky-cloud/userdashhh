@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "Jeton OKN | Gagnez, Réclamez, Achetez sur BNB Smart Chain",
+    "titleTemplate": "%s | Jeton OKN",
+    "description": "OKN est un jeton communautaire sur BNB Smart Chain. Gagnez-le via des tâches, réclamez-le on-chain avec des preuves Merkle, ou achetez-le directement avec du BNB à un taux fixe.",
+    "keywords": [
+      "$OKN",
+      "$OKN Token",
+      "BSC",
+      "BNB Smart Chain",
+      "jeton communautaire",
+      "gagner du crypto",
+      "bot Telegram",
+      "réclamation Merkle",
+      "vente de jetons"
+    ],
+    "ogImageAlt": "Jeton OKN — gagnez, réclamez, achetez sur BNB Smart Chain",
+    "jsonLdActionName": "Ouvrir le tableau de bord OKN"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Feuille de route",
+    "documents": "Documents",
+    "exchange": "Échange",
+    "openApp": "Ouvrir l'application",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "community": "Communauté"
+  },
+  "hero": {
+    "liveOn": "En direct sur {chain}",
+    "headline1": "N'achetez pas simplement le jeton.",
+    "headline2": "Gagnez-le.",
+    "paragraph": "$OKN est le jeton utilitaire et communautaire natif de l'écosystème OKNEXUS Exchange, construit sur BNB Smart Chain pour offrir rapidité, sécurité et utilité concrète. Chaque interaction crée de la valeur. Accomplissez des tâches, gagnez des points de récompense, achetez avec du BNB et réclamez vos jetons directement on-chain via notre application Telegram. Plus qu'un jeton, $OKN est votre clé vers des récompenses exclusives, des avantages plateforme, des opportunités de gouvernance et l'avenir de la finance décentralisée. Rejoignez le mouvement. Possédez l'avenir.",
+    "loginWithTelegram": "Se connecter avec Telegram",
+    "facts": {
+      "maxSupply": "{supply} offre maximale",
+      "claimFee": "{fee} BNB frais de réclamation",
+      "fixedRateSale": "Vente BNB à taux fixe"
+    },
+    "scroll": "Défiler",
+    "coinAlt": "Jeton OKNexus"
+  },
+  "features": {
+    "heading": "Conçu pour les détenteurs qui s'investissent",
+    "subheading": "Chaque aspect de $OKN récompense la participation : tâches, parrainages et réclamations on-chain.",
+    "tasksHeading": "Accomplissez des tâches, cumulez des points",
+    "tasksBody": "Suivez des canaux, rejoignez des groupes, invitez des amis. Les points s'accumulent off-chain et sont enregistrés on-chain sous forme de racines Merkle contre lesquelles vous pouvez réclamer.",
+    "taskRows": [
+      "Suivez $OKN sur X",
+      "Rejoignez le groupe Telegram",
+      "Parrainez un ami"
+    ],
+    "pts": "+{pts} OK Points",
+    "onChainClaimsHeading": "Réclamations on-chain",
+    "onChainClaimsBody": "Les preuves Merkle cumulées signifient qu'une seule réclamation couvre tout ce que vous avez gagné.",
+    "buyWithBnbHeading": "Acheter avec du BNB",
+    "buyWithBnbBody": "{rate}. Aucun pool de liquidité nécessaire à ce stade.",
+    "saleRate": "Taux fixe, prix en BNB",
+    "claimFeeHeading": "{fee} frais de réclamation",
+    "claimFeeBody": "Payés en BNB, évalués par un oracle Chainlink. Les frais alimentent la trésorerie de l'écosystème.",
+    "referralsHeading": "Parrainages rémunérés dans les deux sens",
+    "referralsBody": "Partagez votre lien. Lorsqu'un ami accomplit sa première tâche, vous gagnez tous les deux."
+  },
+  "howItWorks": {
+    "heading": "Le moteur de croissance OKN",
+    "subheading": "Un écosystème où chaque action nourrit la suivante. Gagne, booste, réclame et fais croître tes récompenses en boucle.",
+    "steps": [
+      {
+        "title": "Découvrir et rejoindre",
+        "body": "Ouvre $OKN dans Telegram. Ton compte est créé instantanément."
+      },
+      {
+        "title": "Gagne des OK Points",
+        "body": "Complète des tâches, connecte-toi quotidiennement et grimpe au classement."
+      },
+      {
+        "title": "Acheter et booster",
+        "body": "Achète $OKN avec du BNB pour débloquer des multiplicateurs."
+      },
+      {
+        "title": "Réclamer on-chain",
+        "body": "Convertis tes OK Points en $OKN. Des frais de $3 en BNB s'appliquent."
+      },
+      {
+        "title": "Staking et trading",
+        "body": "Détiens, échange et utilise ton $OKN dans l'écosystème."
+      },
+      {
+        "title": "Parrainer et grandir",
+        "body": "Invite des amis et gagne une part de leurs points sur trois niveaux."
+      }
+    ],
+    "loopLabel": "Le cycle continue"
+  },
+  "video": {
+    "kicker": "Voir en action",
+    "heading": "L'histoire d'OKNexus",
+    "subheading": "Une visite rapide de la façon dont $OKN transforme chaque action en valeur réelle on-chain.",
+    "playAria": "Lire la vidéo explicative d'OKNexus"
+  },
+  "tokenomics": {
+    "kicker": "Tokenomics",
+    "heading": "Une offre fixe. Zéro surprise.",
+    "supplyLabel": "Offre maximale",
+    "claimFeeLabel": "Frais de réclamation",
+    "claimFeeValue": "{fee} en BNB",
+    "allocationHeading": "Allocation",
+    "allocationNote": "Les valeurs d'allocation sont confirmées et totalisent l'offre maximale de 5B.",
+    "ariaAllocation": "{labels}",
+    "allocations": [
+      "Récompenses Communautaires",
+      "Vente Publique",
+      "Liquidité DEX",
+      "Équipe et Conseillers",
+      "Écosystème",
+      "Trésorerie"
+    ]
+  },
+  "roadmap": {
+    "kicker": "Feuille de route",
+    "heading": "Le chemin qui nous attend",
+    "subheading": "De la première tâche à la pleine liquidité. Suivez la ligne.",
+    "phases": [
+      {
+        "phase": "Phase 1",
+        "title": "Allumage",
+        "status": "En cours",
+        "items": [
+          "Contrats de jeton, de vente et de distributeur sur BSC",
+          "Lancement du bot Telegram et de la mini application",
+          "Système de tâches avec registre de points off-chain"
+        ]
+      },
+      {
+        "phase": "Phase 2",
+        "title": "Distribution",
+        "status": "Suivant",
+        "items": [
+          "Vente publique en BNB à taux fixe",
+          "Réclamations Merkle ouvertes avec des frais de 3 $ en BNB",
+          "Poussée du programme de parrainage"
+        ]
+      },
+      {
+        "phase": "Phase 3",
+        "title": "Liquidité",
+        "status": "Plus tard",
+        "items": [
+          "Cotation DEX et pool de liquidité",
+          "Gouvernance communautaire"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Prêt à gagner votre part ?",
+    "subheading": "Rejoignez la communauté, accomplissez votre première tâche et commencez à cumuler du $OKN dès aujourd'hui.",
+    "joinTelegram": "Se connecter avec Telegram",
+    "watchYoutube": "Regarder sur YouTube"
+  },
+  "footer": {
+    "tagline": "Le jeton communautaire que vous gagnez. Sur {chain}.",
+    "columns": [
+      {
+        "title": "Application",
+        "links": [
+          "Tableau de bord",
+          "Se connecter"
+        ]
+      },
+      {
+        "title": "Ressources",
+        "links": [
+          "Comment réclamer",
+          "Tokenomics",
+          "Documents"
+        ]
+      }
+    ],
+    "copyright": "© 2026 OKN. Tous droits réservés."
+  },
+  "kycBadge": {
+    "statusLabel": "KYC Vérifié",
+    "verified": "Vérifié",
+    "aria": "{status} par {provider} — ouvrir la page de vérification",
+    "projectBy": "Équipe projet vérifiée par KYC par {provider}"
+  },
+  "caCard": {
+    "contractAddress": "Adresse du contrat (BSC)",
+    "live": "En direct",
+    "comingSoon": "Bientôt disponible",
+    "copy": "Copier",
+    "copied": "Copié",
+    "copyAria": "Copier l'adresse du contrat",
+    "comingSoonBody": "L'adresse sera publiée ici au lancement du jeton.",
+    "logoAlt": "$OKN"
+  },
+  "socialSidebar": {
+    "ariaLabel": "Liens sociaux",
+    "labels": {
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "discord": "Discord",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "bsky": "Bluesky",
+      "tiktok": "TikTok"
+    }
+  },
+  "notFound": {
+    "heading": "Cette page a dérivé hors chaîne",
+    "body": "La page que vous recherchez n'existe pas ou a peut-être été déplacée. Remettons-vous sur la bonne voie.",
+    "cta": "Retour à l'accueil",
+    "links": [
+      "Tokenomics",
+      "Comment réclamer",
+      "Documents"
+    ],
+    "logoAlt": "$OKN"
+  },
+  "tokenomicsPage": {
+    "title": "Tokenomics",
+    "metaTitle": "Tokenomics",
+    "metaDescription": "Offre, allocation et conditions de vente du jeton $OKN. {supply} offre maximale sur BNB Smart Chain.",
+    "ogTitle": "{name} — Tokenomics",
+    "ogDescription": "Offre, allocation et conditions de vente pour {name}.",
+    "facts": {
+      "maxSupply": "{supply} $OKN",
+      "chain": "Chaîne",
+      "claimFee": "Frais de réclamation",
+      "salePricing": "Tarification de vente",
+      "decimals": "Décimales"
+    },
+    "factsValues": {
+      "maxSupply": "{supply} $OKN",
+      "claimFee": "{fee} en BNB",
+      "salePricing": "Taux fixe, prix en BNB",
+      "decimals": "18"
+    },
+    "factLabels": {
+      "maxSupply": "Offre maximale",
+      "chain": "Chaîne",
+      "claimFee": "Frais de réclamation",
+      "salePricing": "Tarification de vente",
+      "decimals": "Décimales"
+    },
+    "fullAllocationHeading": "Allocation complète",
+    "fullAllocationNote": "Les valeurs d'allocation sont confirmées et totalisent l'offre maximale de 5B.",
+    "tableHeaders": {
+      "bucket": "Catégorie",
+      "allocation": "Allocation",
+      "tokens": "Jetons ($OKN)",
+      "share": "Part"
+    },
+    "total": "Total",
+    "saleHeading": "Vente directe en BNB",
+    "saleBody": "$OKN est vendu à taux fixe directement via le contrat TokenSale on-chain. Aucun pool de liquidité n'est requis à ce stade. Un plafond par portefeuille empêche l'accumulation par les baleines.",
+    "feeHeading": "{fee} frais de réclamation",
+    "feeBody": "Chaque réclamation paie des frais de 3 $ en BNB, évalués en direct via un oracle Chainlink BNB/USD. Les frais s'accumulent dans le contrat distributeur et sont retirés vers la trésorerie par les administrateurs."
+  },
+  "howToClaimPage": {
+    "title": "Comment réclamer",
+    "metaTitle": "Comment réclamer",
+    "metaDescription": "Deux façons d'obtenir du $OKN : gagner via des tâches et réclamer on-chain, ou acheter directement avec du BNB. {fee} frais de réclamation en BNB.",
+    "ogTitle": "{name} — Comment réclamer",
+    "ogDescription": "Gagnez du $OKN via des tâches ou achetez directement avec du BNB. Guide étape par étape.",
+    "heading": "Deux chemins vers votre premier $OKN",
+    "subheading": "Gagnez-le en participant à la communauté, ou achetez-le directement. Dans les deux cas, le $OKN arrive dans votre portefeuille sur BNB Smart Chain.",
+    "pathALabel": "Chemin A",
+    "pathAHeading": "Gagner via des tâches, réclamer on-chain",
+    "pathABody": "Gratuit pour participer. Les points sont convertis en $OKN lorsqu'un administrateur enregistre une racine Merkle.",
+    "pathBLabel": "Chemin B",
+    "pathBHeading": "Acheter directement avec du BNB",
+    "pathBBody": "Achat on-chain instantané à taux fixe. Un plafond par portefeuille s'applique.",
+    "earnSteps": [
+      {
+        "title": "Ouvrez $OKN dans Telegram",
+        "body": "Appuyez sur « Ouvrir dans Telegram » pour lancer la mini application. Votre compte est créé à partir de votre identité Telegram — aucune inscription distincte."
+      },
+      {
+        "title": "Connectez un portefeuille BNB Smart Chain",
+        "body": "Dans le tableau de bord, connectez MetaMask, Trust Wallet ou tout portefeuille EVM. L'adresse est liée à votre compte Telegram."
+      },
+      {
+        "title": "Accomplissez des tâches pour gagner des points",
+        "body": "Suivez des canaux, rejoignez le groupe, parrainez des amis. Chaque tâche attribue des points. Les points sont suivis off-chain jusqu'à ce qu'un administrateur enregistre une racine Merkle."
+      },
+      {
+        "title": "Réclamez on-chain",
+        "body": "Une fois vos points enregistrés, la page Réclamation génère votre preuve Merkle et votre portefeuille appelle le contrat distributeur. Des frais de 3 $ en BNB s'appliquent."
+      }
+    ],
+    "buySteps": [
+      {
+        "title": "Ouvrez la page Acheter",
+        "body": "Depuis le tableau de bord, ouvrez l'onglet Acheter. Vous verrez le taux actuel ($OKN par BNB), votre plafond de portefeuille restant et le statut de la vente."
+      },
+      {
+        "title": "Saisissez le montant en BNB",
+        "body": "Saisissez le montant de BNB que vous souhaitez dépenser. La page affiche un aperçu du $OKN que vous recevrez et valide par rapport au plafond par portefeuille et à l'achat minimum."
+      },
+      {
+        "title": "Confirmez l'achat",
+        "body": "Votre portefeuille appelle TokenSale.buy() avec le BNB joint. Le contrat crée (« mint ») le $OKN directement sur votre adresse au taux fixe."
+      },
+      {
+        "title": "Suivez votre achat",
+        "body": "Chaque achat est enregistré on-chain (événement Bought) et indexé dans le tableau de bord. Les retraits de BNB collectés sont contrôlés par les administrateurs et tracés pour audit."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Quand puis-je transférer mon $OKN ?",
+        "answer": "Immediately. There is no transfer lock on OKN tokens. Once claimed or purchased, you can send or swap them right away."
+      },
+      {
+        "question": "Que sont les frais de réclamation ?",
+        "answer": "{fee} en BNB par réclamation, évalués en direct via un oracle Chainlink. Les frais alimentent la trésorerie de l'écosystème."
+      },
+      {
+        "question": "Ai-je besoin d'un portefeuille ?",
+        "answer": "Oui — n'importe quel portefeuille EVM sur BNB Smart Chain. Connectez-le dans le tableau de bord pour le lier à votre compte Telegram."
+      }
+    ],
+    "openDashboard": "Ouvrir le tableau de bord"
+  },
+  "documentsPage": {
+    "title": "Documents — Livre blanc et feuille de route",
+    "metaTitle": "Documents — Livre blanc et feuille de route",
+    "metaDescription": "Téléchargez le livre blanc et la feuille de route produit du jeton $OKN. Tokenomics complète, distribution, mécanismes de réclamation et calendrier des jalons.",
+    "ogTitle": "{name} — Documents",
+    "ogDescription": "Téléchargez le livre blanc et la feuille de route produit du jeton $OKN. Tokenomics complète, distribution, mécanismes de réclamation et calendrier des jalons.",
+    "kicker": "Documents",
+    "heading": "Livre blanc et feuille de route",
+    "subheading": "Tout ce dont vous avez besoin pour évaluer $OKN au même endroit. Téléchargez le livre blanc technique complet ou la feuille de route produit ci-dessous.",
+    "docs": [
+      {
+        "title": "Livre blanc",
+        "description": "La spécification technique et économique complète de $OKN : tokenomics, distribution, modèle de frais de réclamation et architecture de preuve Merkle.",
+        "bullets": [
+          "Offre de jetons, allocation et verrou de transfert de 6 mois",
+          "Mécanisme de frais de réclamation et plafond communautaire",
+          "Conception du contrat distributeur Merkle",
+          "Modèle de revenus et de durabilité"
+        ],
+        "cta": "Télécharger le livre blanc"
+      },
+      {
+        "title": "Feuille de route",
+        "description": "Où se dirige $OKN. Des jalons par phase couvrant les contrats intelligents, le tableau de bord, la croissance de la communauté et les futurs outils de trading IA.",
+        "bullets": [
+          "Calendrier de livraison phase par phase",
+          "Objectifs de la mission communautaire (100k membres et au-delà)",
+          "Fenêtres de sortie du staking et de l'agent de trading IA",
+          "Jalons de cotation sur des exchanges"
+        ],
+        "cta": "Télécharger la feuille de route"
+      }
+    ],
+    "pdfLabel": "Document PDF",
+    "fileNote": "Les documents sont des fichiers PDF. Si un téléchargement ne démarre pas, le fichier n'est peut-être pas encore publié. Revenez vérifier bientôt ou demandez dans le Telegram de la communauté.",
+    "trustStrip": [
+      {
+        "title": "Contrats audités",
+        "body": "Les contrats intelligents utilisent les normes évolutives OpenZeppelin avec un proxy UUPS."
+      },
+      {
+        "title": "Offre transparente",
+        "body": "L'allocation complète et les détails des plafonds sont publiés dans le livre blanc."
+      },
+      {
+        "title": "Jalons publics",
+        "body": "La feuille de route s'engage sur des dates et des livrables dont vous pouvez nous tenir responsables."
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "current": "Langue actuelle : {name}",
+    "languages": {
+      "en": "English",
+      "zh": "中文",
+      "es": "Español",
+      "pt": "Português",
+      "ru": "Русский",
+      "vi": "Tiếng Việt",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fr": "Français"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "portfolio": "Portefeuille",
+      "aiTradingAgent": "Agent de Trading IA",
+      "polymarketAgent": "Agent Polymarket",
+      "predictionMarkets": "Marches de Prediction",
+      "leaderboard": "Classement",
+      "missions": "Missions",
+      "tasks": "Tâches",
+      "claim": "Réclamer",
+      "buy": "Acheter",
+      "staking": "Staking",
+      "news": "Actualités",
+      "learn": "Apprendre",
+      "wallet": "Portefeuille",
+      "referral": "Parrainage",
+      "settings": "Paramètres"
+    },
+    "shell": {
+      "admin": "Admin",
+      "dashboard": "Tableau de bord",
+      "backToApp": "Retour à l'application",
+      "adminPanel": "Panneau d'administration",
+      "search": "Rechercher",
+      "filterNav": "Filtrer la navigation",
+      "noMatches": "Aucun résultat",
+      "menu": "Menu",
+      "administration": "Administration",
+      "brandTagline": "Gagnez, Réclamez, Achetez"
+    },
+    "userMenu": {
+      "openMenu": "Ouvrir le menu utilisateur",
+      "settings": "Paramètres",
+      "wallet": "Portefeuille",
+      "referral": "Parrainage",
+      "appearance": "Apparence",
+      "signIn": "Se connecter",
+      "signOut": "Se déconnecter",
+      "userFallback": "Utilisateur {id}",
+      "telegramLabel": "Telegram {id}"
+    },
+    "theme": {
+      "switchToLight": "Passer en mode clair",
+      "switchToDark": "Passer en mode sombre",
+      "appearance": "Apparence",
+      "lightMode": "Mode clair",
+      "darkMode": "Mode sombre"
+    },
+    "sidebar": {
+      "earnMore": "Gagnez plus de $OKN",
+      "earnMoreBody": "Accomplissez des tâches et invitez des amis pour cumuler des points.",
+      "learnMore": "En savoir plus",
+      "inviteFriends": "Inviter des amis",
+      "moderationQueue": "File de modération",
+      "moderationBody": "Vérifiez les tâches accomplies et gardez le registre propre.",
+      "auditLogs": "Journaux d'audit",
+      "review": "Examiner"
+    },
+    "statusBadge": {
+      "pending": "En attente",
+      "eligible": "Éligible",
+      "verified": "Vérifié",
+      "approved": "Approuvé",
+      "paid": "Payé",
+      "rejected": "Rejeté",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "paused": "En pause",
+      "draft": "Private test"
+    },
+    "dataState": {
+      "error": "Une erreur est survenue lors du chargement de ces données.",
+      "retry": "Réessayer",
+      "staleWarning": "Les donnees en direct n ont pas pu etre chargees. Affichage des valeurs par defaut. Utilisez reessayer pour actualiser."
+    },
+    "common": {
+      "loading": "Chargement...",
+      "anonymous": "Anonyme",
+      "you": "(vous)",
+      "copy": "Copier",
+      "copied": "Copié",
+      "copyValue": "Copier {value}",
+      "pts": "{count} OK Points",
+      "plusPts": "+{count} OK Points"
+    },
+    "notFound": {
+      "heading": "Page introuvable",
+      "body": "Cette page du tableau de bord n'existe pas. Votre portefeuille et le reste de l'application sont toujours là où vous les avez laissés.",
+      "backToDashboard": "Retour au tableau de bord",
+      "tasks": "Tâches",
+      "wallet": "Portefeuille",
+      "buy": "Acheter",
+      "settings": "Paramètres"
+    },
+    "portfolio": {
+      "title": "Portefeuille",
+      "description": "Votre $OKN en un coup d'œil : activité, avoirs et gains.",
+      "tabActivity": "Activité",
+      "tabHoldings": "Avoirs"
+    },
+    "activity": {
+      "pointsEarned": "Points gagnés",
+      "pointsHint": "En attente de commit Merkle",
+      "balance": "Solde $OKN",
+      "balanceHint": "On-chain balance",
+      "tasksDone": "Tâches accomplies",
+      "tasksDoneHint": "Vérifiées et en attente",
+      "referrals": "Parrainages",
+      "referralsHint": "{count} pts gagnés",
+      "claimTitle": "Réclamez votre $OKN",
+      "claimDesc": "Les points sont convertis en $OKN lorsque l'administrateur enregistre une racine Merkle. Des frais de $3 BNB s'appliquent lors de la réclamation.",
+      "claimablePoints": "Points réclamables",
+      "goToClaim": "Aller à la réclamation",
+      "buyTitle": "Achetez du $OKN avec du BNB",
+      "buyDescRate": "Taux fixe : {rate} $OKN par BNB{paused}",
+      "buyDescPausedSuffix": " (vente en pause)",
+      "buyDescDefault": "Vente à taux fixe, directe depuis le contrat.",
+      "openSale": "Ouvrir la vente",
+      "tasksTitle": "Tâches",
+      "tasksSeeAll": "Tout voir",
+      "tasksDesc": "Gagnez des points pour votre prochaine réclamation.",
+      "noTasks": "Aucune tâche active pour le moment. Revenez bientôt.",
+      "doButton": "Faire"
+    },
+    "portfolioView": {
+      "portfolioValue": "Valeur du portefeuille",
+      "valueNote": "Basée sur le taux de vente actuel de {rate} $OKN par BNB. Le $OKN n'a pas de prix tant que les transferts sont verrouillés.",
+      "loading": "Chargement...",
+      "connectWallet": "Connecter le portefeuille",
+      "holdings": "Avoirs",
+      "holdingsHint": "On-chain, dans votre portefeuille",
+      "totalBought": "Total acheté",
+      "totalBoughtHint": "BNB dépensés dans la vente",
+      "totalClaimed": "Total réclamé",
+      "totalClaimedHint": "Réclamé on-chain",
+      "totalEarned": "Total gagné",
+      "totalEarnedHint": "OK Points, toutes sources confondues",
+      "pointsBySource": "Points par source",
+      "pointsBySourceDesc": "Origine de vos points cumulés.",
+      "sourceTask": "Tâches",
+      "sourceReferral": "Parrainages",
+      "sourceBonus": "Bonus",
+      "sourceAdmin": "Admin",
+      "sourcePts": "{count} pts - {pct}%",
+      "totalPts": "Total : {count} pts",
+      "referralDownline": "Réseau de parrainage",
+      "referralDownlineDesc": "Votre réseau sur 3 niveaux.",
+      "level1": "Niveau 1",
+      "level2": "Niveau 2",
+      "level3": "Niveau 3",
+      "downlineNote": "Vous gagnez une part des points de tâches de votre réseau : 10 % au L1, 5 % au L2, 2 % au L3."
+    },
+    "buy": {
+      "title": "Acheter du $OKN",
+      "description": "Achetez du $OKN directement avec du BNB à un taux fixe.",
+      "rateLabel": "Taux",
+      "rateHint": "Taux de vente fixe",
+      "rateValue": "{value} $OKN par BNB",
+      "capLabel": "Plafond par portefeuille",
+      "capHint": "BNB maximum par portefeuille",
+      "capValue": "{value} BNB",
+      "purchasedLabel": "Vos achats",
+      "purchasedHintHas": "Total de vos BNB dépensés",
+      "purchasedHintNone": "Connectez votre portefeuille pour charger les vôtres",
+      "purchasedValue": "{value} BNB",
+      "saleStatusLabel": "Statut de la vente",
+      "saleStatusPaused": "Les achats sont temporairement désactivés",
+      "saleStatusDraft": "Private test phase: buying is open to admins only right now.",
+      "saleStatusActive": "La vente est en direct",
+      "historyTitle": "Vos achats",
+      "historyDesc": "Achats en BNB confirmés liés à votre compte.",
+      "historyEmptyTitle": "Aucun achat pour le moment",
+      "historyEmptyMessage": "Vos achats en BNB confirmés apparaîtront ici.",
+      "thDate": "Date",
+      "thBnbIn": "BNB entrants",
+      "thOknOut": "$OKN sortants",
+      "thTx": "Transaction",
+      "notConfigured": "La vente n'est pas encore configurée. Un administrateur doit définir le taux et le plafond avant l'ouverture des achats.",
+      "progressTitle": "Sale progress",
+      "progressRaised": "{raised} of {cap} BNB",
+      "progressUncapped": "This sale has no hard cap. Every purchase still mints $OKN at the fixed rate.",
+      "allocationRemaining": "Sale allocation remaining",
+      "indexing": "Indexing",
+      "progressHint": "BNB collected toward the sale hard cap",
+      "progressRaisedOnly": "{raised} BNB raised"
+    },
+    "buyWidget": {
+      "title": "Acheter du $OKN",
+      "description": "Saisissez un montant en BNB. Le $OKN est crédité dans votre portefeuille immédiatement.",
+      "amountLabel": "Montant (BNB)",
+      "amountPlaceholder": "0.1",
+      "youReceive": "Vous recevez ~{value} $OKN",
+      "minNote": "Min {value} BNB",
+      "minNoteUsd": "Minimum {usd} (≈ {bnb} BNB)",
+      "errInvalid": "Saisissez un montant en BNB valide.",
+      "errOverCap": "Dépasse votre plafond restant de {value} BNB.",
+      "errBelowMin": "L'achat minimum est de {value} BNB.",
+      "connectNote": "You need a connected wallet to buy.",
+      "walletPageLink": "page Portefeuille",
+      "salePaused": "La vente est actuellement en pause. Revenez bientôt.",
+      "saleDraft": "The sale is in private testing. Buying opens to everyone soon.",
+      "btnIdle": "Acheter du $OKN",
+      "btnPending": "Confirmez dans votre portefeuille",
+      "errNotConnected": "Connectez d'abord votre portefeuille sur la page Portefeuille.",
+      "errNoAmount": "Saisissez un montant en BNB.",
+      "errRejected": "Transaction rejetée dans votre portefeuille.",
+      "errFailed": "Échec de l'achat. Veuillez réessayer.",
+      "errNotConfigured": "La vente n'est pas encore configuree. Revenez plus tard.",
+      "saleNotStarted": "The sale has not started yet.",
+      "saleEnded": "The sale has ended.",
+      "errHardCap": "This amount exceeds the remaining sale hard cap. Maximum: {value} BNB.",
+      "maxNote": "Maximum purchase: {value} BNB.",
+      "btnConfirming": "Confirming on-chain...",
+      "maxButton": "MAX",
+      "maxAriaLabel": "Fill the maximum purchase amount",
+      "usdApprox": "≈ {value}",
+      "pricePerOkn": "≈ {value} per $OKN",
+      "priceUpdated": "BNB price updated {seconds}s ago",
+      "priceStale": "BNB price feed is delayed; USD figures may be off",
+      "reviewDescription": "Double-check the details before you confirm in your wallet.",
+      "reviewSpend": "You spend",
+      "reviewReceive": "You receive",
+      "reviewRate": "Rate",
+      "rateValue": "{value} $OKN per BNB",
+      "reviewAllowance": "Wallet allowance after purchase",
+      "reviewRateNote": "The rate is re-checked right before your wallet opens. If it changed, you will be asked to review the updated amounts.",
+      "rateChanged": "The rate has changed. Review the updated amount and confirm again.",
+      "pendingTitle": "Transaction submitted",
+      "pendingDesc": "Your purchase is still confirming on-chain. This can take a couple of minutes.",
+      "viewTx": "View on BscScan",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm buy",
+      "errInsufficientBalance": "Insufficient BNB balance",
+      "errReverted": "The purchase transaction reverted on-chain. No purchase was made.",
+      "connectCta": "Connect your wallet"
+    },
+    "claim": {
+      "title": "Réclamer du $OKN",
+      "description": "Convertissez vos points en OKN on-chain.",
+      "pointsTitle": "Vos points",
+      "pointsDesc": "Les points deviennent du $OKN réclamable après que l'administrateur enregistre une racine Merkle.",
+      "claimablePoints": "Points réclamables",
+      "noPointsTitle": "Aucun point pour le moment",
+      "noPointsMessage": "Accomplissez des tâches et invitez des amis pour commencer à gagner des points.",
+      "goToTasks": "Aller aux tâches",
+      "noteMerkle": "Attendez que l'administrateur enregistre une racine Merkle. Vos points deviendront alors réclamables.",
+      "noteFee": "Des frais équivalents à $3 en BNB s'appliquent lors de la réclamation.",
+      "howTitle": "Comment fonctionne la réclamation",
+      "howDesc": "Trois étapes des points au $OKN dans votre portefeuille.",
+      "step1Title": "Gagnez des points",
+      "step1Text": "Accomplissez des tâches et invitez des amis pour gagner des points.",
+      "step2Title": "Attendez le commit",
+      "step2Text": "L'administrateur enregistre une racine Merkle qui rend vos points réclamables.",
+      "step3Title": "Réclamez on-chain",
+      "step3Text": "Payez les frais de $3 BNB et le $OKN arrive dans votre portefeuille.",
+      "earnedBanner": "Vous avez gagné",
+      "earnedUnit": "OK Points",
+      "pendingTitle": "Vos OK Points sont en préparation",
+      "pendingBody": "Les claims ouvrent après la prochaine distribution. Continuez à gagner.",
+      "readyTitle": "Ready to claim",
+      "readyBody": "Your OK Points have been committed."
+    },
+    "claimButton": {
+      "title": "Réclamer on-chain",
+      "descLoading": "Vérification si les réclamations sont ouvertes.",
+      "descClaimable": "Montant réclamable : {value} $OKN",
+      "descNotOpen": "Les réclamations ouvrent après le premier commit Merkle.",
+      "notOpenTitle": "Les réclamations ne sont pas encore ouvertes",
+      "notOpenBody": "La première racine Merkle n'a pas encore été enregistrée. Revenez après le prochain commit.",
+      "noBalanceBody": "La racine enregistrée n'a pas encore de solde réclamable pour votre compte.",
+      "connectNote": "You need a connected wallet to claim.",
+      "walletPageLink": "page Portefeuille",
+      "btnIdle": "Réclamer du $OKN",
+      "btnPending": "Confirmez dans votre portefeuille",
+      "errNotConnected": "Connectez d'abord votre portefeuille sur la page Portefeuille.",
+      "errNotOpen": "Les réclamations ne sont pas encore ouvertes. La première racine Merkle n'a pas été enregistrée.",
+      "errRejected": "Transaction rejetée dans votre portefeuille.",
+      "errFailed": "Échec de la réclamation. Veuillez réessayer.",
+      "feeNote": "Network fee: {value} BNB (paid to claim, exact on-chain amount).",
+      "errWrongWallet": "This claim belongs to wallet {wallet}. Connect that wallet to claim, or request a wallet change.",
+      "errFeeUnavailable": "The claim fee could not be read right now. Try again in a moment.",
+      "btnConfirming": "Confirming on-chain...",
+      "connectCta": "Connect your wallet"
+    },
+    "leaderboard": {
+      "title": "Classement",
+      "description": "Meilleurs membres de la communauté par parrainages, points de tâches et BNB achetés.",
+      "pastWinners": "Anciens gagnants",
+      "catReferrers": "Parrains",
+      "catTasks": "Gagneurs de tâches",
+      "catBuyers": "Acheteurs",
+      "unitRefs": "parr.",
+      "unitPts": "OK Points",
+      "unitBnb": "BNB",
+      "periodWeek": "Cette semaine",
+      "periodMonth": "Ce mois-ci",
+      "periodAll": "Tout temps",
+      "fullRankingTitle": "Classement complet",
+      "fullRankingAllTime": "Top tout temps de {category}.",
+      "fullRankingWeek": "Top de cette semaine en {category}.",
+      "fullRankingMonth": "Top de ce mois-ci en {category}.",
+      "anonymous": "Anonyme",
+      "youSuffix": "(vous)",
+      "noEntriesTitle": "Aucun classement pour cette période",
+      "noEntriesAllTime": "Soyez le premier à apparaître ici. Accomplissez des tâches ou invitez des amis.",
+      "noEntriesDefault": "Soyez le premier à apparaître ici. Revenez au fil de l'activité.",
+      "yourRankEmpty": "Vous apparaîtrez ici une fois actif dans cette catégorie.",
+      "yourRankNotRanked": "Vous n'êtes pas encore classé sur cette période. Soyez actif pour monter !"
+    },
+    "winners": {
+      "title": "Anciens gagnants",
+      "description": "Gagnants par snapshot des périodes de classement terminées et leurs récompenses bonus.",
+      "backToLeaderboard": "Retour au classement",
+      "tabWeekly": "Hebdomadaire",
+      "tabMonthly": "Mensuel",
+      "catReferrers": "Meilleurs parrains",
+      "catTasks": "Meilleurs gagneurs de tâches",
+      "catBuyers": "Meilleurs acheteurs",
+      "periodWeek": "Semaine",
+      "periodMonth": "Mois",
+      "periodAll": "Tout temps",
+      "groupTitle": "{period} {key} - {category}",
+      "scoreLabel": "score",
+      "pointsAwarded": "+{points} OK Points",
+      "emptyTitle": "Aucun gagnant de {period} pour le moment",
+      "emptyMessage": "Les gagnants sont capturés à la fin de chaque {periodWord} et reçoivent des points bonus en $OKN.",
+      "periodWordWeek": "semaine",
+      "periodWordMonth": "mois"
+    },
+    "learn": {
+      "title": "Centre d'apprentissage",
+      "description": "Apprenez la crypto. Gagnez du $OKN.",
+      "tagline": "Des leçons courtes sur la blockchain et la crypto. Accomplissez une leçon, réussissez le quiz, gagnez du $OKN.",
+      "features": [
+        {
+          "title": "Leçons concises",
+          "description": "Des leçons courtes et ciblées sur la blockchain, les portefeuilles, la DeFi et les bases de la sécurité."
+        },
+        {
+          "title": "Quiz pour le prouver",
+          "description": "Chaque leçon se termine par un quiz rapide. Réussissez-le pour confirmer votre compréhension."
+        },
+        {
+          "title": "Gagnez du $OKN",
+          "description": "Réussir une leçon vous paie du $OKN, ajouté à votre solde réclamable."
+        },
+        {
+          "title": "Parcours progressif",
+          "description": "Commencez par les bases et débloquez des sujets plus avancés au fil de votre progression."
+        }
+      ]
+    },
+    "missions": {
+      "title": "Missions communautaires",
+      "description": "Atteignez des objectifs ensemble. Quand la communauté atteint un jalon, tout le monde gagne du $OKN.",
+      "metricMembers": "membres de la communauté",
+      "metricTelegram": "membres Telegram",
+      "metricBnb": "BNB collectés",
+      "metricOkn": "$OKN réclamé",
+      "emptyTitle": "Aucune mission active pour le moment",
+      "emptyMessage": "De nouveaux objectifs communautaires apparaîtront ici. Continuez à contribuer pour être éligible lorsqu'ils sont atteints.",
+      "completedHeading": "Missions accomplies",
+      "rewardLabel": "+{reward} $OKN",
+      "progress": "{current} / {threshold}",
+      "eligible": "Vous êtes éligible. Continuez à utiliser $OKN pour aider la communauté à atteindre l'objectif.",
+      "notEligible": "Rejoignez maintenant pour être éligible lorsque cet objectif est atteint.",
+      "statusAchieved": "Objectif atteint - récompenses en cours de distribution.",
+      "statusDistributed": "Objectif atteint et récompenses distribuées.",
+      "receivedPoints": "+{points} OK Points",
+      "processing": "Traitement...",
+      "joinedTooLate": "Inscription trop tardive"
+    },
+    "news": {
+      "title": "Actualités",
+      "description": "Les dernières nouvelles du projet $OKN.",
+      "tagline": "Restez informé des annonces, cotes, partenariats et avancées de la feuille de route.",
+      "features": [
+        {
+          "title": "Annonces",
+          "description": "Mises à jour officielles de l'équipe, directement dans votre tableau de bord."
+        },
+        {
+          "title": "Cotes",
+          "description": "Nouvelles cotes sur des exchanges et plateformes au fil de l'eau."
+        },
+        {
+          "title": "Partenariats",
+          "description": "Intégrations et collaborations qui font grandir l'écosystème $OKN."
+        },
+        {
+          "title": "Avancées de la feuille de route",
+          "description": "Suivez la progression par rapport aux jalons publiés et aux dates de livraison."
+        },
+        {
+          "title": "Nouvelles fonctionnalités",
+          "description": "Lancements et améliorations produit, annoncés au fil de leur sortie."
+        },
+        {
+          "title": "Un seul fil",
+          "description": "Tout sur une seule chronologie, filtré par catégorie."
+        }
+      ]
+    },
+    "referral": {
+      "title": "Parrainage",
+      "description": "Invitez des amis. Gagnez sur tout votre réseau, 3 niveaux de profondeur.",
+      "level1": "Niveau 1 (direct)",
+      "level2": "Niveau 2",
+      "level3": "Niveau 3",
+      "levelFallback": "Niveau {n}",
+      "linkTitle": "Votre lien de parrainage",
+      "linkDesc": "Partagez-le partout. Vos amis rejoignent via le bot Telegram et arrivent dans votre Niveau 1.",
+      "copyButton": "Copier",
+      "copiedButton": "Copié",
+      "totalDownline": "Réseau total",
+      "totalDownlineHint": "Sur les 3 niveaux",
+      "pointsEarned": "Points gagnés",
+      "pointsEarnedHint": "Issus des récompenses de parrainage",
+      "downlineTitle": "Votre réseau par niveau",
+      "downlineDesc": "Vous gagnez une part des points que vos filleuls tirent des tâches : 10 % au L1, 5 % au L2, 2 % au L3.",
+      "countSingular": "{count} personne dans ce niveau",
+      "countPlural": "{count} personnes dans ce niveau",
+      "howTitle": "Comment ça marche",
+      "step1Title": "Partagez votre lien",
+      "step1Text": "Envoyez votre lien de parrainage à vos amis.",
+      "step2Title": "Votre ami lance le bot",
+      "step2Text": "Ils rejoignent $OKN via Telegram.",
+      "step3Title": "Vous en profitez tous les deux",
+      "step3Text": "Gagnez une part de leurs points de tâches, sur 3 niveaux.",
+      "recentTitle": "Parrainages récents",
+      "recentDesc": "Vos invitations directes (Niveau 1) les plus récentes.",
+      "recentEmptyTitle": "Aucun parrainage pour le moment",
+      "recentEmptyMessage": "Partagez votre lien pour commencer à constituer votre réseau.",
+      "newUser": "Nouvel utilisateur"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "description": "Gérez votre compte, votre portefeuille et vos préférences.",
+      "tabProfile": "Profil",
+      "tabEmail": "E-mail",
+      "tabWallet": "Portefeuille",
+      "tabSecurity": "Sécurité",
+      "twoFactorTitle": "Authentification à deux facteurs",
+      "twoFactorDesc": "Ajoutez un second facteur (application d'authentification) pour protéger votre compte.",
+      "twoFactorOnDesc": "L'authentification à deux facteurs est activée. Vous aurez besoin d'un code de votre application à chaque nouvelle connexion.",
+      "twoFactorOffDesc": "L'authentification à deux facteurs est désactivée. Activez-la pour ajouter une couche de sécurité supplémentaire.",
+      "twoFactorPreparing": "Préparation de votre configuration 2FA...",
+      "twoFactorScanHint": "Scannez ce code QR avec votre application d'authentification (Google Authenticator, Authy, etc.).",
+      "twoFactorManualHint": "Ou saisissez ce code manuellement :",
+      "twoFactorEnable": "Activer 2FA",
+      "twoFactorDisable": "Désactiver 2FA",
+      "twoFactorEnabledTitle": "2FA activée",
+      "twoFactorEnabledDesc": "Enregistrez vos codes de récupération maintenant. Vous en aurez besoin si vous perdez votre appareil d'authentification.",
+      "twoFactorDisabledTitle": "2FA désactivée",
+      "backupCodesTitle": "Vos codes de récupération",
+      "backupCodesDesc": "Chaque code peut être utilisé une fois pour vous connecter si vous perdez votre authentificateur. Conservez-les en lieu sûr.",
+      "backupCodesDone": "Je les ai enregistrés",
+      "tabAppearance": "Apparence",
+      "tabSession": "Session",
+      "notSignedInTitle": "Profil introuvable",
+      "notSignedInDesc": "Votre profil n'a pas pu être chargé. Cela signifie généralement que votre session a expiré ou que vous n'êtes pas connecté. Reconnectez-vous pour gérer vos paramètres.",
+      "signInCta": "Se connecter",
+      "displayNameTitle": "Nom affiché",
+      "displayNameDesc": "Affiché sur votre avatar, les lignes du classement et l'activité de parrainage.",
+      "firstNameLabel": "Prénom",
+      "firstNamePlaceholder": "Alex",
+      "lastNameLabel": "Nom",
+      "lastNamePlaceholder": "Morgan",
+      "saveChanges": "Enregistrer",
+      "identityTitle": "Identité Telegram",
+      "identityDesc": "Votre compte Telegram est l'identité faisant autorité pour ce compte $OKN.",
+      "anonymous": "Anonyme",
+      "avatarNote": "La photo d'avatar provient de votre profil Telegram.",
+      "telegramUsername": "Nom d'utilisateur Telegram",
+      "notSet": "Non défini",
+      "telegramId": "ID Telegram",
+      "joinedOkn": "Rejoint $OKN",
+      "role": "Rôle",
+      "userId": "ID utilisateur",
+      "emailTitle": "E-mail",
+      "emailDesc": "Liez un e-mail pour la récupération de compte et (à terme) les notifications.",
+      "unverified": "Non vérifié",
+      "change": "Changer",
+      "remove": "Retirer",
+      "verifyHint": "Vérifiez votre email pour confirmer la propriété. Un code à 6 chiffres sera envoyé à votre boîte de réception.",
+      "verify": "Vérifier",
+      "verified": "Vérifié",
+      "verifySuccessDesc": "Votre email est vérifié. Il servira pour la récupération de compte et les notifications.",
+      "enterCode": "Entrez le code à 6 chiffres",
+      "enterCodeDesc": "Nous avons envoyé un code à votre email. Il expire dans 10 minutes.",
+      "codePlaceholder": "123456",
+      "submitCode": "Vérifier l'email",
+      "resend": "Renvoyer le code",
+      "resendIn": "Renvoyer dans {seconds}s",
+      "bindEmailTitle": "Lier un e-mail",
+      "newEmailTitle": "Nouvel e-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "submitBind": "Lier l'e-mail",
+      "submitUpdate": "Mettre à jour l'e-mail",
+      "cancel": "Annuler",
+      "walletTitle": "Portefeuille",
+      "walletDesc": "Le portefeuille qui reçoit votre $OKN réclamé. Gérez-le sur la page Portefeuille.",
+      "boundAddress": "Adresse liée",
+      "notBound": "Non lié",
+      "boundSince": "Lié depuis",
+      "manageWallet": "Gérer le portefeuille",
+      "requestRebind": "Demander un reliage",
+      "appearanceTitle": "Apparence",
+      "appearanceDesc": "Choisissez l'apparence du tableau de bord sur cet appareil.",
+      "themeLabel": "Thème",
+      "themeHint": "Clair ou sombre. Enregistré par appareil.",
+      "notificationsTitle": "Notifications",
+      "notificationsBadge": "Démo",
+      "notificationsDesc": "Ces bascules sont enregistrées uniquement sur cet appareil. Un vrai système de notifications est prévu ; pour l'instant ce sont des espaces réservés.",
+      "notificationsComingSoon": "Ces types de notification sont prevus pour une version future et ne sont pas encore actifs.",
+      "notifTaskLabel": "Alertes de vérification des tâches",
+      "notifTaskDesc": "Lorsqu'une tâche que vous avez soumise est vérifiée ou rejetée.",
+      "notifMissionLabel": "Jalons de mission",
+      "notifMissionDesc": "Lorsqu'une mission communautaire est atteinte et les récompenses distribuées.",
+      "supportTitle": "Assistance",
+      "supportDesc": "Besoin d'aide ou envie d'échanger avec la communauté ?",
+      "telegramCommunity": "Communauté Telegram",
+      "communityLabel": "Communauté",
+      "terms": "Conditions",
+      "privacy": "Confidentialité",
+      "signOutTitle": "Se déconnecter",
+      "signOutDesc": "Met fin à votre session sur cet appareil. Vous devrez vous reconnecter via Telegram.",
+      "signOutButton": "Se déconnecter"
+    },
+    "staking": {
+      "title": "Staking",
+      "description": "Verrouillez du $OKN pour gagner des récompenses.",
+      "tagline": "Verrouillez votre $OKN, gagnez un APY et contribuez à stabiliser le jeton.",
+      "features": [
+        {
+          "title": "Périodes de verrouillage flexibles",
+          "description": "Choisissez 30, 90, 180 ou 365 jours. Les verrouillages plus longs offrent un APY plus élevé."
+        },
+        {
+          "title": "Gagnez un APY",
+          "description": "Le $OKN staké accumule des récompenses en continu, réclamables au déverrouillage."
+        },
+        {
+          "title": "Réduit la pression de vente",
+          "description": "Une offre verrouillée signifie moins de jetons sur le marché, soutenant la stabilité du prix."
+        },
+        {
+          "title": "Déverrouillage auto",
+          "description": "Votre $OKN revient automatiquement dans votre portefeuille à la fin de la période de verrouillage."
+        }
+      ]
+    },
+    "tasks": {
+      "title": "Tâches",
+      "description": "Accomplissez des tâches pour gagner des points vers votre prochaine réclamation.",
+      "emptyTitle": "Aucune tâche active",
+      "emptyMessage": "De nouvelles tâches arrivent régulièrement. Revenez bientôt.",
+      "rewardLabel": "+{points} OK Points",
+      "doButton": "Faire",
+      "verifyButton": "Vérifier",
+      "submitting": "Envoi",
+      "verifying": "Vérification",
+      "proofLabel": "Soumettez votre preuve (pseudo, lien ou réponse courte)",
+      "proofPlaceholder": "@pseudo ou https://...",
+      "pending": "En attente"
+    },
+    "tradeBot": {
+      "title": "Agent de Trading IA",
+      "description": "Signaux long et short automatisés pour les marchés crypto.",
+      "comingSoon": "Bientôt disponible",
+      "headline": "Votre copilote IA pour les signaux crypto.",
+      "body": "Le bot de trading scanne le marché 24h/24 et révèle des opportunités long et short avec entrée, objectif, stop et un score de confiance. Cette page est un aperçu de l'expérience prévue. Le bot n'est pas encore en direct.",
+      "statusBadge": "Bot hors ligne - en développement",
+      "capabilities": [
+        "Scanning du marché 24/7",
+        "Niveaux d'entrée / objectif / stop",
+        "Score de confiance",
+        "Dimensionnement piloté par le risque"
+      ],
+      "signalPreviewAria": "Aperçu du signal",
+      "signalHeading": "Fenêtres de signaux - aperçu",
+      "sampleData": "Données d'exemple - non en direct",
+      "disabledAria": "L'aperçu des signaux est désactivé pendant le développement du bot",
+      "overlayTitle": "Les signaux ne sont pas encore en direct",
+      "overlayBody": "L'Agent de Trading IA est encore en développement. Aucun trade ne sera passé depuis cette page.",
+      "backToPortfolio": "Retour au portefeuille",
+      "timeframe": "Unité de temps - {value}",
+      "entry": "Entrée",
+      "target": "Objectif",
+      "stop": "Stop",
+      "pending": "En attente",
+      "long": "LONG",
+      "short": "SHORT",
+      "confidenceAria": "Confiance {value} pour cent"
+    },
+    "polymarketAgent": {
+      "title": "Agent Polymarket",
+      "description": "Positionnement automatise sur les marches de prediction Polymarket.",
+      "comingSoon": "Bientot disponible",
+      "headline": "Votre agent IA pour les evenements Polymarket.",
+      "body": "L'agent Polymarket surveille les marches de prediction 24h/24 et met en lumiere des positions d'evenements a forte conviction avec analyse de probabilite, zones d'entree et dimensionnement du risque. Cette page est un apercu de l'experiencence prevue. L'agent n'est pas encore actif.",
+      "statusBadge": "Agent hors ligne - en developpement",
+      "capabilities": [
+        "Surveillance des evenements 24/7",
+        "Scoring d'edge de probabilite",
+        "Zones d'entree / sortie",
+        "Dimensionnement maitrise par le risque"
+      ],
+      "overlayTitle": "L'agent n'est pas encore actif",
+      "overlayBody": "L'Agent Polymarket est encore en developpement. Aucune position ne sera ouverte depuis cette page.",
+      "backToPortfolio": "Retour au portefeuille",
+      "tabs": {
+        "ariaLabel": "Surfaces Polymarket",
+        "agent": "Agent",
+        "copier": "Copieur",
+        "funds": "Fonds"
+      },
+      "copier": {
+        "headline": "Reproduisez automatiquement les meilleurs traders Polymarket.",
+        "body": "Le copieur suit les traders que vous choisissez et reproduit leurs transactions avec votre propre portefeuille, votre propre dimensionnement et vos propres limites de risque. Créez ou importez un portefeuille, choisissez des traders et gardez le contrôle de vos fonds.",
+        "statusBadge": "Copieur en développement",
+        "loading": "Chargement de votre copieur...",
+        "unconfiguredBody": "Le service de copy trading n'est pas encore connecté. L'activation ouvrira avec l'accès anticipé.",
+        "loadErrorTitle": "Impossible de charger le copieur",
+        "loadErrorBody": "Un problème est survenu en communiquant avec le service. Réessayez dans un instant.",
+        "retry": "Réessayer",
+        "walletReadyTitle": "Votre portefeuille copieur est prêt.",
+        "walletReadyBody": "Approvisionnez cette adresse en USDC sur Polygon pour commencer à copier. Un peu de POL couvre l’approbation unique d’allocation.",
+        "origin": {
+          "created": "Portefeuille créé",
+          "imported_eoa": "Portefeuille importé",
+          "imported_safe_owner": "Compte Polymarket importé"
+        },
+        "activateTitle": "Mode d'activation",
+        "createWallet": "Créer un portefeuille",
+        "importWallet": "Importer un portefeuille",
+        "privateKeyLabel": "Clé privée",
+        "privateKeyPlaceholder": "64 caractères hexadécimaux",
+        "privateKeyHelp": "Votre clé est chiffrée immédiatement et n’est jamais stockée ni journalisée en clair. Utilisez un portefeuille dédié.",
+        "proxyWalletLabel": "Portefeuille proxy Polymarket (facultatif)",
+        "proxyWalletPlaceholder": "0x...",
+        "proxyWalletHelp": "Si vous vous connectez à Polymarket par e-mail ou réseau social, collez l’adresse du portefeuille proxy et importez votre clé de propriétaire.",
+        "activating": "Activation...",
+        "activateCta": "Activer le copieur",
+        "activateHint": "Chaque nouvel abonnement démarre en aperçu : rien ne s’échange tant que vous ne passez pas en mode réel.",
+        "activateFailed": "L’activation a échoué. Vérifiez la clé et réessayez.",
+        "tradersTitle": "Traders que vous copiez",
+        "traderCount": "{count, plural, =0 {Aucun trader} one {# trader} other {# traders}}",
+        "traderAddressLabel": "Adresse du trader",
+        "copySizeLabel": "Pourcentage copié",
+        "addTrader": "Ajouter le trader",
+        "addTraderFailed": "Impossible d’ajouter ce trader.",
+        "noTraders": "Aucun trader pour l’instant. Ajoutez une adresse de portefeuille Polymarket du classement pour démarrer en mode aperçu.",
+        "strategySummary": "Dimensionnement {strategy} à {size}% avec limites strictes",
+        "goLive": "Passer en réel",
+        "pause": "Mettre en pause",
+        "resume": "Reprendre",
+        "stop": "Arrêter",
+        "status": {
+          "preview": "Aperçu",
+          "live": "En direct",
+          "paused": "En pause",
+          "stopped": "Arrêté"
+        },
+        "executionsTitle": "Copies récentes",
+        "noExecutions": "Aucune copie pour l’instant. Les exécutions apparaîtront ici dès que vos traders suivis échangent.",
+        "executionTraderSize": "Le trader {side} ${size}",
+        "export": {
+          "exportKey": "Exporter la clé privée",
+          "confirmTitle": "Révéler votre clé privée ?",
+          "confirmBody": "Quiconque possède cette clé contrôle le portefeuille et ses fonds. Ne la partagez jamais et ne la saisissez pas sur un site non fiable. Elle sera affichée une seule fois.",
+          "cancel": "Annuler",
+          "reveal": "Je comprends, révéler la clé",
+          "revealing": "Révélation...",
+          "revealedTitle": "Votre clé privée",
+          "revealedBody": "Conservez-la hors ligne immédiatement. Ce dialogue ne la réaffichera pas ; refaites le flux d’exportation si besoin.",
+          "copy": "Copier la clé",
+          "copied": "Copiée",
+          "done": "Terminé",
+          "failed": "Impossible de révéler la clé. Réessayez dans un instant."
+        },
+        "withdraw": {
+          "title": "Retirer des fonds",
+          "allowlistTitle": "Adresses de retrait",
+          "allowlistEmpty": "Aucune adresse de retrait pour l’instant. Ajoutez-en une pour activer les retraits.",
+          "allowlistActive": "Active",
+          "cooldownUntil": "Délai jusqu’à {time}",
+          "addressLabel": "Adresse de retrait",
+          "addAddress": "Ajouter une adresse",
+          "allowlistHelp": "Les retraits ne partent que vers les adresses de cette liste. Les nouvelles adresses se débloquent après 24 heures.",
+          "addFailed": "Impossible d’ajouter cette adresse.",
+          "requestTitle": "Demander un retrait",
+          "requestNoAddress": "Ajoutez d’abord une adresse de retrait ; les nouvelles adresses se débloquent après 24 heures.",
+          "selectAddress": "Sélectionnez une adresse",
+          "amountLabel": "Montant USDC",
+          "request": "Demander le retrait",
+          "requesting": "Demande en cours...",
+          "requestQueued": "Retrait demandé. Il sera traité par le worker de retraits.",
+          "requestFailed": "Impossible de demander le retrait.",
+          "historyTitle": "Historique des retraits",
+          "historyEmpty": "Aucun retrait pour l’instant.",
+          "status": {
+            "requested": "Demandé",
+            "executing": "En cours",
+            "done": "Terminé",
+            "failed": "Échoué",
+            "canceled": "Annulé"
+          },
+          "netEstimate": "Vous recevrez environ {net} après règlement des frais."
+        },
+        "funds": {
+          "loading": "Chargement de vos fonds...",
+          "unconfiguredBody": "Le service de copy trading n'est pas encore connecté.",
+          "loadErrorTitle": "Impossible de charger vos fonds",
+          "loadErrorBody": "Un problème est survenu en communiquant avec le service. Réessayez dans un instant.",
+          "retry": "Réessayer",
+          "activateFirstTitle": "Activez d'abord le copieur",
+          "activateFirstBody": "Les fonds sont conservés dans votre portefeuille copieur. Activez le copieur pour créer ou importer un portefeuille, puis ajoutez et retirez des fonds ici.",
+          "goToCopier": "Aller à longlet Copieur"
+        },
+        "twofa": {
+          "label": "Code de vérification en deux étapes",
+          "placeholder": "123456",
+          "verify": "Vérifier le code",
+          "verifying": "Vérification...",
+          "help": "Saisissez le code à 6 chiffres de votre application d’authentification pour autoriser cette action.",
+          "invalid": "Code invalide. Réessayez.",
+          "notEnrolledTitle": "La vérification en deux étapes n'est pas activée",
+          "notEnrolled": "Activez d’abord la vérification en deux étapes dans les paramètres de votre profil. Elle est requise pour exporter des clés, importer des clés et retirer des fonds."
+        },
+        "balance": {
+          "title": "Copieur Polymarket",
+          "polGas": "Gaz POL",
+          "openTokens": "{count, plural, =0 {aucune position} one {# position ouverte} other {# positions ouvertes}}",
+          "manageFunds": "Gérer les fonds",
+          "addFunds": "Ajouter des fonds",
+          "setUpCopier": "Configurer le copieur",
+          "noWalletBody": "Activez le copieur pour commencer à copier les marchés Polymarket.",
+          "errorBody": "Solde indisponible pour le moment.",
+          "retry": "Réessayer"
+        },
+        "wallet": {
+          "spendable": "Disponible",
+          "gasLabel": "Gaz (POL)",
+          "allowanceApproved": "USDC approuvé",
+          "allowanceNeeded": "Approbation requise",
+          "refreshAria": "Rafraîchir le solde",
+          "updatedAgo": "Mis à jour il y a {seconds} s",
+          "copyAddress": "Copier l’adresse de dépôt",
+          "copiedAddress": "Adresse copiée"
+        },
+        "fees": {
+          "title": "Frais du copieur",
+          "outstanding": "En attente",
+          "lifetime": "Frais payés",
+          "waived": "Remisés",
+          "explainer": "Les frais s accumulent par copie réussie et sont réglés automatiquement sur votre prochain retrait ; vos fonds de trading ne sont jamais touchés."
+        },
+        "billing": {
+          "title": "Abonnement PRO",
+          "proActive": "PRO actif",
+          "renews": "Renouvellement",
+          "expiresOn": "Expire le {date}",
+          "renew": "Renouveler",
+          "upgradeCta": "Passer à PRO",
+          "comingSoon": "PRO arrive après la période de test. Les frais par transaction restent désactivés jusque là.",
+          "priceLabel": "{price} / {days} jours",
+          "feeNow": "Votre taux : {rate}%",
+          "slots": "{used} traders sur {slots} en direct"
+        },
+        "upgrade": {
+          "title": "Passer à PRO",
+          "description": "Moins de frais et plus de traders suivis. Sans engagement : PRO expire simplement sans renouvellement.",
+          "freeSlotsLabel": "traders en direct actuels",
+          "proSlotsLabel": "traders en direct avec PRO",
+          "feeSuffix": "de frais par copie",
+          "railCopier": "Portefeuille copieur",
+          "railCopierDetail": "Prélèvement en USDC.e depuis votre portefeuille copieur Polymarket. Nécessite un code 2FA récent.",
+          "railConnected": "Portefeuille connecté",
+          "railConnectedDetail": "Payez en USDC depuis votre propre portefeuille BSC. Vous signez le transfert ; rien de custodié ne bouge.",
+          "consent": "J accepte de débiter {price} USDC pour {days} jours de PRO depuis le portefeuille sélectionné.",
+          "pay": "Payer {price}",
+          "cancel": "Annuler",
+          "success": "PRO est actif. Profitez des frais réduits.",
+          "done": "Terminé",
+          "failed": "Le paiement n a pas pu aboutir.",
+          "sendExact": "Envoyez exactement ce montant depuis votre portefeuille connecté, puis confirmez ci-dessous.",
+          "amountLabel": "Montant",
+          "toLabel": "Adresse de trésorerie",
+          "copyAddress": "Copier l adresse de trésorerie",
+          "copied": "Copié",
+          "networkLabel": "Réseau : BSC (chaîne {chainId})",
+          "connectFirst": "Connectez d abord votre portefeuille BSC.",
+          "later": "Plus tard",
+          "openWallet": "Ouvrir le portefeuille et payer",
+          "verifyFailed": "Paiement pas encore confirmé. Si le transfert a réussi, réessayez dans un instant."
+        }
+      }
+    },
+    "predictionMarkets": {
+      "title": "Marches de Prediction",
+      "description": "Suivez et echangez les marches de resultats sur plusieurs protocoles.",
+      "comingSoon": "Bientot disponible",
+      "headline": "Une seule surface pour chaque marche de prediction.",
+      "body": "Parcourez les marches de prediction en direct sur Polymarket et d'autres protocoles, filtrez par categorie et suivez le volume, la liquidite et la probabilite en temps reel. Cette page est un apercu de l'experiencence prevue. Le trading en direct n'est pas encore disponible.",
+      "statusBadge": "Apercu des marches - en developpement",
+      "categories": [
+        "Politique",
+        "Crypto",
+        "Sport",
+        "Economie"
+      ],
+      "overlayTitle": "Le trading n'est pas encore actif",
+      "overlayBody": "Le tableau de bord des Marches de Prediction est encore en developpement. Aucun echange ne sera effectue depuis cette page.",
+      "backToPortfolio": "Retour au portefeuille"
+    },
+    "wallet": {
+      "title": "Portefeuille",
+      "description": "Connexion, liaison et votre solde de $OKN.",
+      "balanceLabel": "Solde $OKN",
+      "balanceHint": "Your on-chain OKN balance",
+      "networkLabel": "Réseau",
+      "networkValue": "BNB Smart Chain",
+      "chainId": "ID de chaîne {id}",
+      "explorer": "Explorateur BscScan",
+      "connectionTitle": "Connexion",
+      "connectionDesc": "La liaison relie le portefeuille à votre compte Telegram pour les réclamations et achats.",
+      "boundTitle": "Compte lié",
+      "boundDesc": "Le compte Telegram auquel votre portefeuille est lié.",
+      "emptyTitle": "Aucun portefeuille lié pour le moment",
+      "emptyMessage": "Connectez votre portefeuille ci-dessus pour le lier à votre compte Telegram.",
+      "walletLabel": "Portefeuille",
+      "boundLabel": "Lié",
+      "telegramLabel": "Telegram"
+    },
+    "walletConnect": {
+      "connect": "Connecter le portefeuille",
+      "walletLabel": "Portefeuille : {addr}",
+      "signPending": "Signez le message dans votre portefeuille...",
+      "binding": "Liaison du portefeuille...",
+      "bound": "Portefeuille lié",
+      "signRequiredTitle": "Signature requise",
+      "signRequiredDesc": "Vous devez signer un message pour prouver la propriété du portefeuille avant la liaison.",
+      "conflictTitle": "Portefeuille déjà utilisé",
+      "conflictDesc": "Ce portefeuille est déjà lié à un autre compte.",
+      "failedTitle": "Impossible de lier le portefeuille",
+      "failedDesc": "Impossible de lier le portefeuille ({status})."
+    },
+    "dailyCheckIn": {
+      "label": "Série quotidienne",
+      "daySingular": "{count} jour",
+      "dayPlural": "{count} jours",
+      "checkedIn": "Pointage effectué. Plus longue série : {longest}.",
+      "nextReward": "Pointez aujourd'hui pour +{reward} OK Points.",
+      "noStreak": "Pointez aujourd'hui pour démarrer votre série."
+    },
+    "rebind": {
+      "title": "Changer de portefeuille",
+      "description": "Accès perdu ou portefeuille changé ? Demandez un reliage. Un modérateur examine chaque demande. Limité à une tous les 30 jours.",
+      "currentWallet": "Portefeuille actuel",
+      "newWallet": "Nouveau portefeuille (connecté)",
+      "connectNew": "Connectez le nouveau portefeuille vers lequel vous souhaitez basculer, puis choisissez une raison ci-dessous.",
+      "sameWallet": "Le portefeuille connecté est identique à votre portefeuille actuel. Connectez-en un autre pour demander un reliage.",
+      "reasonLabel": "Raison",
+      "reasonLostKey": "Clé privée perdue",
+      "reasonCompromised": "Portefeuille compromis",
+      "reasonUpgrade": "Passage à un portefeuille matériel",
+      "reasonAdminFix": "Correctif dirigé par l'admin",
+      "btnIdle": "Demander un reliage",
+      "btnPending": "Signature et envoi...",
+      "signNote": "Vous signerez un message prouvant la propriété du nouveau portefeuille. La signature est vérifiée côté serveur ; nous ne voyons jamais votre clé privée."
+    },
+    "unbind": {
+      "title": "Disconnect wallet",
+      "description": "Remove the wallet currently bound to your account. You will need to bind a new wallet before you can claim or buy $OKN again.",
+      "currentWallet": "Current wallet",
+      "connectHint": "Connect the wallet currently bound to your account to disconnect it.",
+      "btnIdle": "Disconnect wallet",
+      "btnPending": "Signing...",
+      "signNote": "You will sign a message proving you still control the bound wallet. The signature is verified server-side; we never see your private key.",
+      "dialogTitle": "Disconnect this wallet?",
+      "dialogDescription": "This removes the wallet from your account. You will not be able to claim or buy $OKN until you bind a new one. To confirm, you must sign with the bound wallet.",
+      "dialogConfirm": "Disconnect",
+      "dialogCancel": "Cancel"
+    },
+    "comingSoon": {
+      "badge": "Bientôt disponible",
+      "body": "Cette fonctionnalité est prévue dans la feuille de route. Les détails ci-dessous préfigurent ce que vous obtiendrez à son arrivée.",
+      "footerNote": "Vous la voulez plus tôt ? Faites part de votre intérêt dans le Telegram de la communauté."
+    }
+  },
+  "toasts": {
+    "buy": {
+      "submittedTitle": "Achat soumis",
+      "submittedDescLink": "Voir la transaction sur BscScan",
+      "successTitle": "Purchase confirmed",
+      "successDesc": "You received {value} $OKN"
+    },
+    "claim": {
+      "submittedTitle": "Réclamation soumise",
+      "submittedDescLink": "Voir la transaction sur BscScan"
+    },
+    "tasks": {
+      "submittedTitle": "Soumis pour examen",
+      "submittedDesc": "Un modérateur vérifiera votre soumission sous peu.",
+      "verifiedTitle": "Tâche vérifiée",
+      "verifiedDesc": "Points ajoutés à votre solde.",
+      "alreadyTitle": "Déjà accompli",
+      "alreadyDesc": "Vous avez déjà soumis cette tâche.",
+      "failedTitle": "Impossible de soumettre la tâche",
+      "failedDesc": "Veuillez réessayer dans un instant."
+    },
+    "settings": {
+      "profileUpdated": "Profil mis à jour",
+      "profileFailed": "Impossible de mettre à jour le profil",
+      "emailSaved": "E-mail enregistré",
+      "emailRemoved": "E-mail retiré",
+      "emailFailed": "Impossible d'enregistrer l'e-mail",
+      "verificationSent": "Code de vérification envoyé",
+      "emailVerified": "Email vérifié",
+      "verificationFailed": "Échec de la vérification"
+    },
+    "wallet": {
+      "bound": "Portefeuille lié",
+      "signRequiredTitle": "Signature requise",
+      "signRequiredDesc": "Vous devez signer un message pour prouver la propriété du portefeuille avant la liaison.",
+      "conflictTitle": "Portefeuille déjà utilisé",
+      "conflictDesc": "Ce portefeuille est déjà lié à un autre compte.",
+      "failedTitle": "Impossible de lier le portefeuille",
+      "failedDesc": "Impossible de lier le portefeuille ({status})."
+    },
+    "dailyCheckIn": {
+      "streakTitle": "Série de {day} jours !",
+      "streakDesc": "Vous avez gagné {points} points bonus en $OKN. Continuez sur cette lancée."
+    },
+    "rebind": {
+      "successTitle": "Reliage demandé",
+      "successDesc": "Un modérateur l'examinera.",
+      "failedTitle": "Impossible de soumettre la demande"
+    },
+    "unbind": {
+      "successTitle": "Wallet disconnected",
+      "successDesc": "You can now bind a different wallet.",
+      "failedTitle": "Could not disconnect wallet"
+    }
+  },
+  "login": {
+    "heading": "Se connecter a $OKN",
+    "subheading": "Authentifiez-vous avec votre compte Telegram.",
+    "loginWithTelegram": "Se connecter avec Telegram",
+    "helpText": "Vous serez redirige vers Telegram pour verifier votre compte, puis reviendrez ici connecte."
+  }
+}

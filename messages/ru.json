@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "Токен OKN | Зарабатывайте, клеймите и покупайте на BNB Smart Chain",
+    "titleTemplate": "%s | Токен OKN",
+    "description": "OKN — это общественный токен на BNB Smart Chain. Зарабатывайте через задания, клеймите в сети с помощью доказательств Merkle или покупайте напрямую за BNB по фиксированному курсу.",
+    "keywords": [
+      "$OKN",
+      "$OKN Token",
+      "BSC",
+      "BNB Smart Chain",
+      "общественный токен",
+      "зарабатывать криптовалюту",
+      "telegram-бот",
+      "Merkle-клейм",
+      "продажа токенов"
+    ],
+    "ogImageAlt": "Токен OKN — зарабатывайте, клеймите и покупайте на BNB Smart Chain",
+    "jsonLdActionName": "Открыть панель OKN"
+  },
+  "nav": {
+    "features": "Возможности",
+    "howItWorks": "Как это работает",
+    "tokenomics": "Токеномика",
+    "roadmap": "Дорожная карта",
+    "documents": "Документы",
+    "exchange": "Биржа",
+    "openApp": "Открыть приложение",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "community": "Сообщество"
+  },
+  "hero": {
+    "liveOn": "Доступно в сети {chain}",
+    "headline1": "Не просто покупайте токен.",
+    "headline2": "Зарабатывайте его.",
+    "paragraph": "$OKN — это собственный служебный и общественный токен экосистемы биржи OKNEXUS, созданный на BNB Smart Chain для обеспечения скорости, безопасности и реальной полезности. Каждое взаимодействие создает ценность. Выполняйте задания, зарабатывайте баллы вознаграждений, покупайте за BNB и клеймите свои токены напрямую в сети через наше приложение в Telegram. Это больше, чем просто токен — $OKN ваш ключ к эксклюзивным вознаграждениям, привилегиям платформы, возможностям управления и будущему децентрализованных финансов. Присоединяйтесь к движению. Владейте будущим.",
+    "loginWithTelegram": "Voyti cherez Telegram",
+    "facts": {
+      "maxSupply": "{supply} макс. эмиссия",
+      "claimFee": "{fee} BNB комиссия за клейм",
+      "fixedRateSale": "Продажа за BNB по фиксированному курсу"
+    },
+    "scroll": "Прокрутить",
+    "coinAlt": "Монета токена OKNexus"
+  },
+  "features": {
+    "heading": "Создано для держателей, которые прикладывают усилия",
+    "subheading": "Каждая часть $OKN вознаграждает участие: задания, рефералы и клеймы в сети.",
+    "tasksHeading": "Выполняйте задания, копите баллы",
+    "tasksBody": "Подписывайтесь на каналы, вступайте в группы, приглашайте друзей. Баллы начисляются вне сети и фиксируются в ней как корни Merkle, против которых можно делать клейм.",
+    "taskRows": [
+      "Подписаться на $OKN в X",
+      "Вступить в группу Telegram",
+      "Пригласить друга"
+    ],
+    "pts": "+{pts} OK Points",
+    "onChainClaimsHeading": "Клеймы в сети",
+    "onChainClaimsBody": "Накопительные доказательства Merkle означают, что один клейм покрывает всё, что вы заработали.",
+    "buyWithBnbHeading": "Покупка за BNB",
+    "buyWithBnbBody": "{rate}. Пул ликвидности на данном этапе не нужен.",
+    "saleRate": "Фиксированный курс, цена в BNB",
+    "claimFeeHeading": "Комиссия за клейм {fee}",
+    "claimFeeBody": "Оплачивается в BNB, цена определяется оракулом Chainlink. Комиссии пополняют казну экосистемы.",
+    "referralsHeading": "Рефералы, выгодные обеим сторонам",
+    "referralsBody": "Поделитесь своей ссылкой. Когда друг выполнит первое задание, вы оба получите вознаграждение."
+  },
+  "howItWorks": {
+    "heading": "Двигатель роста OKN",
+    "subheading": "Одна экосистема, где каждое действие питает следующее. Зарабатывайте, умножайте, клеймите и растите в непрерывном цикле.",
+    "steps": [
+      {
+        "title": "Откройте и войдите",
+        "body": "Откройте $OKN в Telegram. Аккаунт создаётся мгновенно."
+      },
+      {
+        "title": "Зарабатывайте OK Points",
+        "body": "Выполняйте задания, отмечайтесь ежедневно и поднимайтесь в рейтинге."
+      },
+      {
+        "title": "Покупайте и умножайте",
+        "body": "Покупайте $OKN за BNB, чтобы разблокировать множители наград."
+      },
+      {
+        "title": "Клейм on-chain",
+        "body": "Конвертируйте OK Points в $OKN. Комиссия $3 в BNB."
+      },
+      {
+        "title": "Стейкинг и торговля",
+        "body": "Держите, торгуйте и используйте $OKN в экосистеме."
+      },
+      {
+        "title": "Приглашайте и растите",
+        "body": "Приглашайте друзей и зарабатывайте долю их очков на трёх уровнях."
+      }
+    ],
+    "loopLabel": "Цикл продолжается"
+  },
+  "video": {
+    "kicker": "Смотрите в действии",
+    "heading": "История OKNexus",
+    "subheading": "Краткий обзор того, как $OKN превращает каждое действие в реальную ценность on-chain.",
+    "playAria": "Воспроизвести поясняющее видео OKNexus"
+  },
+  "tokenomics": {
+    "kicker": "Токеномика",
+    "heading": "Одна фиксированная эмиссия. Никаких сюрпризов.",
+    "supplyLabel": "Максимальная эмиссия",
+    "claimFeeLabel": "Комиссия за клейм",
+    "claimFeeValue": "{fee} в BNB",
+    "allocationHeading": "Распределение",
+    "allocationNote": "Значения распределения подтверждены и в сумме дают максимальную эмиссию 5B.",
+    "ariaAllocation": "{labels}",
+    "allocations": [
+      "Вознаграждения сообщества",
+      "Публичная продажа",
+      "Ликвидность DEX",
+      "Команда и советники",
+      "Экосистема",
+      "Казна"
+    ]
+  },
+  "roadmap": {
+    "kicker": "Дорожная карта",
+    "heading": "Предстоящий путь",
+    "subheading": "От первого задания до полной ликвидности. Следуйте по линии.",
+    "phases": [
+      {
+        "phase": "Этап 1",
+        "title": "Запуск",
+        "status": "В процессе",
+        "items": [
+          "Контракты токена, продажи и дистрибьютора на BSC",
+          "Запуск Telegram-бота и мини-приложения",
+          "Система заданий с офчейн-реестром баллов"
+        ]
+      },
+      {
+        "phase": "Этап 2",
+        "title": "Распределение",
+        "status": "Далее",
+        "items": [
+          "Публичная продажа за BNB по фиксированному курсу",
+          "Открытие клеймов Merkle с комиссией $3 в BNB",
+          "Продвижение реферальной программы"
+        ]
+      },
+      {
+        "phase": "Этап 3",
+        "title": "Ликвидность",
+        "status": "Позже",
+        "items": [
+          "Листинг на DEX и пул ликвидности",
+          "Управление сообществом"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Готовы заработать свою долю?",
+    "subheading": "Присоединяйтесь к сообществу, выполните первое задание и начните копить $OKN уже сегодня.",
+    "joinTelegram": "Войти через Telegram",
+    "watchYoutube": "Смотреть на YouTube"
+  },
+  "footer": {
+    "tagline": "Общественный токен, который вы зарабатываете. В сети {chain}.",
+    "columns": [
+      {
+        "title": "Приложение",
+        "links": [
+          "Панель",
+          "Войти"
+        ]
+      },
+      {
+        "title": "Ресурсы",
+        "links": [
+          "Как клеймить",
+          "Токеномика",
+          "Документы"
+        ]
+      }
+    ],
+    "copyright": "© 2026 OKN. Все права защищены."
+  },
+  "kycBadge": {
+    "statusLabel": "KYC подтвержден",
+    "verified": "Проверено",
+    "aria": "{status} от {provider} — открыть страницу проверки",
+    "projectBy": "Команда проекта прошла KYC у {provider}"
+  },
+  "caCard": {
+    "contractAddress": "Адрес контракта (BSC)",
+    "live": "В сети",
+    "comingSoon": "Скоро",
+    "copy": "Копировать",
+    "copied": "Скопировано",
+    "copyAria": "Копировать адрес контракта",
+    "comingSoonBody": "Адрес будет опубликован здесь при запуске токена.",
+    "logoAlt": "$OKN"
+  },
+  "socialSidebar": {
+    "ariaLabel": "Социальные ссылки",
+    "labels": {
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "discord": "Discord",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "bsky": "Bluesky",
+      "tiktok": "TikTok"
+    }
+  },
+  "notFound": {
+    "heading": "Эта страница ушла из сети",
+    "body": "Страница, которую вы ищете, не существует или была перемещена. Давайте вернем вас на верный путь.",
+    "cta": "На главную",
+    "links": [
+      "Токеномика",
+      "Как клеймить",
+      "Документы"
+    ],
+    "logoAlt": "$OKN"
+  },
+  "tokenomicsPage": {
+    "title": "Токеномика",
+    "metaTitle": "Токеномика",
+    "metaDescription": "Эмиссия, распределение и условия продажи токена $OKN. {supply} максимальная эмиссия на BNB Smart Chain.",
+    "ogTitle": "{name} — Токеномика",
+    "ogDescription": "Эмиссия, распределение и условия продажи для {name}.",
+    "facts": {
+      "maxSupply": "{supply} $OKN",
+      "chain": "Сеть",
+      "claimFee": "Комиссия за клейм",
+      "salePricing": "Ценообразование продажи",
+      "decimals": "Знаков после запятой"
+    },
+    "factsValues": {
+      "maxSupply": "{supply} $OKN",
+      "claimFee": "{fee} в BNB",
+      "salePricing": "Фиксированный курс, цена в BNB",
+      "decimals": "18"
+    },
+    "factLabels": {
+      "maxSupply": "Максимальная эмиссия",
+      "chain": "Сеть",
+      "claimFee": "Комиссия за клейм",
+      "salePricing": "Ценообразование продажи",
+      "decimals": "Знаков после запятой"
+    },
+    "fullAllocationHeading": "Полное распределение",
+    "fullAllocationNote": "Значения распределения подтверждены и в сумме дают максимальную эмиссию 5B.",
+    "tableHeaders": {
+      "bucket": "Категория",
+      "allocation": "Распределение",
+      "tokens": "Токены ($OKN)",
+      "share": "Доля"
+    },
+    "total": "Итого",
+    "saleHeading": "Прямая продажа за BNB",
+    "saleBody": "$OKN продается по фиксированному курсу напрямую через ончейн-контракт TokenSale. На данном этапе пул ликвидности не требуется. Ограничение на кошелек предотвращает накопление крупными игроками.",
+    "feeHeading": "Комиссия за клейм {fee}",
+    "feeBody": "Каждый клейм оплачивает комиссию $3 в BNB, цена определяется в реальном времени через оракул Chainlink BNB/USD. Комиссии накапливаются в контракте-дистрибьюторе и выводятся в казну администраторами."
+  },
+  "howToClaimPage": {
+    "title": "Как клеймить",
+    "metaTitle": "Как клеймить",
+    "metaDescription": "Два способа получить $OKN: заработать через задания и клеймить в сети или купить напрямую за BNB. Комиссия за клейм {fee} в BNB.",
+    "ogTitle": "{name} — Как клеймить",
+    "ogDescription": "Зарабатывайте $OKN через задания или покупайте напрямую за BNB. Пошаговое руководство.",
+    "heading": "Два пути к вашему первому $OKN",
+    "subheading": "Зарабатывайте, участвуя в жизни сообщества, или покупайте напрямую. В обоих случаях $OKN поступает в ваш кошелек на BNB Smart Chain.",
+    "pathALabel": "Путь A",
+    "pathAHeading": "Зарабатывайте через задания и клеймите в сети",
+    "pathABody": "Участие бесплатно. Баллы конвертируются в $OKN, когда администратор фиксирует корень Merkle.",
+    "pathBLabel": "Путь B",
+    "pathBHeading": "Покупайте напрямую за BNB",
+    "pathBBody": "Мгновенная покупка в сети по фиксированному курсу. Применяется ограничение на кошелек.",
+    "earnSteps": [
+      {
+        "title": "Откройте $OKN в Telegram",
+        "body": "Нажмите «Открыть в Telegram», чтобы запустить мини-приложение. Ваша учетная запись создается на основе вашей личности в Telegram — без отдельной регистрации."
+      },
+      {
+        "title": "Подключите кошелек BNB Smart Chain",
+        "body": "На панели подключите MetaMask, Trust Wallet или любой кошелек EVM. Адрес привязывается к вашему аккаунту Telegram."
+      },
+      {
+        "title": "Выполняйте задания и зарабатывайте баллы",
+        "body": "Подписывайтесь на каналы, вступайте в группу, приглашайте друзей. Каждое задание приносит баллы. Баллы учитываются вне сети, пока администратор не зафиксирует корень Merkle."
+      },
+      {
+        "title": "Клеймите в сети",
+        "body": "После фиксации ваших баллов страница Claim генерирует ваше доказательство Merkle, а ваш кошелек вызывает контракт-дистрибьютор. Применяется комиссия $3 в BNB."
+      }
+    ],
+    "buySteps": [
+      {
+        "title": "Откройте страницу покупки",
+        "body": "На панели откройте вкладку Buy. Вы увидите текущий курс ($OKN за BNB), оставшийся лимит кошелька и статус продажи."
+      },
+      {
+        "title": "Введите сумму BNB",
+        "body": "Укажите, сколько BNB вы хотите потратить. Страница показывает предварительный просмотр $OKN, который вы получите, и проверяет соответствие лимиту на кошелек и минимальной сумме покупки."
+      },
+      {
+        "title": "Подтвердите покупку",
+        "body": "Ваш кошелек вызывает TokenSale.buy() с прикрепленным BNB. Контракт чеканит $OKN напрямую на ваш адрес по фиксированному курсу."
+      },
+      {
+        "title": "Отслеживайте покупку",
+        "body": "Каждая покупка записывается в сети (событие Bought) и индексируется на панели. Выводы собранного BNB контролируются администраторами и фиксируются в журнале аудита."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Когда я смогу переводить $OKN?",
+        "answer": "Immediately. There is no transfer lock on OKN tokens. Once claimed or purchased, you can send or swap them right away."
+      },
+      {
+        "question": "Что такое комиссия за клейм?",
+        "answer": "{fee} в BNB за каждый клейм, цена определяется в реальном времени через оракул Chainlink. Комиссия пополняет казну экосистемы."
+      },
+      {
+        "question": "Нужен ли мне кошелек?",
+        "answer": "Да — любой кошелек EVM на BNB Smart Chain. Подключите его на панели, чтобы привязать к вашему аккаунту Telegram."
+      }
+    ],
+    "openDashboard": "Открыть панель"
+  },
+  "documentsPage": {
+    "title": "Документы — Whitepaper и дорожная карта",
+    "metaTitle": "Документы — Whitepaper и дорожная карта",
+    "metaDescription": "Скачайте whitepaper токена $OKN и дорожную карту продукта. Полная токеномика, распределение, механика клейма и временная шкала этапов.",
+    "ogTitle": "{name} — Документы",
+    "ogDescription": "Скачайте whitepaper токена $OKN и дорожную карту продукта. Полная токеномика, распределение, механика клейма и временная шкала этапов.",
+    "kicker": "Документы",
+    "heading": "Whitepaper и дорожная карта",
+    "subheading": "Всё необходимое для оценки $OKN в одном месте. Скачайте полный технический whitepaper или дорожную карту продукта ниже.",
+    "docs": [
+      {
+        "title": "Whitepaper",
+        "description": "Полная техническая и экономическая спецификация $OKN: токеномика, распределение, модель комиссии за клейм и архитектура доказательств Merkle.",
+        "bullets": [
+          "Эмиссия токена, распределение и 6-месячная блокировка переводов",
+          "Механизм комиссии за клейм и ограничение сообщества",
+          "Дизайн контракта-дистрибьютора Merkle",
+          "Модель доходов и устойчивости"
+        ],
+        "cta": "Скачать whitepaper"
+      },
+      {
+        "title": "Дорожная карта",
+        "description": "Куда движется $OKN. Поэтапные вехи по смарт-контрактам, панели, росту сообщества и предстоящим ИИ-инструментам для трейдинга.",
+        "bullets": [
+          "Поэтапная временная шкала разработки",
+          "Цели сообщества (100k участников и более)",
+          "Окна выпуска стейкинга и ИИ-агента для трейдинга",
+          "Вехи листинга на биржах"
+        ],
+        "cta": "Скачать дорожную карту"
+      }
+    ],
+    "pdfLabel": "PDF-документ",
+    "fileNote": "Документы представляют собой PDF-файлы. Если загрузка не началась, файл, возможно, еще не опубликован. Загляните позже или спросите в общественном Telegram.",
+    "trustStrip": [
+      {
+        "title": "Аудированные контракты",
+        "body": "Смарт-контракты используют обновляемые стандарты OpenZeppelin с прокси UUPS."
+      },
+      {
+        "title": "Прозрачная эмиссия",
+        "body": "Полное распределение и детали ограничений опубликованы в whitepaper."
+      },
+      {
+        "title": "Публичные вехи",
+        "body": "Дорожная карта закрепляет даты и результаты, за которые вы можете привлечь нас к ответственности."
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "label": "Язык",
+    "current": "Текущий язык: {name}",
+    "languages": {
+      "en": "English",
+      "zh": "中文",
+      "es": "Español",
+      "pt": "Português",
+      "ru": "Русский",
+      "vi": "Tiếng Việt",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fr": "Français"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "portfolio": "Портфель",
+      "aiTradingAgent": "ИИ-агент для трейдинга",
+      "polymarketAgent": "Агент Polymarket",
+      "predictionMarkets": "Рынки прогнозов",
+      "leaderboard": "Рейтинг",
+      "missions": "Миссии",
+      "tasks": "Задания",
+      "claim": "Клейм",
+      "buy": "Купить",
+      "staking": "Стейкинг",
+      "news": "Новости",
+      "learn": "Обучение",
+      "wallet": "Кошелек",
+      "referral": "Рефералы",
+      "settings": "Настройки"
+    },
+    "shell": {
+      "admin": "Админ",
+      "dashboard": "Панель",
+      "backToApp": "Вернуться в приложение",
+      "adminPanel": "Панель администратора",
+      "search": "Поиск",
+      "filterNav": "Фильтр навигации",
+      "noMatches": "Нет совпадений",
+      "menu": "Меню",
+      "administration": "Администрирование",
+      "brandTagline": "Зарабатывайте, Клеймите, Покупайте"
+    },
+    "userMenu": {
+      "openMenu": "Открыть меню пользователя",
+      "settings": "Настройки",
+      "wallet": "Кошелек",
+      "referral": "Рефералы",
+      "appearance": "Оформление",
+      "signIn": "Войти",
+      "signOut": "Выйти",
+      "userFallback": "Пользователь {id}",
+      "telegramLabel": "Telegram {id}"
+    },
+    "theme": {
+      "switchToLight": "Переключить на светлую тему",
+      "switchToDark": "Переключить на темную тему",
+      "appearance": "Оформление",
+      "lightMode": "Светлая тема",
+      "darkMode": "Темная тема"
+    },
+    "sidebar": {
+      "earnMore": "Зарабатывайте больше $OKN",
+      "earnMoreBody": "Выполняйте задания и приглашайте друзей, чтобы копить баллы.",
+      "learnMore": "Подробнее",
+      "inviteFriends": "Пригласить друзей",
+      "moderationQueue": "Очередь модерации",
+      "moderationBody": "Проверяйте выполненные задания и поддерживайте чистоту реестра.",
+      "auditLogs": "Журналы аудита",
+      "review": "Проверить"
+    },
+    "statusBadge": {
+      "pending": "Ожидает",
+      "eligible": "Подходите",
+      "verified": "Проверено",
+      "approved": "Одобрено",
+      "paid": "Выплачено",
+      "rejected": "Отклонено",
+      "active": "Активно",
+      "inactive": "Неактивно",
+      "paused": "Приостановлено",
+      "draft": "Private test"
+    },
+    "dataState": {
+      "error": "При загрузке данных что-то пошло не так.",
+      "retry": "Повторить",
+      "staleWarning": "Не удалось загрузить актуальные данные. Показаны значения по умолчанию. Нажмите «Повторить» для обновления."
+    },
+    "common": {
+      "loading": "Загрузка...",
+      "anonymous": "Аноним",
+      "you": "(вы)",
+      "copy": "Копировать",
+      "copied": "Скопировано",
+      "copyValue": "Копировать {value}",
+      "pts": "{count} OK Points",
+      "plusPts": "+{count} OK Points"
+    },
+    "notFound": {
+      "heading": "Страница не найдена",
+      "body": "Эта страница панели не существует. Ваш портфель и остальное приложение остались там, где вы их оставили.",
+      "backToDashboard": "Вернуться на панель",
+      "tasks": "Задания",
+      "wallet": "Кошелек",
+      "buy": "Купить",
+      "settings": "Настройки"
+    },
+    "portfolio": {
+      "title": "Портфель",
+      "description": "Ваш $OKN вкратце: активность, активы и заработок.",
+      "tabActivity": "Активность",
+      "tabHoldings": "Активы"
+    },
+    "activity": {
+      "pointsEarned": "Заработано баллов",
+      "pointsHint": "Ожидание фиксации Merkle",
+      "balance": "Баланс $OKN",
+      "balanceHint": "On-chain balance",
+      "tasksDone": "Заданий выполнено",
+      "tasksDoneHint": "Проверенные и ожидающие",
+      "referrals": "Рефералы",
+      "referralsHint": "{count} баллов заработано",
+      "claimTitle": "Клеймите ваш $OKN",
+      "claimDesc": "Баллы конвертируются в $OKN, когда администратор фиксирует корень Merkle. При клейме применяется комиссия $3 в BNB.",
+      "claimablePoints": "Баллы для клейма",
+      "goToClaim": "Перейти к клейму",
+      "buyTitle": "Купите $OKN за BNB",
+      "buyDescRate": "Фиксированный курс: {rate} $OKN за BNB{paused}",
+      "buyDescPausedSuffix": " (продажа приостановлена)",
+      "buyDescDefault": "Продажа по фиксированному курсу, напрямую из контракта.",
+      "openSale": "Открыть продажу",
+      "tasksTitle": "Задания",
+      "tasksSeeAll": "Все",
+      "tasksDesc": "Зарабатывайте баллы к следующему клейму.",
+      "noTasks": "Сейчас нет активных заданий. Загляните позже.",
+      "doButton": "Выполнить"
+    },
+    "portfolioView": {
+      "portfolioValue": "Стоимость портфеля",
+      "valueNote": "На основе текущего курса продажи {rate} $OKN за BNB. Пока переводы заблокированы, у $OKN нет рыночной цены.",
+      "loading": "Загрузка...",
+      "connectWallet": "Подключить кошелек",
+      "holdings": "Активы",
+      "holdingsHint": "В сети, в вашем кошельке",
+      "totalBought": "Всего куплено",
+      "totalBoughtHint": "BNB, потраченные в продаже",
+      "totalClaimed": "Всего отклеймлено",
+      "totalClaimedHint": "Отклеймлено в сети",
+      "totalEarned": "Всего заработано",
+      "totalEarnedHint": "OK Points по всем источникам",
+      "pointsBySource": "Баллы по источникам",
+      "pointsBySourceDesc": "Откуда взялись ваши баллы за всё время.",
+      "sourceTask": "Задания",
+      "sourceReferral": "Рефералы",
+      "sourceBonus": "Бонусы",
+      "sourceAdmin": "Админ",
+      "sourcePts": "{count} баллов - {pct}%",
+      "totalPts": "Итого: {count} баллов",
+      "referralDownline": "Реферальная сеть",
+      "referralDownlineDesc": "Ваша сеть на 3 уровня.",
+      "level1": "Уровень 1",
+      "level2": "Уровень 2",
+      "level3": "Уровень 3",
+      "downlineNote": "Вы получаете долю баллов за задания вашей сети: 10% на L1, 5% на L2, 2% на L3."
+    },
+    "buy": {
+      "title": "Купить $OKN",
+      "description": "Покупайте $OKN напрямую за BNB по фиксированному курсу.",
+      "rateLabel": "Курс",
+      "rateHint": "Фиксированный курс продажи",
+      "rateValue": "{value} $OKN за BNB",
+      "capLabel": "Лимит на кошелек",
+      "capHint": "Максимум BNB на кошелек",
+      "capValue": "{value} BNB",
+      "purchasedLabel": "Ваша покупка",
+      "purchasedHintHas": "Всего потрачено BNB",
+      "purchasedHintNone": "Подключите кошелек, чтобы загрузить ваши данные",
+      "purchasedValue": "{value} BNB",
+      "saleStatusLabel": "Статус продажи",
+      "saleStatusPaused": "Покупки временно отключены",
+      "saleStatusDraft": "Private test phase: buying is open to admins only right now.",
+      "saleStatusActive": "Продажа активна",
+      "historyTitle": "Ваши покупки",
+      "historyDesc": "Подтвержденные покупки за BNB, привязанные к вашему аккаунту.",
+      "historyEmptyTitle": "Покупок пока нет",
+      "historyEmptyMessage": "Здесь появятся ваши подтвержденные покупки за BNB.",
+      "thDate": "Дата",
+      "thBnbIn": "BNB внесено",
+      "thOknOut": "$OKN получено",
+      "thTx": "Транзакция",
+      "notConfigured": "Продажа еще не настроена. Администратор должен установить курс и лимит перед открытием покупок.",
+      "progressTitle": "Sale progress",
+      "progressRaised": "{raised} of {cap} BNB",
+      "progressUncapped": "This sale has no hard cap. Every purchase still mints $OKN at the fixed rate.",
+      "allocationRemaining": "Sale allocation remaining",
+      "indexing": "Indexing",
+      "progressHint": "BNB collected toward the sale hard cap",
+      "progressRaisedOnly": "{raised} BNB raised"
+    },
+    "buyWidget": {
+      "title": "Купить $OKN",
+      "description": "Введите сумму в BNB. $OKN сразу зачисляется в ваш кошелек.",
+      "amountLabel": "Сумма (BNB)",
+      "amountPlaceholder": "0.1",
+      "youReceive": "Вы получите ~{value} $OKN",
+      "minNote": "Мин {value} BNB",
+      "minNoteUsd": "Минимум {usd} (≈ {bnb} BNB)",
+      "errInvalid": "Введите корректную сумму в BNB.",
+      "errOverCap": "Превышает ваш оставшийся лимит {value} BNB.",
+      "errBelowMin": "Минимальная покупка — {value} BNB.",
+      "connectNote": "You need a connected wallet to buy.",
+      "walletPageLink": "странице Кошелек",
+      "salePaused": "Продажа сейчас приостановлена. Загляните позже.",
+      "saleDraft": "The sale is in private testing. Buying opens to everyone soon.",
+      "btnIdle": "Купить $OKN",
+      "btnPending": "Подтвердите в кошельке",
+      "errNotConnected": "Сначала подключите кошелек на странице Кошелек.",
+      "errNoAmount": "Введите сумму в BNB.",
+      "errRejected": "Транзакция отклонена в кошельке.",
+      "errFailed": "Покупка не удалась. Попробуйте снова.",
+      "errNotConfigured": "Продажа еще не настроена. Загляните позже.",
+      "saleNotStarted": "The sale has not started yet.",
+      "saleEnded": "The sale has ended.",
+      "errHardCap": "This amount exceeds the remaining sale hard cap. Maximum: {value} BNB.",
+      "maxNote": "Maximum purchase: {value} BNB.",
+      "btnConfirming": "Confirming on-chain...",
+      "maxButton": "MAX",
+      "maxAriaLabel": "Fill the maximum purchase amount",
+      "usdApprox": "≈ {value}",
+      "pricePerOkn": "≈ {value} per $OKN",
+      "priceUpdated": "BNB price updated {seconds}s ago",
+      "priceStale": "BNB price feed is delayed; USD figures may be off",
+      "reviewDescription": "Double-check the details before you confirm in your wallet.",
+      "reviewSpend": "You spend",
+      "reviewReceive": "You receive",
+      "reviewRate": "Rate",
+      "rateValue": "{value} $OKN per BNB",
+      "reviewAllowance": "Wallet allowance after purchase",
+      "reviewRateNote": "The rate is re-checked right before your wallet opens. If it changed, you will be asked to review the updated amounts.",
+      "rateChanged": "The rate has changed. Review the updated amount and confirm again.",
+      "pendingTitle": "Transaction submitted",
+      "pendingDesc": "Your purchase is still confirming on-chain. This can take a couple of minutes.",
+      "viewTx": "View on BscScan",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm buy",
+      "errInsufficientBalance": "Insufficient BNB balance",
+      "errReverted": "The purchase transaction reverted on-chain. No purchase was made.",
+      "connectCta": "Connect your wallet"
+    },
+    "claim": {
+      "title": "Клейм $OKN",
+      "description": "Конвертируйте баллы в OKN в сети.",
+      "pointsTitle": "Ваши баллы",
+      "pointsDesc": "Баллы становятся доступными для клейма $OKN после того, как администратор фиксирует корень Merkle.",
+      "claimablePoints": "Баллы для клейма",
+      "noPointsTitle": "Баллов пока нет",
+      "noPointsMessage": "Выполняйте задания и приглашайте друзей, чтобы начать зарабатывать баллы.",
+      "goToTasks": "К заданиям",
+      "noteMerkle": "Дождитесь, пока администратор зафиксирует корень Merkle. Тогда ваши баллы станут доступны для клейма.",
+      "noteFee": "При клейме применяется комиссия, эквивалентная $3 в BNB.",
+      "howTitle": "Как работает клейм",
+      "howDesc": "Три шага от баллов до $OKN в кошельке.",
+      "step1Title": "Зарабатывайте баллы",
+      "step1Text": "Выполняйте задания и приглашайте друзей, чтобы зарабатывать баллы.",
+      "step2Title": "Дождитесь фиксации",
+      "step2Text": "Администратор фиксирует корень Merkle, делая ваши баллы доступными для клейма.",
+      "step3Title": "Клеймите в сети",
+      "step3Text": "Оплатите комиссию $3 в BNB, и $OKN поступит в ваш кошелек.",
+      "earnedBanner": "Вы заработали",
+      "earnedUnit": "OK Points",
+      "pendingTitle": "Ваши OK Points готовятся",
+      "pendingBody": "Клеймы откроются после следующей раздачи.",
+      "readyTitle": "Ready to claim",
+      "readyBody": "Your OK Points have been committed."
+    },
+    "claimButton": {
+      "title": "Клейм в сети",
+      "descLoading": "Проверяем, открыты ли клеймы.",
+      "descClaimable": "Доступно для клейма: {value} $OKN",
+      "descNotOpen": "Клеймы открываются после первой фиксации Merkle.",
+      "notOpenTitle": "Клеймы еще не открыты",
+      "notOpenBody": "Первый корень Merkle еще не зафиксирован. Загляните после следующей фиксации.",
+      "noBalanceBody": "Зафиксированный корень пока не имеет доступного для клейма баланса для вашего аккаунта.",
+      "connectNote": "You need a connected wallet to claim.",
+      "walletPageLink": "странице Кошелек",
+      "btnIdle": "Клейм $OKN",
+      "btnPending": "Подтвердите в кошельке",
+      "errNotConnected": "Сначала подключите кошелек на странице Кошелек.",
+      "errNotOpen": "Клеймы еще не открыты. Первый корень Merkle не зафиксирован.",
+      "errRejected": "Транзакция отклонена в кошельке.",
+      "errFailed": "Клейм не удался. Попробуйте снова.",
+      "feeNote": "Network fee: {value} BNB (paid to claim, exact on-chain amount).",
+      "errWrongWallet": "This claim belongs to wallet {wallet}. Connect that wallet to claim, or request a wallet change.",
+      "errFeeUnavailable": "The claim fee could not be read right now. Try again in a moment.",
+      "btnConfirming": "Confirming on-chain...",
+      "connectCta": "Connect your wallet"
+    },
+    "leaderboard": {
+      "title": "Рейтинг",
+      "description": "Лучшие участники сообщества по рефералам, баллам за задания и купленному BNB.",
+      "pastWinners": "Прошлые победители",
+      "catReferrers": "Рефералы",
+      "catTasks": "Зарабатывающие на заданиях",
+      "catBuyers": "Покупатели",
+      "unitRefs": "реф.",
+      "unitPts": "OK Points",
+      "unitBnb": "BNB",
+      "periodWeek": "На этой неделе",
+      "periodMonth": "В этом месяце",
+      "periodAll": "За всё время",
+      "fullRankingTitle": "Полный рейтинг",
+      "fullRankingAllTime": "Топ за всё время в категории {category}.",
+      "fullRankingWeek": "Топ этой недели в категории {category}.",
+      "fullRankingMonth": "Топ этого месяца в категории {category}.",
+      "anonymous": "Аноним",
+      "youSuffix": "(вы)",
+      "noEntriesTitle": "В этом периоде рейтингов пока нет",
+      "noEntriesAllTime": "Станьте первым, кто здесь появится. Выполняйте задания или приглашайте друзей.",
+      "noEntriesDefault": "Станьте первым, кто здесь появится. Возвращайтесь по мере накопления активности.",
+      "yourRankEmpty": "Вы появитесь здесь, когда будете активны в этой категории.",
+      "yourRankNotRanked": "Вы еще не в рейтинге за этот период. Проявляйте активность, чтобы подняться!"
+    },
+    "winners": {
+      "title": "Прошлые победители",
+      "description": "Победители по снимкам завершенных периодов рейтинга и их бонусные вознаграждения.",
+      "backToLeaderboard": "Вернуться к рейтингу",
+      "tabWeekly": "Еженедельно",
+      "tabMonthly": "Ежемесячно",
+      "catReferrers": "Лучшие рефереры",
+      "catTasks": "Лучшие по заданиям",
+      "catBuyers": "Лучшие покупатели",
+      "periodWeek": "Неделя",
+      "periodMonth": "Месяц",
+      "periodAll": "За всё время",
+      "groupTitle": "{period} {key} - {category}",
+      "scoreLabel": "результат",
+      "pointsAwarded": "+{points} OK Points",
+      "emptyTitle": "Победителей за {period} пока нет",
+      "emptyMessage": "Победители фиксируются в конце каждого {periodWord} и получают бонусные баллы в $OKN.",
+      "periodWordWeek": "недели",
+      "periodWordMonth": "месяца"
+    },
+    "learn": {
+      "title": "Центр обучения",
+      "description": "Учитесь крипте. Зарабатывайте $OKN.",
+      "tagline": "Короткие уроки о блокчейне и крипте. Пройдите урок, сдайте тест, заработайте $OKN.",
+      "features": [
+        {
+          "title": "Короткие уроки",
+          "description": "Краткие сфокусированные уроки о блокчейне, кошельках, DeFi и основах безопасности."
+        },
+        {
+          "title": "Тест для подтверждения",
+          "description": "Каждый урок завершается быстрым тестом. Сдайте его, чтобы подтвердить понимание."
+        },
+        {
+          "title": "Зарабатывайте $OKN",
+          "description": "Успешное прохождение урока приносит вам $OKN, добавленный к доступному для клейма балансу."
+        },
+        {
+          "title": "Поступательная траектория",
+          "description": "Начните с основ и открывайте более продвинутые темы по мере продвижения."
+        }
+      ]
+    },
+    "missions": {
+      "title": "Миссии сообщества",
+      "description": "Достигайте целей вместе. Когда сообщество выполняет задачу, все зарабатывают $OKN.",
+      "metricMembers": "участников сообщества",
+      "metricTelegram": "участников в Telegram",
+      "metricBnb": "собрано BNB",
+      "metricOkn": "отклеймлено $OKN",
+      "emptyTitle": "Сейчас нет активных миссий",
+      "emptyMessage": "Здесь появятся новые цели сообщества. Продолжайте вносить вклад, чтобы подходить при их достижении.",
+      "completedHeading": "Завершенные миссии",
+      "rewardLabel": "+{reward} $OKN",
+      "progress": "{current} / {threshold}",
+      "eligible": "Вы подходите. Продолжайте использовать $OKN, чтобы помочь сообществу достичь цели.",
+      "notEligible": "Присоединяйтесь сейчас, чтобы подходить при достижении этой цели.",
+      "statusAchieved": "Цель достигнута - вознаграждения раздаются сейчас.",
+      "statusDistributed": "Цель достигнута, вознаграждения розданы.",
+      "receivedPoints": "+{points} OK Points",
+      "processing": "Обработка...",
+      "joinedTooLate": "Присоединился слишком поздно"
+    },
+    "news": {
+      "title": "Новости",
+      "description": "Самое свежее из проекта $OKN.",
+      "tagline": "Будьте в курсе анонсов, листингов, партнерств и прогресса дорожной карты.",
+      "features": [
+        {
+          "title": "Анонсы",
+          "description": "Официальные обновления команды прямо на вашей панели."
+        },
+        {
+          "title": "Листинги",
+          "description": "Новые листинги на биржах и платформах по мере их появления."
+        },
+        {
+          "title": "Партнерства",
+          "description": "Интеграции и сотрудничество, расширяющие экосистему $OKN."
+        },
+        {
+          "title": "Обновления дорожной карты",
+          "description": "Отслеживайте прогресс по опубликованным вехам и датам доставки."
+        },
+        {
+          "title": "Новые функции",
+          "description": "Запуски и улучшения продукта, анонсируемые по мере выхода."
+        },
+        {
+          "title": "Единая лента",
+          "description": "Всё в одной хронологической ленте, с фильтром по категориям."
+        }
+      ]
+    },
+    "referral": {
+      "title": "Рефералы",
+      "description": "Приглашайте друзей. Зарабатывайте со всей своей сети, на 3 уровня вглубь.",
+      "level1": "Уровень 1 (прямой)",
+      "level2": "Уровень 2",
+      "level3": "Уровень 3",
+      "levelFallback": "Уровень {n}",
+      "linkTitle": "Ваша реферальная ссылка",
+      "linkDesc": "Делитесь ею где угодно. Друзья присоединяются через Telegram-бота и попадают в ваш Уровень 1.",
+      "copyButton": "Копировать",
+      "copiedButton": "Скопировано",
+      "totalDownline": "Вся сеть",
+      "totalDownlineHint": "По всем 3 уровням",
+      "pointsEarned": "Заработано баллов",
+      "pointsEarnedHint": "Из реферальных вознаграждений",
+      "downlineTitle": "Ваша сеть по уровням",
+      "downlineDesc": "Вы получаете долю баллов, которые ваши рефералы зарабатывают на заданиях: 10% на L1, 5% на L2, 2% на L3.",
+      "countSingular": "{count} человек на этом уровне",
+      "countPlural": "{count} человек на этом уровне",
+      "howTitle": "Как это работает",
+      "step1Title": "Поделитесь ссылкой",
+      "step1Text": "Отправьте реферальную ссылку друзьям.",
+      "step2Title": "Друг запускает бота",
+      "step2Text": "Они присоединяются к $OKN через Telegram.",
+      "step3Title": "Выгода обоюдна",
+      "step3Text": "Получайте часть их баллов за задания, на 3 уровня вглубь.",
+      "recentTitle": "Недавние рефералы",
+      "recentDesc": "Ваши самые свежие прямые (Уровень 1) приглашения.",
+      "recentEmptyTitle": "Рефералов пока нет",
+      "recentEmptyMessage": "Поделитесь ссылкой, чтобы начать строить свою сеть.",
+      "newUser": "Новый пользователь"
+    },
+    "settings": {
+      "title": "Настройки",
+      "description": "Управляйте аккаунтом, кошельком и предпочтениями.",
+      "tabProfile": "Профиль",
+      "tabEmail": "Эл. почта",
+      "tabWallet": "Кошелек",
+      "tabSecurity": "Безопасность",
+      "twoFactorTitle": "Двухфакторная аутентификация",
+      "twoFactorDesc": "Добавьте второй фактор (приложение-аутентификатор) для защиты аккаунта.",
+      "twoFactorOnDesc": "Двухфакторная аутентификация включена. Вам понадобится код из приложения-аутентификатора при каждом новом входе.",
+      "twoFactorOffDesc": "Двухфакторная аутентификация выключена. Включите её для дополнительной защиты.",
+      "twoFactorPreparing": "Подготовка настройки 2FA...",
+      "twoFactorScanHint": "Отсканируйте этот QR-код приложением-аутентификатором (Google Authenticator, Authy и т.д.).",
+      "twoFactorManualHint": "Или введите этот код вручную:",
+      "twoFactorEnable": "Включить 2FA",
+      "twoFactorDisable": "Отключить 2FA",
+      "twoFactorEnabledTitle": "2FA включена",
+      "twoFactorEnabledDesc": "Сохраните резервные коды сейчас. Они понадобятся, если вы потеряете устройство аутентификации.",
+      "twoFactorDisabledTitle": "2FA отключена",
+      "backupCodesTitle": "Ваши резервные коды",
+      "backupCodesDesc": "Каждый код можно использовать один раз для входа, если вы потеряете аутентификатор. Храните их в надежном месте.",
+      "backupCodesDone": "Я их сохранил",
+      "tabAppearance": "Оформление",
+      "tabSession": "Сессия",
+      "notSignedInTitle": "Профиль не загружен",
+      "notSignedInDesc": "Не удалось загрузить ваш профиль. Обычно это означает, что сессия истекла или вы не вошли в систему. Войдите снова, чтобы управлять настройками.",
+      "signInCta": "Войти",
+      "displayNameTitle": "Отображаемое имя",
+      "displayNameDesc": "Показывается на аватаре, в строках рейтинга и активности рефералов.",
+      "firstNameLabel": "Имя",
+      "firstNamePlaceholder": "Alex",
+      "lastNameLabel": "Фамилия",
+      "lastNamePlaceholder": "Morgan",
+      "saveChanges": "Сохранить",
+      "identityTitle": "Личность Telegram",
+      "identityDesc": "Ваш аккаунт Telegram является авторитетной личностью для этого аккаунта $OKN.",
+      "anonymous": "Аноним",
+      "avatarNote": "Фото аватара берется из вашего профиля Telegram.",
+      "telegramUsername": "Имя пользователя Telegram",
+      "notSet": "Не задано",
+      "telegramId": "ID Telegram",
+      "joinedOkn": "Присоединился к $OKN",
+      "role": "Роль",
+      "userId": "ID пользователя",
+      "emailTitle": "Эл. почта",
+      "emailDesc": "Привяжите адрес для восстановления аккаунта и (со временем) уведомлений.",
+      "unverified": "Не подтвержден",
+      "change": "Изменить",
+      "remove": "Удалить",
+      "verifyHint": "Подтвердите email, чтобы подтвердить владение. Код из 6 цифр будет отправлен на вашу почту.",
+      "verify": "Подтвердить",
+      "verified": "Подтвержден",
+      "verifySuccessDesc": "Ваш email подтвержден. Используется для восстановления аккаунта и уведомлений.",
+      "enterCode": "Введите код из 6 цифр",
+      "enterCodeDesc": "Мы отправили код на вашу почту. Он действует 10 минут.",
+      "codePlaceholder": "123456",
+      "submitCode": "Подтвердить email",
+      "resend": "Отправить код снова",
+      "resendIn": "Повторить через {seconds}с",
+      "bindEmailTitle": "Привязать адрес",
+      "newEmailTitle": "Новый адрес",
+      "emailPlaceholder": "you@example.com",
+      "submitBind": "Привязать почту",
+      "submitUpdate": "Обновить почту",
+      "cancel": "Отмена",
+      "walletTitle": "Кошелек",
+      "walletDesc": "Кошелек, который получает ваш отклеймленный $OKN. Управляйте им на странице Кошелек.",
+      "boundAddress": "Привязанный адрес",
+      "notBound": "Не привязан",
+      "boundSince": "Привязан с",
+      "manageWallet": "Управлять кошельком",
+      "requestRebind": "Запросить перепривязку",
+      "appearanceTitle": "Оформление",
+      "appearanceDesc": "Выберите, как панель выглядит на этом устройстве.",
+      "themeLabel": "Тема",
+      "themeHint": "Светлая или темная. Сохраняется по устройствам.",
+      "notificationsTitle": "Уведомления",
+      "notificationsBadge": "Демо",
+      "notificationsDesc": "Эти переключатели сохраняются только на этом устройстве. Настоящая система уведомлений в дорожной карте; пока это заглушки.",
+      "notificationsComingSoon": "Эти типы уведомлений запланированы для будущей версии и еще не активны.",
+      "notifTaskLabel": "Оповещения о проверке заданий",
+      "notifTaskDesc": "Когда задание, которое вы отправили, проверяется или отклоняется.",
+      "notifMissionLabel": "Вехи миссий",
+      "notifMissionDesc": "Когда миссия сообщества достигнута и вознаграждения розданы.",
+      "supportTitle": "Поддержка",
+      "supportDesc": "Нужна помощь или хотите связаться с сообществом?",
+      "telegramCommunity": "Сообщество Telegram",
+      "communityLabel": "Сообщество",
+      "terms": "Условия",
+      "privacy": "Конфиденциальность",
+      "signOutTitle": "Выйти",
+      "signOutDesc": "Завершает сессию на этом устройстве. Потребуется снова войти через Telegram.",
+      "signOutButton": "Выйти"
+    },
+    "staking": {
+      "title": "Стейкинг",
+      "description": "Блокируйте $OKN, чтобы зарабатывать вознаграждения.",
+      "tagline": "Блокируйте свой $OKN, зарабатывайте APY и помогайте стабилизировать токен.",
+      "features": [
+        {
+          "title": "Гибкие сроки блокировки",
+          "description": "Выберите 30, 90, 180 или 365 дней. Более длинная блокировка дает больший APY."
+        },
+        {
+          "title": "Зарабатывайте APY",
+          "description": "Заблокированный $OKN непрерывно накапливает вознаграждения, доступные к получению при разблокировке."
+        },
+        {
+          "title": "Снижает давление продаж",
+          "description": "Заблокированное предложение означает меньше токенов на рынке, поддерживая стабильность цены."
+        },
+        {
+          "title": "Авто-разблокировка",
+          "description": "Ваш $OKN автоматически возвращается в кошелек по окончании срока блокировки."
+        }
+      ]
+    },
+    "tasks": {
+      "title": "Задания",
+      "description": "Выполняйте задания, чтобы зарабатывать баллы к следующему клейму.",
+      "emptyTitle": "Нет активных заданий",
+      "emptyMessage": "Новые задания появляются регулярно. Загляните позже.",
+      "rewardLabel": "+{points} OK Points",
+      "doButton": "Выполнить",
+      "verifyButton": "Проверить",
+      "submitting": "Отправка",
+      "verifying": "Проверка",
+      "proofLabel": "Предоставьте доказательство (псевдоним, ссылка или короткий ответ)",
+      "proofPlaceholder": "@псевдоним или https://...",
+      "pending": "Ожидает"
+    },
+    "tradeBot": {
+      "title": "ИИ-агент для трейдинга",
+      "description": "Автоматические сигналы long и short для крипторынков.",
+      "comingSoon": "Скоро",
+      "headline": "Ваш ИИ-второй пилот для криптосигналов.",
+      "body": "Торговый бот круглосуточно сканирует рынок и выявляет возможности long и short со входом, целью, стопом и оценкой уверенности. Эта страница — превью планируемого опыта. Бот еще не запущен.",
+      "statusBadge": "Бот не в сети - в разработке",
+      "capabilities": [
+        "Сканирование рынка 24/7",
+        "Уровни входа / цели / стопа",
+        "Оценка уверенности",
+        "Размер позиции с управлением риском"
+      ],
+      "signalPreviewAria": "Превью сигнала",
+      "signalHeading": "Окна сигналов - превью",
+      "sampleData": "Пример данных - не вживую",
+      "disabledAria": "Превью сигналов отключено, пока бот в разработке",
+      "overlayTitle": "Сигналы еще не вживую",
+      "overlayBody": "ИИ-агент для трейдинга еще в разработке. С этой страницы сделки не совершаются.",
+      "backToPortfolio": "Вернуться в портфель",
+      "timeframe": "Таймфрейм - {value}",
+      "entry": "Вход",
+      "target": "Цель",
+      "stop": "Стоп",
+      "pending": "Ожидает",
+      "long": "LONG",
+      "short": "SHORT",
+      "confidenceAria": "Уверенность {value} процентов"
+    },
+    "polymarketAgent": {
+      "title": "Агент Polymarket",
+      "description": "Автоматическое позиционирование на события прогнозов Polymarket.",
+      "comingSoon": "Скоро",
+      "headline": "Ваш ИИ-агент для событий Polymarket.",
+      "body": "Агент Polymarket круглосуточно отслеживает рынки прогнозов и выделяет позиции по событиям с высокой уверенностью, анализом вероятности, зонами входа и расчетом риска. Эта страница — предпросмотр планируемого опыта. Агент еще не запущен.",
+      "statusBadge": "Агент неактивен — в разработке",
+      "capabilities": [
+        "Круглосуточный мониторинг событий",
+        "Оценка вероятностного преимущества",
+        "Зоны входа / выхода",
+        "Управление размером позиции"
+      ],
+      "overlayTitle": "Агент еще не запущен",
+      "overlayBody": "Агент Polymarket все еще находится в разработке. Никакие позиции не будут открыты с этой страницы.",
+      "backToPortfolio": "Вернуться в портфель",
+      "tabs": {
+        "ariaLabel": "Разделы Polymarket",
+        "agent": "Агент",
+        "copier": "Копировщик",
+        "funds": "Средства"
+      },
+      "copier": {
+        "headline": "Автоматическое копирование лучших трейдеров Polymarket.",
+        "body": "Копировщик следует за выбранными вами трейдерами и повторяет их сделки с вашего кошелька, с вашим размером позиций и вашими лимитами риска. Создайте или импортируйте кошелёк, выберите трейдеров и сохраняйте контроль над средствами.",
+        "statusBadge": "Копировщик в разработке",
+        "loading": "Загрузка копировщика...",
+        "unconfiguredBody": "Сервис копирования ещё не подключён. Активация откроется в рамках раннего доступа.",
+        "loadErrorTitle": "Не удалось загрузить копировщик",
+        "loadErrorBody": "Не удалось связаться со сервисом копирования. Повторите попытку позже.",
+        "retry": "Повторить",
+        "walletReadyTitle": "Ваш кошелёк копировщика готов.",
+        "walletReadyBody": "Пополните этот адрес в USDC в сети Polygon, чтобы начать копирование. Немного POL покрывает разовое одобрение расходов.",
+        "origin": {
+          "created": "Созданный кошелёк",
+          "imported_eoa": "Импортированный кошелёк",
+          "imported_safe_owner": "Импортированный аккаунт Polymarket"
+        },
+        "activateTitle": "Способ активации",
+        "createWallet": "Создать кошелёк",
+        "importWallet": "Импортировать кошелёк",
+        "privateKeyLabel": "Приватный ключ",
+        "privateKeyPlaceholder": "64 шестнадцатеричных символа",
+        "privateKeyHelp": "Ваш ключ шифруется немедленно и никогда не хранится и не записывается в открытом виде. Используйте отдельный кошелёк.",
+        "proxyWalletLabel": "Прокси-кошелёк Polymarket (необязательно)",
+        "proxyWalletPlaceholder": "0x...",
+        "proxyWalletHelp": "Если вы входите в Polymarket по почте или через соцсети, вставьте адрес прокси-кошелька и импортируйте ключ владельца.",
+        "activating": "Активация...",
+        "activateCta": "Активировать копировщик",
+        "activateHint": "Каждая новая подписка начинается в режиме предпросмотра: сделки не совершаются, пока вы явно не включите реальный режим.",
+        "activateFailed": "Не удалось активировать. Проверьте ключ и повторите.",
+        "tradersTitle": "Трейдеры, которых вы копируете",
+        "traderCount": "{count, plural, =0 {Нет трейдеров} one {# трейдер} few {# трейдера} many {# трейдеров} other {# трейдеров}}",
+        "traderAddressLabel": "Адрес трейдера",
+        "copySizeLabel": "Процент копирования",
+        "addTrader": "Добавить трейдера",
+        "addTraderFailed": "Не удалось добавить этого трейдера.",
+        "noTraders": "Трейдеров пока нет. Добавьте адрес кошелька Polymarket из рейтинга, чтобы начать в режиме предпросмотра.",
+        "strategySummary": "Размер по стратегии {strategy} — {size}% с жёсткими лимитами",
+        "goLive": "Включить реальный режим",
+        "pause": "Пауза",
+        "resume": "Возобновить",
+        "stop": "Остановить",
+        "status": {
+          "preview": "Предпросмотр",
+          "live": "Активна",
+          "paused": "На паузе",
+          "stopped": "Остановлена"
+        },
+        "executionsTitle": "Недавние копирования",
+        "noExecutions": "Копирований пока нет. Исполнения появятся здесь, когда наблюдаемые трейдеры совершат сделки.",
+        "executionTraderSize": "Трейдер {side} ${size}",
+        "export": {
+          "exportKey": "Экспортировать приватный ключ",
+          "confirmTitle": "Показать приватный ключ?",
+          "confirmBody": "Любой, у кого есть этот ключ, контролирует кошелёк и средства. Никому не передавайте его и не вводите на недоверенных сайтах. Ключ будет показан один раз.",
+          "cancel": "Отмена",
+          "reveal": "Понимаю, показать ключ",
+          "revealing": "Показываю...",
+          "revealedTitle": "Ваш приватный ключ",
+          "revealedBody": "Сохраните его офлайн прямо сейчас. Диалог больше не покажет ключ; при необходимости повторите экспорт.",
+          "copy": "Скопировать ключ",
+          "copied": "Скопировано",
+          "done": "Готово",
+          "failed": "Не удалось показать ключ. Повторите позже."
+        },
+        "withdraw": {
+          "title": "Вывод средств",
+          "allowlistTitle": "Адреса для вывода",
+          "allowlistEmpty": "Адресов для вывода пока нет. Добавьте один, чтобы включить вывод.",
+          "allowlistActive": "Активен",
+          "cooldownUntil": "Ожидание до {time}",
+          "addressLabel": "Адрес вывода",
+          "addAddress": "Добавить адрес",
+          "allowlistHelp": "Вывод возможен только на адреса из этого списка. Новые адреса разблокируются через 24 часа.",
+          "addFailed": "Не удалось добавить адрес.",
+          "requestTitle": "Запросить вывод",
+          "requestNoAddress": "Сначала добавьте адрес вывода; новые адреса разблокируются через 24 часа.",
+          "selectAddress": "Выберите адрес",
+          "amountLabel": "Сумма USDC",
+          "request": "Запросить вывод",
+          "requesting": "Отправляю...",
+          "requestQueued": "Вывод запрошен. Его обработает воркер выводов.",
+          "requestFailed": "Не удалось запросить вывод.",
+          "historyTitle": "История выводов",
+          "historyEmpty": "Выводов пока нет.",
+          "status": {
+            "requested": "Запрошен",
+            "executing": "Исполняется",
+            "done": "Выполнен",
+            "failed": "Ошибка",
+            "canceled": "Отменён"
+          },
+          "netEstimate": "Вы получите около {net} после удержания комиссий."
+        },
+        "funds": {
+          "loading": "Загрузка средств...",
+          "unconfiguredBody": "Сервис копирования ещё не подключён.",
+          "loadErrorTitle": "Не удалось загрузить средства",
+          "loadErrorBody": "Не удалось связаться со сервисом копирования. Повторите попытку позже.",
+          "retry": "Повторить",
+          "activateFirstTitle": "Сначала активируйте копировщик",
+          "activateFirstBody": "Средства хранятся в вашем кошельке копировщика. Активируйте копировщик, чтобы создать или импортировать кошелёк, затем пополняйте и выводите средства здесь.",
+          "goToCopier": "Перейти на вкладку «Копировщик»"
+        },
+        "twofa": {
+          "label": "Код двухфакторной проверки",
+          "placeholder": "123456",
+          "verify": "Проверить код",
+          "verifying": "Проверяю...",
+          "help": "Введите 6-значный код из приложения-аутентификатора, чтобы подтвердить действие.",
+          "invalid": "Неверный код. Попробуйте снова.",
+          "notEnrolledTitle": "Двухфакторная проверка не включена",
+          "notEnrolled": "Сначала включите двухфакторную проверку в настройках профиля. Она необходима для экспорта ключей, импорта ключей и вывода средств."
+        },
+        "balance": {
+          "title": "Копировщик Polymarket",
+          "polGas": "Gas POL",
+          "openTokens": "{count, plural, =0 {нет позиций} one {# открытая позиция} few {# открытые позиции} many {# открытых позиций} other {# открытых позиций}}",
+          "manageFunds": "Управлять средствами",
+          "addFunds": "Пополнить",
+          "setUpCopier": "Настроить копировщик",
+          "noWalletBody": "Активируйте копировщик, чтобы начать копировать рынки Polymarket.",
+          "errorBody": "Баланс сейчас недоступен.",
+          "retry": "Повторить"
+        },
+        "wallet": {
+          "spendable": "Доступно",
+          "gasLabel": "Газ (POL)",
+          "allowanceApproved": "USDC одобрен",
+          "allowanceNeeded": "Требуется одобрение",
+          "refreshAria": "Обновить баланс",
+          "updatedAgo": "Обновлено {seconds} с назад",
+          "copyAddress": "Скопировать адрес пополнения",
+          "copiedAddress": "Адрес скопирован"
+        },
+        "fees": {
+          "title": "Комиссии копировщика",
+          "outstanding": "К оплате",
+          "lifetime": "Уплачено",
+          "waived": "Списано",
+          "explainer": "Комиссии начисляются за каждую успешную сделку и автоматически удерживаются при следующем выводе; ваши торговые средства не затрагиваются."
+        },
+        "billing": {
+          "title": "PRO-подписка",
+          "proActive": "PRO активен",
+          "renews": "Продление",
+          "expiresOn": "Истекает {date}",
+          "renew": "Продлить",
+          "upgradeCta": "Перейти на PRO",
+          "comingSoon": "PRO появится после канареечного периода. До этого времени поштучные комиссии отключены.",
+          "priceLabel": "{price} / {days} дн.",
+          "feeNow": "Ваша ставка: {rate}%",
+          "slots": "{used} из {slots} трейдеров"
+        },
+        "upgrade": {
+          "title": "Перейти на PRO",
+          "description": "Ниже комиссии, больше трейдеров. Без обязательств: PRO просто истекает без продления.",
+          "freeSlotsLabel": "трейдеров сейчас",
+          "proSlotsLabel": "трейдеров с PRO",
+          "feeSuffix": "комиссия за копию",
+          "railCopier": "Кошелёк копировщика",
+          "railCopierDetail": "Списание USDC.e с кошелька Polymarket. Требуется свежий код 2FA.",
+          "railConnected": "Подключённый кошелёк",
+          "railConnectedDetail": "Оплата USDC с вашего собственного кошелька BSC. Перевод подписываете вы; ничто под управлением платформы не движется.",
+          "consent": "Я согласен списать {price} USDC за {days} дней PRO с выбранного кошелька.",
+          "pay": "Оплатить {price}",
+          "cancel": "Отмена",
+          "success": "PRO активен. Пользуйтесь сниженными комиссиями.",
+          "done": "Готово",
+          "failed": "Не удалось завершить платёж.",
+          "sendExact": "Отправьте ровно эту сумму с подключённого кошелька и подтвердите ниже.",
+          "amountLabel": "Сумма",
+          "toLabel": "Адрес казначейства",
+          "copyAddress": "Копировать адрес казначейства",
+          "copied": "Скопировано",
+          "networkLabel": "Сеть: BSC (chain {chainId})",
+          "connectFirst": "Сначала подключите кошелёк BSC.",
+          "later": "Позже",
+          "openWallet": "Открыть кошелёк и оплатить",
+          "verifyFailed": "Платёж ещё не подтверждён. Если перевод прошёл, попробуйте чуть позже."
+        }
+      }
+    },
+    "predictionMarkets": {
+      "title": "Рынки прогнозов",
+      "description": "Отслеживайте и торгуйте рынками исходов на разных протоколах.",
+      "comingSoon": "Скоро",
+      "headline": "Единая поверхность для каждого рынка прогнозов.",
+      "body": "Просматривайте рынки прогнозов в реальном времени на Polymarket и других протоколах, фильтруйте по категориям и отслеживайте объем, ликвидность и вероятность в реальном времени. Эта страница — предпросмотр планируемого опыта. Живая торговля пока недоступна.",
+      "statusBadge": "Предпросмотр рынков — в разработке",
+      "categories": [
+        "Политика",
+        "Крипто",
+        "Спорт",
+        "Экономика"
+      ],
+      "overlayTitle": "Торговля еще не открыта",
+      "overlayBody": "Панель Рынков прогнозов все еще находится в разработке. Никакие сделки не будут совершены с этой страницы.",
+      "backToPortfolio": "Вернуться в портфель"
+    },
+    "wallet": {
+      "title": "Кошелек",
+      "description": "Подключение, привязка и ваш баланс $OKN.",
+      "balanceLabel": "Баланс $OKN",
+      "balanceHint": "Your on-chain OKN balance",
+      "networkLabel": "Сеть",
+      "networkValue": "BNB Smart Chain",
+      "chainId": "ID сети {id}",
+      "explorer": "Эксплорер BscScan",
+      "connectionTitle": "Подключение",
+      "connectionDesc": "Привязка связывает кошелек с вашим аккаунтом Telegram для клеймов и покупок.",
+      "boundTitle": "Привязанный аккаунт",
+      "boundDesc": "Аккаунт Telegram, к которому привязан ваш кошелек.",
+      "emptyTitle": "Кошелек еще не привязан",
+      "emptyMessage": "Подключите кошелек выше, чтобы привязать его к вашему аккаунту Telegram.",
+      "walletLabel": "Кошелек",
+      "boundLabel": "Привязан",
+      "telegramLabel": "Telegram"
+    },
+    "walletConnect": {
+      "connect": "Подключить кошелек",
+      "walletLabel": "Кошелек: {addr}",
+      "signPending": "Подпишите сообщение в кошельке...",
+      "binding": "Привязка кошелька...",
+      "bound": "Кошелек привязан",
+      "signRequiredTitle": "Требуется подпись",
+      "signRequiredDesc": "Перед привязкой необходимо подписать сообщение, чтобы подтвердить владение кошельком.",
+      "conflictTitle": "Кошелек уже используется",
+      "conflictDesc": "Этот кошелек уже привязан к другому аккаунту.",
+      "failedTitle": "Не удалось привязать кошелек",
+      "failedDesc": "Не удалось привязать кошелек ({status})."
+    },
+    "dailyCheckIn": {
+      "label": "Ежедневная серия",
+      "daySingular": "{count} день",
+      "dayPlural": "{count} дней",
+      "checkedIn": "Отмечено. Самая длинная серия: {longest}.",
+      "nextReward": "Отметьтесь сегодня за +{reward} OK Points.",
+      "noStreak": "Отметьтесь сегодня, чтобы начать серию."
+    },
+    "rebind": {
+      "title": "Сменить кошелек",
+      "description": "Потеряли доступ или сменили кошелек? Запросите перепривязку. Модератор проверяет каждую заявку. Не более одной за 30 дней.",
+      "currentWallet": "Текущий кошелек",
+      "newWallet": "Новый кошелек (подключен)",
+      "connectNew": "Подключите новый кошелек, на который хотите переключиться, затем выберите причину ниже.",
+      "sameWallet": "Подключенный кошелек совпадает с текущим. Подключите другой, чтобы запросить перепривязку.",
+      "reasonLabel": "Причина",
+      "reasonLostKey": "Потерян приватный ключ",
+      "reasonCompromised": "Кошелек скомпрометирован",
+      "reasonUpgrade": "Перешли на аппаратный кошелек",
+      "reasonAdminFix": "Исправление по указанию администратора",
+      "btnIdle": "Запросить перепривязку",
+      "btnPending": "Подпись и отправка...",
+      "signNote": "Вы подпишете сообщение, доказывающее владение новым кошельком. Подпись проверяется на сервере; мы никогда не видим ваш приватный ключ."
+    },
+    "unbind": {
+      "title": "Disconnect wallet",
+      "description": "Remove the wallet currently bound to your account. You will need to bind a new wallet before you can claim or buy $OKN again.",
+      "currentWallet": "Current wallet",
+      "connectHint": "Connect the wallet currently bound to your account to disconnect it.",
+      "btnIdle": "Disconnect wallet",
+      "btnPending": "Signing...",
+      "signNote": "You will sign a message proving you still control the bound wallet. The signature is verified server-side; we never see your private key.",
+      "dialogTitle": "Disconnect this wallet?",
+      "dialogDescription": "This removes the wallet from your account. You will not be able to claim or buy $OKN until you bind a new one. To confirm, you must sign with the bound wallet.",
+      "dialogConfirm": "Disconnect",
+      "dialogCancel": "Cancel"
+    },
+    "comingSoon": {
+      "badge": "Скоро",
+      "body": "Эта функция в дорожной карте. Подробности ниже показывают, что вы получите, когда она появится.",
+      "footerNote": "Хотите это раньше? Поделитесь интересом в общественном Telegram."
+    }
+  },
+  "toasts": {
+    "buy": {
+      "submittedTitle": "Покупка отправлена",
+      "submittedDescLink": "Посмотреть транзакцию в BscScan",
+      "successTitle": "Purchase confirmed",
+      "successDesc": "You received {value} $OKN"
+    },
+    "claim": {
+      "submittedTitle": "Клейм отправлен",
+      "submittedDescLink": "Посмотреть транзакцию в BscScan"
+    },
+    "tasks": {
+      "submittedTitle": "Отправлено на проверку",
+      "submittedDesc": "Модератор скоро проверит вашу отправку.",
+      "verifiedTitle": "Задание проверено",
+      "verifiedDesc": "Баллы добавлены к вашему балансу.",
+      "alreadyTitle": "Уже выполнено",
+      "alreadyDesc": "Вы уже отправляли это задание.",
+      "failedTitle": "Не удалось отправить задание",
+      "failedDesc": "Попробуйте снова через мгновение."
+    },
+    "settings": {
+      "profileUpdated": "Профиль обновлен",
+      "profileFailed": "Не удалось обновить профиль",
+      "emailSaved": "Почта сохранена",
+      "emailRemoved": "Почта удалена",
+      "emailFailed": "Не удалось сохранить почту",
+      "verificationSent": "Код подтверждения отправлен",
+      "emailVerified": "Email подтвержден",
+      "verificationFailed": "Ошибка подтверждения"
+    },
+    "wallet": {
+      "bound": "Кошелек привязан",
+      "signRequiredTitle": "Требуется подпись",
+      "signRequiredDesc": "Перед привязкой необходимо подписать сообщение, чтобы подтвердить владение кошельком.",
+      "conflictTitle": "Кошелек уже используется",
+      "conflictDesc": "Этот кошелек уже привязан к другому аккаунту.",
+      "failedTitle": "Не удалось привязать кошелек",
+      "failedDesc": "Не удалось привязать кошелек ({status})."
+    },
+    "dailyCheckIn": {
+      "streakTitle": "Серия {day} дней!",
+      "streakDesc": "Вы заработали {points} бонусных баллов в $OKN. Продолжайте в том же духе."
+    },
+    "rebind": {
+      "successTitle": "Перепривязка запрошена",
+      "successDesc": "Модератор ее проверит.",
+      "failedTitle": "Не удалось отправить запрос"
+    },
+    "unbind": {
+      "successTitle": "Wallet disconnected",
+      "successDesc": "You can now bind a different wallet.",
+      "failedTitle": "Could not disconnect wallet"
+    }
+  },
+  "login": {
+    "heading": "Voyti v $OKN",
+    "subheading": "Avtorizuytes cherez svoy akkount Telegram.",
+    "loginWithTelegram": "Voyti cherez Telegram",
+    "helpText": "Vy budete pere napravleny v Telegram dlya proverki akkunta, a zatem vernetes syuda s aktivnoy sessiey."
+  }
+}

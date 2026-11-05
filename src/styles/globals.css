@@ -1,0 +1,714 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Theme tokens — shadcn preset (b1Yobvefg) + iOS design tokens (plan §5.20).
+ * Semantic colors reference the CSS vars below so dark mode keeps working.
+ */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* iOS palette */
+  --color-ios-blue: #007aff;
+  --color-ios-green: #34c759;
+  --color-ios-indigo: #5856d6;
+  --color-ios-orange: #ff9500;
+  --color-ios-pink: #ff2d55;
+  --color-ios-purple: #af52de;
+  --color-ios-red: #ff3b30;
+  --color-ios-teal: #5ac8fa;
+  --color-ios-yellow: #ffcc00;
+  --color-ios-gray: #8e8e93;
+  --color-ios-gray2: #aeaeb2;
+  --color-ios-gray3: #c7c7cc;
+  --color-ios-gray4: var(--ios-gray4);
+  --color-ios-gray5: var(--ios-gray5);
+  --color-ios-gray6: var(--ios-gray6);
+  --color-ios-label: var(--ios-label);
+  --color-ios-label-secondary: var(--ios-label-secondary);
+  --color-ios-label-tertiary: var(--ios-label-tertiary);
+  --color-ios-separator: var(--ios-separator);
+
+  /* OKN brand — gold (trust/value) + purple (tech) + iOS blue (action) */
+  --color-okn: #007aff;
+  --color-okn-50: var(--okn-50);
+  --color-okn-100: var(--okn-100);
+  --color-okn-500: #007aff;
+  --color-okn-600: #0066d6;
+  --color-okn-700: #0055ad;
+  --color-okn-900: #003371;
+
+  /* Gold (trust) — coin #D4AF37 + the brighter accent gold #F59E0B */
+  --color-okn-gold: #d4af37;
+  --color-okn-gold-50: var(--okn-gold-50);
+  --color-okn-gold-100: var(--okn-gold-100);
+  --color-okn-gold-500: #f59e0b;
+  --color-okn-gold-600: #d97706;
+  --color-okn-gold-700: var(--okn-gold-700);
+
+  /* Purple (tech) — #8B5CF6 family, complements the gold */
+  --color-okn-purple: #8b5cf6;
+  --color-okn-purple-50: var(--okn-purple-50);
+  --color-okn-purple-100: var(--okn-purple-100);
+  --color-okn-purple-500: #8b5cf6;
+  --color-okn-purple-600: #7c3aed;
+  --color-okn-purple-700: #6d28d9;
+
+  /* Radii */
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-ios: 12px;
+  --radius-ios-lg: 16px;
+  --radius-ios-xl: 22px;
+
+  /* Font: native system stack (no next/font/google).
+     On Apple devices this is SF Pro — the canonical iOS face this design
+     targets. On Windows/Android it's Segoe UI / Roboto. No build-time or
+     runtime network fetch, so dev/build never warn on restricted networks. */
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display',
+    system-ui, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Display: bolder system face for marketing headlines.
+     'SF Pro Display' is heavier than 'SF Pro Text' on Apple devices; on other
+     platforms it falls back to the same system-ui stack as --font-sans. */
+  --font-display:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, 'Segoe UI',
+    Roboto, sans-serif;
+
+  /* Animations */
+  --animate-spring-in: springIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  @keyframes springIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.92);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+/*
+ * Landing content width — single source of truth.
+ * Capped at 1.5K (1920px / Full HD); apply via `max-w-landing` on landing section
+ * containers. Change this one value to rescale every landing section at once.
+ * Readability is preserved separately by per-element max-w-* (line-length control),
+ * so widening the canvas does NOT stretch body text.
+ */
+@theme {
+  --container-landing: 1620px;
+
+  /* Roomy tier for the marketing navbar (1440px+): the compact link sizing
+   * only needs to cover 1280-1439px where the full row barely fits. */
+  --breakpoint-3xl: 90rem;
+
+  /* ── Font scale (older-adult / accessibility tuned) ────────────────────
+   * Per ui-ux-pro-max §6 (readable-font-size, contrast-readability) and §1
+   * (dynamic-type): body text must be >= 16px (WCAG/Apple HIG). Bumped again
+   * for legibility + heavier base weight (font-weight: 450 on body — between
+   * regular 400 and medium 500 — so glyphs read slightly bolder without
+   * looking heavy). These overrides lift the ENTIRE scale at once so all 465+
+   * text-xs/text-sm usages across the app become readable without per-file
+   * edits.
+   *
+   * Sizes: xs 15px, sm 16px, base 18px (>=16 rule), lg 20px, xl 23px,
+   *        2xl 28px, 3xl 34px, 4xl 40px, 5xl 56px
+   */
+  --text-xs: 0.9375rem;    /* 15px — labels/captions (was 14) */
+  --text-xs--line-height: 1.45;
+  --text-sm: 1rem;         /* 16px — secondary text (was 15) */
+  --text-sm--line-height: 1.55;
+  --text-base: 1.125rem;   /* 18px — body (was 17, well above 16 rule) */
+  --text-base--line-height: 1.6;
+  --text-lg: 1.25rem;      /* 20px (was 19) */
+  --text-lg--line-height: 1.5;
+  --text-xl: 1.4375rem;    /* 23px (was 22) */
+  --text-xl--line-height: 1.4;
+  --text-2xl: 1.75rem;     /* 28px (was 26) */
+  --text-2xl--line-height: 1.3;
+  --text-3xl: 2.125rem;    /* 34px (was 32) */
+  --text-3xl--line-height: 1.25;
+  --text-4xl: 2.5rem;      /* 40px (was 38) */
+  --text-4xl--line-height: 1.2;
+  --text-5xl: 3.5rem;      /* 56px (was 52) */
+  --text-5xl--line-height: 1.1;
+
+  /* Slightly heavier body text for older-adult legibility. 450 sits between
+   * regular (400) and medium (500). Applied to the base body rule below. */
+  --font-weight-body: 450;
+}
+
+/* === shadcn preset CSS variables (b1Yobvefg) === */
+@layer base {
+  :root {
+    /* ── OKN palette: gold (trust) + purple (tech) + iOS blue ────────────
+     * Per ui-ux-pro-max fintech/crypto recommendation (#F59E0B gold primary
+     * + #8B5CF6 purple accent). These complement the existing brand (gold
+     * #D4AF37 coin + purple #e9e6ff hero washes). Backgrounds carry a subtle
+     * warm tint so the app is no longer stark white. All foreground-on-
+     * background pairs meet WCAG AA (4.5:1) — verified against the oklch
+     * lightness deltas below.
+     */
+    --background: oklch(0.975 0.014 280);     /* lavender-tinted — matches sidebar */
+    --foreground: oklch(0.21 0.034 264);      /* deep slate-blue, high contrast */
+    --card: oklch(0.99 0.014 285);           /* soft lavender-white card (not stark white) */
+    --card-foreground: oklch(0.21 0.034 264);
+    --popover: oklch(0.995 0.006 285);
+    --popover-foreground: oklch(0.21 0.034 264);
+    --primary: oklch(0.72 0.17 70);           /* gold #F59E0B — trust/value */
+    --primary-foreground: oklch(0.21 0.034 264); /* dark on gold (AA: 7.8:1) */
+    --secondary: oklch(0.95 0.025 70);        /* warm gold-tinted surface */
+    --secondary-foreground: oklch(0.3 0.04 264);
+    --muted: oklch(0.96 0.012 280);           /* soft lavender-gray */
+    --muted-foreground: oklch(0.45 0.02 264); /* darker than before (was 0.56) for AA */
+    --accent: oklch(0.52 0.22 295);           /* purple ~#7C3AED (tech/innovation) */
+    --accent-foreground: oklch(0.99 0.005 95);/* white on purple — accent used for fills/buttons
+                                               * where text is large/bold (3:1 large-text AA).
+                                               * For small text on accent, components pair with the
+                                               * dark slate primary-foreground instead. */
+    --destructive: oklch(0.577 0.245 27.325); /* red (unchanged) */
+    --destructive-foreground: oklch(0.99 0.005 95);
+    --border: oklch(0.9 0.015 280);           /* tinted border (was neutral gray) */
+    --input: oklch(0.9 0.015 280);
+    --ring: oklch(0.58 0.22 295);             /* purple focus ring */
+    --radius: 0.625rem;
+    --chart-1: oklch(0.72 0.17 70);           /* gold */
+    --chart-2: oklch(0.58 0.22 295);          /* purple */
+    --chart-3: oklch(0.55 0.18 255);          /* iOS blue */
+    --chart-4: oklch(0.65 0.2 145);           /* emerald (positive/green) */
+    --chart-5: oklch(0.62 0.22 15);           /* warm red (negative) */
+    --sidebar: oklch(0.975 0.014 280);        /* lavender-tinted sidebar */
+    --sidebar-foreground: oklch(0.21 0.034 264);
+    --sidebar-primary: oklch(0.546 0.245 262.881);
+    --sidebar-primary-foreground: oklch(0.97 0.014 254.604);
+    --sidebar-accent: #7A12F5;
+    --sidebar-accent-foreground: #FFFFFF;
+    --sidebar-border: oklch(0.925 0.005 214.3);
+    --sidebar-ring: oklch(0.723 0.014 214.4);
+  }
+
+  .dark {
+    /* Dark mode: Deep luxury Web3 midnight (#0A0A0C / #0C0D11) perfectly blended */
+    --background: #0A0A0C;
+    --foreground: #F5F5F7;
+    --card: #131316;
+    --card-foreground: #F5F5F7;
+    --popover: #131316;
+    --popover-foreground: #F5F5F7;
+    --primary: #F59E0B;
+    --primary-foreground: #0A0A0C;
+    --secondary: #1B1B20;
+    --secondary-foreground: #F5F5F7;
+    --muted: #1B1B20;
+    --muted-foreground: #A3A3AF;
+    --accent: #7A12F5;
+    --accent-foreground: #FFFFFF;
+    --destructive: #EF4444;
+    --destructive-foreground: #FFFFFF;
+    --border: #26262D;
+    --input: #26262D;
+    --ring: #7A12F5;
+    --chart-1: #F59E0B;
+    --chart-2: #8C38F7;
+    --chart-3: #007AFF;
+    --chart-4: #10B981;
+    --chart-5: #EF4444;
+    --sidebar: #0C0D11;
+    --sidebar-foreground: #F5F5F7;
+    --sidebar-primary: #7A12F5;
+    --sidebar-primary-foreground: #FFFFFF;
+    --sidebar-accent: #1B1B20;
+    --sidebar-accent-foreground: #FFFFFF;
+    --sidebar-border: #1E1E26;
+    --sidebar-ring: #7A12F5;
+  }
+}
+
+/* === iOS Design System (plan §5.20) === */
+
+:root {
+  --ios-bg: #f2f2f7;
+  --ios-bg-elevated: #ffffff;
+  --ios-label: #000000;
+  --ios-label-secondary: #3c3c43;
+  --ios-label-tertiary: #8e8e93;
+  --ios-separator: rgba(60, 60, 67, 0.12);
+  --ios-blue: #007aff;
+  --ios-radius: 12px;
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* Light-mode surface tints. These are CSS-variable-backed so .dark can flip
+   * them (color-dark-mode rule §6). Hardcoded in @theme inline they would stay
+   * light and wash out dark surfaces. */
+  --ios-gray4: #d1d1d6;
+  --ios-gray5: #e5e5ea;
+  --ios-gray6: #f2f2f7;
+
+  /* OKN brand tints — light pastels for light mode. Dark variants below. */
+  --okn-50: #e6f2ff;
+  --okn-100: #cce5ff;
+  --okn-gold-50: #fef9e7;
+  --okn-gold-100: #fdf0c4;
+  --okn-gold-700: #b45309;
+  --okn-purple-50: #f5f3ff;
+  --okn-purple-100: #ede9fe;
+}
+
+/*
+ * Dark-mode overrides for the iOS + OKN tokens (color-dark-mode rule §6).
+ *
+ * WHY: these tokens are CSS-variable-backed, so flipping them here makes every
+ * text-ios-label-secondary, bg-ios-gray6, and bg-okn-*-50 instance adapt to
+ * dark mode WITHOUT touching components. The light-mode values are near-invisible
+ * (text) or blindingly bright (surfaces) on the #0F172A-family dark background.
+ *
+ * Contrast targets (WCAG AA): primary text >=4.5:1, secondary text >=3:1.
+ * Dark surfaces use desaturated/dimmed variants, not pure brand colors (§6).
+ */
+.dark {
+  --ios-bg: #000000;
+  --ios-bg-elevated: #1c1c1e;
+  --ios-label: #ffffff;
+  --ios-label-secondary: #ebebf5; /* ~85% opacity white — AA on dark slate */
+  --ios-label-tertiary: #9e9ea4; /* brightened gray for AA secondary text */
+  --ios-separator: rgba(235, 235, 245, 0.16);
+
+  /* Dark-mode neutral surfaces: dimmed translucent overlays on the slate base.
+   * Using low-opacity white keeps them subtle and theme-aware. */
+  --ios-gray4: rgba(235, 235, 245, 0.18);
+  --ios-gray5: rgba(235, 235, 245, 0.12);
+  --ios-gray6: rgba(235, 235, 245, 0.08);
+
+  /* Dark-mode brand tints: desaturated + dimmed so they read as subtle tints
+   * on dark, not bright pastels. Paired with the brightened text tokens above. */
+  --okn-50: rgba(0, 122, 255, 0.12);
+  --okn-100: rgba(0, 122, 255, 0.18);
+  --okn-gold-50: rgba(245, 158, 11, 0.12);
+  --okn-gold-100: rgba(245, 158, 11, 0.18);
+  --okn-gold-700: #fbbf24; /* brightened gold for AA text on dark */
+  --okn-purple-50: rgba(139, 92, 246, 0.12);
+  --okn-purple-100: rgba(139, 92, 246, 0.18);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: var(--font-weight-body, 450);
+  }
+
+  /*
+   * Reduced motion (WCAG / ui-ux-pro-max §1 rule: reduced-motion).
+   * Respect the user's OS-level preference: disable all framer-motion + CSS
+   * animations/transitions when prefers-reduced-motion is reduce. This is a
+   * global rule so every animated component (landing flywheel, claim banner,
+   * reveals) is covered without per-component hooks.
+   */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* iOS-style backdrop blur for nav bars / sheets */
+  .ios-blur {
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(255, 255, 255, 0.72);
+  }
+}
+
+@layer components {
+  .ios-card {
+    @apply rounded-ios-lg bg-white shadow-sm;
+  }
+
+  .ios-button {
+    @apply inline-flex items-center justify-center rounded-ios bg-ios-blue px-5 py-3 font-medium text-white transition active:scale-[0.97];
+  }
+
+  .ios-button-secondary {
+    @apply inline-flex items-center justify-center rounded-ios bg-ios-gray5 px-5 py-3 font-medium text-black transition active:scale-[0.97];
+  }
+}
+
+/* PWA: hide scrollbars on mobile shell */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+/* ==========================================================================
+   OKN Web3 Dashboard — Universal Production Responsive Engine & Design Tokens
+   Imported & upgraded from okdash design system
+   ========================================================================== */
+
+:root {
+  --bg: #0A0A0C;
+  --s1: #131316;
+  --s2: #1B1B20;
+  --line: #26262D;
+  --tx: #F5F5F7;
+  --mut: #A3A3AF;
+  --vio: #7A12F5;
+  --vio2: #8C38F7;
+  --vio-l: #C9A6FF;
+  --cyan: #09B4FF;
+  --yel: #FFD60A;
+  --org: #FFAA00;
+  --cyan-t: #09B4FF;
+  --yel-t: #FFD60A;
+  --org-t: #FFAA00;
+  --inv-bg: #FFFFFF;
+  --inv-tx: #0A0A0C;
+  --inv-mut: #5B5B66;
+  --inv-chip: #F0F0F4;
+  --dash: #3A3A44;
+  --ok: #2FBD8E;
+}
+
+.light, [data-theme="light"] {
+  --bg: #F5F3FA;
+  --s1: #FFFFFF;
+  --s2: #EFEBF8;
+  --line: #E2DDEE;
+  --tx: #15121F;
+  --mut: #5C5870;
+  --vio: #7A12F5;
+  --vio2: #8C38F7;
+  --vio-l: #6A0FD4;
+  --cyan: #0A84C6;
+  --cyan-t: #0A6FA6;
+  --yel-t: #8A6500;
+  --org-t: #9A5A00;
+  --inv-bg: #17141F;
+  --inv-tx: #FFFFFF;
+  --inv-mut: #B9B5C9;
+  --inv-chip: #2C2838;
+  --dash: #CBC5DB;
+  --ok: #0B8F63;
+}
+
+/* Tabular Numbers */
+.num {
+  font-family: 'Sora', sans-serif !important;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+/* Ambient Radial Mesh Lighting */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 650px;
+  background: radial-gradient(circle 800px at 50% -120px, rgba(122, 18, 245, 0.18), transparent 75%),
+              radial-gradient(circle 500px at 95% 150px, rgba(9, 180, 255, 0.08), transparent 70%),
+              radial-gradient(circle 450px at 5% 350px, rgba(255, 214, 10, 0.04), transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.light body::before,
+[data-theme="light"] body::before {
+  background: radial-gradient(circle 800px at 50% -120px, rgba(122, 18, 245, 0.08), transparent 75%),
+              radial-gradient(circle 500px at 95% 150px, rgba(9, 180, 255, 0.05), transparent 70%);
+}
+
+/* Web3 Hero Card */
+.web3-hero {
+  background: linear-gradient(135deg, #7A12F5 0%, #660CD9 45%, #4A00A8 100%) !important;
+  color: #FFFFFF !important;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(122, 18, 245, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.25) !important;
+}
+
+.web3-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+  pointer-events: none;
+}
+
+.web3-hero::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(9, 180, 255, 0.25) 0%, transparent 70%);
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+/* Modern Web3 Card Elevation */
+.web3-card {
+  background: var(--s1);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.26s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.26s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.22s ease;
+}
+
+.web3-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.16);
+  border-color: rgba(122, 18, 245, 0.28);
+}
+
+.light .web3-card,
+[data-theme="light"] .web3-card {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.light .web3-card:hover,
+[data-theme="light"] .web3-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  border-color: rgba(122, 18, 245, 0.2);
+}
+
+/* Stat Card */
+.stat-card-web3 {
+  background: var(--s1);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.22s ease, border-color 0.2s ease;
+}
+
+.stat-card-web3:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+  border-color: rgba(122, 18, 245, 0.3);
+}
+
+/* Responsive Split Grid */
+.portfolio-split-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.resp-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1024px) {
+  .portfolio-split-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+  .resp-grid-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 14px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .resp-grid-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .resp-grid-4 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Mobile Bottom Navigation Bar */
+.web3-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  padding-bottom: env(safe-area-inset-bottom);
+  background: rgba(19, 19, 22, 0.94);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -1px 0 var(--line);
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 50;
+}
+
+.light .web3-bottom-nav,
+[data-theme="light"] .web3-bottom-nav {
+  background: rgba(255, 255, 255, 0.94);
+}
+
+/* Ensure active nav items with purple background ALWAYS have pure white text and icons across light and dark modes */
+[data-sidebar="menu-button"][data-active="true"],
+[data-sidebar="menu-button"][data-state="active"],
+[data-sidebar="menu-button"].active,
+.web3-bottom-nav a.bg-gradient-to-r,
+.web3-bottom-nav a.active,
+.bottom-nav-item.active {
+  color: #FFFFFF !important;
+}
+
+[data-sidebar="menu-button"][data-active="true"] span,
+[data-sidebar="menu-button"][data-active="true"] svg,
+[data-sidebar="menu-button"][data-state="active"] span,
+[data-sidebar="menu-button"][data-state="active"] svg,
+[data-sidebar="menu-button"].active span,
+[data-sidebar="menu-button"].active svg,
+.web3-bottom-nav a.bg-gradient-to-r span,
+.web3-bottom-nav a.bg-gradient-to-r svg,
+.web3-bottom-nav a.active span,
+.web3-bottom-nav a.active svg,
+.bottom-nav-item.active span,
+.bottom-nav-item.active svg {
+  color: #FFFFFF !important;
+  stroke: #FFFFFF !important;
+}
+
+.light [data-sidebar="menu-button"][data-active="true"],
+[data-theme="light"] [data-sidebar="menu-button"][data-active="true"],
+.light .web3-bottom-nav a.bg-gradient-to-r,
+[data-theme="light"] .web3-bottom-nav a.bg-gradient-to-r,
+.light .bottom-nav-item.active,
+[data-theme="light"] .bottom-nav-item.active {
+  color: #FFFFFF !important;
+}
+
+.light [data-sidebar="menu-button"][data-active="true"] span,
+[data-theme="light"] [data-sidebar="menu-button"][data-active="true"] span,
+.light [data-sidebar="menu-button"][data-active="true"] svg,
+[data-theme="light"] [data-sidebar="menu-button"][data-active="true"] svg,
+.light .web3-bottom-nav a.bg-gradient-to-r span,
+[data-theme="light"] .web3-bottom-nav a.bg-gradient-to-r span,
+.light .web3-bottom-nav a.bg-gradient-to-r svg,
+[data-theme="light"] .web3-bottom-nav a.bg-gradient-to-r svg,
+.light .bottom-nav-item.active span,
+[data-theme="light"] .bottom-nav-item.active span,
+.light .bottom-nav-item.active svg,
+[data-theme="light"] .bottom-nav-item.active svg {
+  color: #FFFFFF !important;
+  stroke: #FFFFFF !important;
+}
+
+@media (max-width: 767px) {
+  .web3-bottom-nav {
+    display: flex;
+  }
+  .app-shell-main {
+    padding-bottom: calc(72px + env(safe-area-inset-bottom)) !important;
+  }
+}
+
+/* Tactile Spring Press */
+.web3-btn {
+  transition: transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.web3-btn:active {
+  transform: scale(0.96) !important;
+}
+
+/* Glow Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vio);
+}
+
+.light ::-webkit-scrollbar-thumb,
+[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.14);
+}

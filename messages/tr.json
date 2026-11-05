@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "OKN Token | BNB Smart Chain üzerinde Kazan, Talep Et, Satın Al",
+    "titleTemplate": "%s | OKN Token",
+    "description": "OKN, BNB Smart Chain üzerinde bir topluluk token'ıdır. Görevler aracılığıyla kazanın, Merkle proof'ları ile zincir üzerinde talep edin veya sabit fiyatla doğrudan BNB ile satın alın.",
+    "keywords": [
+      "$OKN",
+      "$OKN Token",
+      "BSC",
+      "BNB Smart Chain",
+      "topluluk token'ı",
+      "kripto kazan",
+      "telegram botu",
+      "merkle talebi",
+      "token satışı"
+    ],
+    "ogImageAlt": "OKN Token — BNB Smart Chain üzerinde kazan, talep et, satın al",
+    "jsonLdActionName": "OKN panelini aç"
+  },
+  "nav": {
+    "features": "Özellikler",
+    "howItWorks": "Nasıl çalışır",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Yol haritası",
+    "documents": "Belgeler",
+    "exchange": "Borsa",
+    "openApp": "Uygulamayı aç",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "community": "Topluluk"
+  },
+  "hero": {
+    "liveOn": "{chain} üzerinde yayında",
+    "headline1": "Token'ı sadece satın almayın.",
+    "headline2": "Kazanın.",
+    "paragraph": "$OKN, OKNEXUS Exchange ekosisteminin yerel yardımcı ve topluluk token'ıdır; hız, güvenlik ve gerçek dünya kullanımı sunmak için BNB Smart Chain üzerine inşa edilmiştir. Her etkileşim değer yaratır. Görevleri tamamlayın, ödül puanları kazanın, BNB ile satın alın ve token'larınızı Telegram Uygulamamız üzerinden doğrudan zincir üzerinde talep edin. Bir token'dan daha fazlası olan $OKN, özel ödüllere, platform avantajlarına, yönetişim fırsatlarına ve merkeziyetsiz finansın geleceğine açılan anahtarınızdır. Harekete katılın. Geleceğe sahip çıkın.",
+    "loginWithTelegram": "Telegram ile giris yap",
+    "facts": {
+      "maxSupply": "{supply} maksimum arz",
+      "claimFee": "{fee} BNB talep ücreti",
+      "fixedRateSale": "Sabit fiyatlı BNB satışı"
+    },
+    "scroll": "Kaydır",
+    "coinAlt": "OKNexus token coin"
+  },
+  "features": {
+    "heading": "Çaba gösteren sahipler için tasarlandı",
+    "subheading": "$OKN'ın her parçası katılımı ödüllendirir: görevler, yönlendirmeler ve zincir üzerindeki talepler.",
+    "tasksHeading": "Görevleri tamamla, puanları biriktir",
+    "tasksBody": "Kanalları takip edin, gruplara katılın, arkadaşlarınızı davet edin. Puanlar zincir dışında birikir ve talep edebileceğiniz Merkle kökleri olarak zincir üzerine işlenir.",
+    "taskRows": [
+      "X'te $OKN'ı takip et",
+      "Telegram grubuna katıl",
+      "Bir arkadaşını yönlendir"
+    ],
+    "pts": "+{pts} OK Points",
+    "onChainClaimsHeading": "Zincir üzerinde talepler",
+    "onChainClaimsBody": "Birikmeli Merkle proof'ları, tek bir talebin kazandığınız her şeyi kapsaması anlamına gelir.",
+    "buyWithBnbHeading": "BNB ile satın al",
+    "buyWithBnbBody": "{rate}. Bu aşamada likidite havuzuna gerek yoktur.",
+    "saleRate": "Sabit fiyat, BNB ile fiyatlandırılır",
+    "claimFeeHeading": "{fee} talep ücreti",
+    "claimFeeBody": "BNB ile ödenir, bir Chainlink oracle'ı tarafından fiyatlandırılır. Ücretler ekosistem hazinesini finanse eder.",
+    "referralsHeading": "İki yöne de ödeme yapan yönlendirmeler",
+    "referralsBody": "Bağlantınızı paylaşın. Bir arkadaşınız ilk görevini tamamladığında ikiniz de kazanırsınız."
+  },
+  "howItWorks": {
+    "heading": "OKN büyüme motoru",
+    "subheading": "Her eylemin bir sonrakini beslediği tek bir ekosistem. Sürekli bir döngüde kazan, çoğalt, talep et ve ödüllerini büyüt.",
+    "steps": [
+      {
+        "title": "Keşfet ve katıl",
+        "body": "Telegram'da $OKN'i aç. Hesabın anında oluşturulur."
+      },
+      {
+        "title": "OK Points kazan",
+        "body": "Görevleri tamamla, günlük giriş yap ve sıralamada yüksel."
+      },
+      {
+        "title": "Satın al ve güçlendir",
+        "body": "Ödül çarpanlarını açmak için BNB ile $OKN satın al."
+      },
+      {
+        "title": "Zincir üstünde talep",
+        "body": "OK Points'ini $OKN'e dönüştür. $3 BNB ücreti uygulanır."
+      },
+      {
+        "title": "Stake ve takas",
+        "body": "$OKN'ini ekosistemde tut, takas et ve kullan."
+      },
+      {
+        "title": "Davet et ve büyü",
+        "body": "Arkadaşlarını davet et ve üç seviye boyunca puanlarının payını kazan."
+      }
+    ],
+    "loopLabel": "Döngü devam ediyor"
+  },
+  "video": {
+    "kicker": "Aksiyonda görün",
+    "heading": "OKNexus hikayesi",
+    "subheading": "$OKN'un her eylemi gerçek on-chain değerine nasıl dönüştürdüğüne dair kısa bir tur.",
+    "playAria": "OKNexus tanıtım videosunu oynat"
+  },
+  "tokenomics": {
+    "kicker": "Tokenomics",
+    "heading": "Tek sabit arz. Sıfır sürpriz.",
+    "supplyLabel": "Maksimum arz",
+    "claimFeeLabel": "Talep ücreti",
+    "claimFeeValue": "BNB olarak {fee}",
+    "allocationHeading": "Dağıtım",
+    "allocationNote": "Dağıtım değerleri onaylanmıştır ve 5B maksimum arza toplamaktadır.",
+    "ariaAllocation": "{labels}",
+    "allocations": [
+      "Topluluk Ödülleri",
+      "Genel Satış",
+      "DEX Likiditesi",
+      "Ekip ve Danışmanlar",
+      "Ekosistem",
+      "Hazine"
+    ]
+  },
+  "roadmap": {
+    "kicker": "Yol haritası",
+    "heading": "Önümüzdeki yolculuk",
+    "subheading": "İlk görevden tam likidiyete. Çizgiyi takip edin.",
+    "phases": [
+      {
+        "phase": "Aşama 1",
+        "title": "Ateşleme",
+        "status": "Devam ediyor",
+        "items": [
+          "BSC üzerinde token, satış ve dağıtıcı sözleşmeleri",
+          "Telegram botu ve mini uygulama lansmanı",
+          "Zincir dışı puan defteri ile görev sistemi"
+        ]
+      },
+      {
+        "phase": "Aşama 2",
+        "title": "Dağıtım",
+        "status": "Sıradaki",
+        "items": [
+          "Sabit fiyatla genel BNB satışı",
+          "3$ BNB ücretiyle Merkle talepleri açılır",
+          "Yönlendirme programı teşviki"
+        ]
+      },
+      {
+        "phase": "Aşama 3",
+        "title": "Likidite",
+        "status": "Daha sonra",
+        "items": [
+          "DEX listelemesi ve likidite havuzu",
+          "Topluluk yönetişimi"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Payınızı kazanmaya hazır mısınız?",
+    "subheading": "Topluluğa katılın, ilk görevinizi tamamlayın ve bugün $OKN biriktirmeye başlayın.",
+    "joinTelegram": "Telegram ile giriş yap",
+    "watchYoutube": "YouTube'da izle"
+  },
+  "footer": {
+    "tagline": "Kazandığınız topluluk token'ı. {chain} üzerinde.",
+    "columns": [
+      {
+        "title": "Uygulama",
+        "links": [
+          "Panel",
+          "Giriş yap"
+        ]
+      },
+      {
+        "title": "Kaynaklar",
+        "links": [
+          "Nasıl talep edilir",
+          "Tokenomics",
+          "Belgeler"
+        ]
+      }
+    ],
+    "copyright": "© 2026 OKN. Tüm hakları saklıdır."
+  },
+  "kycBadge": {
+    "statusLabel": "KYC Doğrulandı",
+    "verified": "Doğrulandı",
+    "aria": "{provider} tarafından {status} — doğrulama sayfasını aç",
+    "projectBy": "Proje ekibi {provider} tarafından KYC'den geçti"
+  },
+  "caCard": {
+    "contractAddress": "Sözleşme Adresi (BSC)",
+    "live": "Yayında",
+    "comingSoon": "Yakında",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "copyAria": "Sözleşme adresini kopyala",
+    "comingSoonBody": "Adres, token lansmanında burada yayımlanacaktır.",
+    "logoAlt": "$OKN"
+  },
+  "socialSidebar": {
+    "ariaLabel": "Sosyal bağlantılar",
+    "labels": {
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "discord": "Discord",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "bsky": "Bluesky",
+      "tiktok": "TikTok"
+    }
+  },
+  "notFound": {
+    "heading": "Bu sayfa zincir dışına kaydı",
+    "body": "Aradığınız sayfa mevcut değil veya taşınmış olabilir. Sizi tekrar doğru yola getirelim.",
+    "cta": "Beni ana sayfaya götür",
+    "links": [
+      "Tokenomics",
+      "Nasıl talep edilir",
+      "Belgeler"
+    ],
+    "logoAlt": "$OKN"
+  },
+  "tokenomicsPage": {
+    "title": "Tokenomics",
+    "metaTitle": "Tokenomics",
+    "metaDescription": "$OKN token arzı, dağıtımı ve satış şartları. BNB Smart Chain üzerinde {supply} maksimum arz.",
+    "ogTitle": "{name} — Tokenomics",
+    "ogDescription": "{name} için arz, dağıtım ve satış şartları.",
+    "facts": {
+      "maxSupply": "{supply} $OKN",
+      "chain": "Zincir",
+      "claimFee": "Talep ücreti",
+      "salePricing": "Satış fiyatlandırması",
+      "decimals": "Ondalık basamak"
+    },
+    "factsValues": {
+      "maxSupply": "{supply} $OKN",
+      "claimFee": "BNB olarak {fee}",
+      "salePricing": "Sabit fiyat, BNB ile fiyatlandırılır",
+      "decimals": "18"
+    },
+    "factLabels": {
+      "maxSupply": "Maksimum arz",
+      "chain": "Zincir",
+      "claimFee": "Talep ücreti",
+      "salePricing": "Satış fiyatlandırması",
+      "decimals": "Ondalık basamak"
+    },
+    "fullAllocationHeading": "Tam dağıtım",
+    "fullAllocationNote": "Dağıtım değerleri onaylanmıştır ve 5B maksimum arza toplamaktadır.",
+    "tableHeaders": {
+      "bucket": "Havuz",
+      "allocation": "Dağıtım",
+      "tokens": "Token'lar ($OKN)",
+      "share": "Pay"
+    },
+    "total": "Toplam",
+    "saleHeading": "Doğrudan BNB satışı",
+    "saleBody": "$OKN, zincir üzerindeki TokenSale sözleşmesi üzerinden sabit fiyatla doğrudan satılır. Bu aşamada likidite havuzu gerekmez. Cüzdan başına bir sınır, balina birikimini önler.",
+    "feeHeading": "{fee} talep ücreti",
+    "feeBody": "Her talep, bir Chainlink BNB/USD oracle'ı ile canlı olarak fiyatlandırılan BNB cinsinden 3$ ücret öder. Ücretler dağıtıcı sözleşmesinde birikir ve yöneticiler tarafından hazineden çekilir."
+  },
+  "howToClaimPage": {
+    "title": "Nasıl talep edilir",
+    "metaTitle": "Nasıl talep edilir",
+    "metaDescription": "$OKN elde etmenin iki yolu: görevlerle kazanın ve zincir üzerinde talep edin ya da doğrudan BNB ile satın alın. BNB cinsinden {fee} talep ücreti.",
+    "ogTitle": "{name} — Nasıl talep edilir",
+    "ogDescription": "Görevlerle $OKN kazanın veya doğrudan BNB ile satın alın. Adım adım kılavuz.",
+    "heading": "İlk $OKN'ınıza giden iki yol",
+    "subheading": "Topluluğa katılarak kazanın veya doğrudan satın alın. İkisi de $OKN'ı BNB Smart Chain üzerindeki cüzdanınıza ulaştırır.",
+    "pathALabel": "Yol A",
+    "pathAHeading": "Görevlerle kazan, zincir üzerinde talep et",
+    "pathABody": "Katılım ücretsizdir. Bir yönetici Merkle kökü işlediğinde puanlar $OKN'a dönüşür.",
+    "pathBLabel": "Yol B",
+    "pathBHeading": "Doğrudan BNB ile satın al",
+    "pathBBody": "Sabit fiyatla anlık zincir üzerinde satın alma. Cüzdan başına sınır uygulanır.",
+    "earnSteps": [
+      {
+        "title": "$OKN'ı Telegram'da aç",
+        "body": "Mini uygulamayı başlatmak için \"Telegram'da aç\"a dokunun. Hesabınız Telegram kimliğinizden oluşturulur — ayrı kayıt yoktur."
+      },
+      {
+        "title": "Bir BNB Smart Chain cüzdanı bağla",
+        "body": "Panelin içinde MetaMask, Trust Wallet veya herhangi bir EVM cüzdanı bağlayın. Adres, Telegram hesabınıza bağlanır."
+      },
+      {
+        "title": "Puan kazanmak için görevleri tamamla",
+        "body": "Kanalları takip edin, gruba katılın, arkadaşlarınızı yönlendirin. Her görev puan kazandırır. Bir yönetici Merkle kökü işleyene kadar puanlar zincir dışında izlenir."
+      },
+      {
+        "title": "Zincir üzerinde talep et",
+        "body": "Puanlarınız işlendiğinde, Talep sayfası Merkle proof'unuzu oluşturur ve cüzdanınız dağıtıcı sözleşmesini çağırır. 3$ BNB ücreti uygulanır."
+      }
+    ],
+    "buySteps": [
+      {
+        "title": "Satın Al sayfasını aç",
+        "body": "Panelden Satın Al sekmesini açın. Mevcut fiyatı (BNB başına $OKN), kalan cüzdan sınırınızı ve satış durumunu göreceksiniz."
+      },
+      {
+        "title": "BNB miktarını gir",
+        "body": "Harcamak istediğiniz BNB miktarını yazın. Sayfa, alacağınız $OKN'ı önizler ve cüzdan başına sınır ile minimum satın almaya göre doğrular."
+      },
+      {
+        "title": "Satın almayı onayla",
+        "body": "Cüzdanınız, BNB eklenmiş olarak TokenSale.buy()'ı çağırır. Sözleşme, sabit fiyatla $OKN'ı doğrudan adresinze basar."
+      },
+      {
+        "title": "Satın almanızı takip et",
+        "body": "Her satın alma zincir üzerine kaydedilir (Bought olayı) ve panele indekslenir. Toplanan BNB'nin çekilmesi yönetici kontrollüdür ve denetim günlüğüne kaydedilir."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "$OKN'ı ne zaman transfer edebilirim?",
+        "answer": "Immediately. There is no transfer lock on OKN tokens. Once claimed or purchased, you can send or swap them right away."
+      },
+      {
+        "question": "Talep ücreti nedir?",
+        "answer": "Talep başına BNB olarak {fee}, Chainlink oracle'ı ile canlı fiyatlandırılır. Ücret ekosistem hazinesini finanse eder."
+      },
+      {
+        "question": "Cüzdan gerekiyor mu?",
+        "answer": "Evet — BNB Smart Chain üzerinde herhangi bir EVM cüzdanı. Telegram hesabınıza bağlamak için panelin içinde bağlayın."
+      }
+    ],
+    "openDashboard": "Paneli aç"
+  },
+  "documentsPage": {
+    "title": "Belgeler — Whitepaper ve Yol Haritası",
+    "metaTitle": "Belgeler — Whitepaper ve Yol Haritası",
+    "metaDescription": "$OKN Token whitepaper'ını ve ürün yol haritasını indirin. Tam tokenomics, dağıtım, talep mekanikleri ve kilometre taşı zaman çizelgesi.",
+    "ogTitle": "{name} — Belgeler",
+    "ogDescription": "$OKN Token whitepaper'ını ve ürün yol haritasını indirin. Tam tokenomics, dağıtım, talep mekanikleri ve kilometre taşı zaman çizelgesi.",
+    "kicker": "Belgeler",
+    "heading": "Whitepaper ve Yol Haritası",
+    "subheading": "$OKN'ı değerlendirmek için ihtiyacınız olan her şey tek bir yerde. Tam teknik whitepaper'ı veya ürün yol haritasını aşağıdan indirin.",
+    "docs": [
+      {
+        "title": "Whitepaper",
+        "description": "$OKN'ın tam teknik ve ekonomik özellikleri: tokenomics, dağıtım, talep ücreti modeli ve Merkle proof mimarisi.",
+        "bullets": [
+          "Token arzı, dağıtımı ve 6 aylık transfer kilidi",
+          "Talep ücreti mekanizması ve topluluk sınırı",
+          "Merkle dağıtıcı sözleşmesi tasarımı",
+          "Gelir ve sürdürülebilirlik modeli"
+        ],
+        "cta": "Whitepaper'ı indir"
+      },
+      {
+        "title": "Yol haritası",
+        "description": "$OKN nereye gidiyor. Akıllı sözleşmeler, panel, topluluk büyümesi ve yaklaşan AI işlem araçları genelinde aşamalı kilometre taşları.",
+        "bullets": [
+          "Aşama aşama teslimat zaman çizelgesi",
+          "Topluluk misyonu hedefleri (100k üye ve ötesi)",
+          "Staking ve AI İşlem Ajanı yayın pencereleri",
+          "Borsa listelemesi kilometre taşları"
+        ],
+        "cta": "Yol haritasını indir"
+      }
+    ],
+    "pdfLabel": "PDF belgesi",
+    "fileNote": "Belgeler PDF dosyalarıdır. Bir indirme başlamazsa, dosya henüz yayımlanmamış olabilir. Yakında tekrar kontrol edin veya topluluk Telegram'ında sorun.",
+    "trustStrip": [
+      {
+        "title": "Denetlenmiş sözleşmeler",
+        "body": "Akıllı sözleşmeler bir UUPS proxy'si ile OpenZeppelin yükseltilebilir standartlarını kullanır."
+      },
+      {
+        "title": "Şeffaf arz",
+        "body": "Tam dağıtım ve sınır ayrıntıları whitepaper'da yayımlanır."
+      },
+      {
+        "title": "Herkese açık kilometre taşları",
+        "body": "Yol haritası, bizi sorumlu tutabileceğiniz tarihleri ve teslimatları taahhüt eder."
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "label": "Dil",
+    "current": "Geçerli dil: {name}",
+    "languages": {
+      "en": "English",
+      "zh": "中文",
+      "es": "Español",
+      "pt": "Português",
+      "ru": "Русский",
+      "vi": "Tiếng Việt",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fr": "Français"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "portfolio": "Portföy",
+      "aiTradingAgent": "AI Trading Agent",
+      "polymarketAgent": "Polymarket Ajani",
+      "predictionMarkets": "Tahmin Piyasalari",
+      "leaderboard": "Liderlik tablosu",
+      "missions": "Görevler",
+      "tasks": "Görevler",
+      "claim": "Talep et",
+      "buy": "Satın al",
+      "staking": "Staking",
+      "news": "Haberler",
+      "learn": "Öğren",
+      "wallet": "Cüzdan",
+      "referral": "Yönlendirme",
+      "settings": "Ayarlar"
+    },
+    "shell": {
+      "admin": "Yönetici",
+      "dashboard": "Panel",
+      "backToApp": "Uygulamaya dön",
+      "adminPanel": "Yönetim Paneli",
+      "search": "Ara",
+      "filterNav": "Gezinmeyi filtrele",
+      "noMatches": "Eşleşme yok",
+      "menu": "Menü",
+      "administration": "Yönetim",
+      "brandTagline": "Kazan, Talep Et, Satın Al"
+    },
+    "userMenu": {
+      "openMenu": "Kullanıcı menüsünü aç",
+      "settings": "Ayarlar",
+      "wallet": "Cüzdan",
+      "referral": "Yönlendirme",
+      "appearance": "Görünüm",
+      "signIn": "Giriş yap",
+      "signOut": "Çıkış yap",
+      "userFallback": "Kullanıcı {id}",
+      "telegramLabel": "Telegram {id}"
+    },
+    "theme": {
+      "switchToLight": "Açık moda geç",
+      "switchToDark": "Koyu moda geç",
+      "appearance": "Görünüm",
+      "lightMode": "Açık mod",
+      "darkMode": "Koyu mod"
+    },
+    "sidebar": {
+      "earnMore": "Daha fazla $OKN kazan",
+      "earnMoreBody": "Puan biriktirmek için görevleri tamamlayın ve arkadaşlarınızı davet edin.",
+      "learnMore": "Daha fazla bilgi",
+      "inviteFriends": "Arkadaşlarınızı davet edin",
+      "moderationQueue": "Moderasyon kuyruğu",
+      "moderationBody": "Görev tamamlamalarını doğrulayın ve defteri temiz tutun.",
+      "auditLogs": "Denetim günlükleri",
+      "review": "İncele"
+    },
+    "statusBadge": {
+      "pending": "Bekliyor",
+      "eligible": "Uygun",
+      "verified": "Doğrulandı",
+      "approved": "Onaylandı",
+      "paid": "Ödendi",
+      "rejected": "Reddedildi",
+      "active": "Aktif",
+      "inactive": "Aktif değil",
+      "paused": "Duraklatıldı",
+      "draft": "Private test"
+    },
+    "dataState": {
+      "error": "Bu veriler yüklenirken bir şeyler ters gitti.",
+      "retry": "Tekrar dene",
+      "staleWarning": "Canli veriler yuklenemedi. Bunun yerine varsayilanlar gosteriliyor. Yenilemek için tekrar dene kullanin."
+    },
+    "common": {
+      "loading": "Yükleniyor...",
+      "anonymous": "Anonim",
+      "you": "(siz)",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı",
+      "copyValue": "{value} değerini kopyala",
+      "pts": "{count} OK Points",
+      "plusPts": "+{count} OK Points"
+    },
+    "notFound": {
+      "heading": "Sayfa bulunamadı",
+      "body": "Bu panel sayfası mevcut değil. Portföyünüz ve uygulamanın geri kalanı hâlâ bıraktığınız yerde.",
+      "backToDashboard": "Panele dön",
+      "tasks": "Görevler",
+      "wallet": "Cüzdan",
+      "buy": "Satın al",
+      "settings": "Ayarlar"
+    },
+    "portfolio": {
+      "title": "Portföy",
+      "description": "$OKN'unuza bir bakış: aktivite, varlıklar ve kazançlar.",
+      "tabActivity": "Aktivite",
+      "tabHoldings": "Varlıklar"
+    },
+    "activity": {
+      "pointsEarned": "Kazanılan puanlar",
+      "pointsHint": "Merkle işlenmesi bekleniyor",
+      "balance": "$OKN bakiyesi",
+      "balanceHint": "On-chain balance",
+      "tasksDone": "Tamamlanan görevler",
+      "tasksDoneHint": "Doğrulandı ve bekliyor",
+      "referrals": "Yönlendirmeler",
+      "referralsHint": "{count} puan kazanıldı",
+      "claimTitle": "$OKN'unuzu talep edin",
+      "claimDesc": "Bir yönetici Merkle kökü işlediğinde puanlar $OKN'a dönüşür. Talep sırasında 3$ BNB ücreti uygulanır.",
+      "claimablePoints": "Talep edilebilir puanlar",
+      "goToClaim": "Talebe git",
+      "buyTitle": "BNB ile $OKN satın al",
+      "buyDescRate": "Sabit fiyat: BNB başına {rate} $OKN{paused}",
+      "buyDescPausedSuffix": " (satış duraklatıldı)",
+      "buyDescDefault": "Sabit fiyatlı satış, doğrudan sözleşmeden.",
+      "openSale": "Satışı aç",
+      "tasksTitle": "Görevler",
+      "tasksSeeAll": "Tümünü gör",
+      "tasksDesc": "Bir sonraki talebiniz için puan kazanın.",
+      "noTasks": "Şu anda aktif görev yok. Yakında tekrar kontrol edin.",
+      "doButton": "Yap"
+    },
+    "portfolioView": {
+      "portfolioValue": "Portföy değeri",
+      "valueNote": "Mevcut BNB başına {rate} $OKN satış fiyatına dayanır. Transferler kilitliyken $OKN'un piyasa fiyatı yoktur.",
+      "loading": "Yükleniyor...",
+      "connectWallet": "Cüzdanı bağla",
+      "holdings": "Varlıklar",
+      "holdingsHint": "Zincir üzerinde, cüzdanınızda",
+      "totalBought": "Toplam satın alınan",
+      "totalBoughtHint": "Satışta harcanan BNB",
+      "totalClaimed": "Toplam talep edilen",
+      "totalClaimedHint": "Zincir üzerinde talep edildi",
+      "totalEarned": "Toplam kazanılan",
+      "totalEarnedHint": "Tüm kaynaklardan OK Points",
+      "pointsBySource": "Kaynağa göre puanlar",
+      "pointsBySourceDesc": "Ömür boyu puanlarınızın nereden geldiği.",
+      "sourceTask": "Görevler",
+      "sourceReferral": "Yönlendirmeler",
+      "sourceBonus": "Bonuslar",
+      "sourceAdmin": "Yönetici",
+      "sourcePts": "{count} puan - {pct}%",
+      "totalPts": "Toplam: {count} puan",
+      "referralDownline": "Yönlendirme alt kademesi",
+      "referralDownlineDesc": "3 seviye boyunca ağınız.",
+      "level1": "Seviye 1",
+      "level2": "Seviye 2",
+      "level3": "Seviye 3",
+      "downlineNote": "Alt kadenizin görev puanlarının bir payını kazanırsınız: L1'de %10, L2'de %5, L3'te %2."
+    },
+    "buy": {
+      "title": "$OKN satın al",
+      "description": "$OKN'u sabit fiyatla doğrudan BNB ile satın alın.",
+      "rateLabel": "Fiyat",
+      "rateHint": "Sabit satış fiyatı",
+      "rateValue": "BNB başına {value} $OKN",
+      "capLabel": "Cüzdan başına sınır",
+      "capHint": "Cüzdan başına maksimum BNB",
+      "capValue": "{value} BNB",
+      "purchasedLabel": "Satın aldığınız",
+      "purchasedHintHas": "Toplam harcadığınız BNB",
+      "purchasedHintNone": "Sizinkileri yüklemek için cüzdanınızı bağlayın",
+      "purchasedValue": "{value} BNB",
+      "saleStatusLabel": "Satış durumu",
+      "saleStatusPaused": "Satın alma geçici olarak devre dışı",
+      "saleStatusDraft": "Private test phase: buying is open to admins only right now.",
+      "saleStatusActive": "Satış yayında",
+      "historyTitle": "Satın alımlarınız",
+      "historyDesc": "Hesabınıza bağlı onaylanmış BNB satın alımları.",
+      "historyEmptyTitle": "Henüz satın alma yok",
+      "historyEmptyMessage": "Onaylanmış BNB satın alımlarınız burada görünecek.",
+      "thDate": "Tarih",
+      "thBnbIn": "Giren BNB",
+      "thOknOut": "Çıkan $OKN",
+      "thTx": "İşlem",
+      "notConfigured": "Satış henüz yapılandırılmadı. Alımların açılmasından önce bir yöneticinin oranı ve sınırı ayarlaması gerekir.",
+      "progressTitle": "Sale progress",
+      "progressRaised": "{raised} of {cap} BNB",
+      "progressUncapped": "This sale has no hard cap. Every purchase still mints $OKN at the fixed rate.",
+      "allocationRemaining": "Sale allocation remaining",
+      "indexing": "Indexing",
+      "progressHint": "BNB collected toward the sale hard cap",
+      "progressRaisedOnly": "{raised} BNB raised"
+    },
+    "buyWidget": {
+      "title": "$OKN satın al",
+      "description": "Bir BNB miktarı girin. $OKN anında cüzdanınıza kredilenir.",
+      "amountLabel": "Miktar (BNB)",
+      "amountPlaceholder": "0.1",
+      "youReceive": "Yaklaşık {value} $OKN alırsınız",
+      "minNote": "Min {value} BNB",
+      "minNoteUsd": "Asgari {usd} (≈ {bnb} BNB)",
+      "errInvalid": "Geçerli bir BNB miktarı girin.",
+      "errOverCap": "Kalan {value} BNB sınırınızı aşıyor.",
+      "errBelowMin": "Minimum satın alma {value} BNB'dir.",
+      "connectNote": "You need a connected wallet to buy.",
+      "walletPageLink": "Cüzdan sayfası",
+      "salePaused": "Satış şu anda duraklatıldı. Yakında tekrar kontrol edin.",
+      "saleDraft": "The sale is in private testing. Buying opens to everyone soon.",
+      "btnIdle": "$OKN satın al",
+      "btnPending": "Cüzdanınızda onaylayın",
+      "errNotConnected": "Önce Cüzdan sayfasında cüzdanınızı bağlayın.",
+      "errNoAmount": "Bir BNB miktarı girin.",
+      "errRejected": "İşlem cüzdanınızda reddedildi.",
+      "errFailed": "Satın alma başarısız. Lütfen tekrar deneyin.",
+      "errNotConfigured": "Satis henuz yapilandirilmadi. Lutfen daha sonra tekrar deneyin.",
+      "saleNotStarted": "The sale has not started yet.",
+      "saleEnded": "The sale has ended.",
+      "errHardCap": "This amount exceeds the remaining sale hard cap. Maximum: {value} BNB.",
+      "maxNote": "Maximum purchase: {value} BNB.",
+      "btnConfirming": "Confirming on-chain...",
+      "maxButton": "MAX",
+      "maxAriaLabel": "Fill the maximum purchase amount",
+      "usdApprox": "≈ {value}",
+      "pricePerOkn": "≈ {value} per $OKN",
+      "priceUpdated": "BNB price updated {seconds}s ago",
+      "priceStale": "BNB price feed is delayed; USD figures may be off",
+      "reviewDescription": "Double-check the details before you confirm in your wallet.",
+      "reviewSpend": "You spend",
+      "reviewReceive": "You receive",
+      "reviewRate": "Rate",
+      "rateValue": "{value} $OKN per BNB",
+      "reviewAllowance": "Wallet allowance after purchase",
+      "reviewRateNote": "The rate is re-checked right before your wallet opens. If it changed, you will be asked to review the updated amounts.",
+      "rateChanged": "The rate has changed. Review the updated amount and confirm again.",
+      "pendingTitle": "Transaction submitted",
+      "pendingDesc": "Your purchase is still confirming on-chain. This can take a couple of minutes.",
+      "viewTx": "View on BscScan",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm buy",
+      "errInsufficientBalance": "Insufficient BNB balance",
+      "errReverted": "The purchase transaction reverted on-chain. No purchase was made.",
+      "connectCta": "Connect your wallet"
+    },
+    "claim": {
+      "title": "$OKN talep et",
+      "description": "Puanlarınızı zincir üzerinde OKN'a dönüştürün.",
+      "pointsTitle": "Puanlarınız",
+      "pointsDesc": "Bir yönetici Merkle kökü işledikten sonra puanlar talep edilebilir $OKN olur.",
+      "claimablePoints": "Talep edilebilir puanlar",
+      "noPointsTitle": "Henüz puan yok",
+      "noPointsMessage": "Puan kazanmaya başlamak için görevleri tamamlayın ve arkadaşlarınızı davet edin.",
+      "goToTasks": "Görevlere git",
+      "noteMerkle": "Bir yöneticinin Merkle kökü işlemesini bekleyin. Bundan sonra puanlarınız talep edilebilir olur.",
+      "noteFee": "Talep sırasında 3$ karşılığı BNB ücreti uygulanır.",
+      "howTitle": "Talep etme nasıl çalışır",
+      "howDesc": "Puanlardan cüzdanınızdaki $OKN'a üç adım.",
+      "step1Title": "Puan kazanın",
+      "step1Text": "Puan kazanmak için görevleri tamamlayın ve arkadaşlarınızı davet edin.",
+      "step2Title": "İşlenmeyi bekleyin",
+      "step2Text": "Yönetici, puanlarınızı talep edilebilir yapan bir Merkle kökü işler.",
+      "step3Title": "Zincir üzerinde talep edin",
+      "step3Text": "3$ BNB ücretini ödeyin ve $OKN cüzdanınıza iner.",
+      "earnedBanner": "Kazandınız",
+      "earnedUnit": "OK Points",
+      "pendingTitle": "OK Points hazırlanıyor",
+      "pendingBody": "Talepler bir sonraki dağıtımdan sonra açılır.",
+      "readyTitle": "Ready to claim",
+      "readyBody": "Your OK Points have been committed."
+    },
+    "claimButton": {
+      "title": "Zincir üzerinde talep et",
+      "descLoading": "Taleplerin açık olup olmadığı kontrol ediliyor.",
+      "descClaimable": "Talep edilebilir miktar: {value} $OKN",
+      "descNotOpen": "Talepler ilk Merkle işlemesinden sonra açılır.",
+      "notOpenTitle": "Talepler henüz açık değil",
+      "notOpenBody": "İlk Merkle kökü işlenmedi. Bir sonraki işlemeden sonra tekrar kontrol edin.",
+      "noBalanceBody": "İşlenen kök, henüz hesabınız için talep edilebilir bir bakiyeye sahip değil.",
+      "connectNote": "You need a connected wallet to claim.",
+      "walletPageLink": "Cüzdan sayfası",
+      "btnIdle": "$OKN talep et",
+      "btnPending": "Cüzdanınızda onaylayın",
+      "errNotConnected": "Önce Cüzdan sayfasında cüzdanınızı bağlayın.",
+      "errNotOpen": "Talepler henüz açık değil. İlk Merkle kökü işlenmedi.",
+      "errRejected": "İşlem cüzdanınızda reddedildi.",
+      "errFailed": "Talep başarısız. Lütfen tekrar deneyin.",
+      "feeNote": "Network fee: {value} BNB (paid to claim, exact on-chain amount).",
+      "errWrongWallet": "This claim belongs to wallet {wallet}. Connect that wallet to claim, or request a wallet change.",
+      "errFeeUnavailable": "The claim fee could not be read right now. Try again in a moment.",
+      "btnConfirming": "Confirming on-chain...",
+      "connectCta": "Connect your wallet"
+    },
+    "leaderboard": {
+      "title": "Liderlik tablosu",
+      "description": "Yönlendirmeler, görev puanları ve satın alınan BNB'ye göre en iyi topluluk üyeleri.",
+      "pastWinners": "Geçmiş kazananlar",
+      "catReferrers": "Yönlendirenler",
+      "catTasks": "Görev puanı kazananlar",
+      "catBuyers": "Alıcılar",
+      "unitRefs": "yönlendirme",
+      "unitPts": "OK Points",
+      "unitBnb": "BNB",
+      "periodWeek": "Bu hafta",
+      "periodMonth": "Bu ay",
+      "periodAll": "Tüm zamanlar",
+      "fullRankingTitle": "Tam sıralama",
+      "fullRankingAllTime": "Tüm zamanların en iyi {category}.",
+      "fullRankingWeek": "Bu haftanın en iyi {category}.",
+      "fullRankingMonth": "Bu ayın en iyi {category}.",
+      "anonymous": "Anonim",
+      "youSuffix": "(siz)",
+      "noEntriesTitle": "Bu dönem için henüz sıralama yok",
+      "noEntriesAllTime": "Burada görünmek için ilk kişi olun. Görevleri tamamlayın veya arkadaşlarınızı davet edin.",
+      "noEntriesDefault": "Burada görünmek için ilk kişi olun. Aktivite biriktikçe tekrar kontrol edin.",
+      "yourRankEmpty": "Bu kategoride aktiviteniz olduğunda burada görüneceksiniz.",
+      "yourRankNotRanked": "Bu dönemde henüz sıralanmadınız. Tırmanmak için aktif olun!"
+    },
+    "winners": {
+      "title": "Geçmiş kazananlar",
+      "description": "Tamamlanan liderlik tablosu dönemlerinden anlık görüntü kazananları ve bonus ödülleri.",
+      "backToLeaderboard": "Liderlik tablosuna dön",
+      "tabWeekly": "Haftalık",
+      "tabMonthly": "Aylık",
+      "catReferrers": "En iyi yönlendirenler",
+      "catTasks": "En iyi görev puanı kazananlar",
+      "catBuyers": "En iyi alıcılar",
+      "periodWeek": "Hafta",
+      "periodMonth": "Ay",
+      "periodAll": "Tüm zamanlar",
+      "groupTitle": "{period} {key} - {category}",
+      "scoreLabel": "skor",
+      "pointsAwarded": "+{points} OK Points",
+      "emptyTitle": "Henüz {period} kazananı yok",
+      "emptyMessage": "Kazananlar her {periodWord} sonunda anlık görüntüye alınır ve bonus $OKN puanları alır.",
+      "periodWordWeek": "hafta",
+      "periodWordMonth": "ay"
+    },
+    "learn": {
+      "title": "Öğrenme merkezi",
+      "description": "Kripto öğrenin. $OKN kazanın.",
+      "tagline": "Blockchain ve kripto hakkında kısa dersler. Bir dersi tamamlayın, quizi geçin, $OKN kazanın.",
+      "features": [
+        {
+          "title": "Lokma boyutunda dersler",
+          "description": "Blockchain, cüzdanlar, DeFi ve güvenlik temelleri hakkında kısa, odaklanmış dersler."
+        },
+        {
+          "title": "Kanıtlamak için quiz",
+          "description": "Her ders kısa bir quizle biter. Anladığınızı onaylamak için geçin."
+        },
+        {
+          "title": "$OKN kazanın",
+          "description": "Bir dersi başarıyla tamamlamak size $OKN öder ve talep edilebilir bakiyenize eklenir."
+        },
+        {
+          "title": "Aşamalı yol",
+          "description": "Temellerle başlayın ve ilerledikçe daha gelişmiş konuların kilidini açın."
+        }
+      ]
+    },
+    "missions": {
+      "title": "Topluluk görevleri",
+      "description": "Birlikte hedeflere ulaşın. Topluluk bir kilometre taşına ulaştığında herkes $OKN kazanır.",
+      "metricMembers": "topluluk üyesi",
+      "metricTelegram": "Telegram üyesi",
+      "metricBnb": "Toplanan BNB",
+      "metricOkn": "Talep edilen $OKN",
+      "emptyTitle": "Şu anda aktif görev yok",
+      "emptyMessage": "Yeni topluluk hedefleri burada görünecek. Ulaşıldığında uygun olmak için katkıda bulunmaya devam edin.",
+      "completedHeading": "Tamamlanan görevler",
+      "rewardLabel": "+{reward} $OKN",
+      "progress": "{current} / {threshold}",
+      "eligible": "Uygunsunuz. Topluluğun hedefe ulaşmasına yardımcı olmak için $OKN kullanmaya devam edin.",
+      "notEligible": "Bu hedefe ulaşıldığında uygun olmak için hemen katılın.",
+      "statusAchieved": "Hedefe ulaşıldı - ödüller şimdi dağıtılıyor.",
+      "statusDistributed": "Hedefe ulaşıldı ve ödüller dağıtıldı.",
+      "receivedPoints": "+{points} OK Points",
+      "processing": "İşleniyor...",
+      "joinedTooLate": "Çok geç katıldı"
+    },
+    "news": {
+      "title": "Haberler",
+      "description": "$OKN projesinden en son haberler.",
+      "tagline": "Duyurular, listelemeler, ortaklıklar ve yol haritası ilerlemesi hakkında güncel kalın.",
+      "features": [
+        {
+          "title": "Duyurular",
+          "description": "Ekipten resmi güncellemeler, doğrudan panelinizde gösterilir."
+        },
+        {
+          "title": "Listelemeler",
+          "description": "Meydana geldikçe yeni borsa ve platform listelemeleri."
+        },
+        {
+          "title": "Ortaklıklar",
+          "description": "$OKN ekosistemini büyüten entegrasyonlar ve işbirlikleri."
+        },
+        {
+          "title": "Yol haritası güncellemeleri",
+          "description": "Yayımlanan kilometre taşlarına ve teslimat tarihlerine göre ilerlemeyi izleyin."
+        },
+        {
+          "title": "Yeni özellikler",
+          "description": "Ürün lansmanları ve iyileştirmeler, gönderildikçe duyurulur."
+        },
+        {
+          "title": "Tek akış",
+          "description": "Her şey tek bir kronolojik zaman çizelgesinde, kategoriye göre filtrelenebilir."
+        }
+      ]
+    },
+    "referral": {
+      "title": "Yönlendirme",
+      "description": "Arkadaşlarınızı davet edin. Tüm alt kadenizden kazanın, 3 seviye derin.",
+      "level1": "Seviye 1 (doğrudan)",
+      "level2": "Seviye 2",
+      "level3": "Seviye 3",
+      "levelFallback": "Seviye {n}",
+      "linkTitle": "Yönlendirme bağlantınız",
+      "linkDesc": "Her yerde paylaşın. Arkadaşlar Telegram botu üzerinden katılır ve Seviye 1'inize düşer.",
+      "copyButton": "Kopyala",
+      "copiedButton": "Kopyalandı",
+      "totalDownline": "Toplam alt kademede",
+      "totalDownlineHint": "Tüm 3 seviyede",
+      "pointsEarned": "Kazanılan puanlar",
+      "pointsEarnedHint": "Yönlendirme ödüllerinden",
+      "downlineTitle": "Seviyeye göre alt kademeniz",
+      "downlineDesc": "Yönlendirmelerinizin görevlerden elde ettiği puanların bir payını kazanırsınız: L1'de %10, L2'de %5, L3'te %2.",
+      "countSingular": "Bu kademede {count} kişi",
+      "countPlural": "Bu kademede {count} kişi",
+      "howTitle": "Nasıl çalışır",
+      "step1Title": "Bağlantınızı paylaşın",
+      "step1Text": "Yönlendirme bağlantınızı arkadaşlarınıza gönderin.",
+      "step2Title": "Arkadaş botu başlatır",
+      "step2Text": "Telegram üzerinden $OKN'a katılırlar.",
+      "step3Title": "İkiniz de kazanırsınız",
+      "step3Text": "Görev puanlarının bir dilimini kazanın, 3 seviye derin.",
+      "recentTitle": "Son yönlendirmeler",
+      "recentDesc": "En son doğrudan (Seviye 1) davetleriniz.",
+      "recentEmptyTitle": "Henüz yönlendirme yok",
+      "recentEmptyMessage": "Alt kadenizi oluşturmaya başlamak için bağlantınızı paylaşın.",
+      "newUser": "Yeni kullanıcı"
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "description": "Hesabınızı, cüzdanınızı ve tercihlerinizi yönetin.",
+      "tabProfile": "Profil",
+      "tabEmail": "E-posta",
+      "tabWallet": "Cüzdan",
+      "tabSecurity": "Güvenlik",
+      "twoFactorTitle": "İki faktörlü kimlik doğrulama",
+      "twoFactorDesc": "Hesabınızı korumak için ikinci bir faktör (kimlik doğrulayıcı uygulama) ekleyin.",
+      "twoFactorOnDesc": "İki faktörlü kimlik doğrulama etkin. Her yeni girişte kimlik doğrulayıcı uygulamanızdan bir kod gerekir.",
+      "twoFactorOffDesc": "İki faktörlü kimlik doğrulama kapalı. Ekstra güvenlik katmanı için etkinleştirin.",
+      "twoFactorPreparing": "2FA kurulumunuz hazırlanıyor...",
+      "twoFactorScanHint": "Bu QR kodunu kimlik doğrulayıcı uygulamanızla tarayın (Google Authenticator, Authy vb.).",
+      "twoFactorManualHint": "Veya bu kodu manuel olarak girin:",
+      "twoFactorEnable": "2FA'yı etkinleştir",
+      "twoFactorDisable": "2FA'yı devre dışı bırak",
+      "twoFactorEnabledTitle": "2FA etkin",
+      "twoFactorEnabledDesc": "Yedek kodlarınızı şimdi kaydedin. Kimlik doğrulayıcı cihazınızı kaybederseniz bunlara ihtiyacınız olacak.",
+      "twoFactorDisabledTitle": "2FA devre dışı",
+      "backupCodesTitle": "Yedek kodlarınız",
+      "backupCodesDesc": "Kimlik doğrulayıcınızı kaybederseniz her kod giriş için bir kez kullanılabilir. Güvenli bir yerde saklayın.",
+      "backupCodesDone": "Kaydettim",
+      "tabAppearance": "Görünüm",
+      "tabSession": "Oturum",
+      "notSignedInTitle": "Profil yüklenmedi",
+      "notSignedInDesc": "Profiliniz yüklenemedi. Bu genellikle oturumunuzun sona erdiği veya giriş yapmadığınız anlamına gelir. Ayarlarınızı yönetmek için tekrar giriş yapın.",
+      "signInCta": "Giriş yap",
+      "displayNameTitle": "Görünen ad",
+      "displayNameDesc": "Avatarınızda, liderlik tablosu satırlarınızda ve yönlendirme etkinliğinizde gösterilir.",
+      "firstNameLabel": "Ad",
+      "firstNamePlaceholder": "Alex",
+      "lastNameLabel": "Soyad",
+      "lastNamePlaceholder": "Morgan",
+      "saveChanges": "Değişiklikleri kaydet",
+      "identityTitle": "Telegram kimliği",
+      "identityDesc": "Telegram hesabınız, bu $OKN hesabı için yetkili kimliktir.",
+      "anonymous": "Anonim",
+      "avatarNote": "Avatar fotoğrafı Telegram profilinizden gelir.",
+      "telegramUsername": "Telegram kullanıcı adı",
+      "notSet": "Ayarlanmadı",
+      "telegramId": "Telegram ID",
+      "joinedOkn": "$OKN'a katıldı",
+      "role": "Rol",
+      "userId": "Kullanıcı ID",
+      "emailTitle": "E-posta",
+      "emailDesc": "Hesap kurtarma ve (nihayetinde) bildirimler için bir e-posta bağlayın.",
+      "unverified": "Doğrulanmamış",
+      "change": "Değiştir",
+      "remove": "Kaldır",
+      "verifyHint": "Sahipliği onaylamak için e-postanızı doğrulayın. 6 haneli bir kod gelen kutunuza gönderilecek.",
+      "verify": "Doğrula",
+      "verified": "Doğrulandı",
+      "verifySuccessDesc": "E-postanız doğrulandı. Hesap kurtarma ve bildirimler için kullanılacaktır.",
+      "enterCode": "6 haneli kodu girin",
+      "enterCodeDesc": "E-postanıza bir kod gönderdik. 10 dakika içinde sona erer.",
+      "codePlaceholder": "123456",
+      "submitCode": "E-postayı doğrula",
+      "resend": "Kodu yeniden gönder",
+      "resendIn": "{seconds} sn içinde yeniden gönder",
+      "bindEmailTitle": "E-posta bağla",
+      "newEmailTitle": "Yeni e-posta",
+      "emailPlaceholder": "you@example.com",
+      "submitBind": "E-posta bağla",
+      "submitUpdate": "E-postayı güncelle",
+      "cancel": "İptal",
+      "walletTitle": "Cüzdan",
+      "walletDesc": "Talep ettiğiniz $OKN'u alan cüzdan. Cüzdan sayfasında yönetin.",
+      "boundAddress": "Bağlı adres",
+      "notBound": "Bağlı değil",
+      "boundSince": "Bağlanma tarihi",
+      "manageWallet": "Cüzdanı yönet",
+      "requestRebind": "Yeniden bağlama talep et",
+      "appearanceTitle": "Görünüm",
+      "appearanceDesc": "Bu cihazda panelin nasıl görüneceğini seçin.",
+      "themeLabel": "Tema",
+      "themeHint": "Açık veya koyu. Cihaz başına saklanır.",
+      "notificationsTitle": "Bildirimler",
+      "notificationsBadge": "Demo",
+      "notificationsDesc": "Bu düğmeler yalnızca bu cihazda kaydedilir. Gerçek bir bildirim sistemi yol haritasındadır; şimdilik bunlar yer tutucudur.",
+      "notificationsComingSoon": "Bu bildirim turleri gelecek bir surum icin planlanmistir ve henuzu aktif degildir.",
+      "notifTaskLabel": "Görev doğrulama uyarıları",
+      "notifTaskDesc": "Gönderdiğiniz bir görev doğrulandığında veya reddedildiğinde.",
+      "notifMissionLabel": "Görev kilometre taşları",
+      "notifMissionDesc": "Bir topluluk görevi ulaşıldığında ve ödüller dağıtıldığında.",
+      "supportTitle": "Destek",
+      "supportDesc": "Yardıma mı ihtiyacınız var veya toplulukla bağlanmak mı istiyorsunuz?",
+      "telegramCommunity": "Telegram topluluğu",
+      "communityLabel": "Topluluk",
+      "terms": "Şartlar",
+      "privacy": "Gizlilik",
+      "signOutTitle": "Çıkış yap",
+      "signOutDesc": "Bu cihazdaki oturumunuzu sonlandırın. Telegram ile tekrar giriş yapmanız gerekecek.",
+      "signOutButton": "Çıkış yap"
+    },
+    "staking": {
+      "title": "Staking",
+      "description": "Ödül kazanmak için $OKN kilitleyin.",
+      "tagline": "$OKN'unuzu kilitleyin, APY kazanın ve token'ı stabilize etmeye yardımcı olun.",
+      "features": [
+        {
+          "title": "Esnek kilit süreleri",
+          "description": "30, 90, 180 veya 365 gün seçin. Daha uzun kilitler daha yüksek APY kazandırır."
+        },
+        {
+          "title": "APY kazanın",
+          "description": "Stake edilen $OKN sürekli olarak ödül biriktirir, kilit açıldığında talep edilebilir."
+        },
+        {
+          "title": "Satış baskısını azaltır",
+          "description": "Kilitli arz, piyasada daha az token anlamına gelir ve fiyat istikrarını destekler."
+        },
+        {
+          "title": "Otomatik kilit açma",
+          "description": "Kilit süresi bittiğinde $OKN'unuz otomatik olarak cüzdanınıza döner."
+        }
+      ]
+    },
+    "tasks": {
+      "title": "Görevler",
+      "description": "Bir sonraki talebiniz için puan kazanmak üzere görevleri tamamlayın.",
+      "emptyTitle": "Aktif görev yok",
+      "emptyMessage": "Yeni görevler düzenli olarak gelir. Yakında tekrar kontrol edin.",
+      "rewardLabel": "+{points} OK Points",
+      "doButton": "Yap",
+      "verifyButton": "Doğrula",
+      "submitting": "Gönderiliyor",
+      "verifying": "Doğrulanıyor",
+      "proofLabel": "Kanıtınızı gönderin (kullanıcı adı, bağlantı veya kısa cevap)",
+      "proofPlaceholder": "@kullanıcıadı veya https://...",
+      "pending": "Bekliyor"
+    },
+    "tradeBot": {
+      "title": "AI Trading Agent",
+      "description": "Kripto piyasaları için otomatik long ve short sinyalleri.",
+      "comingSoon": "Yakında",
+      "headline": "Kripto sinyalleri için AI co-pilot'unuz.",
+      "body": "Trade botu piyasayı gece gündüz tarar ve long ve short fırsatlarını giriş, hedef, stop ve bir güven skoruyla sunar. Bu sayfa, planlanan deneyimin bir önizlemesidir. Bot henüz yayında değil.",
+      "statusBadge": "Bot çevrimdışı - geliştiriliyor",
+      "capabilities": [
+        "24/7 piyasa taraması",
+        "Giriş / hedef / stop seviyeleri",
+        "Güven puanlaması",
+        "Risk yönetilen boyutlandırma"
+      ],
+      "signalPreviewAria": "Sinyal önizlemesi",
+      "signalHeading": "Sinyal pencereleri - önizleme",
+      "sampleData": "Örnek veriler - canlı değil",
+      "disabledAria": "Bot geliştirilirken sinyal önizlemesi devre dışı",
+      "overlayTitle": "Sinyaller henüz yayında değil",
+      "overlayBody": "AI Trading Agent hâlâ geliştirme aşamasında. Bu sayfadan hiçbir işlem yapılmayacak.",
+      "backToPortfolio": "Portföye dön",
+      "timeframe": "Zaman dilimi - {value}",
+      "entry": "Giriş",
+      "target": "Hedef",
+      "stop": "Stop",
+      "pending": "Bekliyor",
+      "long": "LONG",
+      "short": "SHORT",
+      "confidenceAria": "Güven {value} yüzde"
+    },
+    "polymarketAgent": {
+      "title": "Polymarket Ajani",
+      "description": "Polymarket tahmin etkinliklerinde otomatik pozisyonlama.",
+      "comingSoon": "Yakinda",
+      "headline": "Polymarket etkinlikleri icin yapay zeka ajaniniz.",
+      "body": "Polymarket ajani tahmin piyasalarini 7/24 izler ve yuksek kanaatteki etkinlik pozisyonlarini olasilik analizi, giris bolgeleri ve risk boyutlandirmasiyla ortaya cikarir. Bu sayfa planlanan deneyimin bir onizlemesidir. Ajan henüz aktif degil.",
+      "statusBadge": "Ajan cevrimdisi - gelistirilmekte",
+      "capabilities": [
+        "7/24 etkinlik izleme",
+        "Olasilik avantaj skorlamasi",
+        "Giris / cikis bolgeleri",
+        "Risk yönetimli boyutlandirma"
+      ],
+      "overlayTitle": "Ajan henüz aktif degil",
+      "overlayBody": "Polymarket Ajani hâlâ gelistirme asamasinda. Bu sayfadan hicbir pozisyon acilmayacak.",
+      "backToPortfolio": "Portfoye geri don",
+      "tabs": {
+        "ariaLabel": "Polymarket yüzeyleri",
+        "agent": "Ajan",
+        "copier": "Kopyalayıcı",
+        "funds": "Fonlar"
+      },
+      "copier": {
+        "headline": "En iyi Polymarket işlemcilerini otomatik olarak yansıtın.",
+        "body": "Kopyalayıcı, seçtiğiniz işlemcileri takip eder ve işlemlerini kendi cüzdanınız, kendi pozisyon boyutunuz ve kendi risk limitlerinizle yansıtır. Cüzdan oluşturun veya içe aktarın, işlemci seçin ve fonlarınız üzerinde kontrolü elinizde tutun.",
+        "statusBadge": "Kopyalayıcı geliştirme aşamasında",
+        "loading": "Kopyalayıcınız yükleniyor...",
+        "unconfiguredBody": "Copy trading hizmeti henüz bağlı değil. Aktivasyon erken erişimle açılacak.",
+        "loadErrorTitle": "Kopyalayıcı yüklenemedi",
+        "loadErrorBody": "Kopyalayıcı hizmetiyle iletişimde bir sorun oluştu. Birazdan tekrar deneyin.",
+        "retry": "Tekrar dene",
+        "walletReadyTitle": "Kopyalayıcı cüzdanınız hazır.",
+        "walletReadyBody": "Kopyalamaya başlamak için bu adresi Polygon üzerinde USDC ile besleyin. Tek seferlik onayın gaz ücreti için az miktarda POL yeterlidir.",
+        "origin": {
+          "created": "Oluşturulan cüzdan",
+          "imported_eoa": "İçe aktarılan cüzdan",
+          "imported_safe_owner": "İçe aktarılan Polymarket hesabı"
+        },
+        "activateTitle": "Aktivasyon yöntemi",
+        "createWallet": "Cüzdan oluştur",
+        "importWallet": "Cüzdan içe aktar",
+        "privateKeyLabel": "Özel anahtar",
+        "privateKeyPlaceholder": "64 onaltılık karakter",
+        "privateKeyHelp": "Anahtarınız anında şifrelenir ve asla düz metin olarak saklanmaz veya kaydedilmez. Özel bir cüzdan kullanın.",
+        "proxyWalletLabel": "Polymarket proxy cüzdanı (isteğe bağlı)",
+        "proxyWalletPlaceholder": "0x...",
+        "proxyWalletHelp": "Polymarket'e e-posta veya sosyal medya ile giriyorsanız proxy cüzdan adresini yapıştırın ve sahip anahtarınızı içe aktarın.",
+        "activating": "Etkinleştiriliyor...",
+        "activateCta": "Kopyalayıcıyı etkinleştir",
+        "activateHint": "Her yeni abonelik önizleme modunda başlar: gerçek moda geçene kadar işlem yapılmaz.",
+        "activateFailed": "Etkinleştirme başarısız. Anahtarı kontrol edip tekrar deneyin.",
+        "tradersTitle": "Kopyaladığınız işlemciler",
+        "traderCount": "{count, plural, =0 {İşlemci yok} other {# işlemci}}",
+        "traderAddressLabel": "İşlemci adresi",
+        "copySizeLabel": "Kopyalama yüzdesi",
+        "addTrader": "İşlemci ekle",
+        "addTraderFailed": "Bu işlemci eklenemedi.",
+        "noTraders": "Henüz işlemci yok. Önizleme modunda başlamak için liderlik tablosundan bir Polymarket cüzdan adresi ekleyin.",
+        "strategySummary": "%{size} oranında {strategy} boyutlandırma, katı limitlerle",
+        "goLive": "Gerçek moda geç",
+        "pause": "Duraklat",
+        "resume": "Devam et",
+        "stop": "Durdur",
+        "status": {
+          "preview": "Önizleme",
+          "live": "Canlı",
+          "paused": "Duraklatıldı",
+          "stopped": "Durduruldu"
+        },
+        "executionsTitle": "Son kopyalamalar",
+        "noExecutions": "Henüz kopyalama yok. Takip edilen işlemciler işlem yaptığında kayıtlar burada görünür.",
+        "executionTraderSize": "İşlemci {side} ${size}",
+        "export": {
+          "exportKey": "Özel anahtarı dışa aktar",
+          "confirmTitle": "Özel anahtarınız görünsün mü?",
+          "confirmBody": "Bu anahtara sahip olan herkes cüzdanı ve fonlarını kontrol eder. Asla paylaşmayın ve güvenmediğiniz sitelere girmeyin. Anahtar yalnızca bir kez gösterilir.",
+          "cancel": "İptal",
+          "reveal": "Anladım, anahtarı göster",
+          "revealing": "Gösteriliyor...",
+          "revealedTitle": "Özel anahtarınız",
+          "revealedBody": "Şimdi çevrimdışı saklayın. Bu pencere yeniden göstermez; gerekirse dışa aktarma akışını yineleyin.",
+          "copy": "Anahtarı kopyala",
+          "copied": "Kopyalandı",
+          "done": "Tamam",
+          "failed": "Anahtar gösterilemedi. Kısa süre sonra tekrar deneyin."
+        },
+        "withdraw": {
+          "title": "Fon çek",
+          "allowlistTitle": "Çekim adresleri",
+          "allowlistEmpty": "Henüz çekim adresi yok. Çekimi etkinleştirmek için bir adres ekleyin.",
+          "allowlistActive": "Aktif",
+          "cooldownUntil": "Bekleme süresi: {time}",
+          "addressLabel": "Çekim adresi",
+          "addAddress": "Adres ekle",
+          "allowlistHelp": "Çekimler yalnızca bu listedeki adreslere yapılır. Yeni adresler 24 saat sonra açılır.",
+          "addFailed": "Bu adres eklenemedi.",
+          "requestTitle": "Çekim talebi",
+          "requestNoAddress": "Önce bir çekim adresi ekleyin; yeni adresler 24 saat sonra açılır.",
+          "selectAddress": "Bir adres seçin",
+          "amountLabel": "Tutar USDC",
+          "request": "Çekim talep et",
+          "requesting": "Talep ediliyor...",
+          "requestQueued": "Çekim talebi alındı. Çekim işçisi tarafından işlenecek.",
+          "requestFailed": "Çekim talep edilemedi.",
+          "historyTitle": "Çekim geçmişi",
+          "historyEmpty": "Henüz çekim yok.",
+          "status": {
+            "requested": "Talep edildi",
+            "executing": "Yürütülüyor",
+            "done": "Tamamlandı",
+            "failed": "Başarısız",
+            "canceled": "İptal edildi"
+          },
+          "netEstimate": "Ücretler ödendikten sonra yaklaşık {net} alacaksınız."
+        },
+        "funds": {
+          "loading": "Fonlarınız yükleniyor...",
+          "unconfiguredBody": "Copy trading hizmeti henüz bağlı değil.",
+          "loadErrorTitle": "Fonlarınız yüklenemedi",
+          "loadErrorBody": "Kopyalayıcı hizmetiyle iletişimde bir sorun oluştu. Birazdan tekrar deneyin.",
+          "retry": "Tekrar dene",
+          "activateFirstTitle": "Önce kopyalayıcıyı etkinleştirin",
+          "activateFirstBody": "Fonlar kopyalayıcı cüzdanınızda tutulur. Cüzdan oluşturmak veya içe aktarmak için kopyalayıcıyı etkinleştirin, ardından buraya fon ekleyin ve çekin.",
+          "goToCopier": "Kopyalayıcı sekmesine git"
+        },
+        "twofa": {
+          "label": "İki adımlı doğrulama kodu",
+          "placeholder": "123456",
+          "verify": "Kodu doğrula",
+          "verifying": "Doğrulanıyor...",
+          "help": "Bu işlemi onaylamak için kimlik doğrulayıcı uygulamanızdaki 6 haneli kodu girin.",
+          "invalid": "Kod geçersiz. Tekrar deneyin.",
+          "notEnrolledTitle": "İki adımlı doğrulama etkin değil",
+          "notEnrolled": "Önce profil ayarlarınızdan iki adımlı doğrulamayı etkinleştirin. Anahtar dışa aktarma, anahtar içe aktarma ve fon çekme için gereklidir."
+        },
+        "balance": {
+          "title": "Polymarket kopyalayıcı",
+          "polGas": "POL gaz",
+          "openTokens": "{count, plural, =0 {açık pozisyon yok} other {# açık pozisyon}}",
+          "manageFunds": "Fonları yönet",
+          "addFunds": "Fon ekle",
+          "setUpCopier": "Kopyalayıcıyı kur",
+          "noWalletBody": "Polymarket piyasalarını kopyalamaya başlamak için kopyalayıcıyı etkinleştirin.",
+          "errorBody": "Bakiye şu anda kullanılamıyor.",
+          "retry": "Tekrar dene"
+        },
+        "wallet": {
+          "spendable": "Harcanabilir",
+          "gasLabel": "Gaz (POL)",
+          "allowanceApproved": "USDC onaylı",
+          "allowanceNeeded": "Onay gerekli",
+          "refreshAria": "Bakiyeyi yenile",
+          "updatedAgo": "{seconds} sn önce güncellendi",
+          "copyAddress": "Yatırma adresini kopyala",
+          "copiedAddress": "Adres kopyalandı"
+        },
+        "fees": {
+          "title": "Kopyalayıcı ücretleri",
+          "outstanding": "Bekleyen",
+          "lifetime": "Ödenen ücret",
+          "waived": "Afedilen",
+          "explainer": "Ücretler her başarılı kopya için birikir ve bir sonraki çekimden otomatik ödenir; işlem fonlarınıza asla dokunulmaz."
+        },
+        "billing": {
+          "title": "PRO üyeliği",
+          "proActive": "PRO aktif",
+          "renews": "Yenileme",
+          "expiresOn": "Son {date}",
+          "renew": "Yenile",
+          "upgradeCta": "PRO'ya geç",
+          "comingSoon": "PRO, deneme döneminden sonra başlıyor. O zamana kadar işlem başına ücret kapalı kalır.",
+          "priceLabel": "{price} / {days} gün",
+          "feeNow": "Oranınız: %{rate}%",
+          "slots": "{slots} canlı traderdan {used} kullanıldı"
+        },
+        "upgrade": {
+          "title": "PRO'ya geç",
+          "description": "Daha düşük ücret, daha fazla canlı trader. Taahhüt yok: yenilenmezse PRO sona erer.",
+          "freeSlotsLabel": "şu an canlı trader",
+          "proSlotsLabel": "PRO ile canlı trader",
+          "feeSuffix": "kopya başına ücret",
+          "railCopier": "Kopyalayıcı cüzdanı",
+          "railCopierDetail": "Polymarket kopyalayıcı cüzdanınızdan USDC.e tahsil edilir. Güncel bir 2FA kodu gerekir.",
+          "railConnected": "Bağlı cüzdan",
+          "railConnectedDetail": "Kendi BSC cüzdanınızdan USDC ödeyin. Transferi imzalayan sizsiniz; emanet fon hareket etmez.",
+          "consent": "Seçili cüzdandan {days} günlük PRO için {price} USDC tahsil edilmesini kabul ediyorum.",
+          "pay": "{price} öde",
+          "cancel": "İptal",
+          "success": "PRO aktif. Düşük ücretlerin keyfini çıkarın.",
+          "done": "Tamam",
+          "failed": "Ödeme tamamlanamadı.",
+          "sendExact": "Bağlı cüzdanınızdan tam olarak bu tutarı gönderin ve aşağıda onaylayın.",
+          "amountLabel": "Tutar",
+          "toLabel": "Hazine adresi",
+          "copyAddress": "Hazine adresini kopyala",
+          "copied": "Kopyalandı",
+          "networkLabel": "Ağ: BSC (zincir {chainId})",
+          "connectFirst": "Önce BSC cüzdanınızı bağlayın.",
+          "later": "Sonra",
+          "openWallet": "Cüzdanı aç ve öde",
+          "verifyFailed": "Ödeme henüz onaylanmadı. Transfer başarılıysa kısa süre içinde tekrar deneyin."
+        }
+      }
+    },
+    "predictionMarkets": {
+      "title": "Tahmin Piyasalari",
+      "description": "Protokoller arasi sonuc piyasalarini takip edin ve islem yapin.",
+      "comingSoon": "Yakinda",
+      "headline": "Her tahmin pazari icin tek yuzey.",
+      "body": "Polymarket ve diger protokollerdeki canli tahmin piyasalarina goz atin, kategoriye gore filtreleyin ve hacmi, likiditeyi ve olasiligi gercek zamanli takip edin. Bu sayfa planlanan deneyimin bir onizlemesidir. Canli islem henüz mevcut degil.",
+      "statusBadge": "Piyasalar onizlemesi - gelistirilmekte",
+      "categories": [
+        "Politika",
+        "Kripto",
+        "Spor",
+        "Ekonomi"
+      ],
+      "overlayTitle": "Islem henüz aktif degil",
+      "overlayBody": "Tahmin Piyasalari paneli hâlâ gelistirme asamasinda. Bu sayfadan hicbir islem yapilmayacak.",
+      "backToPortfolio": "Portfoye geri don"
+    },
+    "wallet": {
+      "title": "Cüzdan",
+      "description": "Bağlantı, bağlama ve $OKN bakiyeniz.",
+      "balanceLabel": "$OKN bakiyesi",
+      "balanceHint": "Your on-chain OKN balance",
+      "networkLabel": "Ağ",
+      "networkValue": "BNB Smart Chain",
+      "chainId": "Chain ID {id}",
+      "explorer": "BscScan gezgini",
+      "connectionTitle": "Bağlantı",
+      "connectionDesc": "Bağlama, cüzdanı talepler ve satın almalar için Telegram hesabınıza bağlar.",
+      "boundTitle": "Bağlı hesap",
+      "boundDesc": "Cüzdanınızın bağlandığı Telegram hesabı.",
+      "emptyTitle": "Henüz cüzdan bağlı değil",
+      "emptyMessage": "Telegram hesabınıza bağlamak için cüzdanınızı yukarıda bağlayın.",
+      "walletLabel": "Cüzdan",
+      "boundLabel": "Bağlı",
+      "telegramLabel": "Telegram"
+    },
+    "walletConnect": {
+      "connect": "Cüzdanı Bağla",
+      "walletLabel": "Cüzdan: {addr}",
+      "signPending": "Mesajı cüzdanınızda imzalayın...",
+      "binding": "Cüzdan bağlanıyor...",
+      "bound": "Cüzdan bağlı",
+      "signRequiredTitle": "İmza gerekli",
+      "signRequiredDesc": "Bağlamadan önce cüzdan sahipliğini kanıtlamak için bir mesaj imzalamanız gerekir.",
+      "conflictTitle": "Cüzdan zaten kullanımda",
+      "conflictDesc": "Bu cüzdan zaten başka bir hesaba bağlı.",
+      "failedTitle": "Cüzdan bağlanamadı",
+      "failedDesc": "Cüzdan bağlanamadı ({status})."
+    },
+    "dailyCheckIn": {
+      "label": "Günlük seri",
+      "daySingular": "{count} gün",
+      "dayPlural": "{count} gün",
+      "checkedIn": "Giriş yapıldı. En uzun seri: {longest}.",
+      "nextReward": "Bugün +{reward} OK Points için giriş yapın.",
+      "noStreak": "Serinizi başlatmak için bugün giriş yapın."
+    },
+    "rebind": {
+      "title": "Cüzdan değiştir",
+      "description": "Erişimi mi kaybettiniz veya cüzdan mı yükselttiniz? Yeniden bağlama talep edin. Bir moderatör her talebi inceler. 30 günde bir ile sınırlıdır.",
+      "currentWallet": "Mevcut cüzdan",
+      "newWallet": "Yeni cüzdan (bağlı)",
+      "connectNew": "Geçmek istediğiniz yeni cüzdanı bağlayın, ardından aşağıdan bir neden seçin.",
+      "sameWallet": "Bağlı cüzdan, mevcut cüzdanınızla aynı. Yeniden bağlama talep etmek için farklı bir tane bağlayın.",
+      "reasonLabel": "Neden",
+      "reasonLostKey": "Private key kayboldu",
+      "reasonCompromised": "Cüzdan ele geçirildi",
+      "reasonUpgrade": "Donanım cüzdanına yükseltildi",
+      "reasonAdminFix": "Yönetici yönlendirmeli düzeltme",
+      "btnIdle": "Yeniden bağlama talep et",
+      "btnPending": "İmzalanıyor & gönderiliyor...",
+      "signNote": "Yeni cüzdanın sahipliğini kanıtlayan bir mesaj imzalayacaksınız. İmza sunucu tarafında doğrulanır; private key'inizi asla görmüyoruz."
+    },
+    "unbind": {
+      "title": "Disconnect wallet",
+      "description": "Remove the wallet currently bound to your account. You will need to bind a new wallet before you can claim or buy $OKN again.",
+      "currentWallet": "Current wallet",
+      "connectHint": "Connect the wallet currently bound to your account to disconnect it.",
+      "btnIdle": "Disconnect wallet",
+      "btnPending": "Signing...",
+      "signNote": "You will sign a message proving you still control the bound wallet. The signature is verified server-side; we never see your private key.",
+      "dialogTitle": "Disconnect this wallet?",
+      "dialogDescription": "This removes the wallet from your account. You will not be able to claim or buy $OKN until you bind a new one. To confirm, you must sign with the bound wallet.",
+      "dialogConfirm": "Disconnect",
+      "dialogCancel": "Cancel"
+    },
+    "comingSoon": {
+      "badge": "Yakında",
+      "body": "Bu özellik yol haritasında. Aşağıdaki ayrıntılar, geldiğinde neler elde edeceğinizi önizler.",
+      "footerNote": "Bunu daha erken mi istiyorsunuz? Topluluk Telegram'ında ilginizi paylaşın."
+    }
+  },
+  "toasts": {
+    "buy": {
+      "submittedTitle": "Satın alma gönderildi",
+      "submittedDescLink": "İşlemi BscScan'de görüntüle",
+      "successTitle": "Purchase confirmed",
+      "successDesc": "You received {value} $OKN"
+    },
+    "claim": {
+      "submittedTitle": "Talep gönderildi",
+      "submittedDescLink": "İşlemi BscScan'de görüntüle"
+    },
+    "tasks": {
+      "submittedTitle": "İncelemeye gönderildi",
+      "submittedDesc": "Bir moderatör gönderiminizi kısa süre içinde doğrulayacak.",
+      "verifiedTitle": "Görev doğrulandı",
+      "verifiedDesc": "Puanlar bakiyenize eklendi.",
+      "alreadyTitle": "Zaten tamamlandı",
+      "alreadyDesc": "Bu görevi zaten gönderdiniz.",
+      "failedTitle": "Görev gönderilemedi",
+      "failedDesc": "Lütfen biraz sonra tekrar deneyin."
+    },
+    "settings": {
+      "profileUpdated": "Profil güncellendi",
+      "profileFailed": "Profil güncellenemedi",
+      "emailSaved": "E-posta kaydedildi",
+      "emailRemoved": "E-posta kaldırıldı",
+      "emailFailed": "E-posta kaydedilemedi",
+      "verificationSent": "Doğrulama kodu gönderildi",
+      "emailVerified": "E-posta doğrulandı",
+      "verificationFailed": "Doğrulama başarısız"
+    },
+    "wallet": {
+      "bound": "Cüzdan bağlı",
+      "signRequiredTitle": "İmza gerekli",
+      "signRequiredDesc": "Bağlamadan önce cüzdan sahipliğini kanıtlamak için bir mesaj imzalamanız gerekir.",
+      "conflictTitle": "Cüzdan zaten kullanımda",
+      "conflictDesc": "Bu cüzdan zaten başka bir hesaba bağlı.",
+      "failedTitle": "Cüzdan bağlanamadı",
+      "failedDesc": "Cüzdan bağlanamadı ({status})."
+    },
+    "dailyCheckIn": {
+      "streakTitle": "{day}. gün serisi!",
+      "streakDesc": "{points} bonus $OKN puanı kazandınız. Devam edin."
+    },
+    "rebind": {
+      "successTitle": "Yeniden bağlama talep edildi",
+      "successDesc": "Bir moderatör inceleyecek.",
+      "failedTitle": "Talep gönderilemedi"
+    },
+    "unbind": {
+      "successTitle": "Wallet disconnected",
+      "successDesc": "You can now bind a different wallet.",
+      "failedTitle": "Could not disconnect wallet"
+    }
+  },
+  "login": {
+    "heading": "$OKN'e giris yap",
+    "subheading": "Telegram hesabinizla kimlik dogrulayin.",
+    "loginWithTelegram": "Telegram ile giris yap",
+    "helpText": "Hesabinizi dogrulamak icin Telegram'a yonlendirileceksiniz ve sonra buraya giris yapmis olarak doneceksiniz."
+  }
+}

@@ -1,0 +1,253 @@
+/**
+ * styles/landing.css — marketing site design system, ported verbatim from the
+ * lovethmykel-ui/okntoken reference build (its src/app/globals.css).
+ *
+ * Differences from the reference file (required by the monorepo shell, none
+ * visual):
+ *   - The `@import "tailwindcss"` + `@custom-variant dark` lines are dropped;
+ *     both come from styles/globals.css, which also generates every Tailwind
+ *     utility used by the marketing components (v4 automatic source detection).
+ *   - The reference styled `html`/`body` from its private root layout. Here the
+ *     root layout is shared with the dashboard, so those base rules are scoped
+ *     to the `.okn-landing` wrapper that the (marketing) layout renders.
+ *
+ * Everything else (glass system, gradients, grids, keyframes) is byte-for-byte
+ * the reference CSS.
+ */
+
+/* Smooth anchor scrolling only while a marketing page is mounted. */
+html:has(.okn-landing) {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --okn-black: #06070B;
+    --okn-dark-surface: #0B0E17;
+    --okn-dark-card: #121624;
+    --okn-white: #FFFFFF;
+    --okn-light-bg: #F8F9FE;
+    --okn-light-surface: #FFFFFF;
+    --okn-purple: #7C3AED;
+    --okn-purple-glow: rgba(124, 58, 237, 0.4);
+    --okn-magenta: #EC4899;
+    --okn-magenta-glow: rgba(236, 72, 153, 0.4);
+    --okn-cyan: #06B6D4;
+    --okn-cyan-glow: rgba(6, 182, 212, 0.4);
+    --okn-gold: #F59E0B;
+  }
+
+  .okn-landing {
+    background-color: #F8F9FE;
+    color: #0F172A;
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html.dark .okn-landing {
+    background-color: #06070B !important;
+    color: #F8FAFC !important;
+  }
+}
+
+/* =========================================================================
+   APPLE LIQUID GLASS OS & REACTBITS/INSPORA REFRACTION SYSTEM
+   ========================================================================= */
+
+/* Liquid Glass Light (Translucent, Frosted, Specular Top Highlight) */
+.glass-light,
+.liquid-glass-light {
+  background: rgba(255, 255, 255, 0.68) !important;
+  backdrop-filter: blur(32px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(200%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.85) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.98) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.92) !important;
+  box-shadow:
+    0 20px 45px -15px rgba(124, 58, 237, 0.08),
+    0 2px 8px rgba(0, 0, 0, 0.03),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -1px 2px 0 rgba(124, 58, 237, 0.04) !important;
+}
+
+/* Liquid Glass Dark (Deep Luxury VisionOS Translucent Obsidian) */
+html.dark .glass-light,
+html.dark .liquid-glass-light,
+.glass-dark,
+.liquid-glass-dark {
+  background: rgba(16, 20, 34, 0.65) !important;
+  backdrop-filter: blur(36px) saturate(220%) !important;
+  -webkit-backdrop-filter: blur(36px) saturate(220%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.32) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow:
+    0 25px 50px -12px rgba(0, 0, 0, 0.85),
+    0 0 0 1px rgba(124, 58, 237, 0.18),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 2px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Subtle Secondary Glass */
+.glass-light-subtle {
+  background: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(18px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.95) !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.03), inset 0 1px 1px 0 rgba(255, 255, 255, 0.8) !important;
+}
+
+html.dark .glass-light-subtle {
+  background: rgba(14, 18, 30, 0.55) !important;
+  backdrop-filter: blur(24px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.22) !important;
+  box-shadow: 0 15px 35px -8px rgba(0, 0, 0, 0.6), inset 0 1px 1px 0 rgba(255, 255, 255, 0.18) !important;
+}
+
+/* Liquid Glass Pill */
+.glass-pill {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(24px) !important;
+  -webkit-backdrop-filter: blur(24px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.92) !important;
+  border-top: 1px solid rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.06), inset 0 1px 1px 0 rgba(255, 255, 255, 1) !important;
+}
+
+html.dark .glass-pill {
+  background: rgba(20, 25, 42, 0.75) !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.35) !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5), inset 0 1px 1px 0 rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Liquid Interactive Hover Physics */
+.glass-interactive,
+.liquid-glass-interactive {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.glass-interactive:hover,
+.liquid-glass-interactive:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 30px 60px -12px rgba(124, 58, 237, 0.2), 0 0 0 1px rgba(192, 132, 252, 0.4), inset 0 1px 2px 0 rgba(255, 255, 255, 0.9) !important;
+}
+
+html.dark .glass-interactive:hover,
+html.dark .liquid-glass-interactive:hover {
+  box-shadow: 0 35px 70px -15px rgba(0, 0, 0, 0.9), 0 0 25px rgba(124, 58, 237, 0.35), inset 0 1.5px 2px 0 rgba(255, 255, 255, 0.45) !important;
+  border-top-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Active Press Physics (Apple Feedback) — scoped so dashboard buttons are untouched */
+.okn-landing button:active,
+.okn-landing a.button:active {
+  transform: scale(0.975);
+  transition: transform 100ms ease-out;
+}
+
+/* Gradients */
+.gradient-text-brand {
+  background: linear-gradient(135deg, #7C3AED 0%, #EC4899 50%, #06B6D4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html.dark .gradient-text-brand {
+  background: linear-gradient(135deg, #C084FC 0%, #F472B6 50%, #38BDF8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-purple {
+  background: linear-gradient(135deg, #6D28D9 0%, #8B5CF6 60%, #EC4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html.dark .gradient-text-purple {
+  background: linear-gradient(135deg, #D8B4FE 0%, #A855F7 50%, #F472B6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #0EA5E9 0%, #06B6D4 50%, #10B981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html.dark .gradient-text-cyan {
+  background: linear-gradient(135deg, #38BDF8 0%, #22D3EE 50%, #34D399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tech Grids */
+.bg-grid-subtle {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+}
+
+html.dark .bg-grid-subtle {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Smooth Floating Animations */
+@keyframes float-subtle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1.2deg);
+  }
+}
+
+.animate-float-subtle {
+  animation: float-subtle 6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.04);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 5s ease-in-out infinite;
+}
+
+@keyframes shiny-text {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.animate-shiny-text {
+  animation: shiny-text 4s linear infinite;
+}

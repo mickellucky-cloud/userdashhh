@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "OKN Token | 在 BNB Smart Chain 上赚取、领取、购买",
+    "titleTemplate": "%s | OKN Token",
+    "description": "OKN 是部署在 BNB Smart Chain 上的社区代币。通过完成任务赚取、使用 Merkle 证明在链上领取，或直接以固定汇率使用 BNB 购买。",
+    "keywords": [
+      "$OKN",
+      "$OKN Token",
+      "BSC",
+      "BNB Smart Chain",
+      "社区代币",
+      "赚取加密货币",
+      "telegram 机器人",
+      "merkle 领取",
+      "代币销售"
+    ],
+    "ogImageAlt": "OKN Token — 在 BNB Smart Chain 上赚取、领取、购买",
+    "jsonLdActionName": "打开 OKN 仪表板"
+  },
+  "nav": {
+    "features": "功能",
+    "howItWorks": "运作方式",
+    "tokenomics": "代币经济",
+    "roadmap": "路线图",
+    "documents": "文档",
+    "exchange": "交易所",
+    "openApp": "打开 App",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "community": "社区"
+  },
+  "hero": {
+    "liveOn": "已上线 {chain}",
+    "headline1": "不要只是买代币。",
+    "headline2": "去赚取它。",
+    "paragraph": "$OKN 是 OKNEXUS 交易所生态的原生功能与社区代币，构建于 BNB Smart Chain 之上，带来速度、安全与真实的实用价值。每一次互动都在创造价值。完成任务、赚取奖励积分、使用 BNB 购买，并通过我们的 Telegram App 直接在链上领取你的代币。$OKN 不止于代币，更是你通往专属奖励、平台权益、治理机会与去中心化金融未来的钥匙。加入这场运动，拥有未来。",
+    "loginWithTelegram": "使用 Telegram 登录",
+    "facts": {
+      "maxSupply": "{supply} 最大供应量",
+      "claimFee": "{fee} BNB 领取费用",
+      "fixedRateSale": "固定汇率 BNB 销售"
+    },
+    "scroll": "滚动",
+    "coinAlt": "OKNexus 代币币徽"
+  },
+  "features": {
+    "heading": "为愿意付出努力的持有者而打造",
+    "subheading": "$OKN 的每一部分都在奖励参与：任务、推荐与链上领取。",
+    "tasksHeading": "完成任务，积累积分",
+    "tasksBody": "关注频道、加入群组、邀请好友。积分在链下累积，并以 Merkle 根的形式上链，供你据此领取。",
+    "taskRows": [
+      "在 X 上关注 $OKN",
+      "加入 Telegram 群组",
+      "推荐一位好友"
+    ],
+    "pts": "+{pts} OK Points",
+    "onChainClaimsHeading": "链上领取",
+    "onChainClaimsBody": "累计式 Merkle 证明意味着一次领取即可覆盖你已赚取的全部数量。",
+    "buyWithBnbHeading": "使用 BNB 购买",
+    "buyWithBnbBody": "{rate}。现阶段无需流动性池。",
+    "saleRate": "固定汇率，以 BNB 计价",
+    "claimFeeHeading": "{fee} 领取费用",
+    "claimFeeBody": "以 BNB 支付，价格由 Chainlink 预言机定价。费用用于注资生态金库。",
+    "referralsHeading": "双向受益的推荐",
+    "referralsBody": "分享你的链接。当好友完成首个任务时，双方都获得奖励。"
+  },
+  "howItWorks": {
+    "heading": "OKN 增长引擎",
+    "subheading": "一个每个动作都为下一个动作提供动力的生态系统。在持续的循环中赚取、加倍、领取并增长您的奖励。",
+    "steps": [
+      {
+        "title": "发现并加入",
+        "body": "在 Telegram 中打开 $OKN。您的账户会立即创建，无需注册表单。"
+      },
+      {
+        "title": "赚取 OK Points",
+        "body": "完成任务、每日签到并登上排行榜来积累 OK Points。"
+      },
+      {
+        "title": "购买并加速",
+        "body": "用 BNB 购买 $OKN 以解锁奖励倍数。买得越多，赚得越快。"
+      },
+      {
+        "title": "链上领取",
+        "body": "将您的 OK Points 转换为 $OKN。需支付 $3 BNB 费用。"
+      },
+      {
+        "title": "质押与交易",
+        "body": "随着网络增长，在整个生态系统中持有、交易和使用您的 $OKN。"
+      },
+      {
+        "title": "推荐与增长",
+        "body": "邀请好友并在三个级别赚取他们积分的份额。循环重新开始。"
+      }
+    ],
+    "loopLabel": "循环继续"
+  },
+  "video": {
+    "kicker": "见证它在行动",
+    "heading": "了解 OKNexus 的故事",
+    "subheading": "快速了解 $OKN 如何将每个行为转化为真实的链上价值。",
+    "playAria": "播放 OKNexus 介绍视频"
+  },
+  "tokenomics": {
+    "kicker": "代币经济",
+    "heading": "一份固定供应。零意外。",
+    "supplyLabel": "最大供应量",
+    "claimFeeLabel": "领取费用",
+    "claimFeeValue": "{fee} BNB",
+    "allocationHeading": "分配",
+    "allocationNote": "分配比例已确认，合计为 5B 最大供应量。",
+    "ariaAllocation": "{labels}",
+    "allocations": [
+      "社区奖励",
+      "公开销售",
+      "DEX 流动性",
+      "团队与顾问",
+      "生态系统",
+      "金库"
+    ]
+  },
+  "roadmap": {
+    "kicker": "路线图",
+    "heading": "前方的旅程",
+    "subheading": "从首个任务到完整流动性。沿着这条线前行。",
+    "phases": [
+      {
+        "phase": "阶段 1",
+        "title": "点燃",
+        "status": "进行中",
+        "items": [
+          "代币、销售与分发合约部署于 BSC",
+          "Telegram 机器人与小程序上线",
+          "带链下积分账本的任务系统"
+        ]
+      },
+      {
+        "phase": "阶段 2",
+        "title": "分发",
+        "status": "下一步",
+        "items": [
+          "固定汇率的公开 BNB 销售",
+          "Merkle 领取开放，收取 3 美元 BNB 费用",
+          "推荐计划推广"
+        ]
+      },
+      {
+        "phase": "阶段 3",
+        "title": "流动性",
+        "status": "之后",
+        "items": [
+          "DEX 上线与流动性池",
+          "社区治理"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "headline": "准备好赚取属于你的份额了吗？",
+    "subheading": "加入社区，完成你的首个任务，今天就开启积累 $OKN。",
+    "joinTelegram": "使用 Telegram 登录",
+    "watchYoutube": "在 YouTube 观看"
+  },
+  "footer": {
+    "tagline": "你赚取的社区代币。在 {chain} 上。",
+    "columns": [
+      {
+        "title": "App",
+        "links": [
+          "仪表板",
+          "登录"
+        ]
+      },
+      {
+        "title": "资源",
+        "links": [
+          "如何领取",
+          "代币经济",
+          "文档"
+        ]
+      }
+    ],
+    "copyright": "© 2026 OKN。保留所有权利。"
+  },
+  "kycBadge": {
+    "statusLabel": "KYC 已认证",
+    "verified": "已认证",
+    "aria": "由 {provider} {status} — 打开认证页面",
+    "projectBy": "项目团队已通过 {provider} 的 KYC"
+  },
+  "caCard": {
+    "contractAddress": "合约地址 (BSC)",
+    "live": "已上线",
+    "comingSoon": "即将上线",
+    "copy": "复制",
+    "copied": "已复制",
+    "copyAria": "复制合约地址",
+    "comingSoonBody": "该地址将在代币上线时发布于此。",
+    "logoAlt": "$OKN"
+  },
+  "socialSidebar": {
+    "ariaLabel": "社交链接",
+    "labels": {
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "discord": "Discord",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "bsky": "Bluesky",
+      "tiktok": "TikTok"
+    }
+  },
+  "notFound": {
+    "heading": "此页面已脱离链上",
+    "body": "你要找的页面不存在或可能已被移动。让我们带你回到正轨。",
+    "cta": "带我回首页",
+    "links": [
+      "代币经济",
+      "如何领取",
+      "文档"
+    ],
+    "logoAlt": "$OKN"
+  },
+  "tokenomicsPage": {
+    "title": "代币经济",
+    "metaTitle": "代币经济",
+    "metaDescription": "$OKN 代币供应、分配与销售条款。在 BNB Smart Chain 上的 {supply} 最大供应量。",
+    "ogTitle": "{name} — 代币经济",
+    "ogDescription": "{name} 的供应、分配与销售条款。",
+    "facts": {
+      "maxSupply": "{supply} $OKN",
+      "chain": "链",
+      "claimFee": "领取费用",
+      "salePricing": "销售定价",
+      "decimals": "小数位"
+    },
+    "factsValues": {
+      "maxSupply": "{supply} $OKN",
+      "claimFee": "{fee} BNB",
+      "salePricing": "固定汇率，以 BNB 计价",
+      "decimals": "18"
+    },
+    "factLabels": {
+      "maxSupply": "最大供应量",
+      "chain": "链",
+      "claimFee": "领取费用",
+      "salePricing": "销售定价",
+      "decimals": "小数位"
+    },
+    "fullAllocationHeading": "完整分配",
+    "fullAllocationNote": "分配比例已确认，合计为 5B 最大供应量。",
+    "tableHeaders": {
+      "bucket": "类别",
+      "allocation": "分配",
+      "tokens": "代币 ($OKN)",
+      "share": "占比"
+    },
+    "total": "合计",
+    "saleHeading": "直接 BNB 销售",
+    "saleBody": "$OKN 通过链上 TokenSale 合约以固定汇率直接销售。现阶段无需流动性池。单钱包上限防止巨鲸囤积。",
+    "feeHeading": "{fee} 领取费用",
+    "feeBody": "每次领取需支付 3 美元的 BNB 费用，价格通过 Chainlink BNB/USD 预言机实时定价。费用累积在分发合约中，由管理员提取至金库。"
+  },
+  "howToClaimPage": {
+    "title": "如何领取",
+    "metaTitle": "如何领取",
+    "metaDescription": "获取 $OKN 的两种方式：通过任务赚取并链上领取，或直接使用 BNB 购买。{fee} BNB 领取费用。",
+    "ogTitle": "{name} — 如何领取",
+    "ogDescription": "通过任务赚取 $OKN，或直接使用 BNB 购买。分步指南。",
+    "heading": "通往你第一枚 $OKN 的两条路径",
+    "subheading": "通过参与社区赚取，或直接购买。两种方式都会将 $OKN 落入你在 BNB Smart Chain 上的钱包。",
+    "pathALabel": "路径 A",
+    "pathAHeading": "通过任务赚取，链上领取",
+    "pathABody": "免费参与。当管理员提交 Merkle 根时，积分转换为 $OKN。",
+    "pathBLabel": "路径 B",
+    "pathBHeading": "直接使用 BNB 购买",
+    "pathBBody": "以固定汇率的即时链上购买。适用单钱包上限。",
+    "earnSteps": [
+      {
+        "title": "在 Telegram 中打开 $OKN",
+        "body": "点击“在 Telegram 中打开”以启动小程序。你的账户会基于你的 Telegram 身份创建 — 无需单独注册。"
+      },
+      {
+        "title": "连接 BNB Smart Chain 钱包",
+        "body": "在仪表板内，连接 MetaMask、Trust Wallet 或任何 EVM 钱包。该地址将与你的 Telegram 账户绑定。"
+      },
+      {
+        "title": "完成任务赚取积分",
+        "body": "关注频道、加入群组、推荐好友。每项任务都奖励积分。在管理员提交 Merkle 根之前，积分在链下记录。"
+      },
+      {
+        "title": "链上领取",
+        "body": "积分提交后，领取页面会生成你的 Merkle 证明，并由你的钱包调用分发合约。需支付 3 美元 BNB 费用。"
+      }
+    ],
+    "buySteps": [
+      {
+        "title": "打开购买页面",
+        "body": "在仪表板中打开购买标签页。你将看到当前汇率（每 BNB 可兑 $OKN）、你的剩余钱包上限以及销售状态。"
+      },
+      {
+        "title": "输入 BNB 数量",
+        "body": "输入你想花费的 BNB 数量。页面会预览你将收到的 $OKN，并根据单钱包上限和最低购买量进行校验。"
+      },
+      {
+        "title": "确认购买",
+        "body": "你的钱包会调用 TokenSale.buy() 并附带 BNB。合约按固定汇率将 $OKN 直接铸造到你的地址。"
+      },
+      {
+        "title": "跟踪你的购买",
+        "body": "每次购买都记录在链上（Bought 事件）并索引到仪表板中。已筹集 BNB 的提取由管理员管控并留有审计日志。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "我什么时候可以转账 $OKN？",
+        "answer": "Immediately. There is no transfer lock on OKN tokens. Once claimed or purchased, you can send or swap them right away."
+      },
+      {
+        "question": "领取费用是多少？",
+        "answer": "每次领取 {fee} BNB，价格通过 Chainlink 预言机实时定价。该费用用于注资生态金库。"
+      },
+      {
+        "question": "我需要钱包吗？",
+        "answer": "需要 — 任何 BNB Smart Chain 上的 EVM 钱包均可。在仪表板内连接它即可将其绑定到你的 Telegram 账户。"
+      }
+    ],
+    "openDashboard": "打开仪表板"
+  },
+  "documentsPage": {
+    "title": "文档 — 白皮书与路线图",
+    "metaTitle": "文档 — 白皮书与路线图",
+    "metaDescription": "下载 $OKN Token 白皮书与产品路线图。完整的代币经济、分发、领取机制与里程碑时间线。",
+    "ogTitle": "{name} — 文档",
+    "ogDescription": "下载 $OKN Token 白皮书与产品路线图。完整的代币经济、分发、领取机制与里程碑时间线。",
+    "kicker": "文档",
+    "heading": "白皮书与路线图",
+    "subheading": "你评估 $OKN 所需的一切，尽在一处。在下方下载完整的技术白皮书或产品路线图。",
+    "docs": [
+      {
+        "title": "白皮书",
+        "description": "$OKN 的完整技术与经济规范：代币经济、分发、领取费用模型与 Merkle 证明架构。",
+        "bullets": [
+          "代币供应、分配与 6 个月转账锁定",
+          "领取费用机制与社区上限",
+          "Merkle 分发合约设计",
+          "收入与可持续性模型"
+        ],
+        "cta": "下载白皮书"
+      },
+      {
+        "title": "路线图",
+        "description": "$OKN 的发展方向。涵盖智能合约、仪表板、社区增长以及即将推出的 AI 交易工具的分阶段里程碑。",
+        "bullets": [
+          "逐阶段交付时间线",
+          "社区使命目标（10 万成员及以上）",
+          "质押与 AI 交易代理发布窗口",
+          "交易所上线里程碑"
+        ],
+        "cta": "下载路线图"
+      }
+    ],
+    "pdfLabel": "PDF 文档",
+    "fileNote": "文档为 PDF 文件。如果下载未开始，该文件可能尚未发布。请稍后再来查看，或在社区 Telegram 中询问。",
+    "trustStrip": [
+      {
+        "title": "已审计的合约",
+        "body": "智能合约采用 OpenZeppelin 可升级标准与 UUPS 代理。"
+      },
+      {
+        "title": "透明的供应",
+        "body": "完整的分配与上限细节已在白皮书中发布。"
+      },
+      {
+        "title": "公开的里程碑",
+        "body": "路线图承诺了你可以据此监督我们的日期与交付物。"
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "label": "语言",
+    "current": "当前语言：{name}",
+    "languages": {
+      "en": "English",
+      "zh": "中文",
+      "es": "Español",
+      "pt": "Português",
+      "ru": "Русский",
+      "vi": "Tiếng Việt",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fr": "Français"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "portfolio": "资产组合",
+      "aiTradingAgent": "AI 交易代理",
+      "polymarketAgent": "Polymarket 代理",
+      "predictionMarkets": "预测市场",
+      "leaderboard": "排行榜",
+      "missions": "使命",
+      "tasks": "任务",
+      "claim": "领取",
+      "buy": "购买",
+      "staking": "质押",
+      "news": "新闻",
+      "learn": "学习",
+      "wallet": "钱包",
+      "referral": "推荐",
+      "settings": "设置"
+    },
+    "shell": {
+      "admin": "管理",
+      "dashboard": "仪表板",
+      "backToApp": "返回 App",
+      "adminPanel": "管理面板",
+      "search": "搜索",
+      "filterNav": "筛选导航",
+      "noMatches": "无匹配项",
+      "menu": "菜单",
+      "administration": "管理",
+      "brandTagline": "赚取、领取、购买"
+    },
+    "userMenu": {
+      "openMenu": "打开用户菜单",
+      "settings": "设置",
+      "wallet": "钱包",
+      "referral": "推荐",
+      "appearance": "外观",
+      "signIn": "登录",
+      "signOut": "退出登录",
+      "userFallback": "用户 {id}",
+      "telegramLabel": "Telegram {id}"
+    },
+    "theme": {
+      "switchToLight": "切换到浅色模式",
+      "switchToDark": "切换到深色模式",
+      "appearance": "外观",
+      "lightMode": "浅色模式",
+      "darkMode": "深色模式"
+    },
+    "sidebar": {
+      "earnMore": "赚取更多 $OKN",
+      "earnMoreBody": "完成任务并邀请好友以积累积分。",
+      "learnMore": "了解更多",
+      "inviteFriends": "邀请好友",
+      "moderationQueue": "审核队列",
+      "moderationBody": "验证任务完成情况并保持账本整洁。",
+      "auditLogs": "审计日志",
+      "review": "审核"
+    },
+    "statusBadge": {
+      "pending": "待处理",
+      "eligible": "符合资格",
+      "verified": "已验证",
+      "approved": "已批准",
+      "paid": "已支付",
+      "rejected": "已拒绝",
+      "active": "活跃",
+      "inactive": "未活跃",
+      "paused": "已暂停",
+      "draft": "Private test"
+    },
+    "dataState": {
+      "error": "加载此数据时出现问题。",
+      "retry": "重试",
+      "staleWarning": "无法加载实时数据。改为显示默认值。点击重试以刷新。"
+    },
+    "common": {
+      "loading": "加载中...",
+      "anonymous": "匿名",
+      "you": "（你）",
+      "copy": "复制",
+      "copied": "已复制",
+      "copyValue": "复制 {value}",
+      "pts": "{count} OK Points",
+      "plusPts": "+{count} OK Points"
+    },
+    "notFound": {
+      "heading": "页面未找到",
+      "body": "此仪表板页面不存在。你的资产组合和应用的其余部分仍在你离开的位置。",
+      "backToDashboard": "返回仪表板",
+      "tasks": "任务",
+      "wallet": "钱包",
+      "buy": "购买",
+      "settings": "设置"
+    },
+    "portfolio": {
+      "title": "资产组合",
+      "description": "一览你的 $OKN：活动、持仓与收益。",
+      "tabActivity": "活动",
+      "tabHoldings": "持仓"
+    },
+    "activity": {
+      "pointsEarned": "已获积分",
+      "pointsHint": "等待 Merkle 提交",
+      "balance": "$OKN 余额",
+      "balanceHint": "On-chain balance",
+      "tasksDone": "已完成任务",
+      "tasksDoneHint": "已验证与待处理",
+      "referrals": "推荐",
+      "referralsHint": "已赚取 {count} 积分",
+      "claimTitle": "领取你的 $OKN",
+      "claimDesc": "当管理员提交 Merkle 根时，积分转换为 $OKN。领取时需支付 3 美元 BNB 费用。",
+      "claimablePoints": "可领取积分",
+      "goToClaim": "前往领取",
+      "buyTitle": "使用 BNB 购买 $OKN",
+      "buyDescRate": "固定汇率：每 BNB {rate} $OKN{paused}",
+      "buyDescPausedSuffix": "（销售已暂停）",
+      "buyDescDefault": "固定汇率销售，直接来自合约。",
+      "openSale": "打开销售",
+      "tasksTitle": "任务",
+      "tasksSeeAll": "查看全部",
+      "tasksDesc": "赚取积分以用于下次领取。",
+      "noTasks": "目前没有活跃任务。请稍后再来查看。",
+      "doButton": "去做"
+    },
+    "portfolioView": {
+      "portfolioValue": "资产组合价值",
+      "valueNote": "基于当前销售汇率每 BNB {rate} $OKN 计算。转账锁定期间 $OKN 无市场价格。",
+      "loading": "加载中...",
+      "connectWallet": "连接钱包",
+      "holdings": "持仓",
+      "holdingsHint": "链上，在你的钱包中",
+      "totalBought": "总购买量",
+      "totalBoughtHint": "在销售中花费的 BNB",
+      "totalClaimed": "总领取量",
+      "totalClaimedHint": "链上已领取",
+      "totalEarned": "总收益",
+      "totalEarnedHint": "来自所有来源的 OK Points",
+      "pointsBySource": "按来源的积分",
+      "pointsBySourceDesc": "你终身积分的来源。",
+      "sourceTask": "任务",
+      "sourceReferral": "推荐",
+      "sourceBonus": "奖励",
+      "sourceAdmin": "管理员",
+      "sourcePts": "{count} 积分 - {pct}%",
+      "totalPts": "总计：{count} 积分",
+      "referralDownline": "推荐下线",
+      "referralDownlineDesc": "你跨越 3 个等级的网络。",
+      "level1": "等级 1",
+      "level2": "等级 2",
+      "level3": "等级 3",
+      "downlineNote": "你获得下线任务积分的份额：L1 10%，L2 5%，L3 2%。"
+    },
+    "buy": {
+      "title": "购买 $OKN",
+      "description": "以固定汇率直接使用 BNB 购买 $OKN。",
+      "rateLabel": "汇率",
+      "rateHint": "固定销售汇率",
+      "rateValue": "每 BNB {value} $OKN",
+      "capLabel": "单钱包上限",
+      "capHint": "每个钱包的 BNB 上限",
+      "capValue": "{value} BNB",
+      "purchasedLabel": "你已购买",
+      "purchasedHintHas": "你花费的总 BNB",
+      "purchasedHintNone": "连接你的钱包以加载你的数据",
+      "purchasedValue": "{value} BNB",
+      "saleStatusLabel": "销售状态",
+      "saleStatusPaused": "购买已暂时禁用",
+      "saleStatusDraft": "Private test phase: buying is open to admins only right now.",
+      "saleStatusActive": "销售进行中",
+      "historyTitle": "你的购买记录",
+      "historyDesc": "与你的账户关联的已确认 BNB 购买。",
+      "historyEmptyTitle": "暂无购买记录",
+      "historyEmptyMessage": "你已确认的 BNB 购买将显示在此处。",
+      "thDate": "日期",
+      "thBnbIn": "BNB 输入",
+      "thOknOut": "$OKN 输出",
+      "thTx": "交易",
+      "notConfigured": "销售尚未配置。管理员需要在开放购买前设置汇率和上限。",
+      "progressTitle": "Sale progress",
+      "progressRaised": "{raised} of {cap} BNB",
+      "progressUncapped": "This sale has no hard cap. Every purchase still mints $OKN at the fixed rate.",
+      "allocationRemaining": "Sale allocation remaining",
+      "indexing": "Indexing",
+      "progressHint": "BNB collected toward the sale hard cap",
+      "progressRaisedOnly": "{raised} BNB raised"
+    },
+    "buyWidget": {
+      "title": "购买 $OKN",
+      "description": "输入 BNB 数量。$OKN 将立即记入你的钱包。",
+      "amountLabel": "数量 (BNB)",
+      "amountPlaceholder": "0.1",
+      "youReceive": "你将收到约 {value} $OKN",
+      "minNote": "最低 {value} BNB",
+      "minNoteUsd": "最低 {usd}（≈ {bnb} BNB）",
+      "errInvalid": "请输入有效的 BNB 数量。",
+      "errOverCap": "超过你剩余的上限 {value} BNB。",
+      "errBelowMin": "最低购买量为 {value} BNB。",
+      "connectNote": "You need a connected wallet to buy.",
+      "walletPageLink": "钱包页面",
+      "salePaused": "销售目前已暂停。请稍后再来。",
+      "saleDraft": "The sale is in private testing. Buying opens to everyone soon.",
+      "btnIdle": "购买 $OKN",
+      "btnPending": "在你的钱包中确认",
+      "errNotConnected": "请先在钱包页面上连接你的钱包。",
+      "errNoAmount": "请输入 BNB 数量。",
+      "errRejected": "交易在你的钱包中被拒绝。",
+      "errFailed": "购买失败。请重试。",
+      "errNotConfigured": "销售尚未配置。请稍后再试。",
+      "saleNotStarted": "The sale has not started yet.",
+      "saleEnded": "The sale has ended.",
+      "errHardCap": "This amount exceeds the remaining sale hard cap. Maximum: {value} BNB.",
+      "maxNote": "Maximum purchase: {value} BNB.",
+      "btnConfirming": "Confirming on-chain...",
+      "maxButton": "MAX",
+      "maxAriaLabel": "Fill the maximum purchase amount",
+      "usdApprox": "≈ {value}",
+      "pricePerOkn": "≈ {value} per $OKN",
+      "priceUpdated": "BNB price updated {seconds}s ago",
+      "priceStale": "BNB price feed is delayed; USD figures may be off",
+      "reviewDescription": "Double-check the details before you confirm in your wallet.",
+      "reviewSpend": "You spend",
+      "reviewReceive": "You receive",
+      "reviewRate": "Rate",
+      "rateValue": "{value} $OKN per BNB",
+      "reviewAllowance": "Wallet allowance after purchase",
+      "reviewRateNote": "The rate is re-checked right before your wallet opens. If it changed, you will be asked to review the updated amounts.",
+      "rateChanged": "The rate has changed. Review the updated amount and confirm again.",
+      "pendingTitle": "Transaction submitted",
+      "pendingDesc": "Your purchase is still confirming on-chain. This can take a couple of minutes.",
+      "viewTx": "View on BscScan",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm buy",
+      "errInsufficientBalance": "Insufficient BNB balance",
+      "errReverted": "The purchase transaction reverted on-chain. No purchase was made.",
+      "connectCta": "Connect your wallet"
+    },
+    "claim": {
+      "title": "领取 $OKN",
+      "description": "将你的积分转换为链上的 OKN。",
+      "pointsTitle": "你的积分",
+      "pointsDesc": "管理员提交 Merkle 根后，积分变为可领取的 $OKN。",
+      "claimablePoints": "可领取积分",
+      "noPointsTitle": "暂无积分",
+      "noPointsMessage": "完成任务并邀请好友以开始赚取积分。",
+      "goToTasks": "前往任务",
+      "noteMerkle": "等待管理员提交 Merkle 根。届时你的积分将变为可领取。",
+      "noteFee": "领取时需支付相当于 3 美元的 BNB 费用。",
+      "howTitle": "领取如何运作",
+      "howDesc": "从积分到钱包中的 $OKN 共三步。",
+      "step1Title": "赚取积分",
+      "step1Text": "完成任务并邀请好友以赚取积分。",
+      "step2Title": "等待提交",
+      "step2Text": "管理员提交 Merkle 根，使你的积分变为可领取。",
+      "step3Title": "链上领取",
+      "step3Text": "支付 3 美元 BNB 费用，$OKN 即落入你的钱包。",
+      "earnedBanner": "您已赚取",
+      "earnedUnit": "OK Points",
+      "pendingTitle": "您的 OK Points 正在准备中",
+      "pendingBody": "领取将在下次分发后开放。",
+      "readyTitle": "Ready to claim",
+      "readyBody": "Your OK Points have been committed."
+    },
+    "claimButton": {
+      "title": "链上领取",
+      "descLoading": "正在检查领取是否开放。",
+      "descClaimable": "可领取数量：{value} $OKN",
+      "descNotOpen": "首次 Merkle 提交后开放领取。",
+      "notOpenTitle": "领取尚未开放",
+      "notOpenBody": "首个 Merkle 根尚未提交。请在下次提交后再来查看。",
+      "noBalanceBody": "已提交的根目前尚无你账户的可领取余额。",
+      "connectNote": "You need a connected wallet to claim.",
+      "walletPageLink": "钱包页面",
+      "btnIdle": "领取 $OKN",
+      "btnPending": "在你的钱包中确认",
+      "errNotConnected": "请先在钱包页面上连接你的钱包。",
+      "errNotOpen": "领取尚未开放。首个 Merkle 根尚未提交。",
+      "errRejected": "交易在你的钱包中被拒绝。",
+      "errFailed": "领取失败。请重试。",
+      "feeNote": "Network fee: {value} BNB (paid to claim, exact on-chain amount).",
+      "errWrongWallet": "This claim belongs to wallet {wallet}. Connect that wallet to claim, or request a wallet change.",
+      "errFeeUnavailable": "The claim fee could not be read right now. Try again in a moment.",
+      "btnConfirming": "Confirming on-chain...",
+      "connectCta": "Connect your wallet"
+    },
+    "leaderboard": {
+      "title": "排行榜",
+      "description": "按推荐、任务积分和 BNB 购买量排名的社区顶尖成员。",
+      "pastWinners": "往届获胜者",
+      "catReferrers": "推荐人",
+      "catTasks": "任务赚取者",
+      "catBuyers": "购买者",
+      "unitRefs": "次推荐",
+      "unitPts": "OK Points",
+      "unitBnb": "BNB",
+      "periodWeek": "本周",
+      "periodMonth": "本月",
+      "periodAll": "全部时间",
+      "fullRankingTitle": "完整排名",
+      "fullRankingAllTime": "全时间 {category} 榜首。",
+      "fullRankingWeek": "本周 {category} 榜首。",
+      "fullRankingMonth": "本月 {category} 榜首。",
+      "anonymous": "匿名",
+      "youSuffix": "（你）",
+      "noEntriesTitle": "该时段暂无排名",
+      "noEntriesAllTime": "成为第一个出现在此处的人。完成任务或邀请好友。",
+      "noEntriesDefault": "成为第一个出现在此处的人。随着活动累积再回来查看。",
+      "yourRankEmpty": "当你在该类别中有活动时，你将出现在此处。",
+      "yourRankNotRanked": "你尚未在该时段排名。积极活动以攀升！"
+    },
+    "winners": {
+      "title": "往届获胜者",
+      "description": "已完成排行榜时段的快照获胜者及其奖励。",
+      "backToLeaderboard": "返回排行榜",
+      "tabWeekly": "周",
+      "tabMonthly": "月",
+      "catReferrers": "顶尖推荐人",
+      "catTasks": "顶尖任务赚取者",
+      "catBuyers": "顶尖购买者",
+      "periodWeek": "周",
+      "periodMonth": "月",
+      "periodAll": "全部时间",
+      "groupTitle": "{period} {key} - {category}",
+      "scoreLabel": "得分",
+      "pointsAwarded": "+{points} OK Points",
+      "emptyTitle": "尚无 {period} 获胜者",
+      "emptyMessage": "获胜者在每个 {periodWord} 结束时进行快照，并获得 $OKN 奖励积分。",
+      "periodWordWeek": "周",
+      "periodWordMonth": "月"
+    },
+    "learn": {
+      "title": "学习中心",
+      "description": "学习加密货币。赚取 $OKN。",
+      "tagline": "关于区块链与加密货币的简短课程。完成课程、通过测验、赚取 $OKN。",
+      "features": [
+        {
+          "title": "短小精悍的课程",
+          "description": "关于区块链、钱包、DeFi 和安全基础的简短聚焦课程。"
+        },
+        {
+          "title": "测验来证明",
+          "description": "每节课以快速测验结束。通过以确认你已理解。"
+        },
+        {
+          "title": "赚取 $OKN",
+          "description": "成功完成一节课会向你支付 $OKN，添加到你的可领取余额。"
+        },
+        {
+          "title": "渐进式学习路径",
+          "description": "从基础开始，随着进展解锁更高级的主题。"
+        }
+      ]
+    },
+    "missions": {
+      "title": "社区使命",
+      "description": "共同达成目标。当社区达到里程碑时，每个人都赚取 $OKN。",
+      "metricMembers": "社区成员",
+      "metricTelegram": "Telegram 成员",
+      "metricBnb": "筹集的 BNB",
+      "metricOkn": "已领取的 $OKN",
+      "emptyTitle": "目前没有活跃使命",
+      "emptyMessage": "新的社区目标将出现在此处。持续贡献以便在达成时符合资格。",
+      "completedHeading": "已完成使命",
+      "rewardLabel": "+{reward} $OKN",
+      "progress": "{current} / {threshold}",
+      "eligible": "你已符合资格。继续使用 $OKN 以帮助社区达成目标。",
+      "notEligible": "立即加入以在该目标达成时符合资格。",
+      "statusAchieved": "目标已达成 - 奖励正在发放。",
+      "statusDistributed": "目标已达成且奖励已发放。",
+      "receivedPoints": "+{points} OK Points",
+      "processing": "处理中...",
+      "joinedTooLate": "加入太晚"
+    },
+    "news": {
+      "title": "新闻",
+      "description": "$OKN 项目的最新动态。",
+      "tagline": "随时了解公告、上线、合作与路线图进展。",
+      "features": [
+        {
+          "title": "公告",
+          "description": "来自团队的官方更新，直接显示在你的仪表板中。"
+        },
+        {
+          "title": "上线",
+          "description": "新的交易所和平台上线，实时更新。"
+        },
+        {
+          "title": "合作",
+          "description": "扩大 $OKN 生态系统的集成与协作。"
+        },
+        {
+          "title": "路线图更新",
+          "description": "跟踪已发布里程碑和交付日期的进展。"
+        },
+        {
+          "title": "新功能",
+          "description": "产品发布和改进，随上线即时公布。"
+        },
+        {
+          "title": "统一动态",
+          "description": "所有内容汇集于一个按时间排序的时间线，按类别筛选。"
+        }
+      ]
+    },
+    "referral": {
+      "title": "推荐",
+      "description": "邀请好友。从你的整个下线赚取，深达 3 个等级。",
+      "level1": "等级 1（直接）",
+      "level2": "等级 2",
+      "level3": "等级 3",
+      "levelFallback": "等级 {n}",
+      "linkTitle": "你的推荐链接",
+      "linkDesc": "随处分享。好友通过 Telegram 机器人加入并落入你的等级 1。",
+      "copyButton": "复制",
+      "copiedButton": "已复制",
+      "totalDownline": "总下线",
+      "totalDownlineHint": "跨所有 3 个等级",
+      "pointsEarned": "已获积分",
+      "pointsEarnedHint": "来自推荐奖励",
+      "downlineTitle": "按等级划分的下线",
+      "downlineDesc": "你获得推荐从任务中赚取积分的份额：L1 10%，L2 5%，L3 2%。",
+      "countSingular": "此层级 {count} 人",
+      "countPlural": "此层级 {count} 人",
+      "howTitle": "运作方式",
+      "step1Title": "分享你的链接",
+      "step1Text": "将你的推荐链接发送给好友。",
+      "step2Title": "好友启动机器人",
+      "step2Text": "他们通过 Telegram 加入 $OKN。",
+      "step3Title": "双方受益",
+      "step3Text": "赚取他们任务积分的一部分，深达 3 个等级。",
+      "recentTitle": "近期推荐",
+      "recentDesc": "你最近的直接（等级 1）邀请。",
+      "recentEmptyTitle": "暂无推荐",
+      "recentEmptyMessage": "分享你的链接以开始构建你的下线。",
+      "newUser": "新用户"
+    },
+    "settings": {
+      "title": "设置",
+      "description": "管理你的账户、钱包和偏好。",
+      "tabProfile": "个人资料",
+      "tabEmail": "邮箱",
+      "tabWallet": "钱包",
+      "tabSecurity": "安全",
+      "twoFactorTitle": "双因素认证",
+      "twoFactorDesc": "添加第二因素（验证器应用）以保护您的账户。",
+      "twoFactorOnDesc": "双因素认证已启用。每次新登录时都需要验证器应用中的代码。",
+      "twoFactorOffDesc": "双因素认证已关闭。启用它以增加额外的安全层。",
+      "twoFactorPreparing": "正在准备您的 2FA 设置...",
+      "twoFactorScanHint": "用您的验证器应用（Google Authenticator、Authy 等）扫描此二维码。",
+      "twoFactorManualHint": "或手动输入此代码：",
+      "twoFactorEnable": "启用 2FA",
+      "twoFactorDisable": "禁用 2FA",
+      "twoFactorEnabledTitle": "2FA 已启用",
+      "twoFactorEnabledDesc": "立即保存您的备用代码。如果您丢失验证设备，将需要它们。",
+      "twoFactorDisabledTitle": "2FA 已禁用",
+      "backupCodesTitle": "您的备用代码",
+      "backupCodesDesc": "每个代码可使用一次，在您丢失验证器时登录。请妥善保存。",
+      "backupCodesDone": "我已保存",
+      "tabAppearance": "外观",
+      "tabSession": "会话",
+      "notSignedInTitle": "未加载个人资料",
+      "notSignedInDesc": "无法加载您的个人资料。这通常意味着您的会话已过期或您尚未登录。请重新登录以管理您的设置。",
+      "signInCta": "登录",
+      "displayNameTitle": "显示名称",
+      "displayNameDesc": "显示在你的头像、排行榜行和推荐活动中。",
+      "firstNameLabel": "名字",
+      "firstNamePlaceholder": "Alex",
+      "lastNameLabel": "姓氏",
+      "lastNamePlaceholder": "Morgan",
+      "saveChanges": "保存更改",
+      "identityTitle": "Telegram 身份",
+      "identityDesc": "你的 Telegram 账户是此 $OKN 账户的权威身份。",
+      "anonymous": "匿名",
+      "avatarNote": "头像照片来自你的 Telegram 资料。",
+      "telegramUsername": "Telegram 用户名",
+      "notSet": "未设置",
+      "telegramId": "Telegram ID",
+      "joinedOkn": "加入 $OKN",
+      "role": "角色",
+      "userId": "用户 ID",
+      "emailTitle": "邮箱",
+      "emailDesc": "绑定邮箱以便账户恢复和（最终）通知。",
+      "unverified": "未验证",
+      "change": "更改",
+      "remove": "移除",
+      "verifyHint": "验证您的邮箱以确认所有权。一个 6 位代码将发送到您的收件箱。",
+      "verify": "验证",
+      "verified": "已验证",
+      "verifySuccessDesc": "您的邮箱已验证。将用于账户恢复和通知。",
+      "enterCode": "输入 6 位代码",
+      "enterCodeDesc": "我们已向您的邮箱发送了一个代码。10 分钟内有效。",
+      "codePlaceholder": "123456",
+      "submitCode": "验证邮箱",
+      "resend": "重新发送代码",
+      "resendIn": "{seconds} 秒后重新发送",
+      "bindEmailTitle": "绑定邮箱",
+      "newEmailTitle": "新邮箱",
+      "emailPlaceholder": "you@example.com",
+      "submitBind": "绑定邮箱",
+      "submitUpdate": "更新邮箱",
+      "cancel": "取消",
+      "walletTitle": "钱包",
+      "walletDesc": "接收你领取的 $OKN 的钱包。在钱包页面上管理它。",
+      "boundAddress": "已绑定地址",
+      "notBound": "未绑定",
+      "boundSince": "绑定时间",
+      "manageWallet": "管理钱包",
+      "requestRebind": "请求重新绑定",
+      "appearanceTitle": "外观",
+      "appearanceDesc": "选择此设备上仪表板的显示方式。",
+      "themeLabel": "主题",
+      "themeHint": "浅色或深色。按设备存储。",
+      "notificationsTitle": "通知",
+      "notificationsBadge": "演示",
+      "notificationsDesc": "这些开关仅保存在此设备上。真正的通知系统在路线图上；目前这些是占位符。",
+      "notificationsComingSoon": "这些通知类型计划在未来版本中推出，目前尚未启用。",
+      "notifTaskLabel": "任务验证提醒",
+      "notifTaskDesc": "当你提交的任务被验证或拒绝时。",
+      "notifMissionLabel": "使命里程碑",
+      "notifMissionDesc": "当社区使命达成且奖励发放时。",
+      "supportTitle": "支持",
+      "supportDesc": "需要帮助或想与社区联系？",
+      "telegramCommunity": "Telegram 社区",
+      "communityLabel": "社区",
+      "terms": "条款",
+      "privacy": "隐私",
+      "signOutTitle": "退出登录",
+      "signOutDesc": "结束此设备上的会话。你需要再次使用 Telegram 登录。",
+      "signOutButton": "退出登录"
+    },
+    "staking": {
+      "title": "质押",
+      "description": "锁定 $OKN 以赚取奖励。",
+      "tagline": "锁定你的 $OKN，赚取 APY，并帮助稳定代币。",
+      "features": [
+        {
+          "title": "灵活的锁定期",
+          "description": "选择 30、90、180 或 365 天。更长的锁定期赚取更高的 APY。"
+        },
+        {
+          "title": "赚取 APY",
+          "description": "质押的 $OKN 持续累积奖励，可在解锁时领取。"
+        },
+        {
+          "title": "减少抛压",
+          "description": "锁定的供应意味着市场上代币更少，支持价格稳定。"
+        },
+        {
+          "title": "自动解锁",
+          "description": "当锁定期结束时，你的 $OKN 会自动返回你的钱包。"
+        }
+      ]
+    },
+    "tasks": {
+      "title": "任务",
+      "description": "完成任务以赚取积分，用于下次领取。",
+      "emptyTitle": "没有活跃任务",
+      "emptyMessage": "新任务定期发布。请稍后再来。",
+      "rewardLabel": "+{points} OK Points",
+      "doButton": "去做",
+      "verifyButton": "验证",
+      "submitting": "提交中",
+      "verifying": "验证中",
+      "proofLabel": "提交你的证明（用户名、链接或简短回答）",
+      "proofPlaceholder": "@用户名 或 https://...",
+      "pending": "待处理"
+    },
+    "tradeBot": {
+      "title": "AI 交易代理",
+      "description": "为加密市场自动生成的做多和做空信号。",
+      "comingSoon": "即将推出",
+      "headline": "你的加密信号 AI 副驾驶。",
+      "body": "交易机器人全天候扫描市场，并以入场、目标、止损和置信度评分呈现做多和做空机会。此页面是计划体验的预览。机器人尚未上线。",
+      "statusBadge": "机器人离线 - 开发中",
+      "capabilities": [
+        "全天候市场扫描",
+        "入场 / 目标 / 止损位",
+        "置信度评分",
+        "风险管理的仓位"
+      ],
+      "signalPreviewAria": "信号预览",
+      "signalHeading": "信号窗口 - 预览",
+      "sampleData": "示例数据 - 非实时",
+      "disabledAria": "机器人开发期间信号预览已禁用",
+      "overlayTitle": "信号尚未上线",
+      "overlayBody": "AI 交易代理仍在开发中。此页面不会执行任何交易。",
+      "backToPortfolio": "返回资产组合",
+      "timeframe": "时间范围 - {value}",
+      "entry": "入场",
+      "target": "目标",
+      "stop": "止损",
+      "pending": "待定",
+      "long": "LONG",
+      "short": "SHORT",
+      "confidenceAria": "置信度 {value} 百分比"
+    },
+    "polymarketAgent": {
+      "title": "Polymarket 代理",
+      "description": "在 Polymarket 预测事件上自动定位。",
+      "comingSoon": "即将推出",
+      "headline": "您的 Polymarket 事件 AI 代理。",
+      "body": "Polymarket 代理全天候监控预测市场,并通过对概率分析、入场区间和风险仓位管理的评估,筛选出高确信度的事件仓位。本页面是计划体验的预览。代理尚未上线。",
+      "statusBadge": "代理离线 - 开发中",
+      "capabilities": [
+        "24/7 事件监控",
+        "概率优势评分",
+        "入场 / 出场区间",
+        "风险可控仓位"
+      ],
+      "overlayTitle": "代理尚未上线",
+      "overlayBody": "Polymarket 代理仍在开发中。本页面不会开仓任何仓位。",
+      "backToPortfolio": "返回资产组合",
+      "tabs": {
+        "ariaLabel": "Polymarket 功能页",
+        "agent": "代理",
+        "copier": "跟单",
+        "funds": "资金"
+      },
+      "copier": {
+        "headline": "自动镜像 Polymarket 顶级交易者。",
+        "body": "跟单器会跟随你选择的交易者，用你自己的钱包、自己的仓位规模和风险上限来镜像他们的交易。创建或导入钱包，选择交易者，全程掌控你的资金。",
+        "statusBadge": "跟单功能开发中",
+        "loading": "正在加载你的跟单器...",
+        "unconfiguredBody": "跟单服务尚未接入，激活功能将随抢先体验开放。",
+        "loadErrorTitle": "无法加载跟单器",
+        "loadErrorBody": "与跟单服务通信时出现问题，请稍后重试。",
+        "retry": "重试",
+        "walletReadyTitle": "你的跟单钱包已就绪。",
+        "walletReadyBody": "向该地址充入 Polygon 上的 USDC 即可开始跟单。少量 POL 用于支付一次性授权的 gas 费用。",
+        "origin": {
+          "created": "创建的钱包",
+          "imported_eoa": "导入的钱包",
+          "imported_safe_owner": "导入的 Polymarket 账户"
+        },
+        "activateTitle": "激活方式",
+        "createWallet": "创建钱包",
+        "importWallet": "导入钱包",
+        "privateKeyLabel": "私钥",
+        "privateKeyPlaceholder": "64 位十六进制字符",
+        "privateKeyHelp": "你的私钥会被立即加密，绝不以明文存储或记录。请使用专用钱包。",
+        "proxyWalletLabel": "Polymarket 代理钱包（可选）",
+        "proxyWalletPlaceholder": "0x...",
+        "proxyWalletHelp": "如果你使用邮箱或社交账号登录 Polymarket，请粘贴代理钱包地址并导入所有者私钥。",
+        "activating": "正在激活...",
+        "activateCta": "启用跟单",
+        "activateHint": "新订阅一律以预览模式开始：在你明确上线前不会执行任何交易。",
+        "activateFailed": "激活失败，请检查私钥后重试。",
+        "tradersTitle": "你跟单的交易者",
+        "traderCount": "{count, plural, =0 {暂无交易者} other {# 位交易者}}",
+        "traderAddressLabel": "交易者地址",
+        "copySizeLabel": "跟单比例 %",
+        "addTrader": "添加交易者",
+        "addTraderFailed": "无法添加该交易者。",
+        "noTraders": "还没有交易者。从排行榜添加 Polymarket 钱包地址，即可开始以预览模式跟单。",
+        "strategySummary": "{strategy} 策略，比例 {size}%，并带有硬性上限",
+        "goLive": "上线",
+        "pause": "暂停",
+        "resume": "恢复",
+        "stop": "停止",
+        "status": {
+          "preview": "预览",
+          "live": "已上线",
+          "paused": "已暂停",
+          "stopped": "已停止"
+        },
+        "executionsTitle": "最近的跟单",
+        "noExecutions": "暂无跟单记录。你关注的交易者交易后，执行记录会显示在这里。",
+        "executionTraderSize": "交易者{side} ${size}",
+        "export": {
+          "exportKey": "导出私钥",
+          "confirmTitle": "要显示你的私钥吗？",
+          "confirmBody": "任何持有该私钥的人都能控制这个钱包及其资金。切勿分享，切勿在不可信的网站输入。私钥只显示一次。",
+          "cancel": "取消",
+          "reveal": "我已了解，显示私钥",
+          "revealing": "正在显示...",
+          "revealedTitle": "你的私钥",
+          "revealedBody": "请立即离线保存。此对话框不会再次显示；如需要请重新走导出流程。",
+          "copy": "复制私钥",
+          "copied": "已复制",
+          "done": "完成",
+          "failed": "无法显示私钥，请稍后重试。"
+        },
+        "withdraw": {
+          "title": "提现",
+          "allowlistTitle": "提现地址",
+          "allowlistEmpty": "还没有提现地址。添加一个以启用提现。",
+          "allowlistActive": "已生效",
+          "cooldownUntil": "冷却至 {time}",
+          "addressLabel": "提现地址",
+          "addAddress": "添加地址",
+          "allowlistHelp": "提现只会转到列表中的地址。新地址需等待 24 小时冷却期后方可提现。",
+          "addFailed": "无法添加该地址。",
+          "requestTitle": "申请提现",
+          "requestNoAddress": "请先添加提现地址；新地址 24 小时后解锁。",
+          "selectAddress": "选择地址",
+          "amountLabel": "金额 USDC",
+          "request": "申请提现",
+          "requesting": "正在申请...",
+          "requestQueued": "提现申请已提交，将由提现处理器处理。",
+          "requestFailed": "无法申请提现。",
+          "historyTitle": "提现记录",
+          "historyEmpty": "暂无提现记录。",
+          "status": {
+            "requested": "已申请",
+            "executing": "执行中",
+            "done": "已完成",
+            "failed": "失败",
+            "canceled": "已取消"
+          },
+          "netEstimate": "结算手续费后,您将收到约 {net}。"
+        },
+        "funds": {
+          "loading": "正在加载资金...",
+          "unconfiguredBody": "跟单服务尚未接入。",
+          "loadErrorTitle": "无法加载资金信息",
+          "loadErrorBody": "与跟单服务通信时出现问题，请稍后重试。",
+          "retry": "重试",
+          "activateFirstTitle": "请先启用跟单",
+          "activateFirstBody": "资金存放在跟单钱包中。先启用跟单以创建或导入钱包，然后即可在这里充值和提现。",
+          "goToCopier": "前往跟单标签页"
+        },
+        "twofa": {
+          "label": "双重验证码",
+          "placeholder": "123456",
+          "verify": "验证代码",
+          "verifying": "正在验证...",
+          "help": "输入验证器应用中的 6 位代码以授权此操作。",
+          "invalid": "代码无效，请重试。",
+          "notEnrolledTitle": "尚未开启双重验证",
+          "notEnrolled": "请先在个人设置中开启双重验证。导出私钥、导入私钥和提现都需要它。"
+        },
+        "balance": {
+          "title": "Polymarket 跟单",
+          "polGas": "POL 手续费",
+          "openTokens": "{count, plural, =0 {无持仓} other {# 个持仓}}",
+          "manageFunds": "管理资金",
+          "addFunds": "充值",
+          "setUpCopier": "设置跟单",
+          "noWalletBody": "启用跟单即可开始复制 Polymarket 市场。",
+          "errorBody": "余额暂时无法获取。",
+          "retry": "重试"
+        },
+        "wallet": {
+          "spendable": "可用余额",
+          "gasLabel": "Gas（POL）",
+          "allowanceApproved": "USDC 已授权",
+          "allowanceNeeded": "需要授权",
+          "refreshAria": "刷新余额",
+          "updatedAgo": "{seconds} 秒前更新",
+          "copyAddress": "复制充值地址",
+          "copiedAddress": "地址已复制"
+        },
+        "fees": {
+          "title": "跟单手续费",
+          "outstanding": "待结算",
+          "lifetime": "已付手续费",
+          "waived": "已减免",
+          "explainer": "手续费按每笔成功跟单累计,并从下次提现中自动结算,绝不会动用您的交易资金。"
+        },
+        "billing": {
+          "title": "PRO 会员",
+          "proActive": "PRO 生效中",
+          "renews": "续期",
+          "expiresOn": "{date} 到期",
+          "renew": "续费",
+          "upgradeCta": "升级到 PRO",
+          "comingSoon": "PRO 将在试运行期结束后上线。在此之前按笔收费保持关闭。",
+          "priceLabel": "{price} / {days} 天",
+          "feeNow": "您的费率:{rate}%",
+          "slots": "已用 {used}/{slots} 个实盘交易员"
+        },
+        "upgrade": {
+          "title": "升级到 PRO",
+          "description": "更低费率、更多实盘交易员名额。无强制续费:不续费则 PRO 自然到期。",
+          "freeSlotsLabel": "当前实盘名额",
+          "proSlotsLabel": "PRO 实盘名额",
+          "feeSuffix": "每笔费率",
+          "railCopier": "跟单钱包",
+          "railCopierDetail": "从您的 Polymarket 跟单钱包扣取 USDC.e。需要新鲜的 2FA 验证码。",
+          "railConnected": "已连接钱包",
+          "railConnectedDetail": "用您自己的 BSC 钱包支付 USDC。转账由您本人签署;托管资金不会被动用。",
+          "consent": "我同意从所选钱包支付 {price} USDC 以获得 {days} 天的 PRO 会员。",
+          "pay": "支付 {price}",
+          "cancel": "取消",
+          "success": "PRO 已生效,享受更低费率。",
+          "done": "完成",
+          "failed": "支付未能完成。",
+          "sendExact": "请从已连接的钱包精确发送此金额,然后在下方确认。",
+          "amountLabel": "金额",
+          "toLabel": "金库地址",
+          "copyAddress": "复制金库地址",
+          "copied": "已复制",
+          "networkLabel": "网络:BSC(chain {chainId})",
+          "connectFirst": "请先连接您的 BSC 钱包。",
+          "later": "稍后",
+          "openWallet": "打开钱包并支付",
+          "verifyFailed": "支付尚未确认。若转账已成功,请稍后重试。"
+        }
+      }
+    },
+    "predictionMarkets": {
+      "title": "预测市场",
+      "description": "跨协议追踪和交易结果市场。",
+      "comingSoon": "即将推出",
+      "headline": "一个界面,涵盖所有预测市场。",
+      "body": "浏览 Polymarket 及其他协议的实时预测市场,按类别筛选,并实时追踪成交量、流动性和概率。本页面是计划体验的预览。实时交易尚未开放。",
+      "statusBadge": "市场预览 - 开发中",
+      "categories": [
+        "政治",
+        "加密货币",
+        "体育",
+        "经济"
+      ],
+      "overlayTitle": "交易尚未上线",
+      "overlayBody": "预测市场仪表板仍在开发中。本页面不会进行任何交易。",
+      "backToPortfolio": "返回资产组合"
+    },
+    "wallet": {
+      "title": "钱包",
+      "description": "连接、绑定与你的 $OKN 余额。",
+      "balanceLabel": "$OKN 余额",
+      "balanceHint": "Your on-chain OKN balance",
+      "networkLabel": "网络",
+      "networkValue": "BNB Smart Chain",
+      "chainId": "链 ID {id}",
+      "explorer": "BscScan 浏览器",
+      "connectionTitle": "连接",
+      "connectionDesc": "绑定将钱包链接到你的 Telegram 账户以用于领取和购买。",
+      "boundTitle": "已绑定账户",
+      "boundDesc": "你的钱包所链接到的 Telegram 账户。",
+      "emptyTitle": "尚未绑定钱包",
+      "emptyMessage": "在上方连接你的钱包以将其绑定到你的 Telegram 账户。",
+      "walletLabel": "钱包",
+      "boundLabel": "已绑定",
+      "telegramLabel": "Telegram"
+    },
+    "walletConnect": {
+      "connect": "连接钱包",
+      "walletLabel": "钱包：{addr}",
+      "signPending": "在你的钱包中签署消息...",
+      "binding": "绑定钱包中...",
+      "bound": "钱包已绑定",
+      "signRequiredTitle": "需要签名",
+      "signRequiredDesc": "在绑定之前，你必须签署一条消息以证明钱包所有权。",
+      "conflictTitle": "钱包已被使用",
+      "conflictDesc": "此钱包已绑定到另一个账户。",
+      "failedTitle": "无法绑定钱包",
+      "failedDesc": "无法绑定钱包（{status}）。"
+    },
+    "dailyCheckIn": {
+      "label": "每日连续签到",
+      "daySingular": "{count} 天",
+      "dayPlural": "{count} 天",
+      "checkedIn": "已签到。最长连续：{longest}。",
+      "nextReward": "今日签到可获得 +{reward} OK Points。",
+      "noStreak": "今日签到以开始你的连续记录。"
+    },
+    "rebind": {
+      "title": "更换钱包",
+      "description": "丢失访问权限或升级了钱包？请求重新绑定。版主会审核每个请求。每 30 天限一次。",
+      "currentWallet": "当前钱包",
+      "newWallet": "新钱包（已连接）",
+      "connectNew": "连接你想要切换到的新钱包，然后在下方选择原因。",
+      "sameWallet": "已连接的钱包与你当前的钱包相同。连接一个不同的钱包以请求重新绑定。",
+      "reasonLabel": "原因",
+      "reasonLostKey": "丢失私钥",
+      "reasonCompromised": "钱包已被盗用",
+      "reasonUpgrade": "升级到硬件钱包",
+      "reasonAdminFix": "管理员指示的修复",
+      "btnIdle": "请求重新绑定",
+      "btnPending": "签署并提交中...",
+      "signNote": "你将签署一条证明新钱包所有权的消息。签名在服务器端验证；我们绝不会看到你的私钥。"
+    },
+    "unbind": {
+      "title": "Disconnect wallet",
+      "description": "Remove the wallet currently bound to your account. You will need to bind a new wallet before you can claim or buy $OKN again.",
+      "currentWallet": "Current wallet",
+      "connectHint": "Connect the wallet currently bound to your account to disconnect it.",
+      "btnIdle": "Disconnect wallet",
+      "btnPending": "Signing...",
+      "signNote": "You will sign a message proving you still control the bound wallet. The signature is verified server-side; we never see your private key.",
+      "dialogTitle": "Disconnect this wallet?",
+      "dialogDescription": "This removes the wallet from your account. You will not be able to claim or buy $OKN until you bind a new one. To confirm, you must sign with the bound wallet.",
+      "dialogConfirm": "Disconnect",
+      "dialogCancel": "Cancel"
+    },
+    "comingSoon": {
+      "badge": "即将推出",
+      "body": "此功能在路线图上。下方详情预览了上线时你将获得的内容。",
+      "footerNote": "希望更快推出？在社区 Telegram 中分享你的兴趣。"
+    }
+  },
+  "toasts": {
+    "buy": {
+      "submittedTitle": "购买已提交",
+      "submittedDescLink": "在 BscScan 上查看交易",
+      "successTitle": "Purchase confirmed",
+      "successDesc": "You received {value} $OKN"
+    },
+    "claim": {
+      "submittedTitle": "领取已提交",
+      "submittedDescLink": "在 BscScan 上查看交易"
+    },
+    "tasks": {
+      "submittedTitle": "已提交审核",
+      "submittedDesc": "版主将很快验证你的提交。",
+      "verifiedTitle": "任务已验证",
+      "verifiedDesc": "积分已添加到你的余额。",
+      "alreadyTitle": "已完成",
+      "alreadyDesc": "你已经提交过此任务。",
+      "failedTitle": "无法提交任务",
+      "failedDesc": "请稍后重试。"
+    },
+    "settings": {
+      "profileUpdated": "个人资料已更新",
+      "profileFailed": "无法更新个人资料",
+      "emailSaved": "邮箱已保存",
+      "emailRemoved": "邮箱已移除",
+      "emailFailed": "无法保存邮箱",
+      "verificationSent": "验证码已发送",
+      "emailVerified": "邮箱已验证",
+      "verificationFailed": "验证失败"
+    },
+    "wallet": {
+      "bound": "钱包已绑定",
+      "signRequiredTitle": "需要签名",
+      "signRequiredDesc": "在绑定之前，你必须签署一条消息以证明钱包所有权。",
+      "conflictTitle": "钱包已被使用",
+      "conflictDesc": "此钱包已绑定到另一个账户。",
+      "failedTitle": "无法绑定钱包",
+      "failedDesc": "无法绑定钱包（{status}）。"
+    },
+    "dailyCheckIn": {
+      "streakTitle": "第 {day} 天连续签到！",
+      "streakDesc": "你获得了 {points} 奖励 $OKN 积分。继续保持。"
+    },
+    "rebind": {
+      "successTitle": "重新绑定已请求",
+      "successDesc": "版主将进行审核。",
+      "failedTitle": "无法提交请求"
+    },
+    "unbind": {
+      "successTitle": "Wallet disconnected",
+      "successDesc": "You can now bind a different wallet.",
+      "failedTitle": "Could not disconnect wallet"
+    }
+  },
+  "login": {
+    "heading": "登录 $OKN",
+    "subheading": "使用您的 Telegram 账户进行身份验证。",
+    "loginWithTelegram": "使用 Telegram 登录",
+    "helpText": "您将被重定向到 Telegram 验证账户，然后返回此处完成登录。"
+  }
+}

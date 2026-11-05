@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "OKN Token | Kiếm, Nhận, Mua trên BNB Smart Chain",
+    "titleTemplate": "%s | OKN Token",
+    "description": "OKN là token cộng đồng trên BNB Smart Chain. Kiếm thông qua nhiệm vụ, nhận trực tiếp trên chuỗi bằng Merkle proofs, hoặc mua trực tiếp bằng BNB với tỷ giá cố định.",
+    "keywords": [
+      "$OKN",
+      "$OKN Token",
+      "BSC",
+      "BNB Smart Chain",
+      "token cộng đồng",
+      "kiếm tiền điện tử",
+      "telegram bot",
+      "nhận merkle",
+      "bán token"
+    ],
+    "ogImageAlt": "OKN Token — kiếm, nhận, mua trên BNB Smart Chain",
+    "jsonLdActionName": "Mở bảng điều khiển OKN"
+  },
+  "nav": {
+    "features": "Tính năng",
+    "howItWorks": "Cách hoạt động",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Lộ trình",
+    "documents": "Tài liệu",
+    "exchange": "Sàn giao dịch",
+    "openApp": "Mở ứng dụng",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "community": "Cộng đồng"
+  },
+  "hero": {
+    "liveOn": "Hoạt động trên {chain}",
+    "headline1": "Đừng chỉ mua token.",
+    "headline2": "Hãy kiếm nó.",
+    "paragraph": "$OKN là token tiện ích và cộng đồng gốc của hệ sinh thái OKNEXUS Exchange, được xây dựng trên BNB Smart Chain để mang lại tốc độ, bảo mật và tiện ích thực tế. Mỗi tương tác đều tạo ra giá trị. Hoàn thành nhiệm vụ, kiếm điểm thưởng, mua bằng BNB và nhận token trực tiếp trên chuỗi thông qua Ứng dụng Telegram của chúng tôi. Không chỉ là một token, $OKN là chìa khóa của bạn để mở khóa phần thưởng độc quyền, các lợi ích nền tảng, cơ hội quản trị và tương lai của tài chính phi tập trung. Hãy tham gia phong trào. Sở hữu tương lai.",
+    "loginWithTelegram": "Dang nhap bang Telegram",
+    "facts": {
+      "maxSupply": "{supply} nguồn cung tối đa",
+      "claimFee": "{fee} BNB phí nhận",
+      "fixedRateSale": "Bán BNB tỷ giá cố định"
+    },
+    "scroll": "Cuộn",
+    "coinAlt": "Đồng token OKNexus"
+  },
+  "features": {
+    "heading": "Xây dựng cho những người nắm giữ thực sự tâm huyết",
+    "subheading": "Mọi thành phần của $OKN đều thưởng cho sự tham gia: nhiệm vụ, giới thiệu và nhận trên chuỗi.",
+    "tasksHeading": "Hoàn thành nhiệm vụ, tích lũy điểm",
+    "tasksBody": "Theo dõi kênh, tham gia nhóm, mời bạn bè. Điểm được tích lũy ngoài chuỗi và được ghi nhận trên chuỗi dưới dạng Merkle roots để bạn có thể nhận.",
+    "taskRows": [
+      "Theo dõi $OKN trên X",
+      "Tham gia nhóm Telegram",
+      "Giới thiệu bạn bè"
+    ],
+    "pts": "+{pts} OK Points",
+    "onChainClaimsHeading": "Nhận trên chuỗi",
+    "onChainClaimsBody": "Merkle proofs tích lũy nghĩa là một lần nhận bao gồm tất cả những gì bạn đã kiếm được.",
+    "buyWithBnbHeading": "Mua bằng BNB",
+    "buyWithBnbBody": "{rate}. Không cần nhóm thanh khoản ở giai đoạn này.",
+    "saleRate": "Tỷ giá cố định, định giá bằng BNB",
+    "claimFeeHeading": "Phí nhận {fee}",
+    "claimFeeBody": "Thanh toán bằng BNB, được định giá bởi Chainlink oracle. Phí tài trợ cho quỹ hệ sinh thái.",
+    "referralsHeading": "Giới thiệu nhận thưởng hai chiều",
+    "referralsBody": "Chia sẻ liên kết của bạn. Khi bạn bè hoàn thành nhiệm vụ đầu tiên, cả hai đều nhận được thưởng."
+  },
+  "howItWorks": {
+    "heading": "Động cơ tăng trưởng OKN",
+    "subheading": "Một hệ sinh thái nơi mỗi hành động nuôi dưỡng hành động tiếp theo. Kiếm, nhân đôi, nhận và phát triển phần thưởng trong một chu kỳ liên tục.",
+    "steps": [
+      {
+        "title": "Khám phá & tham gia",
+        "body": "Mở $OKN trong Telegram. Tài khoản của bạn được tạo ngay lập tức."
+      },
+      {
+        "title": "Kiếm OK Points",
+        "body": "Hoàn thành nhiệm vụ, điểm danh hàng ngày và leo bảng xếp hạng."
+      },
+      {
+        "title": "Mua & tăng cường",
+        "body": "Mua $OKN bằng BNB để mở khóa hệ số nhân phần thưởng."
+      },
+      {
+        "title": "Nhận on-chain",
+        "body": "Chuyển đổi OK Points thành $OKN. Phí $3 BNB áp dụng."
+      },
+      {
+        "title": "Stake & giao dịch",
+        "body": "Giữ, giao dịch và sử dụng $OKN trong hệ sinh thái."
+      },
+      {
+        "title": "Giới thiệu & phát triển",
+        "body": "Mời bạn bè và kiếm phần share điểm của họ qua ba cấp."
+      }
+    ],
+    "loopLabel": "Chu kỳ tiếp tục"
+  },
+  "video": {
+    "kicker": "Xem hoạt động thực tế",
+    "heading": "Câu chuyện OKNexus",
+    "subheading": "Hướng dẫn nhanh cách $OKN biến mọi hành động thành giá trị thực on-chain.",
+    "playAria": "Phát video giới thiệu OKNexus"
+  },
+  "tokenomics": {
+    "kicker": "Tokenomics",
+    "heading": "Một nguồn cung cố định. Không có bất ngờ.",
+    "supplyLabel": "Nguồn cung tối đa",
+    "claimFeeLabel": "Phí nhận",
+    "claimFeeValue": "{fee} bằng BNB",
+    "allocationHeading": "Phân bổ",
+    "allocationNote": "Các giá trị phân bổ đã được xác nhận và tổng cộng bằng nguồn cung tối đa 5B.",
+    "ariaAllocation": "{labels}",
+    "allocations": [
+      "Phần thưởng cộng đồng",
+      "Bán công khai",
+      "Thanh khoản DEX",
+      "Đội ngũ & cố vấn",
+      "Hệ sinh thái",
+      "Quỹ dự trữ"
+    ]
+  },
+  "roadmap": {
+    "kicker": "Lộ trình",
+    "heading": "Hành trình phía trước",
+    "subheading": "Từ nhiệm vụ đầu tiên đến thanh khoản đầy đủ. Hãy theo dõi lộ trình.",
+    "phases": [
+      {
+        "phase": "Giai đoạn 1",
+        "title": "Khởi động",
+        "status": "Đang tiến hành",
+        "items": [
+          "Hợp đồng token, bán và phân phối trên BSC",
+          "Ra mắt Telegram bot và mini app",
+          "Hệ thống nhiệm vụ với sổ điểm ngoài chuỗi"
+        ]
+      },
+      {
+        "phase": "Giai đoạn 2",
+        "title": "Phân phối",
+        "status": "Tiếp theo",
+        "items": [
+          "Bán BNB công khai với tỷ giá cố định",
+          "Mở Merkle claims với phí $3 BNB",
+          "Đẩy mạnh chương trình giới thiệu"
+        ]
+      },
+      {
+        "phase": "Giai đoạn 3",
+        "title": "Thanh khoản",
+        "status": "Sau đó",
+        "items": [
+          "Niêm yết trên DEX và nhóm thanh khoản",
+          "Quản trị cộng đồng"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Sẵn sàng kiếm phần của bạn?",
+    "subheading": "Tham gia cộng đồng, hoàn thành nhiệm vụ đầu tiên và bắt đầu tích lũy $OKN ngay hôm nay.",
+    "joinTelegram": "Đăng nhập bằng Telegram",
+    "watchYoutube": "Xem trên YouTube"
+  },
+  "footer": {
+    "tagline": "Token cộng đồng mà bạn kiếm được. Trên {chain}.",
+    "columns": [
+      {
+        "title": "Ứng dụng",
+        "links": [
+          "Bảng điều khiển",
+          "Đăng nhập"
+        ]
+      },
+      {
+        "title": "Tài nguyên",
+        "links": [
+          "Cách nhận",
+          "Tokenomics",
+          "Tài liệu"
+        ]
+      }
+    ],
+    "copyright": "© 2026 OKN. Mọi quyền được bảo lưu."
+  },
+  "kycBadge": {
+    "statusLabel": "Đã xác minh KYC",
+    "verified": "Đã xác minh",
+    "aria": "{status} bởi {provider} — mở trang xác minh",
+    "projectBy": "Đội ngũ dự án đã xác minh KYC bởi {provider}"
+  },
+  "caCard": {
+    "contractAddress": "Địa chỉ hợp đồng (BSC)",
+    "live": "Hoạt động",
+    "comingSoon": "Sắp ra mắt",
+    "copy": "Sao chép",
+    "copied": "Đã sao chép",
+    "copyAria": "Sao chép địa chỉ hợp đồng",
+    "comingSoonBody": "Địa chỉ sẽ được công bố tại đây khi token ra mắt.",
+    "logoAlt": "$OKN"
+  },
+  "socialSidebar": {
+    "ariaLabel": "Liên kết mạng xã hội",
+    "labels": {
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "discord": "Discord",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "bsky": "Bluesky",
+      "tiktok": "TikTok"
+    }
+  },
+  "notFound": {
+    "heading": "Trang này đã trôi ra khỏi chuỗi",
+    "body": "Trang bạn đang tìm không tồn tại hoặc có thể đã được di chuyển. Hãy để chúng tôi đưa bạn trở lại đúng hướng.",
+    "cta": "Về trang chủ",
+    "links": [
+      "Tokenomics",
+      "Cách nhận",
+      "Tài liệu"
+    ],
+    "logoAlt": "$OKN"
+  },
+  "tokenomicsPage": {
+    "title": "Tokenomics",
+    "metaTitle": "Tokenomics",
+    "metaDescription": "Nguồn cung, phân bổ và điều kiện bán token $OKN. {supply} nguồn cung tối đa trên BNB Smart Chain.",
+    "ogTitle": "{name} — Tokenomics",
+    "ogDescription": "Nguồn cung, phân bổ và điều kiện bán cho {name}.",
+    "facts": {
+      "maxSupply": "{supply} $OKN",
+      "chain": "Chuỗi",
+      "claimFee": "Phí nhận",
+      "salePricing": "Định giá bán",
+      "decimals": "Số thập phân"
+    },
+    "factsValues": {
+      "maxSupply": "{supply} $OKN",
+      "claimFee": "{fee} bằng BNB",
+      "salePricing": "Tỷ giá cố định, định giá bằng BNB",
+      "decimals": "18"
+    },
+    "factLabels": {
+      "maxSupply": "Nguồn cung tối đa",
+      "chain": "Chuỗi",
+      "claimFee": "Phí nhận",
+      "salePricing": "Định giá bán",
+      "decimals": "Số thập phân"
+    },
+    "fullAllocationHeading": "Phân bổ đầy đủ",
+    "fullAllocationNote": "Các giá trị phân bổ đã được xác nhận và tổng cộng bằng nguồn cung tối đa 5B.",
+    "tableHeaders": {
+      "bucket": "Hạng mục",
+      "allocation": "Phân bổ",
+      "tokens": "Token ($OKN)",
+      "share": "Tỷ lệ"
+    },
+    "total": "Tổng cộng",
+    "saleHeading": "Bán BNB trực tiếp",
+    "saleBody": "$OKN được bán với tỷ giá cố định trực tiếp thông qua hợp đồng TokenSale trên chuỗi. Không cần nhóm thanh khoản ở giai đoạn này. Giới hạn trên mỗi ví ngăn chặn việc tích trữ của cá voi.",
+    "feeHeading": "Phí nhận {fee}",
+    "feeBody": "Mỗi lần nhận sẽ thanh toán phí $3 bằng BNB, được định giá trực tiếp thông qua Chainlink BNB/USD oracle. Phí tích lũy trong hợp đồng phân phối và được rút về quỹ dự trữ bởi quản trị viên."
+  },
+  "howToClaimPage": {
+    "title": "Cách nhận",
+    "metaTitle": "Cách nhận",
+    "metaDescription": "Hai cách để có $OKN: kiếm thông qua nhiệm vụ và nhận trên chuỗi, hoặc mua trực tiếp bằng BNB. Phí nhận {fee} bằng BNB.",
+    "ogTitle": "{name} — Cách nhận",
+    "ogDescription": "Kiếm $OKN thông qua nhiệm vụ hoặc mua trực tiếp bằng BNB. Hướng dẫn từng bước.",
+    "heading": "Hai con đường đến $OKN đầu tiên",
+    "subheading": "Kiếm nó bằng cách tham gia cộng đồng, hoặc mua trực tiếp. Cả hai đều đưa $OKN vào ví của bạn trên BNB Smart Chain.",
+    "pathALabel": "Con đường A",
+    "pathAHeading": "Kiếm qua nhiệm vụ, nhận trên chuỗi",
+    "pathABody": "Tham gia miễn phí. Điểm được chuyển đổi thành $OKN khi quản trị viên ghi nhận Merkle root.",
+    "pathBLabel": "Con đường B",
+    "pathBHeading": "Mua trực tiếp bằng BNB",
+    "pathBBody": "Mua trên chuỗi ngay lập tức với tỷ giá cố định. Giới hạn trên mỗi ví được áp dụng.",
+    "earnSteps": [
+      {
+        "title": "Mở $OKN trong Telegram",
+        "body": "Nhấn \"Mở trong Telegram\" để khởi chạy mini app. Tài khoản của bạn được tạo từ danh tính Telegram — không cần đăng ký riêng."
+      },
+      {
+        "title": "Kết nối ví BNB Smart Chain",
+        "body": "Bên trong bảng điều khiển, kết nối MetaMask, Trust Wallet, hoặc bất kỳ ví EVM nào. Địa chỉ được liên kết với tài khoản Telegram của bạn."
+      },
+      {
+        "title": "Hoàn thành nhiệm vụ để kiếm điểm",
+        "body": "Theo dõi kênh, tham gia nhóm, giới thiệu bạn bè. Mỗi nhiệm vụ đều tặng điểm. Điểm được theo dõi ngoài chuỗi cho đến khi quản trị viên ghi nhận Merkle root."
+      },
+      {
+        "title": "Nhận trên chuỗi",
+        "body": "Sau khi điểm của bạn được ghi nhận, trang Nhận sẽ tạo Merkle proof và ví của bạn gọi đến hợp đồng phân phối. Phí $3 BNB được áp dụng."
+      }
+    ],
+    "buySteps": [
+      {
+        "title": "Mở trang Mua",
+        "body": "Từ bảng điều khiển, mở tab Mua. Bạn sẽ thấy tỷ giá hiện tại ($OKN trên mỗi BNB), giới hạn ví còn lại và trạng thái bán."
+      },
+      {
+        "title": "Nhập số lượng BNB",
+        "body": "Nhập số BNB bạn muốn chi tiêu. Trang sẽ xem trước $OKN bạn sẽ nhận được và xác thực dựa trên giới hạn mỗi ví và mức mua tối thiểu."
+      },
+      {
+        "title": "Xác nhận giao dịch",
+        "body": "Ví của bạn gọi TokenSale.buy() với BNB đính kèm. Hợp đồng đúc $OKN trực tiếp vào địa chỉ của bạn với tỷ giá cố định."
+      },
+      {
+        "title": "Theo dõi giao dịch",
+        "body": "Mỗi lượt mua đều được ghi nhận trên chuỗi (sự kiện Bought) và được lập chỉ mục vào bảng điều khiển. Việc rút BNB thu được được kiểm soát bởi quản trị viên và ghi nhật ký kiểm toán."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Khi nào tôi có thể chuyển $OKN?",
+        "answer": "Immediately. There is no transfer lock on OKN tokens. Once claimed or purchased, you can send or swap them right away."
+      },
+      {
+        "question": "Phí nhận là bao nhiêu?",
+        "answer": "{fee} bằng BNB cho mỗi lần nhận, được định giá trực tiếp thông qua Chainlink oracle. Phí tài trợ cho quỹ hệ sinh thái."
+      },
+      {
+        "question": "Tôi có cần ví không?",
+        "answer": "Có — bất kỳ ví EVM nào trên BNB Smart Chain. Kết nối nó trong bảng điều khiển để liên kết với tài khoản Telegram của bạn."
+      }
+    ],
+    "openDashboard": "Mở bảng điều khiển"
+  },
+  "documentsPage": {
+    "title": "Tài liệu — Whitepaper & Lộ trình",
+    "metaTitle": "Tài liệu — Whitepaper & Lộ trình",
+    "metaDescription": "Tải xuống whitepaper token $OKN và lộ trình sản phẩm. Đầy đủ tokenomics, phân phối, cơ chế nhận và dòng thời gian các cột mốc.",
+    "ogTitle": "{name} — Tài liệu",
+    "ogDescription": "Tải xuống whitepaper token $OKN và lộ trình sản phẩm. Đầy đủ tokenomics, phân phối, cơ chế nhận và dòng thời gian các cột mốc.",
+    "kicker": "Tài liệu",
+    "heading": "Whitepaper & Lộ trình",
+    "subheading": "Tất cả những gì bạn cần để đánh giá $OKN tại một nơi. Tải xuống whitepaper kỹ thuật đầy đủ hoặc lộ trình sản phẩm bên dưới.",
+    "docs": [
+      {
+        "title": "Whitepaper",
+        "description": "Đặc tả kỹ thuật và kinh tế đầy đủ của $OKN: tokenomics, phân phối, mô hình phí nhận và kiến trúc Merkle proof.",
+        "bullets": [
+          "Nguồn cung token, phân bổ và khóa chuyển 6 tháng",
+          "Cơ chế phí nhận và giới hạn cộng đồng",
+          "Thiết kế hợp đồng phân phối Merkle",
+          "Mô hình doanh thu và tính bền vững"
+        ],
+        "cta": "Tải xuống whitepaper"
+      },
+      {
+        "title": "Lộ trình",
+        "description": "$OKN đang hướng tới đâu. Các cột mốc theo từng giai đoạn về hợp đồng thông minh, bảng điều khiển, tăng trưởng cộng đồng và các công cụ giao dịch AI sắp tới.",
+        "bullets": [
+          "Dòng thời gian triển khai theo từng giai đoạn",
+          "Mục tiêu sứ mệnh cộng đồng (100k thành viên và hơn thế nữa)",
+          "Thời gian phát hành Staking và AI Trading Agent",
+          "Các cột mốc niêm yết trên sàn giao dịch"
+        ],
+        "cta": "Tải xuống lộ trình"
+      }
+    ],
+    "pdfLabel": "Tài liệu PDF",
+    "fileNote": "Tài liệu là tệp PDF. Nếu tải xuống không bắt đầu, tệp có thể chưa được xuất bản. Hãy kiểm tra lại sau hoặc hỏi trong cộng đồng Telegram.",
+    "trustStrip": [
+      {
+        "title": "Hợp đồng đã kiểm toán",
+        "body": "Hợp đồng thông minh sử dụng các tiêu chuẩn nâng cấp của OpenZeppelin với proxy UUPS."
+      },
+      {
+        "title": "Nguồn cung minh bạch",
+        "body": "Toàn bộ chi tiết phân bổ và giới hạn được công bố trong whitepaper."
+      },
+      {
+        "title": "Cột mốc công khai",
+        "body": "Lộ trình cam kết với các ngày tháng và sản phẩm bàn giao mà bạn có thể giám sát chúng tôi."
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ",
+    "current": "Ngôn ngữ hiện tại: {name}",
+    "languages": {
+      "en": "English",
+      "zh": "中文",
+      "es": "Español",
+      "pt": "Português",
+      "ru": "Русский",
+      "vi": "Tiếng Việt",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fr": "Français"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "portfolio": "Danh mục",
+      "aiTradingAgent": "AI Trading Agent",
+      "polymarketAgent": "Tác nhân Polymarket",
+      "predictionMarkets": "Thị Trường Dự Đoán",
+      "leaderboard": "Bảng xếp hạng",
+      "missions": "Nhiệm vụ cộng đồng",
+      "tasks": "Nhiệm vụ",
+      "claim": "Nhận",
+      "buy": "Mua",
+      "staking": "Staking",
+      "news": "Tin tức",
+      "learn": "Học",
+      "wallet": "Ví",
+      "referral": "Giới thiệu",
+      "settings": "Cài đặt"
+    },
+    "shell": {
+      "admin": "Quản trị",
+      "dashboard": "Bảng điều khiển",
+      "backToApp": "Quay lại Ứng dụng",
+      "adminPanel": "Bảng quản trị",
+      "search": "Tìm kiếm",
+      "filterNav": "Lọc điều hướng",
+      "noMatches": "Không có kết quả",
+      "menu": "Menu",
+      "administration": "Quản trị",
+      "brandTagline": "Kiếm, Nhận, Mua"
+    },
+    "userMenu": {
+      "openMenu": "Mở menu người dùng",
+      "settings": "Cài đặt",
+      "wallet": "Ví",
+      "referral": "Giới thiệu",
+      "appearance": "Giao diện",
+      "signIn": "Đăng nhập",
+      "signOut": "Đăng xuất",
+      "userFallback": "Người dùng {id}",
+      "telegramLabel": "Telegram {id}"
+    },
+    "theme": {
+      "switchToLight": "Chuyển sang chế độ sáng",
+      "switchToDark": "Chuyển sang chế độ tối",
+      "appearance": "Giao diện",
+      "lightMode": "Chế độ sáng",
+      "darkMode": "Chế độ tối"
+    },
+    "sidebar": {
+      "earnMore": "Kiếm thêm $OKN",
+      "earnMoreBody": "Hoàn thành nhiệm vụ và mời bạn bè để tích lũy điểm.",
+      "learnMore": "Tìm hiểu thêm",
+      "inviteFriends": "Mời bạn bè",
+      "moderationQueue": "Hàng đợi kiểm duyệt",
+      "moderationBody": "Xác minh hoàn thành nhiệm vụ và giữ sổ điểm sạch sẽ.",
+      "auditLogs": "Nhật ký kiểm toán",
+      "review": "Duyệt"
+    },
+    "statusBadge": {
+      "pending": "Đang chờ",
+      "eligible": "Đủ điều kiện",
+      "verified": "Đã xác minh",
+      "approved": "Đã duyệt",
+      "paid": "Đã thanh toán",
+      "rejected": "Bị từ chối",
+      "active": "Đang hoạt động",
+      "inactive": "Không hoạt động",
+      "paused": "Tạm dừng",
+      "draft": "Private test"
+    },
+    "dataState": {
+      "error": "Đã xảy ra sự cố khi tải dữ liệu này.",
+      "retry": "Thử lại",
+      "staleWarning": "Khong the tai du lieu truc tuyen. Dang hien mac dinh. Nhan thu lai de cap nhat."
+    },
+    "common": {
+      "loading": "Đang tải...",
+      "anonymous": "Ẩn danh",
+      "you": "(bạn)",
+      "copy": "Sao chép",
+      "copied": "Đã sao chép",
+      "copyValue": "Sao chép {value}",
+      "pts": "{count} OK Points",
+      "plusPts": "+{count} OK Points"
+    },
+    "notFound": {
+      "heading": "Không tìm thấy trang",
+      "body": "Trang bảng điều khiển này không tồn tại. Danh mục và phần còn lại của ứng dụng vẫn nằm đúng nơi bạn để lại.",
+      "backToDashboard": "Quay lại bảng điều khiển",
+      "tasks": "Nhiệm vụ",
+      "wallet": "Ví",
+      "buy": "Mua",
+      "settings": "Cài đặt"
+    },
+    "portfolio": {
+      "title": "Danh mục",
+      "description": "Toàn cảnh $OKN của bạn: hoạt động, lượng nắm giữ và thu nhập.",
+      "tabActivity": "Hoạt động",
+      "tabHoldings": "Lượng nắm giữ"
+    },
+    "activity": {
+      "pointsEarned": "Điểm đã kiếm",
+      "pointsHint": "Đang chờ Merkle commit",
+      "balance": "Số dư $OKN",
+      "balanceHint": "On-chain balance",
+      "tasksDone": "Nhiệm vụ đã làm",
+      "tasksDoneHint": "Đã xác minh và đang chờ",
+      "referrals": "Lượt giới thiệu",
+      "referralsHint": "Đã kiếm {count} điểm",
+      "claimTitle": "Nhận $OKN của bạn",
+      "claimDesc": "Điểm được chuyển thành $OKN khi quản trị viên ghi nhận Merkle root. Phí $3 BNB được áp dụng khi nhận.",
+      "claimablePoints": "Điểm có thể nhận",
+      "goToClaim": "Đi đến nhận",
+      "buyTitle": "Mua $OKN bằng BNB",
+      "buyDescRate": "Tỷ giá cố định: {rate} $OKN mỗi BNB{paused}",
+      "buyDescPausedSuffix": " (bán tạm dừng)",
+      "buyDescDefault": "Bán tỷ giá cố định, trực tiếp từ hợp đồng.",
+      "openSale": "Mở đợt bán",
+      "tasksTitle": "Nhiệm vụ",
+      "tasksSeeAll": "Xem tất cả",
+      "tasksDesc": "Kiếm điểm cho lần nhận tiếp theo.",
+      "noTasks": "Không có nhiệm vụ nào đang hoạt động ngay bây giờ. Hãy kiểm tra lại sau.",
+      "doButton": "Làm"
+    },
+    "portfolioView": {
+      "portfolioValue": "Giá trị danh mục",
+      "valueNote": "Dựa trên tỷ giá bán hiện tại {rate} $OKN mỗi BNB. $OKN không có giá thị trường khi chuyển nhượng đang bị khóa.",
+      "loading": "Đang tải...",
+      "connectWallet": "Kết nối ví",
+      "holdings": "Lượng nắm giữ",
+      "holdingsHint": "Trên chuỗi, trong ví của bạn",
+      "totalBought": "Tổng đã mua",
+      "totalBoughtHint": "BNB đã chi trong đợt bán",
+      "totalClaimed": "Tổng đã nhận",
+      "totalClaimedHint": "Đã nhận trên chuỗi",
+      "totalEarned": "Tổng đã kiếm",
+      "totalEarnedHint": "OK Points trên tất cả nguồn",
+      "pointsBySource": "Điểm theo nguồn",
+      "pointsBySourceDesc": "Nguồn gốc điểm trọn đời của bạn.",
+      "sourceTask": "Nhiệm vụ",
+      "sourceReferral": "Giới thiệu",
+      "sourceBonus": "Thưởng",
+      "sourceAdmin": "Quản trị",
+      "sourcePts": "{count} điểm - {pct}%",
+      "totalPts": "Tổng: {count} điểm",
+      "referralDownline": "Mạng lưới giới thiệu",
+      "referralDownlineDesc": "Mạng lưới của bạn qua 3 cấp.",
+      "level1": "Cấp 1",
+      "level2": "Cấp 2",
+      "level3": "Cấp 3",
+      "downlineNote": "Bạn nhận được một phần điểm nhiệm vụ của mạng lưới: 10% ở L1, 5% ở L2, 2% ở L3."
+    },
+    "buy": {
+      "title": "Mua $OKN",
+      "description": "Mua $OKN trực tiếp bằng BNB với tỷ giá cố định.",
+      "rateLabel": "Tỷ giá",
+      "rateHint": "Tỷ giá bán cố định",
+      "rateValue": "{value} $OKN mỗi BNB",
+      "capLabel": "Giới hạn mỗi ví",
+      "capHint": "BNB tối đa mỗi ví",
+      "capValue": "{value} BNB",
+      "purchasedLabel": "Bạn đã mua",
+      "purchasedHintHas": "Tổng BNB bạn đã chi",
+      "purchasedHintNone": "Kết nối ví để tải dữ liệu của bạn",
+      "purchasedValue": "{value} BNB",
+      "saleStatusLabel": "Trạng thái bán",
+      "saleStatusPaused": "Việc mua tạm thời bị vô hiệu hóa",
+      "saleStatusDraft": "Private test phase: buying is open to admins only right now.",
+      "saleStatusActive": "Đợt bán đang diễn ra",
+      "historyTitle": "Lịch sử mua của bạn",
+      "historyDesc": "Các giao dịch mua BNB đã xác nhận liên kết với tài khoản của bạn.",
+      "historyEmptyTitle": "Chưa có giao dịch mua",
+      "historyEmptyMessage": "Các giao dịch mua BNB đã xác nhận của bạn sẽ xuất hiện tại đây.",
+      "thDate": "Ngày",
+      "thBnbIn": "BNB vào",
+      "thOknOut": "$OKN ra",
+      "thTx": "Giao dịch",
+      "notConfigured": "Đợt bán chưa được cấu hình. Quản trị viên cần đặt tỷ giá và giới hạn trước khi mở mua.",
+      "progressTitle": "Sale progress",
+      "progressRaised": "{raised} of {cap} BNB",
+      "progressUncapped": "This sale has no hard cap. Every purchase still mints $OKN at the fixed rate.",
+      "allocationRemaining": "Sale allocation remaining",
+      "indexing": "Indexing",
+      "progressHint": "BNB collected toward the sale hard cap",
+      "progressRaisedOnly": "{raised} BNB raised"
+    },
+    "buyWidget": {
+      "title": "Mua $OKN",
+      "description": "Nhập số lượng BNB. $OKN được ghi có vào ví của bạn ngay lập tức.",
+      "amountLabel": "Số lượng (BNB)",
+      "amountPlaceholder": "0.1",
+      "youReceive": "Bạn nhận được ~{value} $OKN",
+      "minNote": "Tối thiểu {value} BNB",
+      "minNoteUsd": "Tối thiểu {usd} (≈ {bnb} BNB)",
+      "errInvalid": "Nhập số lượng BNB hợp lệ.",
+      "errOverCap": "Vượt quá giới hạn còn lại {value} BNB của bạn.",
+      "errBelowMin": "Mua tối thiểu là {value} BNB.",
+      "connectNote": "You need a connected wallet to buy.",
+      "walletPageLink": "Trang ví",
+      "salePaused": "Đợt bán hiện đang tạm dừng. Hãy kiểm tra lại sau.",
+      "saleDraft": "The sale is in private testing. Buying opens to everyone soon.",
+      "btnIdle": "Mua $OKN",
+      "btnPending": "Xác nhận trong ví của bạn",
+      "errNotConnected": "Kết nối ví của bạn trên trang Ví trước.",
+      "errNoAmount": "Nhập số lượng BNB.",
+      "errRejected": "Giao dịch đã bị từ chối trong ví của bạn.",
+      "errFailed": "Mua thất bại. Vui lòng thử lại.",
+      "errNotConfigured": "Ban chua duoc cau hinh. Vui long quay lai sau.",
+      "saleNotStarted": "The sale has not started yet.",
+      "saleEnded": "The sale has ended.",
+      "errHardCap": "This amount exceeds the remaining sale hard cap. Maximum: {value} BNB.",
+      "maxNote": "Maximum purchase: {value} BNB.",
+      "btnConfirming": "Confirming on-chain...",
+      "maxButton": "MAX",
+      "maxAriaLabel": "Fill the maximum purchase amount",
+      "usdApprox": "≈ {value}",
+      "pricePerOkn": "≈ {value} per $OKN",
+      "priceUpdated": "BNB price updated {seconds}s ago",
+      "priceStale": "BNB price feed is delayed; USD figures may be off",
+      "reviewDescription": "Double-check the details before you confirm in your wallet.",
+      "reviewSpend": "You spend",
+      "reviewReceive": "You receive",
+      "reviewRate": "Rate",
+      "rateValue": "{value} $OKN per BNB",
+      "reviewAllowance": "Wallet allowance after purchase",
+      "reviewRateNote": "The rate is re-checked right before your wallet opens. If it changed, you will be asked to review the updated amounts.",
+      "rateChanged": "The rate has changed. Review the updated amount and confirm again.",
+      "pendingTitle": "Transaction submitted",
+      "pendingDesc": "Your purchase is still confirming on-chain. This can take a couple of minutes.",
+      "viewTx": "View on BscScan",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm buy",
+      "errInsufficientBalance": "Insufficient BNB balance",
+      "errReverted": "The purchase transaction reverted on-chain. No purchase was made.",
+      "connectCta": "Connect your wallet"
+    },
+    "claim": {
+      "title": "Nhận $OKN",
+      "description": "Chuyển đổi điểm của bạn thành OKN trên chuỗi.",
+      "pointsTitle": "Điểm của bạn",
+      "pointsDesc": "Điểm trở thành $OKN có thể nhận sau khi quản trị viên ghi nhận Merkle root.",
+      "claimablePoints": "Điểm có thể nhận",
+      "noPointsTitle": "Chưa có điểm",
+      "noPointsMessage": "Hoàn thành nhiệm vụ và mời bạn bè để bắt đầu kiếm điểm.",
+      "goToTasks": "Đi đến nhiệm vụ",
+      "noteMerkle": "Chờ quản trị viên ghi nhận Merkle root. Sau đó điểm của bạn sẽ có thể nhận.",
+      "noteFee": "Phí BNB tương đương $3 được áp dụng khi nhận.",
+      "howTitle": "Cách nhận hoạt động",
+      "howDesc": "Ba bước từ điểm đến $OKN trong ví của bạn.",
+      "step1Title": "Kiếm điểm",
+      "step1Text": "Hoàn thành nhiệm vụ và mời bạn bè để kiếm điểm.",
+      "step2Title": "Chờ ghi nhận",
+      "step2Text": "Quản trị viên ghi nhận Merkle root để biến điểm của bạn thành có thể nhận.",
+      "step3Title": "Nhận trên chuỗi",
+      "step3Text": "Trả phí $3 BNB và $OKN có trong ví của bạn.",
+      "earnedBanner": "Bạn đã kiếm được",
+      "earnedUnit": "OK Points",
+      "pendingTitle": "OK Points của bạn đang được chuẩn bị",
+      "pendingBody": "Nhận mở sau lần phân phối tiếp theo.",
+      "readyTitle": "Ready to claim",
+      "readyBody": "Your OK Points have been committed."
+    },
+    "claimButton": {
+      "title": "Nhận trên chuỗi",
+      "descLoading": "Đang kiểm tra xem việc nhận đã mở chưa.",
+      "descClaimable": "Số lượng có thể nhận: {value} $OKN",
+      "descNotOpen": "Việc nhận mở sau lần ghi nhận Merkle đầu tiên.",
+      "notOpenTitle": "Việc nhận chưa mở",
+      "notOpenBody": "Merkle root đầu tiên chưa được ghi nhận. Hãy kiểm tra lại sau lần ghi nhận tiếp theo.",
+      "noBalanceBody": "Root đã ghi nhận chưa có số dư có thể nhận cho tài khoản của bạn.",
+      "connectNote": "You need a connected wallet to claim.",
+      "walletPageLink": "Trang ví",
+      "btnIdle": "Nhận $OKN",
+      "btnPending": "Xác nhận trong ví của bạn",
+      "errNotConnected": "Kết nối ví của bạn trên trang Ví trước.",
+      "errNotOpen": "Việc nhận chưa mở. Merkle root đầu tiên chưa được ghi nhận.",
+      "errRejected": "Giao dịch đã bị từ chối trong ví của bạn.",
+      "errFailed": "Nhận thất bại. Vui lòng thử lại.",
+      "feeNote": "Network fee: {value} BNB (paid to claim, exact on-chain amount).",
+      "errWrongWallet": "This claim belongs to wallet {wallet}. Connect that wallet to claim, or request a wallet change.",
+      "errFeeUnavailable": "The claim fee could not be read right now. Try again in a moment.",
+      "btnConfirming": "Confirming on-chain...",
+      "connectCta": "Connect your wallet"
+    },
+    "leaderboard": {
+      "title": "Bảng xếp hạng",
+      "description": "Các thành viên hàng đầu theo giới thiệu, điểm nhiệm vụ và BNB đã mua.",
+      "pastWinners": "Người thắng trước đó",
+      "catReferrers": "Người giới thiệu",
+      "catTasks": "Người kiếm điểm nhiệm vụ",
+      "catBuyers": "Người mua",
+      "unitRefs": "lượt",
+      "unitPts": "OK Points",
+      "unitBnb": "BNB",
+      "periodWeek": "Tuần này",
+      "periodMonth": "Tháng này",
+      "periodAll": "Mọi thời gian",
+      "fullRankingTitle": "Bảng xếp hạng đầy đủ",
+      "fullRankingAllTime": "Top mọi thời gian {category}.",
+      "fullRankingWeek": "Top {category} tuần này.",
+      "fullRankingMonth": "Top {category} tháng này.",
+      "anonymous": "Ẩn danh",
+      "youSuffix": "(bạn)",
+      "noEntriesTitle": "Chưa có xếp hạng cho giai đoạn này",
+      "noEntriesAllTime": "Hãy là người đầu tiên xuất hiện tại đây. Hoàn thành nhiệm vụ hoặc mời bạn bè.",
+      "noEntriesDefault": "Hãy là người đầu tiên xuất hiện tại đây. Kiểm tra lại khi hoạt động tích lũy.",
+      "yourRankEmpty": "Bạn sẽ xuất hiện tại đây khi có hoạt động trong danh mục này.",
+      "yourRankNotRanked": "Bạn chưa được xếp hạng trong giai đoạn này. Hãy tích cực để leo lên!"
+    },
+    "winners": {
+      "title": "Người thắng trước đó",
+      "description": "Người thắng nhanh chụp từ các giai đoạn bảng xếp hạng đã hoàn thành và phần thưởng của họ.",
+      "backToLeaderboard": "Quay lại bảng xếp hạng",
+      "tabWeekly": "Hàng tuần",
+      "tabMonthly": "Hàng tháng",
+      "catReferrers": "Người giới thiệu hàng đầu",
+      "catTasks": "Người kiếm điểm nhiệm vụ hàng đầu",
+      "catBuyers": "Người mua hàng đầu",
+      "periodWeek": "Tuần",
+      "periodMonth": "Tháng",
+      "periodAll": "Mọi thời gian",
+      "groupTitle": "{period} {key} - {category}",
+      "scoreLabel": "điểm",
+      "pointsAwarded": "+{points} OK Points",
+      "emptyTitle": "Chưa có người thắng {period}",
+      "emptyMessage": "Người thắng được chụp nhanh vào cuối mỗi {periodWord} và nhận điểm thưởng $OKN.",
+      "periodWordWeek": "tuần",
+      "periodWordMonth": "tháng"
+    },
+    "learn": {
+      "title": "Trung tâm học tập",
+      "description": "Học tiền điện tử. Kiếm $OKN.",
+      "tagline": "Bài học ngắn về blockchain và tiền điện tử. Hoàn thành bài học, vượt qua bài kiểm tra, kiếm $OKN.",
+      "features": [
+        {
+          "title": "Bài học ngắn gọn",
+          "description": "Các bài học ngắn, tập trung về blockchain, ví, DeFi và cơ bản về bảo mật."
+        },
+        {
+          "title": "Kiểm tra để chứng minh",
+          "description": "Mỗi bài học kết thúc bằng một bài kiểm tra nhanh. Vượt qua để xác nhận bạn đã hiểu."
+        },
+        {
+          "title": "Kiếm $OKN",
+          "description": "Hoàn thành thành công một bài học sẽ trả cho bạn $OKN, được cộng vào số dư có thể nhận."
+        },
+        {
+          "title": "Lộ trình tăng dần",
+          "description": "Bắt đầu với những điều cơ bản và mở khóa các chủ đề nâng cao hơn khi bạn tiến bộ."
+        }
+      ]
+    },
+    "missions": {
+      "title": "Nhiệm vụ cộng đồng",
+      "description": "Cùng nhau đạt mục tiêu. Khi cộng đồng chạm mốc, mọi người đều kiếm được $OKN.",
+      "metricMembers": "thành viên cộng đồng",
+      "metricTelegram": "thành viên Telegram",
+      "metricBnb": "BNB đã huy động",
+      "metricOkn": "$OKN đã nhận",
+      "emptyTitle": "Không có nhiệm vụ cộng đồng nào đang hoạt động",
+      "emptyMessage": "Các mục tiêu cộng đồng mới sẽ xuất hiện tại đây. Tiếp tục đóng góp để bạn đủ điều kiện khi chúng đạt.",
+      "completedHeading": "Nhiệm vụ đã hoàn thành",
+      "rewardLabel": "+{reward} $OKN",
+      "progress": "{current} / {threshold}",
+      "eligible": "Bạn đã đủ điều kiện. Tiếp tục sử dụng $OKN để giúp cộng đồng đạt mục tiêu.",
+      "notEligible": "Tham gia ngay để đủ điều kiện khi mục tiêu này đạt được.",
+      "statusAchieved": "Đã đạt mục tiêu - đang phân phát phần thưởng.",
+      "statusDistributed": "Đã đạt mục tiêu và phần thưởng đã được phân phát.",
+      "receivedPoints": "+{points} OK Points",
+      "processing": "Đang xử lý...",
+      "joinedTooLate": "Tham gia quá muộn"
+    },
+    "news": {
+      "title": "Tin tức",
+      "description": "Tin mới nhất từ dự án $OKN.",
+      "tagline": "Cập nhật các thông báo, niêm yết, đối tác và tiến độ lộ trình.",
+      "features": [
+        {
+          "title": "Thông báo",
+          "description": "Cập nhật chính thức từ đội ngũ, hiển thị ngay trong bảng điều khiển của bạn."
+        },
+        {
+          "title": "Niêm yết",
+          "description": "Niêm yết sàn giao dịch và nền tảng mới khi chúng xảy ra."
+        },
+        {
+          "title": "Đối tác",
+          "description": "Tích hợp và hợp đồng làm phát triển hệ sinh thái $OKN."
+        },
+        {
+          "title": "Cập nhật lộ trình",
+          "description": "Theo dõi tiến độ so với các cột mốc và ngày giao nộp đã công bố."
+        },
+        {
+          "title": "Tính năng mới",
+          "description": "Ra mắt và cải tiến sản phẩm, được thông báo khi ra mắt."
+        },
+        {
+          "title": "Một bảng tin",
+          "description": "Mọi thứ trong một dòng thời gian theo thứ tự thời gian, được lọc theo danh mục."
+        }
+      ]
+    },
+    "referral": {
+      "title": "Giới thiệu",
+      "description": "Mời bạn bè. Kiếm từ toàn bộ mạng lưới của bạn, sâu 3 cấp.",
+      "level1": "Cấp 1 (trực tiếp)",
+      "level2": "Cấp 2",
+      "level3": "Cấp 3",
+      "levelFallback": "Cấp {n}",
+      "linkTitle": "Liên kết giới thiệu của bạn",
+      "linkDesc": "Chia sẻ ở bất cứ đâu. Bạn bè tham gia qua Telegram bot và vào Cấp 1 của bạn.",
+      "copyButton": "Sao chép",
+      "copiedButton": "Đã sao chép",
+      "totalDownline": "Tổng mạng lưới",
+      "totalDownlineHint": "Trên tất cả 3 cấp",
+      "pointsEarned": "Điểm đã kiếm",
+      "pointsEarnedHint": "Từ phần thưởng giới thiệu",
+      "downlineTitle": "Mạng lưới của bạn theo cấp",
+      "downlineDesc": "Bạn nhận được một phần điểm mà người được giới thiệu kiếm từ nhiệm vụ: 10% ở L1, 5% ở L2, 2% ở L3.",
+      "countSingular": "{count} người ở tầng này",
+      "countPlural": "{count} người ở tầng này",
+      "howTitle": "Cách hoạt động",
+      "step1Title": "Chia sẻ liên kết của bạn",
+      "step1Text": "Gửi liên kết giới thiệu của bạn cho bạn bè.",
+      "step2Title": "Bạn bè khởi động bot",
+      "step2Text": "Họ tham gia $OKN qua Telegram.",
+      "step3Title": "Cả hai cùng có lợi",
+      "step3Text": "Kiếm một phần điểm nhiệm vụ của họ, sâu 3 cấp.",
+      "recentTitle": "Giới thiệu gần đây",
+      "recentDesc": "Những lời mời trực tiếp (Cấp 1) gần đây nhất của bạn.",
+      "recentEmptyTitle": "Chưa có giới thiệu",
+      "recentEmptyMessage": "Chia sẻ liên kết của bạn để bắt đầu xây dựng mạng lưới.",
+      "newUser": "Người dùng mới"
+    },
+    "settings": {
+      "title": "Cài đặt",
+      "description": "Quản lý tài khoản, ví và tùy chọn của bạn.",
+      "tabProfile": "Hồ sơ",
+      "tabEmail": "Email",
+      "tabWallet": "Ví",
+      "tabSecurity": "Bảo mật",
+      "twoFactorTitle": "Xác thực hai yếu tố",
+      "twoFactorDesc": "Thêm yếu tố thứ hai (ứng dụng xác thực) để bảo vệ tài khoản của bạn.",
+      "twoFactorOnDesc": "Xác thực hai yếu tố đã bật. Bạn sẽ cần mã từ ứng dụng xác thực ở mỗi lần đăng nhập mới.",
+      "twoFactorOffDesc": "Xác thực hai yếu tố đang tắt. Bật nó để thêm lớp bảo mật bổ sung.",
+      "twoFactorPreparing": "Đang chuẩn bị thiết lập 2FA của bạn...",
+      "twoFactorScanHint": "Quét mã QR này bằng ứng dụng xác thực của bạn (Google Authenticator, Authy, v.v.).",
+      "twoFactorManualHint": "Hoặc nhập mã này thủ công:",
+      "twoFactorEnable": "Bật 2FA",
+      "twoFactorDisable": "Tắt 2FA",
+      "twoFactorEnabledTitle": "Đã bật 2FA",
+      "twoFactorEnabledDesc": "Lưu mã dự phòng của bạn ngay. Bạn sẽ cần chúng nếu mất thiết bị xác thực.",
+      "twoFactorDisabledTitle": "Đã tắt 2FA",
+      "backupCodesTitle": "Mã dự phòng của bạn",
+      "backupCodesDesc": "Mỗi mã có thể được sử dụng một lần để đăng nhập nếu bạn mất trình xác thực. Lưu chúng ở nơi an toàn.",
+      "backupCodesDone": "Tôi đã lưu chúng",
+      "tabAppearance": "Giao diện",
+      "tabSession": "Phiên",
+      "notSignedInTitle": "Chưa tải được hồ sơ",
+      "notSignedInDesc": "Không thể tải hồ sơ của bạn. Điều này thường có nghĩa là phiên của bạn đã hết hạn hoặc bạn chưa đăng nhập. Đăng nhập lại để quản lý cài đặt.",
+      "signInCta": "Đăng nhập",
+      "displayNameTitle": "Tên hiển thị",
+      "displayNameDesc": "Hiển thị trên ảnh đại diện, hàng bảng xếp hạng và hoạt động giới thiệu của bạn.",
+      "firstNameLabel": "Tên",
+      "firstNamePlaceholder": "Alex",
+      "lastNameLabel": "Họ",
+      "lastNamePlaceholder": "Morgan",
+      "saveChanges": "Lưu thay đổi",
+      "identityTitle": "Danh tính Telegram",
+      "identityDesc": "Tài khoản Telegram của bạn là danh tính xác thực cho tài khoản $OKN này.",
+      "anonymous": "Ẩn danh",
+      "avatarNote": "Ảnh đại diện đến từ hồ sơ Telegram của bạn.",
+      "telegramUsername": "Tên người dùng Telegram",
+      "notSet": "Chưa đặt",
+      "telegramId": "Telegram ID",
+      "joinedOkn": "Tham gia $OKN",
+      "role": "Vai trò",
+      "userId": "ID người dùng",
+      "emailTitle": "Email",
+      "emailDesc": "Liên kết email để khôi phục tài khoản và (sau này) thông báo.",
+      "unverified": "Chưa xác minh",
+      "change": "Thay đổi",
+      "remove": "Xóa",
+      "verifyHint": "Xác minh email để xác nhận quyền sở hữu. Mã 6 chữ số sẽ được gửi đến hộp thư của bạn.",
+      "verify": "Xác minh",
+      "verified": "Đã xác minh",
+      "verifySuccessDesc": "Email của bạn đã được xác minh. Dùng để khôi phục tài khoản và thông báo.",
+      "enterCode": "Nhập mã 6 chữ số",
+      "enterCodeDesc": "Chúng tôi đã gửi mã đến email của bạn. Mã hết hạn sau 10 phút.",
+      "codePlaceholder": "123456",
+      "submitCode": "Xác minh email",
+      "resend": "Gửi lại mã",
+      "resendIn": "Gửi lại sau {seconds} giây",
+      "bindEmailTitle": "Liên kết email",
+      "newEmailTitle": "Email mới",
+      "emailPlaceholder": "you@example.com",
+      "submitBind": "Liên kết email",
+      "submitUpdate": "Cập nhật email",
+      "cancel": "Hủy",
+      "walletTitle": "Ví",
+      "walletDesc": "Ví nhận $OKN mà bạn đã nhận. Quản lý nó trên trang Ví.",
+      "boundAddress": "Địa chỉ đã liên kết",
+      "notBound": "Chưa liên kết",
+      "boundSince": "Liên kết từ",
+      "manageWallet": "Quản lý ví",
+      "requestRebind": "Yêu cầu liên kết lại",
+      "appearanceTitle": "Giao diện",
+      "appearanceDesc": "Chọn cách bảng điều khiển hiển thị trên thiết bị này.",
+      "themeLabel": "Giao diện",
+      "themeHint": "Sáng hoặc tối. Lưu theo thiết bị.",
+      "notificationsTitle": "Thông báo",
+      "notificationsBadge": "Demo",
+      "notificationsDesc": "Các công tắc này chỉ được lưu trên thiết bị này. Hệ thống thông báo thực sự đang trong lộ trình; hiện tại đây là trình giữ chỗ.",
+      "notificationsComingSoon": "Cac loai thong bao nay duoc len ke hoach cho phien ban tuong lai va chua hoat dong.",
+      "notifTaskLabel": "Cảnh báo xác minh nhiệm vụ",
+      "notifTaskDesc": "Khi nhiệm vụ bạn gửi được xác minh hoặc từ chối.",
+      "notifMissionLabel": "Cột mốc nhiệm vụ",
+      "notifMissionDesc": "Khi một nhiệm vụ cộng đồng được đạt và phần thưởng được phân phát.",
+      "supportTitle": "Hỗ trợ",
+      "supportDesc": "Cần giúp đỡ hoặc muốn kết nối với cộng đồng?",
+      "telegramCommunity": "Cộng đồng Telegram",
+      "communityLabel": "Cộng đồng",
+      "terms": "Điều khoản",
+      "privacy": "Quyền riêng tư",
+      "signOutTitle": "Đăng xuất",
+      "signOutDesc": "Kết thúc phiên của bạn trên thiết bị này. Bạn sẽ cần đăng nhập lại bằng Telegram.",
+      "signOutButton": "Đăng xuất"
+    },
+    "staking": {
+      "title": "Staking",
+      "description": "Khóa $OKN để kiếm phần thưởng.",
+      "tagline": "Khóa $OKN của bạn, kiếm APY, và giúp ổn định token.",
+      "features": [
+        {
+          "title": "Thời gian khóa linh hoạt",
+          "description": "Chọn 30, 90, 180, hoặc 365 ngày. Khóa lâu hơn kiếm APY cao hơn."
+        },
+        {
+          "title": "Kiếm APY",
+          "description": "$OKN đã stake tích lũy phần thưởng liên tục, có thể nhận khi mở khóa."
+        },
+        {
+          "title": "Giảm áp lực bán",
+          "description": "Nguồn cung bị khóa nghĩa là ít token hơn trên thị trường, hỗ trợ ổn định giá."
+        },
+        {
+          "title": "Tự động mở khóa",
+          "description": "$OKN của bạn tự động quay lại ví khi thời gian khóa kết thúc."
+        }
+      ]
+    },
+    "tasks": {
+      "title": "Nhiệm vụ",
+      "description": "Hoàn thành nhiệm vụ để kiếm điểm cho lần nhận tiếp theo.",
+      "emptyTitle": "Không có nhiệm vụ nào đang hoạt động",
+      "emptyMessage": "Nhiệm vụ mới xuất hiện thường xuyên. Hãy kiểm tra lại sau.",
+      "rewardLabel": "+{points} OK Points",
+      "doButton": "Làm",
+      "verifyButton": "Xác minh",
+      "submitting": "Đang gửi",
+      "verifying": "Đang xác minh",
+      "proofLabel": "Gửi bằng chứng của bạn (tên người dùng, liên kết, hoặc câu trả lời ngắn)",
+      "proofPlaceholder": "@tên_người_dùng hoặc https://...",
+      "pending": "Đang chờ"
+    },
+    "tradeBot": {
+      "title": "AI Trading Agent",
+      "description": "Tín hiệu long và short tự động cho thị trường tiền điện tử.",
+      "comingSoon": "Sắp ra mắt",
+      "headline": "Người đồng hành AI cho tín hiệu tiền điện tử của bạn.",
+      "body": "Bot giao dịch quét thị trường 24/7 và đưa ra các cơ hội long và short với điểm vào, mục tiêu, cắt lỗ và điểm tin cậy. Trang này là bản xem trước của trải nghiệm dự kiến. Bot chưa hoạt động.",
+      "statusBadge": "Bot ngoại tuyến - đang phát triển",
+      "capabilities": [
+        "Quét thị trường 24/7",
+        "Mức điểm vào / mục tiêu / cắt lỗ",
+        "Chấm điểm tin cậy",
+        "Quy mô quản lý rủi ro"
+      ],
+      "signalPreviewAria": "Xem trước tín hiệu",
+      "signalHeading": "Cửa sổ tín hiệu - xem trước",
+      "sampleData": "Dữ liệu mẫu - không trực tiếp",
+      "disabledAria": "Xem trước tín hiệu bị vô hiệu hóa trong khi bot đang phát triển",
+      "overlayTitle": "Tín hiệu chưa hoạt động",
+      "overlayBody": "AI Trading Agent vẫn đang được phát triển. Không có giao dịch nào sẽ được thực hiện từ trang này.",
+      "backToPortfolio": "Quay lại danh mục",
+      "timeframe": "Khung thời gian - {value}",
+      "entry": "Điểm vào",
+      "target": "Mục tiêu",
+      "stop": "Cắt lỗ",
+      "pending": "Đang chờ",
+      "long": "LONG",
+      "short": "SHORT",
+      "confidenceAria": "Độ tin cậy {value} phần trăm"
+    },
+    "polymarketAgent": {
+      "title": "Tác nhân Polymarket",
+      "description": "Định vị tự động trên các sự kiện dự đoán Polymarket.",
+      "comingSoon": "Sắp ra mắt",
+      "headline": "Tác nhân AI của bạn cho các sự kiện Polymarket.",
+      "body": "Tác nhân Polymarket theo doi cac thị trường dự đoán 24/7 và nêu bat các vị thế sự kiện có long tin cao với phân tich xac suất, vung nhap và định mức rui ro. Trang nay la ban xem trước trien khai du kien. Tác nhân chua hoat dong.",
+      "statusBadge": "Tác nhân ngoai tuyen - dang phat trien",
+      "capabilities": [
+        "Theo doi sự kiện 24/7",
+        "Cham diem loi the xac suất",
+        "Vung nhap / thoat",
+        "Định mức quan ly rui ro"
+      ],
+      "overlayTitle": "Tác nhân chua hoat dong",
+      "overlayBody": "Tác nhân Polymarket van dang phat trien. Không có vị thế nào duoc mo tu trang nay.",
+      "backToPortfolio": "Quay lại danh mục",
+      "tabs": {
+        "ariaLabel": "Các phân mục Polymarket",
+        "agent": "Agent",
+        "copier": "Sao chép",
+        "funds": "Tiền"
+      },
+      "copier": {
+        "headline": "Tự động sao chép các trader hàng đầu trên Polymarket.",
+        "body": "Bộ sao chép theo dõi các trader bạn chọn và phản chiếu giao dịch của họ bằng ví của riêng bạn, kích thước vị thế và giới hạn rủi ro của riêng bạn. Tạo hoặc nhập ví, chọn trader và luôn kiểm soát tài sản.",
+        "statusBadge": "Bộ sao chép đang phát triển",
+        "loading": "Đang tải bộ sao chép...",
+        "unconfiguredBody": "Dịch vụ sao chép giao dịch chưa được kết nối. Quyền kích hoạt sẽ mở cùng truy cập sớm.",
+        "loadErrorTitle": "Không thể tải bộ sao chép",
+        "loadErrorBody": "Có lỗi khi kết nối với dịch vụ sao chép. Vui lòng thử lại sau.",
+        "retry": "Thử lại",
+        "walletReadyTitle": "Ví sao chép của bạn đã sẵn sàng.",
+        "walletReadyBody": "Nạp USDC trên Polygon vào địa chỉ này để bắt đầu sao chép. Một lượng POL nhỏ đủ cho bước phê duyệt một lần.",
+        "origin": {
+          "created": "Ví đã tạo",
+          "imported_eoa": "Ví đã nhập",
+          "imported_safe_owner": "Tài khoản Polymarket đã nhập"
+        },
+        "activateTitle": "Cách kích hoạt",
+        "createWallet": "Tạo ví",
+        "importWallet": "Nhập ví",
+        "privateKeyLabel": "Khóa riêng tư",
+        "privateKeyPlaceholder": "64 ký tự thập lục phân",
+        "privateKeyHelp": "Khóa của bạn được mã hóa ngay lập tức và không bao giờ được lưu hay ghi log dưới dạng văn bản. Hãy dùng ví riêng.",
+        "proxyWalletLabel": "Ví proxy Polymarket (không bắt buộc)",
+        "proxyWalletPlaceholder": "0x...",
+        "proxyWalletHelp": "Nếu bạn đăng nhập Polymarket bằng email hoặc mạng xã hội, dán địa chỉ ví proxy và nhập khóa chủ sở hữu.",
+        "activating": "Đang kích hoạt...",
+        "activateCta": "Kích hoạt bộ sao chép",
+        "activateHint": "Mọi đăng ký mới đều bắt đầu ở chế độ xem trước: chưa giao dịch cho đến khi bạn bật chế độ thật.",
+        "activateFailed": "Kích hoạt thất bại. Kiểm tra khóa và thử lại.",
+        "tradersTitle": "Trader bạn sao chép",
+        "traderCount": "{count, plural, =0 {Chưa có trader} other {# trader}}",
+        "traderAddressLabel": "Địa chỉ trader",
+        "copySizeLabel": "Tỷ lệ sao chép %",
+        "addTrader": "Thêm trader",
+        "addTraderFailed": "Không thể thêm trader này.",
+        "noTraders": "Chưa có trader. Thêm địa chỉ ví Polymarket từ bảng xếp hạng để bắt đầu ở chế độ xem trước.",
+        "strategySummary": "Chiến lược {strategy} với tỷ lệ {size}% và giới hạn cứng",
+        "goLive": "Bật chế độ thật",
+        "pause": "Tạm dừng",
+        "resume": "Tiếp tục",
+        "stop": "Dừng",
+        "status": {
+          "preview": "Xem trước",
+          "live": "Đang chạy",
+          "paused": "Tạm dừng",
+          "stopped": "Đã dừng"
+        },
+        "executionsTitle": "Sao chép gần đây",
+        "noExecutions": "Chưa có lệnh sao chép. Lịch sử sẽ xuất hiện khi các trader được theo dõi giao dịch.",
+        "executionTraderSize": "Trader {side} ${size}",
+        "export": {
+          "exportKey": "Xuất khóa riêng tư",
+          "confirmTitle": "Hiện khóa riêng tư của bạn?",
+          "confirmBody": "Bất kỳ ai có khóa này đều kiểm soát ví và tài sản. Không bao giờ chia sẻ hay nhập vào trang không đáng tin cậy. Khóa chỉ được hiện một lần.",
+          "cancel": "Hủy",
+          "reveal": "Tôi hiểu, hiện khóa",
+          "revealing": "Đang hiện...",
+          "revealedTitle": "Khóa riêng tư của bạn",
+          "revealedBody": "Lưu offline ngay bây giờ. Hộp thoại sẽ không hiện lại; thực hiện lại luồng xuất nếu cần.",
+          "copy": "Sao chép khóa",
+          "copied": "Đã sao chép",
+          "done": "Xong",
+          "failed": "Không thể hiện khóa. Vui lòng thử lại sau."
+        },
+        "withdraw": {
+          "title": "Rút tiền",
+          "allowlistTitle": "Địa chỉ rút tiền",
+          "allowlistEmpty": "Chưa có địa chỉ rút tiền. Thêm một địa chỉ để bật rút tiền.",
+          "allowlistActive": "Đang hoạt động",
+          "cooldownUntil": "Chờ đến {time}",
+          "addressLabel": "Địa chỉ rút tiền",
+          "addAddress": "Thêm địa chỉ",
+          "allowlistHelp": "Tiền chỉ rút về các địa chỉ trong danh sách này. Địa chỉ mới mở khóa sau 24 giờ.",
+          "addFailed": "Không thể thêm địa chỉ này.",
+          "requestTitle": "Yêu cầu rút tiền",
+          "requestNoAddress": "Hãy thêm địa chỉ rút tiền trước; địa chỉ mới mở khóa sau 24 giờ.",
+          "selectAddress": "Chọn một địa chỉ",
+          "amountLabel": "Số lượng USDC",
+          "request": "Yêu cầu rút tiền",
+          "requesting": "Đang gửi...",
+          "requestQueued": "Đã yêu cầu rút tiền. Worker rút tiền sẽ xử lý.",
+          "requestFailed": "Không thể yêu cầu rút tiền.",
+          "historyTitle": "Lịch sử rút tiền",
+          "historyEmpty": "Chưa có rút tiền nào.",
+          "status": {
+            "requested": "Đã yêu cầu",
+            "executing": "Đang thực hiện",
+            "done": "Hoàn tất",
+            "failed": "Thất bại",
+            "canceled": "Đã hủy"
+          },
+          "netEstimate": "Bạn sẽ nhận khoảng {net} sau khi trừ phí."
+        },
+        "funds": {
+          "loading": "Đang tải tiền của bạn...",
+          "unconfiguredBody": "Dịch vụ sao chép giao dịch chưa được kết nối.",
+          "loadErrorTitle": "Không thể tải tiền của bạn",
+          "loadErrorBody": "Có lỗi khi kết nối với dịch vụ sao chép. Vui lòng thử lại sau.",
+          "retry": "Thử lại",
+          "activateFirstTitle": "Hãy kích hoạt bộ sao chép trước",
+          "activateFirstBody": "Tiền nằm trong ví sao chép của bạn. Kích hoạt bộ sao chép để tạo hoặc nhập ví, sau đó nạp và rút tiền tại đây.",
+          "goToCopier": "Đến tab Bộ sao chép"
+        },
+        "twofa": {
+          "label": "Mã xác thực hai bước",
+          "placeholder": "123456",
+          "verify": "Xác minh mã",
+          "verifying": "Đang xác minh...",
+          "help": "Nhập mã 6 chữ số từ ứng dụng xác thực của bạn để phê duyệt hành động này.",
+          "invalid": "Mã không hợp lệ. Vui lòng thử lại.",
+          "notEnrolledTitle": "Chưa bật xác thực hai bước",
+          "notEnrolled": "Hãy bật xác thực hai bước trong cài đặt hồ sơ trước. Cần có để xuất khóa, nhập khóa và rút tiền."
+        },
+        "balance": {
+          "title": "Bộ sao chép Polymarket",
+          "polGas": "Gas POL",
+          "openTokens": "{count, plural, =0 {không có vị thế} other {# vị thế đang mở}}",
+          "manageFunds": "Quản lý tiền",
+          "addFunds": "Nạp tiền",
+          "setUpCopier": "Thiết lập bộ sao chép",
+          "noWalletBody": "Kích hoạt bộ sao chép để bắt đầu sao chép các thị trường Polymarket.",
+          "errorBody": "Hiện không xem được số dư.",
+          "retry": "Thử lại"
+        },
+        "wallet": {
+          "spendable": "Khả dụng",
+          "gasLabel": "Gas (POL)",
+          "allowanceApproved": "Đã phê duyệt USDC",
+          "allowanceNeeded": "Cần phê duyệt",
+          "refreshAria": "Làm mới số dư",
+          "updatedAgo": "Cập nhật {seconds} giây trước",
+          "copyAddress": "Sao chép địa chỉ nạp tiền",
+          "copiedAddress": "Đã sao chép địa chỉ"
+        },
+        "fees": {
+          "title": "Phí copier",
+          "outstanding": "Còn nợ",
+          "lifetime": "Đã trả",
+          "waived": "Đã miễn",
+          "explainer": "Phí tích lũy theo mỗi lệnh sao chép thành công và tự động trừ vào lần rút tiếp theo; tiền giao dịch của bạn không bị đụng tới."
+        },
+        "billing": {
+          "title": "Gói PRO",
+          "proActive": "PRO đang chạy",
+          "renews": "Gia hạn",
+          "expiresOn": "Hết hạn {date}",
+          "renew": "Gia hạn",
+          "upgradeCta": "Nâng cấp PRO",
+          "comingSoon": "PRO sẽ mở sau thời gian thử nghiệm. Phí theo lệnh vẫn tắt cho đến lúc đó.",
+          "priceLabel": "{price} / {days} ngày",
+          "feeNow": "Mức phí của bạn: {rate}%",
+          "slots": "{used}/{slots} trader đang chạy"
+        },
+        "upgrade": {
+          "title": "Nâng cấp PRO",
+          "description": "Phí thấp hơn, nhiều trader hơn. Không ràng buộc: không gia hạn thì PRO tự hết hạn.",
+          "freeSlotsLabel": "trader đang chạy",
+          "proSlotsLabel": "trader với PRO",
+          "feeSuffix": "phí mỗi lệnh",
+          "railCopier": "Ví copier",
+          "railCopierDetail": "Trả USDC.e từ ví copier Polymarket. Cần mã 2FA mới.",
+          "railConnected": "Ví đã kết nối",
+          "railConnectedDetail": "Trả USDC từ ví BSC của chính bạn. Bạn ký giao dịch; không có tiền ủy thác nào di chuyển.",
+          "consent": "Tôi đồng ý bị trừ {price} USDC cho {days} ngày PRO từ ví đã chọn.",
+          "pay": "Trả {price}",
+          "cancel": "Hủy",
+          "success": "PRO đã kích hoạt. Tận hưởng mức phí thấp hơn.",
+          "done": "Xong",
+          "failed": "Không thể hoàn tất thanh toán.",
+          "sendExact": "Gửi đúng số tiền này từ ví đã kết nối, rồi xác nhận bên dưới.",
+          "amountLabel": "Số tiền",
+          "toLabel": "Địa chỉ kho",
+          "copyAddress": "Sao chép địa chỉ kho",
+          "copied": "Đã sao chép",
+          "networkLabel": "Mạng: BSC (chain {chainId})",
+          "connectFirst": "Hãy kết nối ví BSC trước.",
+          "later": "Để sau",
+          "openWallet": "Mở ví và trả tiền",
+          "verifyFailed": "Thanh toán chưa được xác nhận. Nếu chuyển khoản thành công, thử lại sau ít phút."
+        }
+      }
+    },
+    "predictionMarkets": {
+      "title": "Thị Trường Dự Đoán",
+      "description": "Theo doi và giao dich thị trường ket quả trên các giao thưc.",
+      "comingSoon": "Sắp ra mắt",
+      "headline": "Một bề mặt cho mọi thị trường dự đoán.",
+      "body": "Duyệt các thị trường dự đoán truc tuyen trên Polymarket và các giao thưc khác, loc theo danh muc và theo doi khoi luong, thanh khoan và xac suất theo thoi gian thuc. Trang nay la ban xem trước trien khai du kien. Giao dich truc tuyen chua kha dung.",
+      "statusBadge": "Xem trước thị trường - dang phat trien",
+      "categories": [
+        "Chinh tri",
+        "Crypto",
+        "The thao",
+        "Kinh te"
+      ],
+      "overlayTitle": "Giao dich chua hoat dong",
+      "overlayBody": "Bảng điều khiển Thị Trường Dự Đoán van dang phat trien. Không có giao dich nào duoc thuc hien tu trang nay.",
+      "backToPortfolio": "Quay lại danh mục"
+    },
+    "wallet": {
+      "title": "Ví",
+      "description": "Kết nối, liên kết và số dư $OKN của bạn.",
+      "balanceLabel": "Số dư $OKN",
+      "balanceHint": "Your on-chain OKN balance",
+      "networkLabel": "Mạng",
+      "networkValue": "BNB Smart Chain",
+      "chainId": "Chain ID {id}",
+      "explorer": "Trình khám phá BscScan",
+      "connectionTitle": "Kết nối",
+      "connectionDesc": "Việc liên kết gắn ví với tài khoản Telegram của bạn để nhận và mua.",
+      "boundTitle": "Tài khoản đã liên kết",
+      "boundDesc": "Tài khoản Telegram mà ví của bạn được liên kết tới.",
+      "emptyTitle": "Chưa có ví nào được liên kết",
+      "emptyMessage": "Kết nối ví của bạn ở trên để liên kết nó với tài khoản Telegram của bạn.",
+      "walletLabel": "Ví",
+      "boundLabel": "Đã liên kết",
+      "telegramLabel": "Telegram"
+    },
+    "walletConnect": {
+      "connect": "Kết nối Ví",
+      "walletLabel": "Ví: {addr}",
+      "signPending": "Ký thông điệp trong ví của bạn...",
+      "binding": "Đang liên kết ví...",
+      "bound": "Ví đã liên kết",
+      "signRequiredTitle": "Yêu cầu chữ ký",
+      "signRequiredDesc": "Bạn phải ký một thông điệp để chứng minh quyền sở hữu ví trước khi liên kết.",
+      "conflictTitle": "Ví đã được sử dụng",
+      "conflictDesc": "Ví này đã được liên kết với một tài khoản khác.",
+      "failedTitle": "Không thể liên kết ví",
+      "failedDesc": "Không thể liên kết ví ({status})."
+    },
+    "dailyCheckIn": {
+      "label": "Chuỗi ngày liên tiếp",
+      "daySingular": "{count} ngày",
+      "dayPlural": "{count} ngày",
+      "checkedIn": "Đã điểm danh. Chuỗi dài nhất: {longest}.",
+      "nextReward": "Điểm danh hôm nay để nhận +{reward} OK Points.",
+      "noStreak": "Điểm danh hôm nay để bắt đầu chuỗi của bạn."
+    },
+    "rebind": {
+      "title": "Đổi ví",
+      "description": "Mất quyền truy cập hoặc nâng cấp ví? Yêu cầu liên kết lại. Một điều phối viên sẽ xem xét từng yêu cầu. Giới hạn một lần mỗi 30 ngày.",
+      "currentWallet": "Ví hiện tại",
+      "newWallet": "Ví mới (đã kết nối)",
+      "connectNew": "Kết nối ví mới mà bạn muốn chuyển sang, sau đó chọn lý do bên dưới.",
+      "sameWallet": "Ví đã kết nối giống với ví hiện tại của bạn. Kết nối một ví khác để yêu cầu liên kết lại.",
+      "reasonLabel": "Lý do",
+      "reasonLostKey": "Mất private key",
+      "reasonCompromised": "Ví bị xâm phạm",
+      "reasonUpgrade": "Nâng cấp lên ví phần cứng",
+      "reasonAdminFix": "Sửa chữa do quản trị chỉ định",
+      "btnIdle": "Yêu cầu liên kết lại",
+      "btnPending": "Đang ký & gửi...",
+      "signNote": "Bạn sẽ ký một thông điệp chứng minh quyền sở hữu ví mới. Chữ ký được xác minh phía máy chủ; chúng tôi không bao giờ thấy private key của bạn."
+    },
+    "unbind": {
+      "title": "Disconnect wallet",
+      "description": "Remove the wallet currently bound to your account. You will need to bind a new wallet before you can claim or buy $OKN again.",
+      "currentWallet": "Current wallet",
+      "connectHint": "Connect the wallet currently bound to your account to disconnect it.",
+      "btnIdle": "Disconnect wallet",
+      "btnPending": "Signing...",
+      "signNote": "You will sign a message proving you still control the bound wallet. The signature is verified server-side; we never see your private key.",
+      "dialogTitle": "Disconnect this wallet?",
+      "dialogDescription": "This removes the wallet from your account. You will not be able to claim or buy $OKN until you bind a new one. To confirm, you must sign with the bound wallet.",
+      "dialogConfirm": "Disconnect",
+      "dialogCancel": "Cancel"
+    },
+    "comingSoon": {
+      "badge": "Sắp ra mắt",
+      "body": "Tính năng này nằm trong lộ trình. Chi tiết bên dưới xem trước những gì bạn sẽ nhận được khi nó ra mắt.",
+      "footerNote": "Muốn sớm hơn? Hãy chia sẻ sự quan tâm của bạn trong Telegram cộng đồng."
+    }
+  },
+  "toasts": {
+    "buy": {
+      "submittedTitle": "Đã gửi giao dịch mua",
+      "submittedDescLink": "Xem giao dịch trên BscScan",
+      "successTitle": "Purchase confirmed",
+      "successDesc": "You received {value} $OKN"
+    },
+    "claim": {
+      "submittedTitle": "Đã gửi yêu cầu nhận",
+      "submittedDescLink": "Xem giao dịch trên BscScan"
+    },
+    "tasks": {
+      "submittedTitle": "Đã gửi để xem xét",
+      "submittedDesc": "Một điều phối viên sẽ xác minh bài nộp của bạn trong thời gian ngắn.",
+      "verifiedTitle": "Nhiệm vụ đã xác minh",
+      "verifiedDesc": "Điểm đã được cộng vào số dư của bạn.",
+      "alreadyTitle": "Đã hoàn thành",
+      "alreadyDesc": "Bạn đã gửi nhiệm vụ này rồi.",
+      "failedTitle": "Không thể gửi nhiệm vụ",
+      "failedDesc": "Vui lòng thử lại sau một lát."
+    },
+    "settings": {
+      "profileUpdated": "Đã cập nhật hồ sơ",
+      "profileFailed": "Không thể cập nhật hồ sơ",
+      "emailSaved": "Đã lưu email",
+      "emailRemoved": "Đã xóa email",
+      "emailFailed": "Không thể lưu email",
+      "verificationSent": "Đã gửi mã xác minh",
+      "emailVerified": "Đã xác minh email",
+      "verificationFailed": "Xác minh thất bại"
+    },
+    "wallet": {
+      "bound": "Ví đã liên kết",
+      "signRequiredTitle": "Yêu cầu chữ ký",
+      "signRequiredDesc": "Bạn phải ký một thông điệp để chứng minh quyền sở hữu ví trước khi liên kết.",
+      "conflictTitle": "Ví đã được sử dụng",
+      "conflictDesc": "Ví này đã được liên kết với một tài khoản khác.",
+      "failedTitle": "Không thể liên kết ví",
+      "failedDesc": "Không thể liên kết ví ({status})."
+    },
+    "dailyCheckIn": {
+      "streakTitle": "Chuỗi ngày thứ {day}!",
+      "streakDesc": "Bạn đã kiếm được {points} điểm thưởng $OKN. Hãy tiếp tục."
+    },
+    "rebind": {
+      "successTitle": "Đã yêu cầu liên kết lại",
+      "successDesc": "Một điều phối viên sẽ xem xét nó.",
+      "failedTitle": "Không thể gửi yêu cầu"
+    },
+    "unbind": {
+      "successTitle": "Wallet disconnected",
+      "successDesc": "You can now bind a different wallet.",
+      "failedTitle": "Could not disconnect wallet"
+    }
+  },
+  "login": {
+    "heading": "Dang nhap $OKN",
+    "subheading": "Xac thuc bang tai khoan Telegram cua ban.",
+    "loginWithTelegram": "Dang nhap bang Telegram",
+    "helpText": "Ban se duoc chuyen den Telegram de xac thuc tai khoan, sau do quay lai day da dang nhap."
+  }
+}

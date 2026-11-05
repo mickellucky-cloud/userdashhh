@@ -1,0 +1,1348 @@
+{
+  "metadata": {
+    "title": "Token OKN | Dapatkan, Klaim, Beli di BNB Smart Chain",
+    "titleTemplate": "%s | Token OKN",
+    "description": "OKN adalah token komunitas di BNB Smart Chain. Dapatkan lewat tugas, klaim on-chain dengan bukti Merkle, atau beli langsung dengan BNB dengan kurs tetap.",
+    "keywords": [
+      "$OKN",
+      "$OKN Token",
+      "BSC",
+      "BNB Smart Chain",
+      "token komunitas",
+      "dapatkan kripto",
+      "bot telegram",
+      "klaim merkle",
+      "penjualan token"
+    ],
+    "ogImageAlt": "Token OKN — dapatkan, klaim, beli di BNB Smart Chain",
+    "jsonLdActionName": "Buka dasbor OKN"
+  },
+  "nav": {
+    "features": "Fitur",
+    "howItWorks": "Cara kerja",
+    "tokenomics": "Tokenomics",
+    "roadmap": "Roadmap",
+    "documents": "Dokumen",
+    "exchange": "Exchange",
+    "openApp": "Buka App",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "community": "Komunitas"
+  },
+  "hero": {
+    "liveOn": "Aktif di {chain}",
+    "headline1": "Jangan sekadar membeli token.",
+    "headline2": "Dapatkan dengan usaha.",
+    "paragraph": "$OKN adalah token utilitas dan komunitas asli dari ekosistem OKNEXUS Exchange, dibangun di BNB Smart Chain untuk menghadirkan kecepatan, keamanan, dan utilitas dunia nyata. Setiap interaksi menciptakan nilai. Selesaikan tugas, kumpulkan poin hadiah, beli dengan BNB, dan klaim token Anda langsung on-chain melalui Aplikasi Telegram kami. Lebih dari sekadar token, $OKN adalah kunci Anda menuju hadiah eksklusif, manfaat platform, peluang tata kelola, dan masa depan keuangan terdesentralisasi. Bergabunglah dengan gerakan ini. Miliki masa depan.",
+    "loginWithTelegram": "Masuk dengan Telegram",
+    "facts": {
+      "maxSupply": "{supply} suplai maksimum",
+      "claimFee": "{fee} BNB biaya klaim",
+      "fixedRateSale": "Penjualan BNB kurs tetap"
+    },
+    "scroll": "Gulir",
+    "coinAlt": "Koin token OKNexus"
+  },
+  "features": {
+    "heading": "Dibuat untuk para pemegang yang berusaha",
+    "subheading": "Setiap bagian dari $OKN memberi penghargaan atas partisipasi: tugas, referral, dan klaim on-chain.",
+    "tasksHeading": "Selesaikan tugas, kumpulkan poin",
+    "tasksBody": "Ikuti channel, gabung grup, undang teman. Poin terakumulasi off-chain dan dicatat on-chain sebagai akar Merkle yang dapat Anda klaim.",
+    "taskRows": [
+      "Ikuti $OKN di X",
+      "Gabung grup Telegram",
+      "Ajak seorang teman"
+    ],
+    "pts": "+{pts} OK Points",
+    "onChainClaimsHeading": "Klaim on-chain",
+    "onChainClaimsBody": "Bukti Merkle kumulif berarti satu klaim mencakup semua yang telah Anda peroleh.",
+    "buyWithBnbHeading": "Beli dengan BNB",
+    "buyWithBnbBody": "{rate}. Tidak diperlukan liquidity pool pada tahap ini.",
+    "saleRate": "Kurs tetap, ditetapkan dalam BNB",
+    "claimFeeHeading": "{fee} biaya klaim",
+    "claimFeeBody": "Dibayar dalam BNB, ditentukan oleh oracle Chainlink. Biaya mendanai kas ekosistem.",
+    "referralsHeading": "Referral yang menguntungkan dua belah pihak",
+    "referralsBody": "Bagikan tautan Anda. Saat seorang teman menyelesaikan tugas pertamanya, kalian berdua mendapatkan hadiah."
+  },
+  "howItWorks": {
+    "heading": "Mesin pertumbuhan OKN",
+    "subheading": "Satu ekosistem di mana setiap aksi memberi makan aksi berikutnya. Hasilkan, tingkatkan, klaim, dan kembangkan hadiah Anda dalam satu siklus.",
+    "steps": [
+      {
+        "title": "Temukan & bergabung",
+        "body": "Buka $OKN di Telegram. Akun Anda dibuat seketika."
+      },
+      {
+        "title": "Hasilkan OK Points",
+        "body": "Selesaikan tugas, check-in harian, dan naiki papan peringkat."
+      },
+      {
+        "title": "Beli & tingkatkan",
+        "body": "Beli $OKN dengan BNB untuk membuka pengganda hadiah."
+      },
+      {
+        "title": "Klaim on-chain",
+        "body": "Ubah OK Points Anda menjadi $OKN. Biaya $3 BNB berlaku."
+      },
+      {
+        "title": "Stake & trade",
+        "body": "Tahan, tukar, dan gunakan $OKN Anda di seluruh ekosistem."
+      },
+      {
+        "title": "Ajak & kembangkan",
+        "body": "Undang teman dan hasilkan bagian dari poin mereka di tiga level."
+      }
+    ],
+    "loopLabel": "Siklus berlanjut"
+  },
+  "video": {
+    "kicker": "Lihat aksinya",
+    "heading": "Kisah OKNexus",
+    "subheading": "Panduan singkat bagaimana $OKN mengubah setiap aksi menjadi nilai nyata on-chain.",
+    "playAria": "Putar video penjelasan OKNexus"
+  },
+  "tokenomics": {
+    "kicker": "Tokenomics",
+    "heading": "Satu suplai tetap. Tanpa kejutan.",
+    "supplyLabel": "Suplai maksimum",
+    "claimFeeLabel": "Biaya klaim",
+    "claimFeeValue": "{fee} dalam BNB",
+    "allocationHeading": "Alokasi",
+    "allocationNote": "Nilai alokasi telah dikonfirmasi dan berjumlah sesuai suplai maksimum 5B.",
+    "ariaAllocation": "{labels}",
+    "allocations": [
+      "Hadiah Komunitas",
+      "Penjualan Publik",
+      "Likuiditas DEX",
+      "Tim & Advisor",
+      "Ekosistem",
+      "Kas"
+    ]
+  },
+  "roadmap": {
+    "kicker": "Roadmap",
+    "heading": "Perjalanan ke depan",
+    "subheading": "Dari tugas pertama hingga likuiditas penuh. Ikuti garisnya.",
+    "phases": [
+      {
+        "phase": "Fase 1",
+        "title": "Pengapian",
+        "status": "Sedang berjalan",
+        "items": [
+          "Kontrak token, penjualan, dan distributor di BSC",
+          "Peluncuran bot Telegram dan mini app",
+          "Sistem tugas dengan buku poin off-chain"
+        ]
+      },
+      {
+        "phase": "Fase 2",
+        "title": "Distribusi",
+        "status": "Berikutnya",
+        "items": [
+          "Penjualan BNB publik dengan kurs tetap",
+          "Klaim Merkle dibuka dengan biaya $3 BNB",
+          "Dorongan program referral"
+        ]
+      },
+      {
+        "phase": "Fase 3",
+        "title": "Likuiditas",
+        "status": "Nanti",
+        "items": [
+          "Pencatatan DEX dan liquidity pool",
+          "Tata kelola komunitas"
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Siap mendapatkan bagian Anda?",
+    "subheading": "Bergabunglah dengan komunitas, selesaikan tugas pertama Anda, dan mulai kumpulkan $OKN hari ini.",
+    "joinTelegram": "Masuk dengan Telegram",
+    "watchYoutube": "Tonton di YouTube"
+  },
+  "footer": {
+    "tagline": "Token komunitas yang Anda peroleh. Di {chain}.",
+    "columns": [
+      {
+        "title": "App",
+        "links": [
+          "Dasbor",
+          "Masuk"
+        ]
+      },
+      {
+        "title": "Sumber daya",
+        "links": [
+          "Cara klaim",
+          "Tokenomics",
+          "Dokumen"
+        ]
+      }
+    ],
+    "copyright": "© 2026 OKN. Hak cipta dilindungi."
+  },
+  "kycBadge": {
+    "statusLabel": "KYC Terverifikasi",
+    "verified": "Terverifikasi",
+    "aria": "{status} oleh {provider} — buka halaman verifikasi",
+    "projectBy": "KYC tim proyek oleh {provider}"
+  },
+  "caCard": {
+    "contractAddress": "Alamat Kontrak (BSC)",
+    "live": "Aktif",
+    "comingSoon": "Segera hadir",
+    "copy": "Salin",
+    "copied": "Tersalin",
+    "copyAria": "Salin alamat kontrak",
+    "comingSoonBody": "Alamat akan dipublikasikan di sini saat peluncuran token.",
+    "logoAlt": "$OKN"
+  },
+  "socialSidebar": {
+    "ariaLabel": "Tautan sosial",
+    "labels": {
+      "telegram": "Telegram",
+      "youtube": "YouTube",
+      "discord": "Discord",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "threads": "Threads",
+      "bsky": "Bluesky",
+      "tiktok": "TikTok"
+    }
+  },
+  "notFound": {
+    "heading": "Halaman ini terlepas dari on-chain",
+    "body": "Halaman yang Anda cari tidak ada atau mungkin telah dipindahkan. Mari kami bantu kembali ke jalur yang benar.",
+    "cta": "Bawa saya ke beranda",
+    "links": [
+      "Tokenomics",
+      "Cara klaim",
+      "Dokumen"
+    ],
+    "logoAlt": "$OKN"
+  },
+  "tokenomicsPage": {
+    "title": "Tokenomics",
+    "metaTitle": "Tokenomics",
+    "metaDescription": "Suplai, alokasi, dan ketentuan penjualan token $OKN. {supply} suplai maksimum di BNB Smart Chain.",
+    "ogTitle": "{name} — Tokenomics",
+    "ogDescription": "Suplai, alokasi, dan ketentuan penjualan untuk {name}.",
+    "facts": {
+      "maxSupply": "{supply} $OKN",
+      "chain": "Chain",
+      "claimFee": "Biaya klaim",
+      "salePricing": "Harga jual",
+      "decimals": "Desimal"
+    },
+    "factsValues": {
+      "maxSupply": "{supply} $OKN",
+      "claimFee": "{fee} dalam BNB",
+      "salePricing": "Kurs tetap, ditetapkan dalam BNB",
+      "decimals": "18"
+    },
+    "factLabels": {
+      "maxSupply": "Suplai maksimum",
+      "chain": "Chain",
+      "claimFee": "Biaya klaim",
+      "salePricing": "Harga jual",
+      "decimals": "Desimal"
+    },
+    "fullAllocationHeading": "Alokasi penuh",
+    "fullAllocationNote": "Nilai alokasi telah dikonfirmasi dan berjumlah sesuai suplai maksimum 5B.",
+    "tableHeaders": {
+      "bucket": "Kelompok",
+      "allocation": "Alokasi",
+      "tokens": "Token ($OKN)",
+      "share": "Porsi"
+    },
+    "total": "Total",
+    "saleHeading": "Penjualan BNB langsung",
+    "saleBody": "$OKN dijual dengan kurs tetap secara langsung melalui kontrak TokenSale on-chain. Tidak diperlukan liquidity pool pada tahap ini. Batas per dompet mencegah akumulasi whale.",
+    "feeHeading": "{fee} biaya klaim",
+    "feeBody": "Setiap klaim membayar biaya $3 dalam BNB, ditentukan langsung melalui oracle Chainlink BNB/USD. Biaya terakumulasi di kontrak distributor dan ditarik ke kas oleh admin."
+  },
+  "howToClaimPage": {
+    "title": "Cara klaim",
+    "metaTitle": "Cara klaim",
+    "metaDescription": "Dua cara untuk mendapatkan $OKN: dapatkan lewat tugas dan klaim on-chain, atau beli langsung dengan BNB. {fee} biaya klaim dalam BNB.",
+    "ogTitle": "{name} — Cara klaim",
+    "ogDescription": "Dapatkan $OKN lewat tugas atau beli langsung dengan BNB. Panduan langkah demi langkah.",
+    "heading": "Dua jalur menuju $OKN pertama Anda",
+    "subheading": "Dapatkan dengan berpartisipasi dalam komunitas, atau beli langsung. Keduanya mendaratkan $OKN ke dompet Anda di BNB Smart Chain.",
+    "pathALabel": "Jalur A",
+    "pathAHeading": "Dapatkan lewat tugas, klaim on-chain",
+    "pathABody": "Gratis untuk berpartisipasi. Poin dikonversi menjadi $OKN saat admin mencatat akar Merkle.",
+    "pathBLabel": "Jalur B",
+    "pathBHeading": "Beli langsung dengan BNB",
+    "pathBBody": "Pembelian on-chain instan dengan kurs tetap. Batas per dompet berlaku.",
+    "earnSteps": [
+      {
+        "title": "Buka $OKN di Telegram",
+        "body": "Ketuk \"Buka di Telegram\" untuk menjalankan mini app. Akun Anda dibuat dari identitas Telegram Anda — tanpa pendaftaran terpisah."
+      },
+      {
+        "title": "Hubungkan dompet BNB Smart Chain",
+        "body": "Di dalam dasbor, hubungkan MetaMask, Trust Wallet, atau dompet EVM apa pun. Alamat terikat ke akun Telegram Anda."
+      },
+      {
+        "title": "Selesaikan tugas untuk mendapatkan poin",
+        "body": "Ikuti channel, gabung grup, ajak teman. Setiap tugas memberikan poin. Poin dilacak off-chain sampai admin mencatat akar Merkle."
+      },
+      {
+        "title": "Klaim on-chain",
+        "body": "Setelah poin Anda dicatat, halaman Klaim membuat bukti Merkle Anda dan dompet Anda memanggil kontrak distributor. Biaya $3 BNB berlaku."
+      }
+    ],
+    "buySteps": [
+      {
+        "title": "Buka halaman Beli",
+        "body": "Dari dasbor, buka tab Beli. Anda akan melihat kurs saat ini ($OKN per BNB), batas dompet tersisa Anda, dan status penjualan."
+      },
+      {
+        "title": "Masukkan jumlah BNB",
+        "body": "Ketik berapa banyak BNB yang ingin Anda belanjakan. Halaman menampilkan pratinjau $OKN yang akan Anda terima dan memvalidasi terhadap batas per dompet serta pembelian minimum."
+      },
+      {
+        "title": "Konfirmasi pembelian",
+        "body": "Dompet Anda memanggil TokenSale.buy() dengan BNB terlampir. Kontrak mencetak $OKN langsung ke alamat Anda dengan kurs tetap."
+      },
+      {
+        "title": "Lacak pembelian Anda",
+        "body": "Setiap pembelian dicatat on-chain (event Bought) dan diindeks ke dalam dasbor. Penarikan BNB yang terkumpul dikendalikan admin dan tercatat dalam audit log."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Kapan saya dapat memindahtangankan $OKN?",
+        "answer": "Immediately. There is no transfer lock on OKN tokens. Once claimed or purchased, you can send or swap them right away."
+      },
+      {
+        "question": "Berapa biaya klaimnya?",
+        "answer": "{fee} dalam BNB per klaim, ditentukan langsung melalui oracle Chainlink. Biaya mendanai kas ekosistem."
+      },
+      {
+        "question": "Apakah saya perlu dompet?",
+        "answer": "Ya — dompet EVM apa pun di BNB Smart Chain. Hubungkan di dalam dasbor untuk mengikatnya ke akun Telegram Anda."
+      }
+    ],
+    "openDashboard": "Buka dasbor"
+  },
+  "documentsPage": {
+    "title": "Dokumen — Whitepaper & Roadmap",
+    "metaTitle": "Dokumen — Whitepaper & Roadmap",
+    "metaDescription": "Unduh whitepaper Token $OKN dan roadmap produk. Tokenomics lengkap, distribusi, mekanisme klaim, dan linimasa tonggak pencapaian.",
+    "ogTitle": "{name} — Dokumen",
+    "ogDescription": "Unduh whitepaper Token $OKN dan roadmap produk. Tokenomics lengkap, distribusi, mekanisme klaim, dan linimasa tonggak pencapaian.",
+    "kicker": "Dokumen",
+    "heading": "Whitepaper & Roadmap",
+    "subheading": "Semua yang Anda butuhkan untuk mengevaluasi $OKN dalam satu tempat. Unduh whitepaper teknis lengkap atau roadmap produk di bawah ini.",
+    "docs": [
+      {
+        "title": "Whitepaper",
+        "description": "Spesifikasi teknis dan ekonomi lengkap dari $OKN: tokenomics, distribusi, model biaya klaim, dan arsitektur bukti Merkle.",
+        "bullets": [
+          "Suplai token, alokasi, dan kunci transfer 6 bulan",
+          "Mekanisme biaya klaim dan batas komunitas",
+          "Desain kontrak distributor Merkle",
+          "Model pendapatan dan keberlanjutan"
+        ],
+        "cta": "Unduh whitepaper"
+      },
+      {
+        "title": "Roadmap",
+        "description": "Ke mana $OKN menuju. Tonggak pencapaian bertahap di seluruh smart contract, dasbor, pertumbuhan komunitas, dan alat trading AI yang akan datang.",
+        "bullets": [
+          "Linimasa pengiriman fase demi fase",
+          "Target misi komunitas (100 ribu anggota dan seterusnya)",
+          "Periode rilis Staking dan AI Trading Agent",
+          "Tonggak pencapaian pencatatan exchange"
+        ],
+        "cta": "Unduh roadmap"
+      }
+    ],
+    "pdfLabel": "Dokumen PDF",
+    "fileNote": "Dokumen adalah berkas PDF. Jika unduhan tidak dimulai, berkas mungkin belum dipublikasikan. Periksa kembali sebentar lagi atau tanyakan di Telegram komunitas.",
+    "trustStrip": [
+      {
+        "title": "Kontrak yang diaudit",
+        "body": "Smart contract menggunakan standar upgradeable OpenZeppelin dengan proxy UUPS."
+      },
+      {
+        "title": "Suplai transparan",
+        "body": "Alokasi penuh dan rincian batas dipublikasikan di whitepaper."
+      },
+      {
+        "title": "Tonggak pencapaian publik",
+        "body": "Roadmap berkomitmen pada tanggal dan hasil yang dapat Anda pertanyakan kepada kami."
+      }
+    ]
+  },
+  "languageSwitcher": {
+    "label": "Bahasa",
+    "current": "Bahasa saat ini: {name}",
+    "languages": {
+      "en": "English",
+      "zh": "中文",
+      "es": "Español",
+      "pt": "Português",
+      "ru": "Русский",
+      "vi": "Tiếng Việt",
+      "id": "Bahasa Indonesia",
+      "tr": "Türkçe",
+      "fr": "Français"
+    }
+  },
+  "dashboard": {
+    "nav": {
+      "portfolio": "Portofolio",
+      "aiTradingAgent": "AI Trading Agent",
+      "polymarketAgent": "Agen Polymarket",
+      "predictionMarkets": "Pasar Prediksi",
+      "leaderboard": "Papan peringkat",
+      "missions": "Misi",
+      "tasks": "Tugas",
+      "claim": "Klaim",
+      "buy": "Beli",
+      "staking": "Staking",
+      "news": "Berita",
+      "learn": "Belajar",
+      "wallet": "Dompet",
+      "referral": "Referral",
+      "settings": "Pengaturan"
+    },
+    "shell": {
+      "admin": "Admin",
+      "dashboard": "Dasbor",
+      "backToApp": "Kembali ke App",
+      "adminPanel": "Panel Admin",
+      "search": "Cari",
+      "filterNav": "Filter navigasi",
+      "noMatches": "Tidak ada hasil",
+      "menu": "Menu",
+      "administration": "Administrasi",
+      "brandTagline": "Dapatkan, Klaim, Beli"
+    },
+    "userMenu": {
+      "openMenu": "Buka menu pengguna",
+      "settings": "Pengaturan",
+      "wallet": "Dompet",
+      "referral": "Referral",
+      "appearance": "Tampilan",
+      "signIn": "Masuk",
+      "signOut": "Keluar",
+      "userFallback": "Pengguna {id}",
+      "telegramLabel": "Telegram {id}"
+    },
+    "theme": {
+      "switchToLight": "Beralih ke mode terang",
+      "switchToDark": "Beralih ke mode gelap",
+      "appearance": "Tampilan",
+      "lightMode": "Mode terang",
+      "darkMode": "Mode gelap"
+    },
+    "sidebar": {
+      "earnMore": "Dapatkan lebih banyak $OKN",
+      "earnMoreBody": "Selesaikan tugas dan undang teman untuk mengumpulkan poin.",
+      "learnMore": "Pelajari lebih lanjut",
+      "inviteFriends": "Undang teman",
+      "moderationQueue": "Antrean moderasi",
+      "moderationBody": "Verifikasi penyelesaian tugas dan jaga buku tetap bersih.",
+      "auditLogs": "Log audit",
+      "review": "Tinjau"
+    },
+    "statusBadge": {
+      "pending": "Menunggu",
+      "eligible": "Memenuhi syarat",
+      "verified": "Terverifikasi",
+      "approved": "Disetujui",
+      "paid": "Dibayar",
+      "rejected": "Ditolak",
+      "active": "Aktif",
+      "inactive": "Tidak aktif",
+      "paused": "Dijeda",
+      "draft": "Private test"
+    },
+    "dataState": {
+      "error": "Terjadi kesalahan saat memuat data ini.",
+      "retry": "Coba lagi",
+      "staleWarning": "Data langsung tidak dapat dimuat. Menampilkan default sebagai gantinya. Gunakan coba lagi untuk menyegarkan."
+    },
+    "common": {
+      "loading": "Memuat...",
+      "anonymous": "Anonim",
+      "you": "(anda)",
+      "copy": "Salin",
+      "copied": "Tersalin",
+      "copyValue": "Salin {value}",
+      "pts": "{count} OK Points",
+      "plusPts": "+{count} OK Points"
+    },
+    "notFound": {
+      "heading": "Halaman tidak ditemukan",
+      "body": "Halaman dasbor ini tidak ada. Portofolio Anda dan bagian lain dari aplikasi tetap di tempat Anda meninggalkannya.",
+      "backToDashboard": "Kembali ke dasbor",
+      "tasks": "Tugas",
+      "wallet": "Dompet",
+      "buy": "Beli",
+      "settings": "Pengaturan"
+    },
+    "portfolio": {
+      "title": "Portofolio",
+      "description": "Sekilas $OKN Anda: aktivitas, kepemilikan, dan penghasilan.",
+      "tabActivity": "Aktivitas",
+      "tabHoldings": "Kepemilikan"
+    },
+    "activity": {
+      "pointsEarned": "Poin yang diperoleh",
+      "pointsHint": "Menunggu commit Merkle",
+      "balance": "Saldo $OKN",
+      "balanceHint": "On-chain balance",
+      "tasksDone": "Tugas selesai",
+      "tasksDoneHint": "Terverifikasi dan menunggu",
+      "referrals": "Referral",
+      "referralsHint": "{count} pts diperoleh",
+      "claimTitle": "Klaim $OKN Anda",
+      "claimDesc": "Poin berubah menjadi $OKN saat admin mencatat akar Merkle. Biaya $3 BNB berlaku saat klaim.",
+      "claimablePoints": "Poin yang dapat diklaim",
+      "goToClaim": "Ke klaim",
+      "buyTitle": "Beli $OKN dengan BNB",
+      "buyDescRate": "Kurs tetap: {rate} $OKN per BNB{paused}",
+      "buyDescPausedSuffix": " (penjualan dijeda)",
+      "buyDescDefault": "Penjualan kurs tetap, langsung dari kontrak.",
+      "openSale": "Buka penjualan",
+      "tasksTitle": "Tugas",
+      "tasksSeeAll": "Lihat semua",
+      "tasksDesc": "Dapatkan poin menuju klaim berikutnya.",
+      "noTasks": "Tidak ada tugas aktif saat ini. Periksa kembali sebentar lagi.",
+      "doButton": "Kerjakan"
+    },
+    "portfolioView": {
+      "portfolioValue": "Nilai portofolio",
+      "valueNote": "Berdasarkan kurs jual saat ini {rate} $OKN per BNB. $OKN tidak memiliki harga pasar selama transfer terkunci.",
+      "loading": "Memuat...",
+      "connectWallet": "Hubungkan dompet",
+      "holdings": "Kepemilikan",
+      "holdingsHint": "On-chain, di dompet Anda",
+      "totalBought": "Total dibeli",
+      "totalBoughtHint": "BNB yang dibelanjakan dalam penjualan",
+      "totalClaimed": "Total diklaim",
+      "totalClaimedHint": "Diklaim on-chain",
+      "totalEarned": "Total diperoleh",
+      "totalEarnedHint": "OK Points dari semua sumber",
+      "pointsBySource": "Poin per sumber",
+      "pointsBySourceDesc": "Asal poin seumur hidup Anda.",
+      "sourceTask": "Tugas",
+      "sourceReferral": "Referral",
+      "sourceBonus": "Bonus",
+      "sourceAdmin": "Admin",
+      "sourcePts": "{count} pts - {pct}%",
+      "totalPts": "Total: {count} pts",
+      "referralDownline": "Jaringan referral",
+      "referralDownlineDesc": "Jaringan Anda di seluruh 3 level.",
+      "level1": "Level 1",
+      "level2": "Level 2",
+      "level3": "Level 3",
+      "downlineNote": "Anda memperoleh sebagian dari poin tugas downline: 10% di L1, 5% di L2, 2% di L3."
+    },
+    "buy": {
+      "title": "Beli $OKN",
+      "description": "Beli $OKN langsung dengan BNB dengan kurs tetap.",
+      "rateLabel": "Kurs",
+      "rateHint": "Kurs jual tetap",
+      "rateValue": "{value} $OKN per BNB",
+      "capLabel": "Batas per dompet",
+      "capHint": "BNB maksimum per dompet",
+      "capValue": "{value} BNB",
+      "purchasedLabel": "Yang Anda beli",
+      "purchasedHintHas": "Total BNB yang Anda belanjakan",
+      "purchasedHintNone": "Hubungkan dompet Anda untuk memuat data Anda",
+      "purchasedValue": "{value} BNB",
+      "saleStatusLabel": "Status penjualan",
+      "saleStatusPaused": "Pembelian untuk sementara dinonaktifkan",
+      "saleStatusDraft": "Private test phase: buying is open to admins only right now.",
+      "saleStatusActive": "Penjualan sedang berlangsung",
+      "historyTitle": "Pembelian Anda",
+      "historyDesc": "Pembelian BNB yang dikonfirmasi yang terkait dengan akun Anda.",
+      "historyEmptyTitle": "Belum ada pembelian",
+      "historyEmptyMessage": "Pembelian BNB yang dikonfirmasi akan muncul di sini.",
+      "thDate": "Tanggal",
+      "thBnbIn": "BNB masuk",
+      "thOknOut": "$OKN keluar",
+      "thTx": "Transaksi",
+      "notConfigured": "Penjualan belum dikonfigurasi. Admin perlu mengatur tarif dan batas sebelum pembelian dibuka.",
+      "progressTitle": "Sale progress",
+      "progressRaised": "{raised} of {cap} BNB",
+      "progressUncapped": "This sale has no hard cap. Every purchase still mints $OKN at the fixed rate.",
+      "allocationRemaining": "Sale allocation remaining",
+      "indexing": "Indexing",
+      "progressHint": "BNB collected toward the sale hard cap",
+      "progressRaisedOnly": "{raised} BNB raised"
+    },
+    "buyWidget": {
+      "title": "Beli $OKN",
+      "description": "Masukkan jumlah BNB. $OKN dikreditkan ke dompet Anda segera.",
+      "amountLabel": "Jumlah (BNB)",
+      "amountPlaceholder": "0.1",
+      "youReceive": "Anda menerima ~{value} $OKN",
+      "minNote": "Min {value} BNB",
+      "minNoteUsd": "Minimal {usd} (≈ {bnb} BNB)",
+      "errInvalid": "Masukkan jumlah BNB yang valid.",
+      "errOverCap": "Melebihi batas tersisa Anda {value} BNB.",
+      "errBelowMin": "Pembelian minimum adalah {value} BNB.",
+      "connectNote": "You need a connected wallet to buy.",
+      "walletPageLink": "Halaman dompet",
+      "salePaused": "Penjualan saat ini dijeda. Periksa kembali sebentar lagi.",
+      "saleDraft": "The sale is in private testing. Buying opens to everyone soon.",
+      "btnIdle": "Beli $OKN",
+      "btnPending": "Konfirmasi di dompet Anda",
+      "errNotConnected": "Hubungkan dompet Anda di Halaman Dompet lebih dulu.",
+      "errNoAmount": "Masukkan jumlah BNB.",
+      "errRejected": "Transaksi ditolak di dompet Anda.",
+      "errFailed": "Pembelian gagal. Silakan coba lagi.",
+      "errNotConfigured": "Penjualan belum dikonfigurasi. Coba lagi nanti.",
+      "saleNotStarted": "The sale has not started yet.",
+      "saleEnded": "The sale has ended.",
+      "errHardCap": "This amount exceeds the remaining sale hard cap. Maximum: {value} BNB.",
+      "maxNote": "Maximum purchase: {value} BNB.",
+      "btnConfirming": "Confirming on-chain...",
+      "maxButton": "MAX",
+      "maxAriaLabel": "Fill the maximum purchase amount",
+      "usdApprox": "≈ {value}",
+      "pricePerOkn": "≈ {value} per $OKN",
+      "priceUpdated": "BNB price updated {seconds}s ago",
+      "priceStale": "BNB price feed is delayed; USD figures may be off",
+      "reviewDescription": "Double-check the details before you confirm in your wallet.",
+      "reviewSpend": "You spend",
+      "reviewReceive": "You receive",
+      "reviewRate": "Rate",
+      "rateValue": "{value} $OKN per BNB",
+      "reviewAllowance": "Wallet allowance after purchase",
+      "reviewRateNote": "The rate is re-checked right before your wallet opens. If it changed, you will be asked to review the updated amounts.",
+      "rateChanged": "The rate has changed. Review the updated amount and confirm again.",
+      "pendingTitle": "Transaction submitted",
+      "pendingDesc": "Your purchase is still confirming on-chain. This can take a couple of minutes.",
+      "viewTx": "View on BscScan",
+      "btnBack": "Back",
+      "btnConfirm": "Confirm buy",
+      "errInsufficientBalance": "Insufficient BNB balance",
+      "errReverted": "The purchase transaction reverted on-chain. No purchase was made.",
+      "connectCta": "Connect your wallet"
+    },
+    "claim": {
+      "title": "Klaim $OKN",
+      "description": "Ubah poin Anda menjadi OKN on-chain.",
+      "pointsTitle": "Poin Anda",
+      "pointsDesc": "Poin menjadi $OKN yang dapat diklaim setelah admin mencatat akar Merkle.",
+      "claimablePoints": "Poin yang dapat diklaim",
+      "noPointsTitle": "Belum ada poin",
+      "noPointsMessage": "Selesaikan tugas dan undang teman untuk mulai mengumpulkan poin.",
+      "goToTasks": "Ke tugas",
+      "noteMerkle": "Tunggu admin mencatat akar Merkle. Poin Anda kemudian menjadi dapat diklaim.",
+      "noteFee": "Biaya BNB setara $3 berlaku saat klaim.",
+      "howTitle": "Cara kerja klaim",
+      "howDesc": "Tiga langkah dari poin ke $OKN di dompet Anda.",
+      "step1Title": "Dapatkan poin",
+      "step1Text": "Selesaikan tugas dan undang teman untuk mengumpulkan poin.",
+      "step2Title": "Tunggu commit",
+      "step2Text": "Admin mencatat akar Merkle yang membuat poin Anda dapat diklaim.",
+      "step3Title": "Klaim on-chain",
+      "step3Text": "Bayar biaya $3 BNB dan $OKN masuk ke dompet Anda.",
+      "earnedBanner": "Anda mendapatkan",
+      "earnedUnit": "OK Points",
+      "pendingTitle": "OK Points Anda sedang disiapkan",
+      "pendingBody": "Klaim dibuka setelah distribusi berikutnya.",
+      "readyTitle": "Ready to claim",
+      "readyBody": "Your OK Points have been committed."
+    },
+    "claimButton": {
+      "title": "Klaim on-chain",
+      "descLoading": "Memeriksa apakah klaim dibuka.",
+      "descClaimable": "Jumlah yang dapat diklaim: {value} $OKN",
+      "descNotOpen": "Klaim dibuka setelah commit Merkle pertama.",
+      "notOpenTitle": "Klaim belum dibuka",
+      "notOpenBody": "Akar Merkle pertama belum dicatat. Periksa kembali setelah commit berikutnya.",
+      "noBalanceBody": "Akar yang dicatat belum memiliki saldo yang dapat diklaim untuk akun Anda.",
+      "connectNote": "You need a connected wallet to claim.",
+      "walletPageLink": "Halaman dompet",
+      "btnIdle": "Klaim $OKN",
+      "btnPending": "Konfirmasi di dompet Anda",
+      "errNotConnected": "Hubungkan dompet Anda di Halaman Dompet lebih dulu.",
+      "errNotOpen": "Klaim belum dibuka. Akar Merkle pertama belum dicatat.",
+      "errRejected": "Transaksi ditolak di dompet Anda.",
+      "errFailed": "Klaim gagal. Silakan coba lagi.",
+      "feeNote": "Network fee: {value} BNB (paid to claim, exact on-chain amount).",
+      "errWrongWallet": "This claim belongs to wallet {wallet}. Connect that wallet to claim, or request a wallet change.",
+      "errFeeUnavailable": "The claim fee could not be read right now. Try again in a moment.",
+      "btnConfirming": "Confirming on-chain...",
+      "connectCta": "Connect your wallet"
+    },
+    "leaderboard": {
+      "title": "Papan peringkat",
+      "description": "Anggota komunitas teratas berdasarkan referral, poin tugas, dan BNB yang dibeli.",
+      "pastWinners": "Pemenang sebelumnya",
+      "catReferrers": "Perujuk",
+      "catTasks": "Pengumpul poin tugas",
+      "catBuyers": "Pembeli",
+      "unitRefs": "rujukan",
+      "unitPts": "OK Points",
+      "unitBnb": "BNB",
+      "periodWeek": "Minggu ini",
+      "periodMonth": "Bulan ini",
+      "periodAll": "Sepanjang masa",
+      "fullRankingTitle": "Peringkat lengkap",
+      "fullRankingAllTime": "{category} teratas sepanjang masa.",
+      "fullRankingWeek": "{category} teratas minggu ini.",
+      "fullRankingMonth": "{category} teratas bulan ini.",
+      "anonymous": "Anonim",
+      "youSuffix": "(anda)",
+      "noEntriesTitle": "Belum ada peringkat untuk periode ini",
+      "noEntriesAllTime": "Jadilah yang pertama muncul di sini. Selesaikan tugas atau undang teman.",
+      "noEntriesDefault": "Jadilah yang pertama muncul di sini. Periksa kembali seiring aktivitas bertambah.",
+      "yourRankEmpty": "Anda akan muncul di sini setelah memiliki aktivitas dalam kategori ini.",
+      "yourRankNotRanked": "Anda belum masuk peringkat di periode ini. Aktiflah untuk naik!"
+    },
+    "winners": {
+      "title": "Pemenang sebelumnya",
+      "description": "Pemenang snapshot dari periode papan peringkat yang telah selesai beserta bonus mereka.",
+      "backToLeaderboard": "Kembali ke papan peringkat",
+      "tabWeekly": "Mingguan",
+      "tabMonthly": "Bulanan",
+      "catReferrers": "Perujuk teratas",
+      "catTasks": "Pengumpul poin tugas teratas",
+      "catBuyers": "Pembeli teratas",
+      "periodWeek": "Minggu",
+      "periodMonth": "Bulan",
+      "periodAll": "Sepanjang masa",
+      "groupTitle": "{period} {key} - {category}",
+      "scoreLabel": "skor",
+      "pointsAwarded": "+{points} OK Points",
+      "emptyTitle": "Belum ada pemenang {period}",
+      "emptyMessage": "Pemenang di-snapshot di akhir setiap {periodWord} dan menerima poin bonus $OKN.",
+      "periodWordWeek": "minggu",
+      "periodWordMonth": "bulan"
+    },
+    "learn": {
+      "title": "Pusat pembelajaran",
+      "description": "Belajar kripto. Dapatkan $OKN.",
+      "tagline": "Pelajaran singkat tentang blockchain dan kripto. Selesaikan pelajaran, lulus kuis, dapatkan $OKN.",
+      "features": [
+        {
+          "title": "Pelajaran singkat",
+          "description": "Pelajaran singkat dan fokus tentang blockchain, dompet, DeFi, dan dasar keamanan."
+        },
+        {
+          "title": "Kuis untuk membuktikan",
+          "description": "Setiap pelajaran berakhir dengan kuis cepat. Lulus untuk mengonfirmasi Anda memahaminya."
+        },
+        {
+          "title": "Dapatkan $OKN",
+          "description": "Menyelesaikan pelajaran dengan sukses membayar Anda $OKN, ditambahkan ke saldo yang dapat diklaim."
+        },
+        {
+          "title": "Jalur progresif",
+          "description": "Mulai dari dasar dan buka kunci topik yang lebih lanjut seiring kemajuan Anda."
+        }
+      ]
+    },
+    "missions": {
+      "title": "Misi komunitas",
+      "description": "Capai tujuan bersama. Saat komunitas mencapai tonggak, semua orang mendapatkan $OKN.",
+      "metricMembers": "anggota komunitas",
+      "metricTelegram": "anggota Telegram",
+      "metricBnb": "BNB terkumpul",
+      "metricOkn": "$OKN diklaim",
+      "emptyTitle": "Tidak ada misi aktif saat ini",
+      "emptyMessage": "Tujuan komunitas baru akan muncul di sini. Terus berkontribusi agar Anda memenuhi syarat saat tercapai.",
+      "completedHeading": "Misi yang selesai",
+      "rewardLabel": "+{reward} $OKN",
+      "progress": "{current} / {threshold}",
+      "eligible": "Anda memenuhi syarat. Terus gunakan $OKN untuk membantu komunitas mencapai tujuan.",
+      "notEligible": "Gabung sekarang untuk memenuhi syarat saat tujuan ini tercapai.",
+      "statusAchieved": "Tujuan tercapai - hadiah sedang dibagikan.",
+      "statusDistributed": "Tujuan tercapai dan hadiah telah dibagikan.",
+      "receivedPoints": "+{points} OK Points",
+      "processing": "Memproses...",
+      "joinedTooLate": "Terlalu lambat bergabung"
+    },
+    "news": {
+      "title": "Berita",
+      "description": "Kabar terbaru dari proyek $OKN.",
+      "tagline": "Ikuti perkembangan pengumuman, pencatatan, kemitraan, dan kemajuan roadmap.",
+      "features": [
+        {
+          "title": "Pengumuman",
+          "description": "Pembaruan resmi dari tim, ditampilkan langsung di dasbor Anda."
+        },
+        {
+          "title": "Pencatatan",
+          "description": "Pencatatan exchange dan platform baru seiring terjadinya."
+        },
+        {
+          "title": "Kemitraan",
+          "description": "Integrasi dan kolaborasi yang menumbuhkan ekosistem $OKN."
+        },
+        {
+          "title": "Pembaruan roadmap",
+          "description": "Lacak kemajuan terhadap tonggak dan tanggal pengiriman yang dipublikasikan."
+        },
+        {
+          "title": "Fitur baru",
+          "description": "Peluncuran dan penyempurnaan produk, diumumkan seiring dirilis."
+        },
+        {
+          "title": "Satu feed",
+          "description": "Semua dalam satu linimasa kronologis, disaring berdasarkan kategori."
+        }
+      ]
+    },
+    "referral": {
+      "title": "Referral",
+      "description": "Undang teman. Dapatkan dari seluruh downline Anda, sedalam 3 level.",
+      "level1": "Level 1 (langsung)",
+      "level2": "Level 2",
+      "level3": "Level 3",
+      "levelFallback": "Level {n}",
+      "linkTitle": "Tautan referral Anda",
+      "linkDesc": "Bagikan di mana saja. Teman bergabung melalui bot Telegram dan masuk ke Level 1 Anda.",
+      "copyButton": "Salin",
+      "copiedButton": "Tersalin",
+      "totalDownline": "Total downline",
+      "totalDownlineHint": "Di seluruh 3 level",
+      "pointsEarned": "Poin yang diperoleh",
+      "pointsEarnedHint": "Dari hadiah referral",
+      "downlineTitle": "Downline Anda per level",
+      "downlineDesc": "Anda memperoleh sebagian dari poin yang dihasilkan referral dari tugas: 10% di L1, 5% di L2, 2% di L3.",
+      "countSingular": "{count} orang di tingkat ini",
+      "countPlural": "{count} orang di tingkat ini",
+      "howTitle": "Cara kerjanya",
+      "step1Title": "Bagikan tautan Anda",
+      "step1Text": "Kirim tautan referral Anda ke teman.",
+      "step2Title": "Teman memulai bot",
+      "step2Text": "Mereka bergabung $OKN melalui Telegram.",
+      "step3Title": "Kalian berdua untung",
+      "step3Text": "Dapatkan sebagian dari poin tugas mereka, sedalam 3 level.",
+      "recentTitle": "Referral terbaru",
+      "recentDesc": "Undangan langsung (Level 1) terbaru Anda.",
+      "recentEmptyTitle": "Belum ada referral",
+      "recentEmptyMessage": "Bagikan tautan Anda untuk mulai membangun downline.",
+      "newUser": "Pengguna baru"
+    },
+    "settings": {
+      "title": "Pengaturan",
+      "description": "Kelola akun, dompet, dan preferensi Anda.",
+      "tabProfile": "Profil",
+      "tabEmail": "Email",
+      "tabWallet": "Dompet",
+      "tabSecurity": "Keamanan",
+      "twoFactorTitle": "Autentikasi dua faktor",
+      "twoFactorDesc": "Tambahkan faktor kedua (aplikasi autentikator) untuk melindungi akun Anda.",
+      "twoFactorOnDesc": "Autentikasi dua faktor diaktifkan. Anda memerlukan kode dari aplikasi autentikator di setiap login baru.",
+      "twoFactorOffDesc": "Autentikasi dua faktor nonaktif. Aktifkan untuk menambah lapisan keamanan ekstra.",
+      "twoFactorPreparing": "Menyiapkan konfigurasi 2FA Anda...",
+      "twoFactorScanHint": "Pindai kode QR ini dengan aplikasi autentikator Anda (Google Authenticator, Authy, dll).",
+      "twoFactorManualHint": "Atau masukkan kode ini secara manual:",
+      "twoFactorEnable": "Aktifkan 2FA",
+      "twoFactorDisable": "Nonaktifkan 2FA",
+      "twoFactorEnabledTitle": "2FA diaktifkan",
+      "twoFactorEnabledDesc": "Simpan kode cadangan Anda sekarang. Anda akan membutuhkannya jika kehilangan perangkat autentikator.",
+      "twoFactorDisabledTitle": "2FA dinonaktifkan",
+      "backupCodesTitle": "Kode cadangan Anda",
+      "backupCodesDesc": "Setiap kode dapat digunakan sekali untuk masuk jika Anda kehilangan autentikator. Simpan di tempat aman.",
+      "backupCodesDone": "Saya sudah menyimpannya",
+      "tabAppearance": "Tampilan",
+      "tabSession": "Sesi",
+      "notSignedInTitle": "Profil tidak dimuat",
+      "notSignedInDesc": "Profil Anda tidak dapat dimuat. Ini biasanya berarti sesi Anda telah kedaluwarsa atau Anda belum masuk. Masuk lagi untuk mengelola pengaturan.",
+      "signInCta": "Masuk",
+      "displayNameTitle": "Nama tampilan",
+      "displayNameDesc": "Ditampilkan di avatar, baris papan peringkat, dan aktivitas referral Anda.",
+      "firstNameLabel": "Nama depan",
+      "firstNamePlaceholder": "Alex",
+      "lastNameLabel": "Nama belakang",
+      "lastNamePlaceholder": "Morgan",
+      "saveChanges": "Simpan perubahan",
+      "identityTitle": "Identitas Telegram",
+      "identityDesc": "Akun Telegram Anda adalah identitas yang berwenang untuk akun $OKN ini.",
+      "anonymous": "Anonim",
+      "avatarNote": "Foto avatar berasal dari profil Telegram Anda.",
+      "telegramUsername": "Nama pengguna Telegram",
+      "notSet": "Belum disetel",
+      "telegramId": "Telegram ID",
+      "joinedOkn": "Bergabung $OKN",
+      "role": "Peran",
+      "userId": "ID Pengguna",
+      "emailTitle": "Email",
+      "emailDesc": "Ikat email untuk pemulihan akun dan (akhirnya) notifikasi.",
+      "unverified": "Belum terverifikasi",
+      "change": "Ubah",
+      "remove": "Hapus",
+      "verifyHint": "Verifikasi email Anda untuk mengonfirmasi kepemilikan. Kode 6 digit akan dikirim ke kotak masuk Anda.",
+      "verify": "Verifikasi",
+      "verified": "Terverifikasi",
+      "verifySuccessDesc": "Email Anda terverifikasi. Digunakan untuk pemulihan akun dan notifikasi.",
+      "enterCode": "Masukkan kode 6 digit",
+      "enterCodeDesc": "Kami mengirim kode ke email Anda. Kedaluwarsa dalam 10 menit.",
+      "codePlaceholder": "123456",
+      "submitCode": "Verifikasi email",
+      "resend": "Kirim ulang kode",
+      "resendIn": "Kirim ulang dalam {seconds}d",
+      "bindEmailTitle": "Ikat email",
+      "newEmailTitle": "Email baru",
+      "emailPlaceholder": "you@example.com",
+      "submitBind": "Ikat email",
+      "submitUpdate": "Perbarui email",
+      "cancel": "Batal",
+      "walletTitle": "Dompet",
+      "walletDesc": "Dompet yang menerima $OKN yang Anda klaim. Kelola di halaman Dompet.",
+      "boundAddress": "Alamat terikat",
+      "notBound": "Belum terikat",
+      "boundSince": "Terikat sejak",
+      "manageWallet": "Kelola dompet",
+      "requestRebind": "Minta rebind",
+      "appearanceTitle": "Tampilan",
+      "appearanceDesc": "Pilih tampilan dasbor di perangkat ini.",
+      "themeLabel": "Tema",
+      "themeHint": "Terang atau gelap. Disimpan per perangkat.",
+      "notificationsTitle": "Notifikasi",
+      "notificationsBadge": "Demo",
+      "notificationsDesc": "Sakelar ini hanya disimpan di perangkat ini. Sistem notifikasi sungguhan ada di roadmap; untuk saat ini ini adalah placeholder.",
+      "notificationsComingSoon": "Jenis notifikasi ini direncanakan untuk rilis mendatang dan belum aktif.",
+      "notifTaskLabel": "Peringatan verifikasi tugas",
+      "notifTaskDesc": "Saat tugas yang Anda kirim diverifikasi atau ditolak.",
+      "notifMissionLabel": "Tonggak misi",
+      "notifMissionDesc": "Saat misi komunitas tercapai dan hadiah dibagikan.",
+      "supportTitle": "Dukungan",
+      "supportDesc": "Butuh bantuan atau ingin terhubung dengan komunitas?",
+      "telegramCommunity": "Komunitas Telegram",
+      "communityLabel": "Komunitas",
+      "terms": "Ketentuan",
+      "privacy": "Privasi",
+      "signOutTitle": "Keluar",
+      "signOutDesc": "Akhiri sesi Anda di perangkat ini. Anda harus masuk lagi dengan Telegram.",
+      "signOutButton": "Keluar"
+    },
+    "staking": {
+      "title": "Staking",
+      "description": "Kunci $OKN untuk mendapatkan hadiah.",
+      "tagline": "Kunci $OKN Anda, dapatkan APY, dan bantu menstabilkan token.",
+      "features": [
+        {
+          "title": "Periode kunci fleksibel",
+          "description": "Pilih 30, 90, 180, atau 365 hari. Kunci lebih lama menghasilkan APY lebih tinggi."
+        },
+        {
+          "title": "Dapatkan APY",
+          "description": "$OKN yang di-stake mengakumulasi hadiah secara terus-menerus, dapat diklaim saat buka kunci."
+        },
+        {
+          "title": "Mengurangi tekanan jual",
+          "description": "Suplai yang terkunci berarti lebih sedikit token di pasar, mendukung stabilitas harga."
+        },
+        {
+          "title": "Buka kunci otomatis",
+          "description": "$OKN Anda kembali ke dompet Anda secara otomatis saat periode kunci berakhir."
+        }
+      ]
+    },
+    "tasks": {
+      "title": "Tugas",
+      "description": "Selesaikan tugas untuk mendapatkan poin menuju klaim berikutnya.",
+      "emptyTitle": "Tidak ada tugas aktif",
+      "emptyMessage": "Tugas baru turun secara teratur. Periksa kembali sebentar lagi.",
+      "rewardLabel": "+{points} OK Points",
+      "doButton": "Kerjakan",
+      "verifyButton": "Verifikasi",
+      "submitting": "Mengirim",
+      "verifying": "Memverifikasi",
+      "proofLabel": "Kirim bukti Anda (handle, tautan, atau jawaban singkat)",
+      "proofPlaceholder": "@handle atau https://...",
+      "pending": "Menunggu"
+    },
+    "tradeBot": {
+      "title": "AI Trading Agent",
+      "description": "Sinyal long dan short otomatis untuk pasar kripto.",
+      "comingSoon": "Segera hadir",
+      "headline": "Co-pilot AI Anda untuk sinyal kripto.",
+      "body": "Bot trading memindai pasar sepanjang waktu dan menampilkan peluang long dan short dengan entri, target, stop, dan skor kepercayaan. Halaman ini adalah pratinjau pengalaman yang direncanakan. Bot belum aktif.",
+      "statusBadge": "Bot offline - dalam pengembangan",
+      "capabilities": [
+        "Pemindaian pasar 24/7",
+        "Level entri / target / stop",
+        "Penilaian kepercayaan",
+        "Ukuran yang dikelola risiko"
+      ],
+      "signalPreviewAria": "Pratinjau sinyal",
+      "signalHeading": "Jendela sinyal - pratinjau",
+      "sampleData": "Data sampel - tidak langsung",
+      "disabledAria": "Pratinjau sinyal dinonaktifkan selama bot dalam pengembangan",
+      "overlayTitle": "Sinyal belum aktif",
+      "overlayBody": "AI Trading Agent masih dalam pengembangan. Tidak ada perdagangan yang akan dilakukan dari halaman ini.",
+      "backToPortfolio": "Kembali ke portofolio",
+      "timeframe": "Jangka waktu - {value}",
+      "entry": "Entri",
+      "target": "Target",
+      "stop": "Stop",
+      "pending": "Menunggu",
+      "long": "LONG",
+      "short": "SHORT",
+      "confidenceAria": "Kepercayaan {value} persen"
+    },
+    "polymarketAgent": {
+      "title": "Agen Polymarket",
+      "description": "Posisi otomatis pada event prediksi Polymarket.",
+      "comingSoon": "Segera hadir",
+      "headline": "Agen AI Anda untuk event Polymarket.",
+      "body": "Agen Polymarket memantau pasar prediksi sepanjang waktu dan menyoroti posisi event dengan keyakinan tinggi beserta analisis probabilitas, zona masuk, dan penentuan ukuran risiko. Halaman ini adalah pratinjau pengalaman yang direncanakan. Agen belum aktif.",
+      "statusBadge": "Agen offline - dalam pengembangan",
+      "capabilities": [
+        "Pemantauan event 24/7",
+        "Skor keunggulan probabilitas",
+        "Zona masuk / keluar",
+        "Ukuran dikelola risiko"
+      ],
+      "overlayTitle": "Agen belum aktif",
+      "overlayBody": "Agen Polymarket masih dalam pengembangan. Tidak ada posisi yang akan dibuka dari halaman ini.",
+      "backToPortfolio": "Kembali ke portofolio",
+      "tabs": {
+        "ariaLabel": "Permukaan Polymarket",
+        "agent": "Agen",
+        "copier": "Penyalin",
+        "funds": "Dana"
+      },
+      "copier": {
+        "headline": "Cermin trader terbaik Polymarket secara otomatis.",
+        "body": "Penyalin mengikuti trader pilihan Anda dan menyalin transaksi mereka dengan dompet Anda sendiri, ukuran posisi Anda sendiri, dan batas risiko Anda sendiri. Buat atau impor dompet, pilih trader, dan tetap kendalikan dana Anda.",
+        "statusBadge": "Penyalin sedang dikembangkan",
+        "loading": "Memuat penyalin Anda...",
+        "unconfiguredBody": "Layanan copy trading belum terhubung. Aktivasi akan dibuka bersama akses awal.",
+        "loadErrorTitle": "Gagal memuat penyalin",
+        "loadErrorBody": "Terjadi kesalahan saat menghubungi layanan penyalin. Coba lagi sebentar lagi.",
+        "retry": "Coba lagi",
+        "walletReadyTitle": "Dompet penyalin Anda siap.",
+        "walletReadyBody": "Danai alamat ini dengan USDC di Polygon untuk mulai menyalin. Sedikit POL menutup persetujuan sekali saja.",
+        "origin": {
+          "created": "Dompet dibuat",
+          "imported_eoa": "Dompet diimpor",
+          "imported_safe_owner": "Akun Polymarket diimpor"
+        },
+        "activateTitle": "Mode aktivasi",
+        "createWallet": "Buat dompet",
+        "importWallet": "Impor dompet",
+        "privateKeyLabel": "Kunci privat",
+        "privateKeyPlaceholder": "64 karakter heksadesimal",
+        "privateKeyHelp": "Kunci Anda dienkripsi seketika dan tidak pernah disimpan atau dicatat dalam bentuk teks biasa. Gunakan dompet khusus.",
+        "proxyWalletLabel": "Dompet proxy Polymarket (opsional)",
+        "proxyWalletPlaceholder": "0x...",
+        "proxyWalletHelp": "Jika Anda masuk Polymarket dengan email atau media sosial, tempel alamat dompet proxy dan impor kunci pemilik.",
+        "activating": "Mengaktifkan...",
+        "activateCta": "Aktifkan penyalin",
+        "activateHint": "Setiap langganan baru mulai dalam mode pratinjau: tidak ada transaksi sampai Anda mengaktifkan mode sungguhan.",
+        "activateFailed": "Aktivasi gagal. Periksa kunci dan coba lagi.",
+        "tradersTitle": "Trader yang Anda salin",
+        "traderCount": "{count, plural, =0 {Belum ada trader} other {# trader}}",
+        "traderAddressLabel": "Alamat trader",
+        "copySizeLabel": "Persentase salin",
+        "addTrader": "Tambah trader",
+        "addTraderFailed": "Gagal menambahkan trader ini.",
+        "noTraders": "Belum ada trader. Tambahkan alamat dompet Polymarket dari papan peringkat untuk mulai dalam mode pratinjau.",
+        "strategySummary": "Penentuan ukuran {strategy} sebesar {size}% dengan batas ketat",
+        "goLive": "Aktifkan mode sungguhan",
+        "pause": "Jeda",
+        "resume": "Lanjutkan",
+        "stop": "Hentikan",
+        "status": {
+          "preview": "Pratinjau",
+          "live": "Aktif",
+          "paused": "Dijeda",
+          "stopped": "Dihentikan"
+        },
+        "executionsTitle": "Salinan terbaru",
+        "noExecutions": "Belum ada salinan. Eksekusi muncul di sini setelah trader yang diikuti bertransaksi.",
+        "executionTraderSize": "Trader {side} ${size}",
+        "export": {
+          "exportKey": "Ekspor kunci privat",
+          "confirmTitle": "Tampilkan kunci privat Anda?",
+          "confirmBody": "Siapa pun yang memiliki kunci ini mengendalikan dompet dan dananya. Jangan pernah membagikannya atau memasukkannya ke situs yang tidak tepercaya. Kunci hanya ditampilkan sekali.",
+          "cancel": "Batal",
+          "reveal": "Saya mengerti, tampilkan kunci",
+          "revealing": "Menampilkan...",
+          "revealedTitle": "Kunci privat Anda",
+          "revealedBody": "Simpan secara offline sekarang. Dialog ini tidak akan menampilkannya lagi; ulangi alur ekspor bila perlu.",
+          "copy": "Salin kunci",
+          "copied": "Tersalin",
+          "done": "Selesai",
+          "failed": "Tidak dapat menampilkan kunci. Coba lagi nanti."
+        },
+        "withdraw": {
+          "title": "Tarik dana",
+          "allowlistTitle": "Alamat penarikan",
+          "allowlistEmpty": "Belum ada alamat penarikan. Tambahkan satu untuk mengaktifkan penarikan.",
+          "allowlistActive": "Aktif",
+          "cooldownUntil": "Menunggu hingga {time}",
+          "addressLabel": "Alamat penarikan",
+          "addAddress": "Tambah alamat",
+          "allowlistHelp": "Penarikan hanya ke alamat dalam daftar ini. Alamat baru aktif setelah 24 jam.",
+          "addFailed": "Tidak dapat menambahkan alamat ini.",
+          "requestTitle": "Ajukan penarikan",
+          "requestNoAddress": "Tambahkan alamat penarikan dulu; alamat baru terbuka setelah 24 jam.",
+          "selectAddress": "Pilih alamat",
+          "amountLabel": "Jumlah USDC",
+          "request": "Ajukan penarikan",
+          "requesting": "Mengajukan...",
+          "requestQueued": "Penarikan diajukan. Akan diproses oleh worker penarikan.",
+          "requestFailed": "Tidak dapat mengajukan penarikan.",
+          "historyTitle": "Riwayat penarikan",
+          "historyEmpty": "Belum ada penarikan.",
+          "status": {
+            "requested": "Diajukan",
+            "executing": "Dieksekusi",
+            "done": "Selesai",
+            "failed": "Gagal",
+            "canceled": "Dibatalkan"
+          },
+          "netEstimate": "Anda akan menerima sekitar {net} setelah biaya dilunasi."
+        },
+        "funds": {
+          "loading": "Memuat dana Anda...",
+          "unconfiguredBody": "Layanan copy trading belum terhubung.",
+          "loadErrorTitle": "Gagal memuat dana Anda",
+          "loadErrorBody": "Terjadi kesalahan saat menghubungi layanan penyalin. Coba lagi sebentar lagi.",
+          "retry": "Coba lagi",
+          "activateFirstTitle": "Aktifkan penyalin dulu",
+          "activateFirstBody": "Dana tersimpan di dompet penyalin Anda. Aktifkan penyalin untuk membuat atau mengimpor dompet, lalu tambahkan dan tarik dana di sini.",
+          "goToCopier": "Buka tab Penyalin"
+        },
+        "twofa": {
+          "label": "Kode autentikasi dua faktor",
+          "placeholder": "123456",
+          "verify": "Verifikasi kode",
+          "verifying": "Memverifikasi...",
+          "help": "Masukkan kode 6 digit dari aplikasi autentikator Anda untuk mengotorisasi tindakan ini.",
+          "invalid": "Kode tidak valid. Coba lagi.",
+          "notEnrolledTitle": "Autentikasi dua faktor belum aktif",
+          "notEnrolled": "Aktifkan autentikasi dua faktor di pengaturan profil Anda terlebih dahulu. Diperlukan untuk mengekspor kunci, mengimpor kunci, dan menarik dana."
+        },
+        "balance": {
+          "title": "Penyalin Polymarket",
+          "polGas": "Gas POL",
+          "openTokens": "{count, plural, =0 {tidak ada posisi} other {# posisi terbuka}}",
+          "manageFunds": "Kelola dana",
+          "addFunds": "Tambah dana",
+          "setUpCopier": "Atur penyalin",
+          "noWalletBody": "Aktifkan penyalin untuk mulai menyalin pasar Polymarket.",
+          "errorBody": "Saldo tidak tersedia saat ini.",
+          "retry": "Coba lagi"
+        },
+        "wallet": {
+          "spendable": "Tersedia",
+          "gasLabel": "Gas (POL)",
+          "allowanceApproved": "USDC disetujui",
+          "allowanceNeeded": "Perlu persetujuan",
+          "refreshAria": "Segarkan saldo",
+          "updatedAgo": "Diperbarui {seconds} dtk lalu",
+          "copyAddress": "Salin alamat setoran",
+          "copiedAddress": "Alamat tersalin"
+        },
+        "fees": {
+          "title": "Biaya copier",
+          "outstanding": "Tertunggak",
+          "lifetime": "Biaya dibayar",
+          "waived": "Dibebaskan",
+          "explainer": "Biaya bertambah per penyalinan yang berhasil dan dilunasi otomatis dari penarikan berikutnya; dana trading Anda tidak pernah disentuh."
+        },
+        "billing": {
+          "title": "Keanggotaan PRO",
+          "proActive": "PRO aktif",
+          "renews": "Perpanjangan",
+          "expiresOn": "Berakhir {date}",
+          "renew": "Perpanjang",
+          "upgradeCta": "Upgrade ke PRO",
+          "comingSoon": "PRO hadir setelah masa kanari. Biaya per transaksi tetap nonaktif sampai saat itu.",
+          "priceLabel": "{price} / {days} hari",
+          "feeNow": "Tarif Anda: {rate}%",
+          "slots": "{used} dari {slots} trader live"
+        },
+        "upgrade": {
+          "title": "Upgrade ke PRO",
+          "description": "Biaya lebih rendah dan lebih banyak trader live. Tanpa komitmen: PRO kedaluwarsa jika tidak diperpanjang.",
+          "freeSlotsLabel": "trader live saat ini",
+          "proSlotsLabel": "trader live dengan PRO",
+          "feeSuffix": "biaya per salinan",
+          "railCopier": "Dompet copier",
+          "railCopierDetail": "Dibayar USDC.e dari dompet copier Polymarket Anda. Butuh kode 2FA terbaru.",
+          "railConnected": "Dompet terhubung",
+          "railConnectedDetail": "Bayar USDC dari dompet BSC Anda sendiri. Anda yang menandatangani transfer; tidak ada dana titipan yang berpindah.",
+          "consent": "Saya setuju dibebani {price} USDC untuk {days} hari PRO dari dompet yang dipilih.",
+          "pay": "Bayar {price}",
+          "cancel": "Batal",
+          "success": "PRO aktif. Nikmati biaya lebih rendah.",
+          "done": "Selesai",
+          "failed": "Pembayaran tidak dapat diselesaikan.",
+          "sendExact": "Kirim tepat jumlah ini dari dompet terhubung Anda, lalu konfirmasi di bawah.",
+          "amountLabel": "Jumlah",
+          "toLabel": "Alamat treasury",
+          "copyAddress": "Salin alamat treasury",
+          "copied": "Tersalin",
+          "networkLabel": "Jaringan: BSC (chain {chainId})",
+          "connectFirst": "Hubungkan dompet BSC Anda dulu.",
+          "later": "Nanti",
+          "openWallet": "Buka dompet dan bayar",
+          "verifyFailed": "Pembayaran belum terkonfirmasi. Jika transfer berhasil, coba lagi sebentar lagi."
+        }
+      }
+    },
+    "predictionMarkets": {
+      "title": "Pasar Prediksi",
+      "description": "Pantau dan perdagangkan pasar hasil di berbagai protokol.",
+      "comingSoon": "Segera hadir",
+      "headline": "Satu permukaan untuk setiap pasar prediksi.",
+      "body": "Jelajahi pasar prediksi langsung di Polymarket dan protokol lainnya, saring berdasarkan kategori, dan pantau volume, likuiditas, serta probabilitas secara real-time. Halaman ini adalah pratinjau pengalaman yang direncanakan. Perdagangan langsung belum tersedia.",
+      "statusBadge": "Pratinjau pasar - dalam pengembangan",
+      "categories": [
+        "Politik",
+        "Kripto",
+        "Olahraga",
+        "Ekonomi"
+      ],
+      "overlayTitle": "Perdagangan belum aktif",
+      "overlayBody": "Dasbor Pasar Prediksi masih dalam pengembangan. Tidak ada perdagangan yang akan dilakukan dari halaman ini.",
+      "backToPortfolio": "Kembali ke portofolio"
+    },
+    "wallet": {
+      "title": "Dompet",
+      "description": "Koneksi, pengikatan, dan saldo $OKN Anda.",
+      "balanceLabel": "Saldo $OKN",
+      "balanceHint": "Your on-chain OKN balance",
+      "networkLabel": "Jaringan",
+      "networkValue": "BNB Smart Chain",
+      "chainId": "Chain ID {id}",
+      "explorer": "Penjelajah BscScan",
+      "connectionTitle": "Koneksi",
+      "connectionDesc": "Pengikatan menautkan dompet ke akun Telegram Anda untuk klaim dan pembelian.",
+      "boundTitle": "Akun terikat",
+      "boundDesc": "Akun Telegram yang dompet Anda tautkan.",
+      "emptyTitle": "Belum ada dompet yang terikat",
+      "emptyMessage": "Hubungkan dompet Anda di atas untuk mengikatnya ke akun Telegram Anda.",
+      "walletLabel": "Dompet",
+      "boundLabel": "Terikat",
+      "telegramLabel": "Telegram"
+    },
+    "walletConnect": {
+      "connect": "Hubungkan Dompet",
+      "walletLabel": "Dompet: {addr}",
+      "signPending": "Tanda tangani pesan di dompet Anda...",
+      "binding": "Mengikat dompet...",
+      "bound": "Dompet terikat",
+      "signRequiredTitle": "Tanda tangan diperlukan",
+      "signRequiredDesc": "Anda harus menandatangani pesan untuk membuktikan kepemilikan dompet sebelum mengikat.",
+      "conflictTitle": "Dompet sudah digunakan",
+      "conflictDesc": "Dompet ini sudah terikat ke akun lain.",
+      "failedTitle": "Tidak dapat mengikat dompet",
+      "failedDesc": "Tidak dapat mengikat dompet ({status})."
+    },
+    "dailyCheckIn": {
+      "label": "Rentang harian",
+      "daySingular": "{count} hari",
+      "dayPlural": "{count} hari",
+      "checkedIn": "Sudah check-in. Rentang terpanjang: {longest}.",
+      "nextReward": "Check-in hari ini untuk +{reward} OK Points.",
+      "noStreak": "Check-in hari ini untuk memulai rentang Anda."
+    },
+    "rebind": {
+      "title": "Ganti dompet",
+      "description": "Kehilangan akses atau dompet yang ditingkatkan? Minta rebind. Moderator meninjau setiap permintaan. Terbatas satu per 30 hari.",
+      "currentWallet": "Dompet saat ini",
+      "newWallet": "Dompet baru (terhubung)",
+      "connectNew": "Hubungkan dompet baru yang ingin Anda tuju, lalu pilih alasan di bawah.",
+      "sameWallet": "Dompet yang terhubung sama dengan dompet saat ini. Hubungkan dompet lain untuk meminta rebind.",
+      "reasonLabel": "Alasan",
+      "reasonLostKey": "Private key hilang",
+      "reasonCompromised": "Dompet disusupi",
+      "reasonUpgrade": "Ditingkatkan ke dompet hardware",
+      "reasonAdminFix": "Perbaikan yang diarahkan admin",
+      "btnIdle": "Minta rebind",
+      "btnPending": "Menandatangani & mengirim...",
+      "signNote": "Anda akan menandatangani pesan yang membuktikan kepemilikan dompet baru. Tanda tangan diverifikasi di sisi server; kami tidak pernah melihat private key Anda."
+    },
+    "unbind": {
+      "title": "Disconnect wallet",
+      "description": "Remove the wallet currently bound to your account. You will need to bind a new wallet before you can claim or buy $OKN again.",
+      "currentWallet": "Current wallet",
+      "connectHint": "Connect the wallet currently bound to your account to disconnect it.",
+      "btnIdle": "Disconnect wallet",
+      "btnPending": "Signing...",
+      "signNote": "You will sign a message proving you still control the bound wallet. The signature is verified server-side; we never see your private key.",
+      "dialogTitle": "Disconnect this wallet?",
+      "dialogDescription": "This removes the wallet from your account. You will not be able to claim or buy $OKN until you bind a new one. To confirm, you must sign with the bound wallet.",
+      "dialogConfirm": "Disconnect",
+      "dialogCancel": "Cancel"
+    },
+    "comingSoon": {
+      "badge": "Segera hadir",
+      "body": "Fitur ini ada di roadmap. Detail di bawah memberikan pratinjau apa yang akan Anda dapatkan saat hadir.",
+      "footerNote": "Ingin ini lebih cepat? Bagikan minat Anda di Telegram komunitas."
+    }
+  },
+  "toasts": {
+    "buy": {
+      "submittedTitle": "Pembelian dikirim",
+      "submittedDescLink": "Lihat transaksi di BscScan",
+      "successTitle": "Purchase confirmed",
+      "successDesc": "You received {value} $OKN"
+    },
+    "claim": {
+      "submittedTitle": "Klaim dikirim",
+      "submittedDescLink": "Lihat transaksi di BscScan"
+    },
+    "tasks": {
+      "submittedTitle": "Dikirim untuk ditinjau",
+      "submittedDesc": "Moderator akan segera memverifikasi kiriman Anda.",
+      "verifiedTitle": "Tugas terverifikasi",
+      "verifiedDesc": "Poin ditambahkan ke saldo Anda.",
+      "alreadyTitle": "Sudah selesai",
+      "alreadyDesc": "Anda sudah mengirim tugas ini.",
+      "failedTitle": "Tidak dapat mengirim tugas",
+      "failedDesc": "Silakan coba lagi sebentar lagi."
+    },
+    "settings": {
+      "profileUpdated": "Profil diperbarui",
+      "profileFailed": "Tidak dapat memperbarui profil",
+      "emailSaved": "Email disimpan",
+      "emailRemoved": "Email dihapus",
+      "emailFailed": "Tidak dapat menyimpan email",
+      "verificationSent": "Kode verifikasi dikirim",
+      "emailVerified": "Email terverifikasi",
+      "verificationFailed": "Verifikasi gagal"
+    },
+    "wallet": {
+      "bound": "Dompet terikat",
+      "signRequiredTitle": "Tanda tangan diperlukan",
+      "signRequiredDesc": "Anda harus menandatangani pesan untuk membuktikan kepemilikan dompet sebelum mengikat.",
+      "conflictTitle": "Dompet sudah digunakan",
+      "conflictDesc": "Dompet ini sudah terikat ke akun lain.",
+      "failedTitle": "Tidak dapat mengikat dompet",
+      "failedDesc": "Tidak dapat mengikat dompet ({status})."
+    },
+    "dailyCheckIn": {
+      "streakTitle": "Rentang hari ke-{day}!",
+      "streakDesc": "Anda memperoleh {points} poin bonus $OKN. Teruskan."
+    },
+    "rebind": {
+      "successTitle": "Rebind diminta",
+      "successDesc": "Moderator akan meninjaunya.",
+      "failedTitle": "Tidak dapat mengirim permintaan"
+    },
+    "unbind": {
+      "successTitle": "Wallet disconnected",
+      "successDesc": "You can now bind a different wallet.",
+      "failedTitle": "Could not disconnect wallet"
+    }
+  },
+  "login": {
+    "heading": "Masuk ke $OKN",
+    "subheading": "Autentikasi dengan akun Telegram Anda.",
+    "loginWithTelegram": "Masuk dengan Telegram",
+    "helpText": "Anda akan diarahkan ke Telegram untuk memverifikasi akun, lalu kembali ke sini dalam keadaan masuk."
+  }
+}
