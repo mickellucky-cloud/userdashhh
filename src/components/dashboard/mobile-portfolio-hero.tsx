@@ -5,6 +5,7 @@ import { Link } from '@/i18n/navigation';
 import { Flame, Eye, EyeOff, Users, ChevronRight } from 'lucide-react';
 import { useClaimEligibility } from '@/lib/hooks/use-claim';
 import { useStreak } from '@/lib/hooks/use-rewards';
+import { Skeleton } from '@/components/ui/skeleton';
 import { formatPoints } from '@/lib/utils';
 
 /**
@@ -41,15 +42,23 @@ export function MobilePortfolioHero() {
     <div className="relative overflow-hidden -mx-4 -mt-6 rounded-none rounded-b-[32px] bg-gradient-to-br from-[#7A12F5] via-[#660CD9] to-[#4A00A8] p-5 pt-6 text-white shadow-xl">
       <div className="flex items-center justify-between mb-1">
         <span className="text-xs font-bold text-[#E4D3FF]">Your OK Points</span>
-        <span className="inline-flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-xs font-bold backdrop-blur-md">
-          <Flame className="size-3.5 fill-current" />
-          <span>{currentDays}-day streak</span>
-        </span>
+        {streak.isLoading ? (
+          <Skeleton variant="pill" className="h-6 w-28 bg-white/20" />
+        ) : (
+          <span className="inline-flex items-center gap-1 rounded-full bg-white/20 px-3 py-1 text-xs font-bold backdrop-blur-md">
+            <Flame className="size-3.5 fill-current" />
+            <span>{currentDays}-day streak</span>
+          </span>
+        )}
       </div>
 
-      <div className="num text-5xl font-extrabold tracking-tight mb-4">
-        {formatPoints(points)}
-      </div>
+      {eligibility.isLoading ? (
+        <Skeleton className="h-12 w-36 mb-4 bg-white/20" />
+      ) : (
+        <div className="num text-5xl font-extrabold tracking-tight mb-4">
+          {formatPoints(points)}
+        </div>
+      )}
 
       {/* Nested Frosted Glass Total Asset Value Card */}
       <div className="rounded-[22px] border border-white/15 bg-black/25 p-4 backdrop-blur-md flex flex-col gap-3">
@@ -95,7 +104,7 @@ export function MobilePortfolioHero() {
                   {hideBalance ? '••••••' : '$142.50'}
                 </span>
                 <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-[#FFD60A]">
-                  <img src="/bnb-logo.png" alt="BNB" className="size-3 object-contain" />
+                  <img src="/bnb-logo.png" alt="BNB" loading="lazy" decoding="async" className="size-3 object-contain" />
                   (0.238 BNB)
                 </span>
               </div>

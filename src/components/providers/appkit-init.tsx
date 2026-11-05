@@ -215,43 +215,49 @@ function installMobileRedirectGuard() {
   };
 }
 
+export function initAppKitOnce() {
+  if (initialized || typeof window === 'undefined') return;
+  initialized = true;
+
+  installMobileRedirectGuard();
+  installTelemetryGuard();
+
+  createAppKit({
+    adapters: [wagmiAdapter],
+    networks,
+    defaultNetwork: networks[0],
+    projectId,
+    metadata,
+    featuredWalletIds: FEATURED_WALLET_IDS,
+    excludeWalletIds: EXCLUDED_WALLET_IDS,
+    features: {
+      analytics: false,
+      email: false,
+      socials: [],
+    },
+    enableNetworkSwitch: false,
+    allowUnsupportedChain: true,
+    experimental_preferUniversalLinks: true,
+    themeMode: 'light',
+  });
+}
+
 export function AppKitInit({ children }: { children: ReactNode }) {
-  // Gate children behind init: useAppKit()/useAppKitAccount() are called during
-  // render in consumers (e.g. WalletConnect), so they must NOT render before
-  // createAppKit() has run. By rendering children only after the init effect
-  // completes, we guarantee the AppKit context exists before any consumer
-  // mounts — fixing the "call createAppKit before useAppKit" error on reload.
-  const [ready, setReady] = useState(initialized);
+  const [ready, setReady] = useState(() => {
+    if (typeof window !== 'undefined' && !initialized) {
+      initAppKitOnce();
+    }
+    return initialized;
+  });
 
   useEffect(() => {
-    if (initialized) return;
-    initialized = true;
-
-    installMobileRedirectGuard();
-
-    installTelemetryGuard();
-
-    createAppKit({
-      adapters: [wagmiAdapter],
-      networks,
-      defaultNetwork: networks[0],
-      projectId,
-      metadata,
-      featuredWalletIds: FEATURED_WALLET_IDS,
-      excludeWalletIds: EXCLUDED_WALLET_IDS,
-      features: {
-        analytics: false,
-        email: false,
-        socials: [],
-      },
-      enableNetworkSwitch: false,
-      allowUnsupportedChain: true,
-      experimental_preferUniversalLinks: true,
-      themeMode: 'light',
-    });
+    if (!initialized) {
+      initAppKitOnce();
+    }
     setReady(true);
   }, []);
 
   if (!ready) return null;
   return <>{children}</>;
 }
+

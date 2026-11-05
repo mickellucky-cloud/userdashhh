@@ -12,6 +12,7 @@ import { useTranslations } from 'next-intl';
 import { Check, Copy, Eye, EyeOff, Sparkles, TrendingUp, Users } from 'lucide-react';
 import { useReferral } from '@/lib/hooks/use-referral';
 import { useMe } from '@/lib/hooks/use-me';
+import { Skeleton } from '@/components/ui/skeleton';
 import { toast } from 'sonner';
 
 export default function ReferralPage() {
@@ -210,29 +211,45 @@ export default function ReferralPage() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
           <div className="rounded-2xl border border-[var(--line)] bg-[var(--s2)] p-4">
             <div className="text-xs font-bold text-[var(--mut)]">Total Referrals</div>
-            <div className="num text-2xl font-extrabold text-[var(--tx)] mt-1">
-              14 <span className="text-xs font-semibold text-[var(--mut)]">friends</span>
-            </div>
+            {referral.isLoading ? (
+              <Skeleton className="h-8 w-24 mt-1 rounded-lg" />
+            ) : (
+              <div className="num text-2xl font-extrabold text-[var(--tx)] mt-1">
+                14 <span className="text-xs font-semibold text-[var(--mut)]">friends</span>
+              </div>
+            )}
             <div className="text-[11px] font-bold text-[#2FBD8E] mt-1">11 active buyers (78%)</div>
           </div>
 
           <div className="rounded-2xl border border-[var(--line)] bg-[var(--s2)] p-4">
             <div className="text-xs font-bold text-[var(--mut)]">Total Earned ($)</div>
-            <div className="num text-2xl font-extrabold text-[#2FBD8E] mt-1">
-              {hideBalance ? '••••••' : '$142.50'}
-            </div>
+            {referral.isLoading ? (
+              <Skeleton className="h-8 w-24 mt-1 rounded-lg" />
+            ) : (
+              <div className="num text-2xl font-extrabold text-[#2FBD8E] mt-1">
+                {hideBalance ? '••••••' : '$142.50'}
+              </div>
+            )}
             <div className="text-[11px] font-bold text-[#F3BA2F] mt-1">~0.238 BNB Payout</div>
           </div>
 
           <div className="rounded-2xl border border-[var(--line)] bg-[var(--s2)] p-4">
             <div className="text-xs font-bold text-[var(--mut)]">Active Commission Rate</div>
-            <div className="num text-2xl font-extrabold text-[var(--tx)] mt-1">12.5%</div>
+            {referral.isLoading ? (
+              <Skeleton className="h-8 w-20 mt-1 rounded-lg" />
+            ) : (
+              <div className="num text-2xl font-extrabold text-[var(--tx)] mt-1">12.5%</div>
+            )}
             <div className="text-[11px] font-bold text-[var(--mut)] mt-1">Next tier: 15.0%</div>
           </div>
 
           <div className="rounded-2xl border border-[var(--line)] bg-[var(--s2)] p-4">
             <div className="text-xs font-bold text-[var(--mut)]">Ecosystem Multiplier</div>
-            <div className="num text-2xl font-extrabold text-[#FFD60A] mt-1">1.5x</div>
+            {referral.isLoading ? (
+              <Skeleton className="h-8 w-16 mt-1 rounded-lg" />
+            ) : (
+              <div className="num text-2xl font-extrabold text-[#FFD60A] mt-1">1.5x</div>
+            )}
             <div className="text-[11px] font-bold text-[var(--mut)] mt-1">+1,420 OK Points</div>
           </div>
         </div>

@@ -1,25 +1,23 @@
 /**
  * components/providers/wagmi-provider.tsx — Phase 4.1 (Reown AppKit)
  *
- * AppKit init is client-only (no SSR analysis of wagmi/Coinbase deps).
- * The wagmi config is created lazily inside the component so the server
- * never sees the imports.
+ * Optimized for slow networks:
+ *  - Renders <AppShellSkeleton /> immediately during SSR and initial chunk load
+ *    so users never see a blank white/dark screen on 2G/3G connections.
+ *  - Loads @/config/appkit and @/components/providers/appkit-init in a single
+ *    parallel Promise.all pass instead of a sequential dynamic waterfall.
+ *  - Uses adaptive React Query cache settings (getOptimalQueryConfig) so
+ *    slow connections cache responses up to 3x longer and avoid window-focus refetches.
  */
 'use client';
 
 import { type ReactNode, useEffect, useState } from 'react';
-import dynamic from 'next/dynamic';
-import { WagmiProvider } from 'wagmi';
+import { WagmiProvider, type Config } from 'wagmi';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import type { Config } from 'wagmi';
+import { AppShellSkeleton } from '@/components/dashboard/data-state';
+import { getBrowserConnection, getOptimalQueryConfig } from '@/lib/network-perf';
 
-const queryClient = new QueryClient();
-
-// AppKit init is client-only — never analyzed during SSR
-const AppKitInit = dynamic(
-  () => import('@/components/providers/appkit-init').then((m) => m.AppKitInit),
-  { ssr: false },
-);
+let cachedWagmiConfig: Config | null = null;
 
 interface Props {
   children: ReactNode;
@@ -27,28 +25,42 @@ interface Props {
 }
 
 export function WagmiProviders({ children }: Props) {
-  const [mounted, setMounted] = useState(false);
-  const [wagmiConfig, setWagmiConfig] = useState<Config | null>(null);
+  const [queryClient] = useState(
+    () =>
+      new QueryClient({
+        defaultOptions: {
+          queries: getOptimalQueryConfig(getBrowserConnection()),
+        },
+      }),
+  );
+
+  const [wagmiConfig, setWagmiConfig] = useState<Config | null>(cachedWagmiConfig);
 
   useEffect(() => {
-    // Import wagmi config client-side only — avoids SSR analysis of Coinbase deps
-    import('@/config/appkit').then((mod) => {
-      setWagmiConfig(mod.wagmiConfig as Config);
-      setMounted(true);
+    if (cachedWagmiConfig) {
+      setWagmiConfig(cachedWagmiConfig);
+      return;
+    }
+
+    // Parallel load both config and initializer in a single round-trip
+    Promise.all([
+      import('@/config/appkit'),
+      import('@/components/providers/appkit-init'),
+    ]).then(([configMod, initMod]) => {
+      initMod.initAppKitOnce();
+      cachedWagmiConfig = configMod.wagmiConfig as Config;
+      setWagmiConfig(cachedWagmiConfig);
     });
   }, []);
 
-  if (!mounted || !wagmiConfig) {
-    return <div style={{ minHeight: '100vh' }} />;
+  if (!wagmiConfig) {
+    return <AppShellSkeleton />;
   }
 
   return (
     <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
-        {/* AppKitInit gates children: they mount only AFTER createAppKit() has
-            run, so useAppKit()/useAppKitAccount() never render before the
-            AppKit context exists (fixes the reload error). */}
-        <AppKitInit>{children}</AppKitInit>
+        {children}
       </QueryClientProvider>
     </WagmiProvider>
   );

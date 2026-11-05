@@ -9,15 +9,16 @@
  *   Activity Log — Audit Trail historical records, filter pills (All / OK Points / $OKN).
  *   Holdings — Seamlessly routes directly to /app/wallet.
  */
-import { useState, useEffect } from 'react';
+import { Suspense, useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { OverviewView } from '@/components/dashboard/overview-view';
 import { ActivityLogView } from '@/components/dashboard/activity-log-view';
 import { MobilePortfolioHero } from '@/components/dashboard/mobile-portfolio-hero';
+import { PortfolioOverviewSkeleton } from '@/components/dashboard/data-state';
 
-export default function PortfolioPage() {
+function PortfolioPageContent() {
   const t = useTranslations('dashboard.portfolio');
   const searchParams = useSearchParams();
   const [tab, setTab] = useState<'overview' | 'activity'>('overview');
@@ -118,5 +119,13 @@ export default function PortfolioPage() {
         {tab === 'overview' ? <OverviewView onSelectActivity={() => setTab('activity')} /> : <ActivityLogView />}
       </div>
     </main>
+  );
+}
+
+export default function PortfolioPage() {
+  return (
+    <Suspense fallback={<PortfolioOverviewSkeleton />}>
+      <PortfolioPageContent />
+    </Suspense>
   );
 }

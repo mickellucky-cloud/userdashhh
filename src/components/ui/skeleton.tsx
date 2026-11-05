@@ -1,10 +1,27 @@
+import * as React from "react"
 import { cn } from "@/lib/utils"
 
-function Skeleton({ className, ...props }: React.ComponentProps<"div">) {
+export interface SkeletonProps extends React.ComponentProps<"div"> {
+  variant?: "default" | "card" | "circle" | "pill"
+}
+
+function Skeleton({
+  className,
+  variant = "default",
+  ...props
+}: SkeletonProps) {
   return (
     <div
       data-slot="skeleton"
-      className={cn("animate-pulse rounded-md bg-muted", className)}
+      aria-hidden="true"
+      className={cn(
+        "skeleton-shimmer animate-pulse bg-[var(--line)]/65 dark:bg-white/[0.07]",
+        variant === "default" && "rounded-lg",
+        variant === "card" && "rounded-[22px] border border-[var(--line)]/60 bg-[var(--s1)]",
+        variant === "circle" && "rounded-full",
+        variant === "pill" && "rounded-full",
+        className
+      )}
       {...props}
     />
   )

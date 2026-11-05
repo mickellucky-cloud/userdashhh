@@ -14,6 +14,7 @@ import { useTranslations } from 'next-intl';
 import { useSearchParams } from 'next/navigation';
 import { useRouter } from '@/i18n/navigation';
 import { PageHeader } from '@/components/dashboard/page-header';
+import { PolymarketPageSkeleton } from '@/components/dashboard/data-state';
 import { AgentCopierTabs } from '@/components/polymarket-agent/agent-copier-tabs';
 import { AgentPanel } from '@/components/polymarket-agent/agent-panel';
 import { CopierPanel } from '@/components/polymarket-agent/copier-panel';
@@ -56,7 +57,7 @@ function PolymarketAgentPageContent() {
 export default function PolymarketAgentPage() {
   // useSearchParams requires a Suspense boundary for static prerendering.
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<PolymarketPageSkeleton />}>
       <PolymarketAgentPageContent />
     </Suspense>
   );

@@ -37,6 +37,7 @@ import { useAppKit } from '@reown/appkit/react';
 import { useOknBalance } from '@/lib/hooks/use-wallet';
 import { useClaimEligibility } from '@/lib/hooks/use-claim';
 import { formatPoints, formatWei, shortAddress } from '@/lib/utils';
+import { Skeleton } from '@/components/ui/skeleton';
 import { toast } from 'sonner';
 
 export default function WalletPage() {
@@ -276,7 +277,7 @@ export default function WalletPage() {
         <div className="rounded-[20px] border border-[var(--line)] bg-[var(--s1)] p-5 shadow-sm">
           <div className="flex items-center gap-3">
             <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[rgba(122,18,245,0.15)] text-[#7A12F5]">
-              <img src="/assets/okn-logo.png" alt="OKN" className="size-5 rounded-md object-contain" />
+              <img src="/assets/okn-logo.png" alt="OKN" className="size-5 rounded-md object-contain" loading="lazy" decoding="async" />
             </span>
             <div className="min-w-0">
               <p className="text-[11px] font-bold uppercase tracking-wider text-[var(--mut)]">Presale $OKN</p>
@@ -312,9 +313,13 @@ export default function WalletPage() {
             </span>
             <div className="min-w-0">
               <p className="text-[11px] font-bold uppercase tracking-wider text-[var(--mut)]">OK Points Value</p>
-              <p className="num text-xl font-extrabold text-[var(--tx)] mt-0.5">
-                {formatPoints(points)} pts
-              </p>
+              {eligibility.isLoading ? (
+                <Skeleton className="h-7 w-24 mt-0.5 rounded-lg" />
+              ) : (
+                <p className="num text-xl font-extrabold text-[var(--tx)] mt-0.5">
+                  {formatPoints(points)} pts
+                </p>
+              )}
             </div>
           </div>
           <p className="mt-3 text-xs font-semibold text-[#FFD60A] truncate">Awaiting Merkle Commit</p>
@@ -385,7 +390,7 @@ export default function WalletPage() {
             <div className="flex items-center justify-between py-4">
               <div className="flex items-center gap-3">
                 <span className="flex size-11 items-center justify-center rounded-xl bg-[rgba(122,18,245,0.15)] text-[#7A12F5]">
-                  <img src="/assets/okn-logo.png" alt="OKN" className="size-6 rounded-md object-contain" />
+                  <img src="/assets/okn-logo.png" alt="OKN" className="size-6 rounded-md object-contain" loading="lazy" decoding="async" />
                 </span>
                 <div>
                   <div className="font-extrabold text-sm text-[var(--tx)]">$OKN Token</div>
@@ -427,7 +432,11 @@ export default function WalletPage() {
                 </div>
               </div>
               <div className="text-right">
-                <div className="num font-extrabold text-sm text-[#09B4FF]">{formatPoints(points)} pts</div>
+                {eligibility.isLoading ? (
+                  <Skeleton className="h-5 w-20 ml-auto rounded-md" />
+                ) : (
+                  <div className="num font-extrabold text-sm text-[#09B4FF]">{formatPoints(points)} pts</div>
+                )}
                 <div className="text-xs font-bold text-[var(--mut)]">$3 BNB Claim Fee</div>
               </div>
             </div>

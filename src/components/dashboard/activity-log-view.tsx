@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Check, Coins, FileText, Gift, Sparkles } from 'lucide-react';
 import { useStreak } from '@/lib/hooks/use-rewards';
 import { useClaimEligibility } from '@/lib/hooks/use-claim';
+import { ListSkeleton } from '@/components/dashboard/data-state';
 import { formatPoints } from '@/lib/utils';
 
 interface ActivityItem {
@@ -68,6 +69,7 @@ export function ActivityLogView() {
   const [filter, setFilter] = useState<'all' | 'pts' | 'okn'>('all');
   const streak = useStreak();
   const eligibility = useClaimEligibility();
+  const isLoading = streak.isLoading && eligibility.isLoading;
 
   const filteredItems = SAMPLE_ACTIVITIES.filter((item) => {
     if (filter === 'all') return true;
@@ -130,7 +132,9 @@ export function ActivityLogView() {
       </div>
 
       {/* Activity Item List */}
-      {filteredItems.length > 0 ? (
+      {isLoading ? (
+        <ListSkeleton rows={5} />
+      ) : filteredItems.length > 0 ? (
         <div className="rounded-[24px] border border-[var(--line)] bg-[var(--s1)] p-6 md:p-7 shadow-sm">
           <div className="divide-y divide-[var(--line)]">
             {filteredItems.map((item) => (

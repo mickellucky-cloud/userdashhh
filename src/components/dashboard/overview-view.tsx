@@ -21,6 +21,8 @@ import {
   Zap,
 } from 'lucide-react';
 import { StatCard } from '@/components/dashboard/stat-card';
+import { StatGridSkeleton } from '@/components/dashboard/data-state';
+import { Skeleton } from '@/components/ui/skeleton';
 import { TransactionHistory } from '@/components/dashboard/transaction-history';
 import { AnnouncementCarousel } from '@/components/dashboard/announcement-carousel';
 import { useClaimEligibility } from '@/lib/hooks/use-claim';
@@ -68,6 +70,7 @@ export function OverviewView({ onSelectActivity }: { onSelectActivity?: () => vo
   const doneCount = taskList.filter((t) => t.completionStatus != null).length;
   const currentDays = streak.data?.currentStreak ?? 6;
   const longestStreak = streak.data?.longestStreak ?? 6;
+  const isInitialLoading = eligibility.isLoading && streak.isLoading;
 
   return (
     <div className="space-y-6">
@@ -133,7 +136,7 @@ export function OverviewView({ onSelectActivity }: { onSelectActivity?: () => vo
                   {hideBalance ? '••••••' : '$142.50 USD'}
                 </span>
                 <span className="inline-flex items-center gap-1 text-[11px] font-bold text-[#F0B90B]">
-                  <img src="/bnb-logo.png" alt="BNB" className="size-3.5 object-contain" />
+                  <img src="/bnb-logo.png" alt="BNB" loading="lazy" decoding="async" className="size-3.5 object-contain" />
                   0.238 BNB
                 </span>
               </div>
@@ -142,39 +145,43 @@ export function OverviewView({ onSelectActivity }: { onSelectActivity?: () => vo
           </Link>
         </div>
 
-        {/* 4 KPI Stat Cards */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <StatCard
-            icon={Gift}
-            tint="indigo"
-            label="OK Points earned"
-            value={formatPoints(points)}
-            hint="Awaiting Merkle commit"
-          />
-          <StatCard
-            icon={Coins}
-            tint="blue"
-            label="$OKN balance"
-            value={balance.data != null ? formatWei(balance.data) : '—'}
-            hint="On-chain balance"
-          />
-          <StatCard
-            icon={ListChecks}
-            tint="green"
-            label="Tasks done"
-            value={`${doneCount} / ${taskList.length || 11}`}
-            hint="555 points available"
-          />
-          <Link href="/app/referral" className="block text-inherit">
+        {/* 4 KPI Stat Cards (or StatGridSkeleton while initial queries load) */}
+        {isInitialLoading ? (
+          <StatGridSkeleton count={4} />
+        ) : (
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             <StatCard
-              icon={Users}
-              tint="orange"
-              label="Referral Earnings"
-              value={hideBalance ? '••••••' : '$142.50'}
-              hint="0.238 BNB · 14 friends invited"
+              icon={Gift}
+              tint="indigo"
+              label="OK Points earned"
+              value={formatPoints(points)}
+              hint="Awaiting Merkle commit"
             />
-          </Link>
-        </div>
+            <StatCard
+              icon={Coins}
+              tint="blue"
+              label="$OKN balance"
+              value={balance.data != null ? formatWei(balance.data) : '—'}
+              hint="On-chain balance"
+            />
+            <StatCard
+              icon={ListChecks}
+              tint="green"
+              label="Tasks done"
+              value={`${doneCount} / ${taskList.length || 11}`}
+              hint="555 points available"
+            />
+            <Link href="/app/referral" className="block text-inherit">
+              <StatCard
+                icon={Users}
+                tint="orange"
+                label="Referral Earnings"
+                value={hideBalance ? '••••••' : '$142.50'}
+                hint="0.238 BNB · 14 friends invited"
+              />
+            </Link>
+          </div>
+        )}
 
         {/* Daily Streak Card with 7-Day Capsule Visualizer */}
         <div className="flex flex-wrap items-center justify-between gap-4 rounded-[20px] border border-[var(--line)] bg-[var(--s1)] p-5 md:p-6 shadow-sm">
@@ -184,14 +191,21 @@ export function OverviewView({ onSelectActivity }: { onSelectActivity?: () => vo
             </span>
             <div className="min-w-0">
               <p className="text-[11px] font-bold tracking-wider text-[var(--mut)] uppercase">Daily streak</p>
-              <div className="mt-0.5 flex flex-wrap items-baseline gap-3">
-                <p className="num text-2xl font-extrabold tracking-tight text-[var(--tx)]">
-                  {currentDays} days
-                </p>
-                <p className="text-xs font-medium text-[var(--mut)]">
-                  Checked in. Longest streak: {longestStreak}.
-                </p>
-              </div>
+              {streak.isLoading ? (
+                <div className="mt-1.5 flex items-center gap-3">
+                  <Skeleton className="h-7 w-24" />
+                  <Skeleton className="h-4 w-36" />
+                </div>
+              ) : (
+                <div className="mt-0.5 flex flex-wrap items-baseline gap-3">
+                  <p className="num text-2xl font-extrabold tracking-tight text-[var(--tx)]">
+                    {currentDays} days
+                  </p>
+                  <p className="text-xs font-medium text-[var(--mut)]">
+                    Checked in. Longest streak: {longestStreak}.
+                  </p>
+                </div>
+              )}
             </div>
           </div>
 
